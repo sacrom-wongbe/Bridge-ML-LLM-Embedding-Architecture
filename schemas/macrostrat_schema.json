@@ -1,0 +1,54 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_UNIT_NAME": {
+    "type": "nl",
+    "description": "The macro unit name provides the standardized label assigned to a mapped geologic unit, representing a regionally recognized grouping of rock with shared stratigraphic context."
+  },
+  "MACRO_STRAT_NAME": {
+    "type": "nl",
+    "description": "The stratigraphic name identifies the formal stratigraphic unit (such as formation, member, or group) to which the mapped rocks belong, reflecting their position within the geologic column."
+  },
+  "MACRO_LITHOLOGY": {
+    "type": "nl",
+    "description": "The lithology describes the dominant rock material or materials present in the unit, capturing composition and texture that directly influence mechanical and hydraulic behavior."
+  },
+  "MACRO_AGE_MIN": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      358.9
+    ],
+    "description": "The minimum geologic age represents the youngest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement ended."
+  },
+  "MACRO_AGE_MAX": {
+    "type": "numerical",
+    "range": [
+      0.0117,
+      4000.0
+    ],
+    "description": "The maximum geologic age represents the oldest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement began."
+  },
+  "MACRO_DESCRIPTION": {
+    "type": "nl",
+    "description": "The descriptive text summarizes the geologic characteristics of the unit, including depositional environment, material variability, structure, and notable features relevant to engineering and geotechnical interpretation."
+  },
+  "MACRO_COLOR": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_SOURCE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_MAP_ID": {
+    "type": "reference",
+    "description": null
+  }
+}

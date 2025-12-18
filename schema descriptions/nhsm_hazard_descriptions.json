@@ -1,0 +1,14 @@
+[
+  "The peak ground acceleration expected at the site for a 475-year return period earthquake, representing moderate but commonly used design-level seismic hazard.",
+  "The peak ground acceleration expected at the site for a 975-year return period earthquake, representing a higher level of seismic hazard for more conservative performance evaluation.",
+  "The peak ground acceleration expected at the site for a 2,475-year return period earthquake, representing rare, high-consequence ground shaking associated with maximum considered events.",
+  "The peak ground acceleration expected at the site for a 10,000-year return period earthquake, representing an upper-bound estimate of extremely rare seismic hazard.",
+  "The short-period (0.2-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on stiff and short-period bridge components.",
+  "The short-period (0.2-second) spectral acceleration expected for a 975-year return period earthquake, representing increased seismic demand from less frequent events.",
+  "The short-period (0.2-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme short-period shaking associated with rare seismic events.",
+  "The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand.",
+  "The long-period (1.0-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on flexible bridge systems and tall substructures.",
+  "The long-period (1.0-second) spectral acceleration expected for a 975-year return period earthquake, representing elevated long-period demand from infrequent seismic events.",
+  "The long-period (1.0-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme long-period ground motions relevant to maximum considered events.",
+  "The long-period (1.0-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of long-period seismic ground motion intensity."
+]

@@ -1,0 +1,71 @@
+{
+  "PGA": {
+    "type": "numerical",
+    "range": [
+      0.165,
+      0.866
+    ],
+    "description": "Peak Ground Acceleration (PGA), the maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations."
+  },
+  "SS": {
+    "type": "numerical",
+    "range": [
+      0.367,
+      1.757
+    ],
+    "description": "The mapped short-period spectral acceleration at the site before site soil effects are applied, representing seismic demand on short-period structural components."
+  },
+  "S1": {
+    "type": "numerical",
+    "range": [
+      0.139,
+      0.864
+    ],
+    "description": "The mapped 1.0-second spectral acceleration at the site before site soil effects are applied, representing seismic demand on longer-period structural systems."
+  },
+  "SMS": {
+    "type": "numerical",
+    "range": [
+      0.553,
+      1.757
+    ],
+    "description": "The site-adjusted short-period spectral acceleration that accounts for local soil amplification or attenuation of seismic ground motions."
+  },
+  "SDS": {
+    "type": "numerical",
+    "range": [
+      0.369,
+      1.171
+    ],
+    "description": "The design-level short-period spectral acceleration used directly in seismic design, reflecting reduced demand consistent with code-defined performance objectives."
+  },
+  "SDCS": {
+    "type": "numerical",
+    "range": null,
+    "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions."
+  },
+  "PGAM": {
+    "type": "numerical",
+    "range": [
+      0.242,
+      0.953
+    ],
+    "description": "The mapped peak ground acceleration associated with maximum considered earthquake conditions prior to any site-specific adjustments."
+  },
+  "FPGA": {
+    "type": "numerical",
+    "range": [
+      1.1,
+      1.471
+    ],
+    "description": "The peak ground acceleration adjusted for local site conditions, representing the ground motion intensity expected to be experienced at the bridge location."
+  },
+  "STRUCTURE_ID": {
+    "type": "string",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "string",
+    "description": null
+  }
+}

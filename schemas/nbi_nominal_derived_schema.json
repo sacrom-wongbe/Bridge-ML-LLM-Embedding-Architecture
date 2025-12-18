@@ -1,0 +1,1238 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference",
+    "code_map": null
+  },
+  "MIN_VERT_CLR_010_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "MIN_VERT_CLR_010",
+    "bin_rules": [
+      {
+        "category": "open",
+        "min": 99,
+        "max": 100
+      },
+      {
+        "category": "low",
+        "min": null,
+        "max": 4.5
+      },
+      {
+        "category": "moderate",
+        "min": 4.5,
+        "max": 6
+      },
+      {
+        "category": "high",
+        "min": 6,
+        "max": 98
+      }
+    ],
+    "code_map": {
+      "none": "No minimum vertical clearance recorded",
+      "low": "Low vertical clearance (<4.5 m)",
+      "moderate": "Moderate vertical clearance (4.5–6 m)",
+      "high": "High vertical clearance (>6 m)",
+      "open": "Open air vertical clearance (no restriction)"
+    },
+    "description": "The minimum vertical clearance available at the bridge, representing the lowest unobstructed height for vehicles or loads passing through or beneath the structure, with special values indicating that no clearance restriction applies."
+  },
+  "DETOUR_KILOS_019_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "DETOUR_KILOS_019",
+    "bin_rules": [
+      {
+        "category": "very_short",
+        "min": 0,
+        "max": 5
+      },
+      {
+        "category": "short",
+        "min": 5,
+        "max": 20
+      },
+      {
+        "category": "moderate",
+        "min": 20,
+        "max": 50
+      },
+      {
+        "category": "long",
+        "min": 50,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "No detour information recorded",
+      "very_short": "very short detour length (0–5 km)",
+      "short": "short detour length (5–20 km)",
+      "moderate": "moderate detour length (20–50 km)",
+      "long": "long detour length (>50 km)"
+    },
+    "description": "The additional travel distance, measured in kilometers, that vehicles must take if the bridge is closed or impassable, reflecting network redundancy and detour severity."
+  },
+  "YEAR_BUILT_027_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "YEAR_BUILT_027_DIFF",
+    "bin_rules": [
+      {
+        "category": "pre_seismic",
+        "min": null,
+        "max": 1970
+      },
+      {
+        "category": "early_seismic",
+        "min": 1970,
+        "max": 1990
+      },
+      {
+        "category": "modern_seismic",
+        "min": 1990,
+        "max": 2008
+      },
+      {
+        "category": "high_ductility",
+        "min": 2008,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "Year built not recorded",
+      "pre_seismic": "built before modern seismic design standards (pre-1970)",
+      "early_seismic": "built during the early seismic design era (1970–1989)",
+      "modern_seismic": "built under modern seismic design practices (1990–2007)",
+      "high_ductility": "built under contemporary high-ductility seismic codes (2008+)"
+    },
+    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and exposure to long-term deterioration processes."
+  },
+  "TRAFFIC_LANES_ON_028A_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "TRAFFIC_LANES_ON_028A",
+    "bin_rules": [
+      {
+        "category": "narrow",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "category": "standard",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "category": "wide",
+        "min": 5,
+        "max": 7
+      },
+      {
+        "category": "very_wide",
+        "min": 7,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "Number of lanes on the structure not recorded",
+      "narrow": "carries a narrow roadway (1–2 lanes)",
+      "standard": "carries a standard multi-lane roadway (3–4 lanes)",
+      "wide": "carries a wide multi-lane roadway (5–6 lanes)",
+      "very_wide": "carries a very wide roadway (7+ lanes)"
+    },
+    "description": "The total count of traffic lanes carried directly on the bridge deck, reflecting its traffic-carrying capacity and functional role in the roadway network."
+  },
+  "TRAFFIC_LANES_UND_028B_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "TRAFFIC_LANES_UND_028B",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "very_narrow_under",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "category": "narrow_under",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "category": "moderate_under",
+        "min": 5,
+        "max": 9
+      },
+      {
+        "category": "wide_under",
+        "min": 9,
+        "max": 13
+      },
+      {
+        "category": "very_wide_under",
+        "min": 13,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no roadway passes beneath the structure",
+      "very_narrow_under": "crosses over a very narrow roadway (1–2 lanes)",
+      "narrow_under": "crosses over a narrow roadway (3–4 lanes)",
+      "moderate_under": "crosses over a moderate-width roadway (5–8 lanes)",
+      "wide_under": "crosses over a wide roadway (9–12 lanes)",
+      "very_wide_under": "crosses over a very wide roadway (13+ lanes)"
+    },
+    "description": "The total count of traffic lanes that pass beneath the bridge, indicating the scale and complexity of the facility or corridor being crossed."
+  },
+  "ADT_029_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "ADT_029",
+    "bin_rules": [
+      {
+        "category": "very_low",
+        "min": 0,
+        "max": 5000
+      },
+      {
+        "category": "low",
+        "min": 5000,
+        "max": 20000
+      },
+      {
+        "category": "moderate",
+        "min": 20000,
+        "max": 50000
+      },
+      {
+        "category": "high",
+        "min": 50000,
+        "max": 100000
+      },
+      {
+        "category": "very_high",
+        "min": 100000,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "Traffic volume not recorded",
+      "very_low": "very low traffic volume (0–5k ADT)",
+      "low": "low traffic volume (5k–20k ADT)",
+      "moderate": "moderate traffic volume (20k–50k ADT)",
+      "high": "high traffic volume (50k–100k ADT)",
+      "very_high": "very high traffic volume (>100k ADT)"
+    },
+    "description": "The estimated average number of vehicles that cross the bridge per day, representing typical traffic demand and cumulative loading effects."
+  },
+  "APPR_WIDTH_MT_032_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "APPR_WIDTH_MT_032",
+    "bin_rules": [
+      {
+        "category": "very_narrow",
+        "min": 0,
+        "max": 6
+      },
+      {
+        "category": "narrow",
+        "min": 6,
+        "max": 10
+      },
+      {
+        "category": "standard",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "category": "wide",
+        "min": 15,
+        "max": 25
+      },
+      {
+        "category": "very_wide",
+        "min": 25,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "Approach roadway width not recorded",
+      "very_narrow": "a very narrow approach roadway (0–6 m)",
+      "narrow": "a narrow approach roadway (6–10 m)",
+      "standard": "a standard-width approach roadway (10–15 m)",
+      "wide": "a wide approach roadway (15–25 m)",
+      "very_wide": "a very wide approach roadway (over 25 m)"
+    },
+    "description": "The clear width of the roadway approaching the bridge, measured in meters, reflecting how traffic is funneled onto the structure."
+  },
+  "DEGREES_SKEW_034_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "DEGREES_SKEW_034",
+    "bin_rules": [
+      {
+        "category": "major",
+        "min": 99,
+        "max": 100
+      },
+      {
+        "category": "low",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "category": "moderate",
+        "min": 15,
+        "max": 30
+      },
+      {
+        "category": "high",
+        "min": 30,
+        "max": 60
+      }
+    ],
+    "code_map": {
+      "none": "Skew angle not recorded",
+      "low": "low skew angle (0–15°)",
+      "moderate": "moderate skew angle (15–30°)",
+      "high": "high skew angle (30–60°)",
+      "major": "major skew variation across substructure units (coded as 99)"
+    },
+    "description": "The skew angle between the bridge centerline and the feature it crosses, representing how obliquely the bridge is oriented relative to the roadway, waterway, or obstacle below."
+  },
+  "NAV_VERT_CLR_MT_039_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "NAV_VERT_CLR_MT_039",
+    "default_category": "none",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "low",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "category": "moderate",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "high",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "very_high",
+        "min": 40,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no navigation vertical clearance applies",
+      "low": "a low navigation vertical clearance (<10 m)",
+      "moderate": "a moderate navigation vertical clearance (10–20 m)",
+      "high": "a high navigation vertical clearance (20–40 m)",
+      "very_high": "a very high navigation vertical clearance (>40 m)"
+    },
+    "description": "The minimum vertical clearance available for navigation beneath the bridge, indicating the maximum allowable height of vessels that can safely pass under the structure."
+  },
+  "NAV_HORR_CLR_MT_040_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "NAV_HORR_CLR_MT_040",
+    "default_category": "none",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "low",
+        "min": 0,
+        "max": 20
+      },
+      {
+        "category": "moderate",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "high",
+        "min": 40,
+        "max": 60
+      },
+      {
+        "category": "very_high",
+        "min": 60,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no navigation horizontal clearance applies",
+      "low": "a low navigation horizontal clearance (<20 m)",
+      "moderate": "a moderate navigation horizontal clearance (20–40 m)",
+      "high": "a high navigation horizontal clearance (40–60 m)",
+      "very_high": "a very high navigation horizontal clearance (>60 m)"
+    },
+    "description": "The minimum horizontal clearance available for navigation beneath the bridge, representing the unobstructed width available for vessels passing between piers, abutments, or fender systems."
+  },
+  "MAIN_UNIT_SPANS_045_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "MAIN_UNIT_SPANS_045",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "single",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "category": "few",
+        "min": 2,
+        "max": 5
+      },
+      {
+        "category": "multiple",
+        "min": 5,
+        "max": 10
+      },
+      {
+        "category": "many",
+        "min": 10,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined main unit spans",
+      "single": "a single-span main unit",
+      "few": "a few-span main unit (2–4 spans)",
+      "multiple": "a multi-span main unit (5–9 spans)",
+      "many": "a large-span-count main unit (10+ spans)"
+    },
+    "description": "The number of individual spans that make up the main structural unit of the bridge, indicating structural segmentation and load distribution."
+  },
+  "APPR_SPANS_046_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "APPR_SPANS_046",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "few",
+        "min": 1,
+        "max": 4
+      },
+      {
+        "category": "several",
+        "min": 4,
+        "max": 10
+      },
+      {
+        "category": "many",
+        "min": 10,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no approach spans",
+      "few": "a few approach spans (1–3 spans)",
+      "several": "several approach spans (4–9 spans)",
+      "many": "many approach spans (10+ spans)"
+    },
+    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions between the main unit and adjacent roadway."
+  },
+  "HORR_CLR_MT_047_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "HORR_CLR_MT_047",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "narrow",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "category": "moderate",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "wide",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "very_wide",
+        "min": 40,
+        "max": 100
+      },
+      {
+        "category": "extreme",
+        "min": 100,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no horizontal clearance specified",
+      "narrow": "a narrow horizontal clearance (1–10 m)",
+      "moderate": "a moderate horizontal clearance (10–20 m)",
+      "wide": "a wide horizontal clearance (20–40 m)",
+      "very_wide": "a very wide horizontal clearance (40–100 m)",
+      "extreme": "an extremely large horizontal clearance (100+ m)"
+    },
+    "description": "The total horizontal clearance provided by the bridge opening, reflecting the maximum unobstructed width available beneath the structure for traffic, water, or other features."
+  },
+  "MAX_SPAN_LEN_MT_048_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "MAX_SPAN_LEN_MT_048",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "short",
+        "min": 1,
+        "max": 20
+      },
+      {
+        "category": "moderate",
+        "min": 20,
+        "max": 50
+      },
+      {
+        "category": "long",
+        "min": 50,
+        "max": 100
+      },
+      {
+        "category": "very_long",
+        "min": 100,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined maximum span length",
+      "short": "a short maximum span (<20 m)",
+      "moderate": "a moderate maximum span (20–50 m)",
+      "long": "a long maximum span (50–100 m)",
+      "very_long": "a very long maximum span (>100 m)"
+    },
+    "description": "The length of the longest individual span in the bridge, reflecting structural scale, span capability, and design demands."
+  },
+  "STRUCTURE_LEN_MT_049_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "STRUCTURE_LEN_MT_049",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "short",
+        "min": 1,
+        "max": 50
+      },
+      {
+        "category": "medium",
+        "min": 50,
+        "max": 100
+      },
+      {
+        "category": "long",
+        "min": 100,
+        "max": 300
+      },
+      {
+        "category": "very_long",
+        "min": 300,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined structure length",
+      "short": "a short structure (1–50 m)",
+      "medium": "a medium-length structure (50–100 m)",
+      "long": "a long structure (100–300 m)",
+      "very_long": "a very long structure (>300 m)"
+    },
+    "description": "The total longitudinal length of the bridge from end to end, including main and approach spans, representing overall structural extent."
+  },
+  "LEFT_CURB_MT_050A_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "LEFT_CURB_MT_050A",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "narrow",
+        "min": 0,
+        "max": 1.5
+      },
+      {
+        "category": "standard",
+        "min": 1.5,
+        "max": 3.0
+      },
+      {
+        "category": "wide",
+        "min": 3.0,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no left curb or sidewalk",
+      "narrow": "a narrow left curb/sidewalk (0–1.5 m)",
+      "standard": "a standard left curb/sidewalk (1.5–3 m)",
+      "wide": "a wide left curb/sidewalk (>3 m)"
+    },
+    "description": "The width of the left-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+  },
+  "RIGHT_CURB_MT_050B_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "RIGHT_CURB_MT_050B",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "narrow",
+        "min": 0,
+        "max": 1.5
+      },
+      {
+        "category": "standard",
+        "min": 1.5,
+        "max": 3.0
+      },
+      {
+        "category": "wide",
+        "min": 3.0,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no right curb or sidewalk",
+      "narrow": "a narrow right curb/sidewalk (0–1.5 m)",
+      "standard": "a standard right curb/sidewalk (1.5–3 m)",
+      "wide": "a wide right curb/sidewalk (>3 m)"
+    },
+    "description": "The width of the right-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+  },
+  "ROADWAY_WIDTH_MT_051_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "ROADWAY_WIDTH_MT_051",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "very_narrow",
+        "min": 1,
+        "max": 6
+      },
+      {
+        "category": "narrow",
+        "min": 6,
+        "max": 10
+      },
+      {
+        "category": "standard",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "category": "wide",
+        "min": 15,
+        "max": 25
+      },
+      {
+        "category": "very_wide",
+        "min": 25,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined roadway width",
+      "very_narrow": "a very narrow roadway width (1–6 m)",
+      "narrow": "a narrow roadway width (6–10 m)",
+      "standard": "a standard roadway width (10–15 m)",
+      "wide": "a wide roadway width (15–25 m)",
+      "very_wide": "a very wide roadway width (>25 m)"
+    },
+    "description": "The clear roadway width between curbs or barriers on the bridge deck, representing the usable width available for vehicle traffic."
+  },
+  "DECK_WIDTH_MT_052_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "DECK_WIDTH_MT_052",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "narrow",
+        "min": 1,
+        "max": 10
+      },
+      {
+        "category": "moderate",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "wide",
+        "min": 20,
+        "max": 30
+      },
+      {
+        "category": "very_wide",
+        "min": 30,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined deck width",
+      "narrow": "a narrow deck width (1–10 m)",
+      "moderate": "a moderate deck width (10–20 m)",
+      "wide": "a wide deck width (20–30 m)",
+      "very_wide": "a very wide deck width (>30 m)"
+    },
+    "description": "The total out-to-out width of the bridge deck, including traffic lanes, shoulders, curbs, and barriers, representing the full structural width."
+  },
+  "VERT_CLR_OVER_MT_053_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "VERT_CLR_OVER_MT_053",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "low",
+        "min": 1,
+        "max": 4.5
+      },
+      {
+        "category": "moderate",
+        "min": 4.5,
+        "max": 6
+      },
+      {
+        "category": "high",
+        "min": 6,
+        "max": 10
+      },
+      {
+        "category": "very_high",
+        "min": 10,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no vertical clearance restriction",
+      "low": "a low vertical clearance (<4.5 m)",
+      "moderate": "a moderate vertical clearance (4.5–6 m)",
+      "high": "a high vertical clearance (6–10 m)",
+      "very_high": "a very high vertical clearance (>10 m)"
+    },
+    "description": "The minimum vertical clearance available above the roadway carried by the bridge, indicating constraints imposed by overhead elements such as trusses, portals, or overhead framing."
+  },
+  "VERT_CLR_UND_054B_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "VERT_CLR_UND_054B",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "very_low",
+        "min": 1,
+        "max": 3
+      },
+      {
+        "category": "low",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "category": "moderate",
+        "min": 5,
+        "max": 7
+      },
+      {
+        "category": "high",
+        "min": 7,
+        "max": 12
+      },
+      {
+        "category": "very_high",
+        "min": 12,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no vertical underclearance",
+      "very_low": "a very low vertical underclearance (<3 m)",
+      "low": "a low vertical underclearance (3–5 m)",
+      "moderate": "a moderate vertical underclearance (5–7 m)",
+      "high": "a high vertical underclearance (7–12 m)",
+      "very_high": "a very high vertical underclearance (>12 m)"
+    },
+    "description": "The minimum vertical clearance beneath the bridge, representing the lowest unobstructed height available for traffic, water, or other features passing below the structure."
+  },
+  "LAT_UND_MT_055B_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "LAT_UND_MT_055B",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "very_tight",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "category": "tight",
+        "min": 2,
+        "max": 4
+      },
+      {
+        "category": "moderate",
+        "min": 4,
+        "max": 8
+      },
+      {
+        "category": "wide",
+        "min": 8,
+        "max": 12
+      },
+      {
+        "category": "very_wide",
+        "min": 12,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no lateral underclearance on the right",
+      "very_tight": "a very tight right lateral underclearance (<2 m)",
+      "tight": "a tight right lateral underclearance (2–4 m)",
+      "moderate": "a moderate right lateral underclearance (4–8 m)",
+      "wide": "a wide right lateral underclearance (8–12 m)",
+      "very_wide": "a very wide right lateral underclearance (>12 m)"
+    },
+    "description": "The minimum horizontal clearance available on the right side beneath the bridge, indicating constraints for vehicles or features passing below."
+  },
+  "LEFT_LAT_UND_MT_056_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "LEFT_LAT_UND_MT_056",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "very_tight",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "category": "tight",
+        "min": 2,
+        "max": 4
+      },
+      {
+        "category": "moderate",
+        "min": 4,
+        "max": 8
+      },
+      {
+        "category": "wide",
+        "min": 8,
+        "max": 12
+      },
+      {
+        "category": "very_wide",
+        "min": 12,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no lateral underclearance on the left",
+      "very_tight": "a very tight left lateral underclearance (<2 m)",
+      "tight": "a tight left lateral underclearance (2–4 m)",
+      "moderate": "a moderate left lateral underclearance (4–8 m)",
+      "wide": "a wide left lateral underclearance (8–12 m)",
+      "very_wide": "a very wide left lateral underclearance (>12 m)"
+    },
+    "description": "The minimum horizontal clearance available on the left side beneath the bridge, indicating constraints for vehicles or features passing below."
+  },
+  "OPERATING_RATING_064_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "OPERATING_RATING_064",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 2.7
+      },
+      {
+        "category": "very_low",
+        "min": 2.7,
+        "max": 10
+      },
+      {
+        "category": "low",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "moderate",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "high",
+        "min": 40,
+        "max": 60
+      },
+      {
+        "category": "very_high",
+        "min": 60,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no usable operating rating",
+      "very_low": "a very low operating rating (<10 metric tons)",
+      "low": "a low operating rating (10–20 metric tons)",
+      "moderate": "a moderate operating rating (20–40 metric tons)",
+      "high": "a high operating rating (40–60 metric tons)",
+      "very_high": "a very high operating rating (>60 metric tons)"
+    },
+    "description": "The maximum allowable live load that the bridge can safely carry under operating conditions, reflecting short-term load capacity before posting or closure is required."
+  },
+  "INVENTORY_RATING_066_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "INVENTORY_RATING_066",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 2.7
+      },
+      {
+        "category": "very_low",
+        "min": 2.7,
+        "max": 10
+      },
+      {
+        "category": "low",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "moderate",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "high",
+        "min": 40,
+        "max": 60
+      },
+      {
+        "category": "very_high",
+        "min": 60,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no usable inventory rating",
+      "very_low": "a very low inventory rating (<10 metric tons)",
+      "low": "a low inventory rating (10–20 metric tons)",
+      "moderate": "a moderate inventory rating (20–40 metric tons)",
+      "high": "a high inventory rating (40–60 metric tons)",
+      "very_high": "a very high inventory rating (>60 metric tons)"
+    },
+    "description": "The allowable live load that the bridge can safely carry under normal service conditions over its design life, reflecting conservative capacity used for routine traffic."
+  },
+  "DATE_OF_INSPECT_090_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "DATE_OF_INSPECT_090_DIFF",
+    "bin_rules": [
+      {
+        "category": "none",
+        "max_age_years": 0
+      },
+      {
+        "category": "recent",
+        "max_age_years": 2
+      },
+      {
+        "category": "moderately_old",
+        "max_age_years": 5
+      },
+      {
+        "category": "old",
+        "max_age_years": 10
+      },
+      {
+        "category": "very_old",
+        "max_age_years": null
+      }
+    ],
+    "code_map": {
+      "none": "no recorded inspection date",
+      "recent": "inspected within the last 2 years",
+      "moderately_old": "inspected 2–5 years ago",
+      "old": "inspected 5–10 years ago",
+      "very_old": "inspected over 10 years ago"
+    },
+    "description": "The number of years that have elapsed since the bridge’s most recent routine inspection, reflecting how current the condition information is."
+  },
+  "INSPECT_FREQ_MONTHS_091_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "INSPECT_FREQ_MONTHS_091",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "high_risk",
+        "min": 1,
+        "max": 13
+      },
+      {
+        "category": "moderate_risk",
+        "min": 13,
+        "max": 25
+      },
+      {
+        "category": "standard",
+        "min": 25,
+        "max": 49
+      },
+      {
+        "category": "low_risk",
+        "min": 49,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no designated inspection frequency",
+      "high_risk": "inspected frequently (≤12 months)",
+      "moderate_risk": "inspected every 12–24 months",
+      "standard": "standard inspection frequency (24–48 months)",
+      "low_risk": "inspected infrequently (>48 months)"
+    },
+    "description": "The scheduled interval between routine inspections, expressed in months, reflecting inspection rigor and risk-based oversight."
+  },
+  "YEAR_RECONSTRUCTED_106_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "YEAR_RECONSTRUCTED_106_DIFF",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "recent",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "category": "moderate",
+        "min": 10,
+        "max": 30
+      },
+      {
+        "category": "old",
+        "min": 30,
+        "max": 60
+      },
+      {
+        "category": "very_old",
+        "min": 60,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no reconstruction performed",
+      "recent": "reconstructed recently (within 10 years)",
+      "moderate": "reconstructed 10–30 years ago",
+      "old": "reconstructed 30–60 years ago",
+      "very_old": "reconstructed over 60 years ago"
+    },
+    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, indicating the recency of major renewal work."
+  },
+  "PERCENT_ADT_TRUCK_109_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "PERCENT_ADT_TRUCK_109",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 0
+      },
+      {
+        "category": "very_low",
+        "min": 0,
+        "max": 5
+      },
+      {
+        "category": "low",
+        "min": 5,
+        "max": 10
+      },
+      {
+        "category": "moderate",
+        "min": 10,
+        "max": 20
+      },
+      {
+        "category": "high",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "category": "very_high",
+        "min": 40,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no truck traffic recorded",
+      "very_low": "very low truck traffic share (<5%)",
+      "low": "low truck traffic share (5–10%)",
+      "moderate": "moderate truck traffic share (10–20%)",
+      "high": "high truck traffic share (20–40%)",
+      "very_high": "very high truck traffic share (>40%)"
+    },
+    "description": "The proportion of average daily traffic composed of trucks, reflecting heavy vehicle usage and its impact on structural loading and deterioration."
+  },
+  "FUTURE_ADT_114_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "FUTURE_ADT_114",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "low",
+        "min": 1,
+        "max": 20000
+      },
+      {
+        "category": "moderate",
+        "min": 20000,
+        "max": 50000
+      },
+      {
+        "category": "high",
+        "min": 50000,
+        "max": 100000
+      },
+      {
+        "category": "very_high",
+        "min": 100000,
+        "max": 200000
+      },
+      {
+        "category": "extremely_high",
+        "min": 200000,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no forecast traffic available",
+      "low": "low future traffic volume (<20k ADT)",
+      "moderate": "moderate future traffic volume (20k–50k ADT)",
+      "high": "high future traffic volume (50k–100k ADT)",
+      "very_high": "very high future traffic volume (100k–200k ADT)",
+      "extremely_high": "extremely high future traffic volume (>200k ADT)"
+    },
+    "description": "The projected average daily traffic expected to use the bridge in the future, representing anticipated demand growth and long-term capacity needs."
+  },
+  "DECK_AREA_SEMANTIC": {
+    "type": "nominal_derived",
+    "source": "DECK_AREA",
+    "bin_rules": [
+      {
+        "category": "none",
+        "min": null,
+        "max": 1
+      },
+      {
+        "category": "very_small",
+        "min": 1,
+        "max": 200
+      },
+      {
+        "category": "small",
+        "min": 200,
+        "max": 1000
+      },
+      {
+        "category": "medium",
+        "min": 1000,
+        "max": 3000
+      },
+      {
+        "category": "large",
+        "min": 3000,
+        "max": 7000
+      },
+      {
+        "category": "very_large",
+        "min": 7000,
+        "max": null
+      }
+    ],
+    "code_map": {
+      "none": "no defined deck area",
+      "very_small": "a very small deck area (<200 m²)",
+      "small": "a small deck area (200–1000 m²)",
+      "medium": "a medium deck area (1000–3000 m²)",
+      "large": "a large deck area (3000–7000 m²)",
+      "very_large": "a very large deck area (>7000 m²)"
+    },
+    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental effects."
+  }
+}

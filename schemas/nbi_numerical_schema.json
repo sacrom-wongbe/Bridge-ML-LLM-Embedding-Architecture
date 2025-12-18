@@ -1,0 +1,174 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference"
+  },
+  "YEAR_BUILT_027_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and exposure to long-term deterioration processes."
+  },
+  "TRAFFIC_LANES_ON_028A": {
+    "type": "numerical",
+    "range": [
+      1.0,
+      14.0
+    ],
+    "description": "The total count of traffic lanes carried directly on the bridge deck, reflecting its traffic-carrying capacity and functional role in the roadway network."
+  },
+  "TRAFFIC_LANES_UND_028B": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      29.0
+    ],
+    "description": "The total count of traffic lanes that pass beneath the bridge, indicating the scale and complexity of the facility or corridor being crossed."
+  },
+  "ADT_029": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      194946.0
+    ],
+    "description": "The estimated average number of vehicles that cross the bridge per day, representing typical traffic demand and cumulative loading effects."
+  },
+  "APPR_WIDTH_MT_032": {
+    "type": "numerical",
+    "range": [
+      2.7,
+      66.1
+    ],
+    "description": "The clear width of the roadway approaching the bridge, measured in meters, reflecting how traffic is funneled onto the structure."
+  },
+  "MAIN_UNIT_SPANS_045": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      157.0
+    ],
+    "description": "The number of individual spans that make up the main structural unit of the bridge, indicating structural segmentation and load distribution."
+  },
+  "APPR_SPANS_046": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      178.0
+    ],
+    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions between the main unit and adjacent roadway."
+  },
+  "MAX_SPAN_LEN_MT_048": {
+    "type": "numerical",
+    "range": [
+      0.3,
+      2327.1
+    ],
+    "description": "The length of the longest individual span in the bridge, reflecting structural scale, span capability, and design demands."
+  },
+  "STRUCTURE_LEN_MT_049": {
+    "type": "numerical",
+    "range": [
+      6.1,
+      3413.8
+    ],
+    "description": "The total longitudinal length of the bridge from end to end, including main and approach spans, representing overall structural extent."
+  },
+  "LEFT_CURB_MT_050A": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      17.5
+    ],
+    "description": "The width of the left-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+  },
+  "RIGHT_CURB_MT_050B": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      11.6
+    ],
+    "description": "The width of the right-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+  },
+  "ROADWAY_WIDTH_MT_051": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      115.8
+    ],
+    "description": "The clear roadway width between curbs or barriers on the bridge deck, representing the usable width available for vehicle traffic."
+  },
+  "DECK_WIDTH_MT_052": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      123.4
+    ],
+    "description": "The total out-to-out width of the bridge deck, including traffic lanes, shoulders, curbs, and barriers, representing the full structural width."
+  },
+  "LAT_UND_MT_055B": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      30.4
+    ],
+    "description": "The minimum horizontal clearance available on the right side beneath the bridge, indicating constraints for vehicles or features passing below."
+  },
+  "LEFT_LAT_UND_MT_056": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      92.6
+    ],
+    "description": "The minimum horizontal clearance available on the left side beneath the bridge, indicating constraints for vehicles or features passing below."
+  },
+  "DATE_OF_INSPECT_090_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge’s most recent routine inspection, reflecting how current the condition information is."
+  },
+  "INSPECT_FREQ_MONTHS_091": {
+    "type": "numerical",
+    "range": [
+      12.0,
+      48.0
+    ],
+    "description": "The scheduled interval between routine inspections, expressed in months, reflecting inspection rigor and risk-based oversight."
+  },
+  "YEAR_RECONSTRUCTED_106_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, indicating the recency of major renewal work."
+  },
+  "PERCENT_ADT_TRUCK_109": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      94.0
+    ],
+    "description": "The proportion of average daily traffic composed of trucks, reflecting heavy vehicle usage and its impact on structural loading and deterioration."
+  },
+  "FUTURE_ADT_114": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      275263.0
+    ],
+    "description": "The projected average daily traffic expected to use the bridge in the future, representing anticipated demand growth and long-term capacity needs."
+  },
+  "DECK_AREA": {
+    "type": "numerical",
+    "range": [
+      22.8,
+      104004.81
+    ],
+    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental effects."
+  }
+}

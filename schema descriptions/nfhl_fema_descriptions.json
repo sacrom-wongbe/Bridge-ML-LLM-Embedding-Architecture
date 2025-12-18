@@ -1,0 +1,6 @@
+[
+  "The flood hazard zone classification describes the level and type of flood risk assigned to the location based on FEMA floodplain mapping.",
+  "The indicator of Special Flood Hazard Area status describes whether the location is subject to a 1-percent-annual-chance (100-year) flood hazard.",
+  "The base flood elevation represents the estimated water surface height reached during a 1-percent-annual-chance (100-year) flood event, providing a quantitative measure of flood depth and hydraulic demand at the location.",
+  "The flood zone subtype provides a more specific categorical description of flood hazard conditions within the mapped flood zone, such as minimal, shallow, or coastal risk."
+]

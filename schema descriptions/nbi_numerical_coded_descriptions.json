@@ -1,0 +1,12 @@
+[
+  "The minimum vertical clearance available at the bridge, representing the lowest unobstructed height for vehicles or loads passing through or beneath the structure, with special values indicating that no clearance restriction applies.",
+  "The additional travel distance, measured in kilometers, that vehicles must take if the bridge is closed or impassable, reflecting network redundancy and detour severity.",
+  "The skew angle between the bridge centerline and the feature it crosses, representing how obliquely the bridge is oriented relative to the roadway, waterway, or obstacle below.",
+  "The minimum vertical clearance available for navigation beneath the bridge, indicating the maximum allowable height of vessels that can safely pass under the structure.",
+  "The minimum horizontal clearance available for navigation beneath the bridge, representing the unobstructed width available for vessels passing between piers, abutments, or fender systems.",
+  "The total horizontal clearance provided by the bridge opening, reflecting the maximum unobstructed width available beneath the structure for traffic, water, or other features.",
+  "The minimum vertical clearance available above the roadway carried by the bridge, indicating constraints imposed by overhead elements such as trusses, portals, or overhead framing.",
+  "The minimum vertical clearance beneath the bridge, representing the lowest unobstructed height available for traffic, water, or other features passing below the structure.",
+  "The maximum allowable live load that the bridge can safely carry under operating conditions, reflecting short-term load capacity before posting or closure is required.",
+  "The allowable live load that the bridge can safely carry under normal service conditions over its design life, reflecting conservative capacity used for routine traffic."
+]

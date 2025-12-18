@@ -1,0 +1,106 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "PGA_475": {
+    "type": "numerical",
+    "range": [
+      0.0759725769,
+      0.399319094
+    ],
+    "description": "The peak ground acceleration expected at the site for a 475-year return period earthquake, representing moderate but commonly used design-level seismic hazard."
+  },
+  "PGA_975": {
+    "type": "numerical",
+    "range": [
+      0.10908377,
+      0.590936614
+    ],
+    "description": "The peak ground acceleration expected at the site for a 975-year return period earthquake, representing a higher level of seismic hazard for more conservative performance evaluation."
+  },
+  "PGA_2475": {
+    "type": "numerical",
+    "range": [
+      0.168070272,
+      0.983286583
+    ],
+    "description": "The peak ground acceleration expected at the site for a 2,475-year return period earthquake, representing rare, high-consequence ground shaking associated with maximum considered events."
+  },
+  "PGA_10000": {
+    "type": "numerical",
+    "range": [
+      0.301760052,
+      1.76153272
+    ],
+    "description": "The peak ground acceleration expected at the site for a 10,000-year return period earthquake, representing an upper-bound estimate of extremely rare seismic hazard."
+  },
+  "SA02_475": {
+    "type": "numerical",
+    "range": [
+      0.172707176,
+      0.973940466
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on stiff and short-period bridge components."
+  },
+  "SA02_975": {
+    "type": "numerical",
+    "range": [
+      0.251235,
+      1.41687998
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 975-year return period earthquake, representing increased seismic demand from less frequent events."
+  },
+  "SA02_2475": {
+    "type": "numerical",
+    "range": [
+      0.39419129,
+      2.29860371
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme short-period shaking associated with rare seismic events."
+  },
+  "SA02_10000": {
+    "type": "numerical",
+    "range": [
+      0.720938324,
+      4.24592825
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand."
+  },
+  "SA10_475": {
+    "type": "numerical",
+    "range": [
+      0.0466456098,
+      0.326485673
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on flexible bridge systems and tall substructures."
+  },
+  "SA10_975": {
+    "type": "numerical",
+    "range": [
+      0.0709217501,
+      0.474873546
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 975-year return period earthquake, representing elevated long-period demand from infrequent seismic events."
+  },
+  "SA10_2475": {
+    "type": "numerical",
+    "range": [
+      0.116506327,
+      0.727354517
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme long-period ground motions relevant to maximum considered events."
+  },
+  "SA10_10000": {
+    "type": "numerical",
+    "range": [
+      0.225535948,
+      1.26759141
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of long-period seismic ground motion intensity."
+  }
+}

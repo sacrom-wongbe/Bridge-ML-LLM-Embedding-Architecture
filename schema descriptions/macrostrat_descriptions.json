@@ -1,0 +1,8 @@
+[
+  "The macro unit name provides the standardized label assigned to a mapped geologic unit, representing a regionally recognized grouping of rock with shared stratigraphic context.",
+  "The stratigraphic name identifies the formal stratigraphic unit (such as formation, member, or group) to which the mapped rocks belong, reflecting their position within the geologic column.",
+  "The lithology describes the dominant rock material or materials present in the unit, capturing composition and texture that directly influence mechanical and hydraulic behavior.",
+  "The minimum geologic age represents the youngest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement ended.",
+  "The maximum geologic age represents the oldest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement began.",
+  "The descriptive text summarizes the geologic characteristics of the unit, including depositional environment, material variability, structure, and notable features relevant to engineering and geotechnical interpretation."
+]
