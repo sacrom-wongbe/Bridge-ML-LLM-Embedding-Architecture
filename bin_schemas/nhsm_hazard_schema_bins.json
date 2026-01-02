@@ -1,0 +1,394 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "PGA_475": {
+    "type": "numerical",
+    "range": [
+      0.0759725769,
+      0.399319094
+    ],
+    "description": "The peak ground acceleration expected at the site for a 475-year return period earthquake, representing moderate but commonly used design-level seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic hazard",
+        "low seismic hazard",
+        "moderate seismic hazard",
+        "high seismic hazard",
+        "very high seismic hazard"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic hazard from 0 to 0.1 indicates minimal ground shaking, requiring basic seismic design considerations.",
+        "Low seismic hazard from 0.1 to 0.2 suggests mild ground shaking, necessitating standard seismic design measures for safety.",
+        "Moderate seismic hazard from 0.2 to 0.3 represents significant ground shaking, demanding enhanced seismic design and detailing.",
+        "High seismic hazard from 0.3 to 0.4 indicates strong ground shaking, requiring robust seismic design and advanced engineering solutions.",
+        "Very high seismic hazard exceeding 0.4 represents extreme ground shaking, necessitating specialized seismic design and rigorous structural analysis."
+      ]
+    }
+  },
+  "PGA_975": {
+    "type": "numerical",
+    "range": [
+      0.10908377,
+      0.590936614
+    ],
+    "description": "The peak ground acceleration expected at the site for a 975-year return period earthquake, representing a higher level of seismic hazard for more conservative performance evaluation.",
+    "semantic_bins": {
+      "labels": [
+        "very low hazard",
+        "low hazard",
+        "moderate hazard",
+        "high hazard",
+        "very high hazard"
+      ],
+      "edges": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        "inf"
+      ],
+      "sentences": [
+        "Very low hazard sites with PGA_975 values under 0.15 experience minimal seismic activity, requiring standard design considerations.",
+        "Low hazard sites with PGA_975 values between 0.15 and 0.30 may require enhanced design measures to ensure structural resilience during moderate seismic events.",
+        "Moderate hazard sites with PGA_975 values between 0.30 and 0.45 necessitate significant seismic design enhancements to maintain structural integrity during strong earthquakes.",
+        "High hazard sites with PGA_975 values between 0.45 and 0.60 demand rigorous seismic design and retrofitting to prevent structural failure during major seismic events.",
+        "Very high hazard sites with PGA_975 values exceeding 0.60 represent extreme seismic conditions, requiring advanced engineering solutions and continuous monitoring to ensure safety."
+      ]
+    }
+  },
+  "PGA_2475": {
+    "type": "numerical",
+    "range": [
+      0.168070272,
+      0.983286583
+    ],
+    "description": "The peak ground acceleration expected at the site for a 2,475-year return period earthquake, representing rare, high-consequence ground shaking associated with maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic risk",
+        "low seismic risk",
+        "moderate seismic risk",
+        "high seismic risk",
+        "very high seismic risk"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic risk areas with PGA values under 0.2 indicate minimal ground shaking potential, requiring standard design considerations.",
+        "Low seismic risk areas with PGA values between 0.2 and 0.4 suggest mild ground shaking, necessitating basic seismic design enhancements.",
+        "Moderate seismic risk areas with PGA values between 0.4 and 0.6 experience noticeable ground shaking, requiring significant seismic design measures.",
+        "High seismic risk areas with PGA values between 0.6 and 0.8 are subject to strong ground shaking, demanding advanced seismic design and retrofitting strategies.",
+        "Very high seismic risk areas with PGA values exceeding 0.8 face extreme ground shaking, necessitating specialized engineering solutions and continuous monitoring."
+      ]
+    }
+  },
+  "PGA_10000": {
+    "type": "numerical",
+    "range": [
+      0.301760052,
+      1.76153272
+    ],
+    "description": "The peak ground acceleration expected at the site for a 10,000-year return period earthquake, representing an upper-bound estimate of extremely rare seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic hazard",
+        "low seismic hazard",
+        "moderate seismic hazard",
+        "high seismic hazard",
+        "extreme seismic hazard"
+      ],
+      "edges": [
+        0,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic hazard with PGA values under 0.4 indicates minimal risk of structural damage during a 10,000-year return period earthquake.",
+        "Low seismic hazard with PGA values between 0.4 and 0.8 suggests some potential for minor structural impacts, requiring basic seismic design considerations.",
+        "Moderate seismic hazard with PGA values between 0.8 and 1.2 indicates a significant risk of structural damage, necessitating robust seismic design and retrofitting measures.",
+        "High seismic hazard with PGA values between 1.2 and 1.6 represents a substantial risk of severe structural damage, demanding advanced engineering solutions and continuous monitoring.",
+        "Extreme seismic hazard with PGA values exceeding 1.6 signifies a critical risk of catastrophic structural failure, requiring specialized engineering interventions and emergency preparedness plans."
+      ]
+    }
+  },
+  "SA02_475": {
+    "type": "numerical",
+    "range": [
+      0.172707176,
+      0.973940466
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on stiff and short-period bridge components.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand (0 to 0.3) indicates minimal seismic forces on bridge components, suggesting a low likelihood of seismic-induced damage.",
+        "Low seismic demand (0.3 to 0.5) suggests that bridge components may experience minor seismic forces, requiring basic design considerations for seismic resilience.",
+        "Moderate seismic demand (0.5 to 0.7) indicates a need for enhanced seismic design to ensure structural integrity under moderate earthquake conditions.",
+        "High seismic demand (0.7 to 1.0) requires robust seismic design and detailing to prevent significant damage during strong seismic events.",
+        "Very high seismic demand (1.0 to infinity) represents extreme conditions where specialized seismic engineering and retrofitting are critical to prevent catastrophic failure."
+      ]
+    }
+  },
+  "SA02_975": {
+    "type": "numerical",
+    "range": [
+      0.251235,
+      1.41687998
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 975-year return period earthquake, representing increased seismic demand from less frequent events.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.6,
+        1.0,
+        1.5,
+        "inf"
+      ],
+      "sentences": [
+        "Low seismic demand from 0 to 0.3 indicates minimal structural reinforcement is needed, with standard design practices typically sufficient.",
+        "Moderate seismic demand from 0.3 to 0.6 suggests the need for enhanced design considerations to ensure structural resilience during seismic events.",
+        "High seismic demand from 0.6 to 1.0 requires significant structural reinforcement and advanced engineering techniques to maintain safety and functionality.",
+        "Very high seismic demand from 1.0 to 1.5 necessitates comprehensive seismic retrofitting and rigorous design standards to prevent catastrophic failure.",
+        "Extreme seismic demand exceeding 1.5 represents rare and severe conditions where specialized engineering solutions and continuous monitoring are critical to ensure structural integrity."
+      ]
+    }
+  },
+  "SA02_2475": {
+    "type": "numerical",
+    "range": [
+      0.39419129,
+      2.29860371
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme short-period shaking associated with rare seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "very low",
+        "low",
+        "moderate",
+        "high",
+        "very high"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Very low spectral acceleration values from 0 to 0.5 indicate minimal seismic impact, suggesting that bridges in this range are unlikely to experience significant stress during a 2,475-year return period earthquake.",
+        "Low spectral acceleration values from 0.5 to 1.0 suggest mild seismic activity, where bridges may experience minor stress but are generally expected to perform well with standard design considerations.",
+        "Moderate spectral acceleration values from 1.0 to 1.5 indicate a noticeable seismic impact, requiring bridges to have enhanced design features to ensure structural integrity during such events.",
+        "High spectral acceleration values from 1.5 to 2.0 represent significant seismic forces, necessitating robust engineering solutions and potentially advanced materials to maintain bridge safety and functionality.",
+        "Very high spectral acceleration values exceeding 2.0 indicate extreme seismic conditions, where bridges must be designed with cutting-edge seismic technology and continuous monitoring to withstand potential catastrophic events."
+      ]
+    }
+  },
+  "SA02_10000": {
+    "type": "numerical",
+    "range": [
+      0.720938324,
+      4.24592825
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        "inf"
+      ],
+      "sentences": [
+        "Low seismic demand from 0 to 1.0 indicates minimal structural reinforcement is needed, and standard design practices are typically sufficient.",
+        "Moderate seismic demand from 1.0 to 2.0 suggests the need for enhanced design measures to ensure structural resilience during seismic events.",
+        "High seismic demand from 2.0 to 3.0 requires significant structural reinforcement and advanced engineering techniques to maintain safety and functionality.",
+        "Very high seismic demand from 3.0 to 4.0 necessitates comprehensive seismic retrofitting and rigorous design standards to withstand potential earthquake forces.",
+        "Extreme seismic demand exceeding 4.0 represents rare and severe conditions where specialized engineering solutions and continuous monitoring are critical to ensure structural integrity."
+      ]
+    }
+  },
+  "SA10_475": {
+    "type": "numerical",
+    "range": [
+      0.0466456098,
+      0.326485673
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on flexible bridge systems and tall substructures.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand from 0 to 0.1 indicates minimal seismic forces on flexible bridge systems, suggesting a low risk of structural damage during a 475-year return period earthquake.",
+        "Low seismic demand from 0.1 to 0.2 suggests that flexible bridge systems may experience minor seismic forces, requiring standard design considerations for earthquake resilience.",
+        "Moderate seismic demand from 0.2 to 0.3 indicates that flexible bridge systems will face significant seismic forces, necessitating enhanced design and construction practices to ensure structural integrity.",
+        "High seismic demand from 0.3 to 0.4 implies that flexible bridge systems are subject to substantial seismic forces, requiring advanced engineering solutions and possibly retrofitting to withstand potential damage.",
+        "Very high seismic demand exceeding 0.4 represents extreme seismic forces on flexible bridge systems, indicating a critical need for specialized seismic design and continuous monitoring to prevent catastrophic failure."
+      ]
+    }
+  },
+  "SA10_975": {
+    "type": "numerical",
+    "range": [
+      0.0709217501,
+      0.474873546
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 975-year return period earthquake, representing elevated long-period demand from infrequent seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand from 0 to 0.1 indicates minimal structural impact, suitable for standard design considerations with basic seismic detailing.",
+        "Low seismic demand from 0.1 to 0.2 suggests minor structural response, requiring enhanced detailing to ensure resilience against infrequent seismic events.",
+        "Moderate seismic demand from 0.2 to 0.3 necessitates robust design strategies, including advanced seismic detailing and potential retrofitting to maintain structural integrity.",
+        "High seismic demand from 0.3 to 0.4 indicates significant structural response, demanding comprehensive seismic design and potential strengthening measures to ensure safety.",
+        "Very high seismic demand exceeding 0.4 represents extreme conditions, requiring specialized engineering solutions and continuous monitoring to prevent catastrophic failure."
+      ]
+    }
+  },
+  "SA10_2475": {
+    "type": "numerical",
+    "range": [
+      0.116506327,
+      0.727354517
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme long-period ground motions relevant to maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "very low",
+        "low",
+        "moderate",
+        "high",
+        "very high"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Very low spectral acceleration values from 0 to 0.2 indicate minimal seismic demand, suggesting that the bridge is likely to experience negligible shaking during a maximum considered earthquake.",
+        "Low spectral acceleration values from 0.2 to 0.4 suggest a mild seismic demand, where the bridge may experience light shaking but is expected to perform well with minimal structural impact.",
+        "Moderate spectral acceleration values from 0.4 to 0.6 indicate a significant seismic demand, requiring the bridge to have adequate design and construction to withstand moderate shaking without major damage.",
+        "High spectral acceleration values from 0.6 to 0.8 represent a strong seismic demand, necessitating robust structural integrity and possibly retrofitting to ensure safety and functionality during intense shaking.",
+        "Very high spectral acceleration values exceeding 0.8 indicate extreme seismic demand, where the bridge is likely to experience severe shaking, requiring advanced engineering solutions and continuous monitoring to prevent catastrophic failure."
+      ]
+    }
+  },
+  "SA10_10000": {
+    "type": "numerical",
+    "range": [
+      0.225535948,
+      1.26759141
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of long-period seismic ground motion intensity.",
+    "semantic_bins": {
+      "labels": [
+        "very low",
+        "low",
+        "moderate",
+        "high",
+        "very high"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        "inf"
+      ],
+      "sentences": [
+        "Very low spectral acceleration values (0 to 0.3) indicate minimal seismic ground motion intensity, suggesting low seismic risk for bridge structures.",
+        "Low spectral acceleration values (0.3 to 0.6) suggest mild seismic activity, where bridges may experience minor stress but generally remain structurally sound.",
+        "Moderate spectral acceleration values (0.6 to 0.9) indicate significant seismic ground motion, requiring bridges to have robust design and construction to withstand potential damage.",
+        "High spectral acceleration values (0.9 to 1.2) represent strong seismic forces, necessitating advanced engineering solutions and retrofitting to ensure bridge safety and functionality.",
+        "Very high spectral acceleration values (1.2 and above) indicate extreme seismic conditions, posing a severe risk to bridge integrity and demanding comprehensive seismic resilience measures."
+      ]
+    }
+  }
+}

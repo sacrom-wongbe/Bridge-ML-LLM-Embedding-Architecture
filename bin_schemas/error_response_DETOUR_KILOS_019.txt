@@ -1,0 +1,21 @@
+Field: DETOUR_KILOS_019
+Description: The additional travel distance required for vehicles to bypass the bridge if it is closed or restricted, representing network redundancy and detour severity.
+Range: [0.0, 999.0]
+
+================================================================================
+RAW API RESPONSE:
+================================================================================
+
+```json
+{
+  "labels": ["Negligible", "Low", "Moderate", "High", "Critical"],
+  "edges": [0.0, 10.0, 50.0, 200.0, 500.0, float("inf")],
+  "sentences": [
+    "Detour distance is negligible, indicating excellent network redundancy with minimal impact on traffic flow.",
+    "Detour distance is low, suggesting minor inconvenience and manageable traffic rerouting in case of closure.",
+    "Detour distance is moderate, representing noticeable detour impacts that may require traffic management strategies.",
+    "Detour distance is high, signaling significant network disruption necessitating detailed contingency planning.",
+    "Detour distance is critical, indicating severe detour impacts with potential for major economic and logistical challenges."
+  ]
+}
+```

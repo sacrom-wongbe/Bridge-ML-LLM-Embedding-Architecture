@@ -1,0 +1,21 @@
+Field: SA02_10000
+Description: The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand.
+Range: [0.720938324, 4.24592825]
+
+================================================================================
+RAW API RESPONSE:
+================================================================================
+
+```json
+{
+  "labels": ["low", "moderate", "high", "very high", "extreme"],
+  "edges": [0.720938324, 1.5, 2.5, 3.5, 4.24592825],
+  "sentences": [
+    "Low spectral acceleration values below 1.5 indicate minimal seismic demand, suitable for standard design without special seismic considerations.",
+    "Moderate values between 1.5 and 2.5 suggest increased seismic demand, requiring enhanced design measures for structural resilience.",
+    "High values from 2.5 to 3.5 necessitate robust seismic design strategies, including advanced materials and detailing for ductility.",
+    "Very high values between 3.5 and 4.24592825 demand comprehensive seismic analysis and specialized engineering solutions to ensure structural safety.",
+    "Extreme values above 4.24592825 indicate severe seismic demand, requiring cutting-edge engineering techniques and materials for maximum structural integrity."
+  ]
+}
+```

@@ -1,0 +1,246 @@
+{
+  "PGA": {
+    "type": "numerical",
+    "range": [
+      0.165,
+      0.866
+    ],
+    "description": "Peak Ground Acceleration (PGA), the maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations.",
+    "semantic_bins": {
+      "labels": [
+        "very low",
+        "low",
+        "moderate",
+        "high",
+        "very high"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Very low PGA values from 0 to 0.2 indicate minimal seismic demand, typically requiring standard design considerations for stiff structures.",
+        "Low PGA values from 0.2 to 0.4 suggest mild seismic demand, necessitating basic seismic design measures to ensure structural integrity.",
+        "Moderate PGA values from 0.4 to 0.6 reflect significant seismic demand, requiring enhanced seismic design and detailing to prevent structural damage.",
+        "High PGA values from 0.6 to 0.8 indicate strong seismic demand, demanding rigorous seismic design and retrofitting to ensure safety and functionality.",
+        "Very high PGA values exceeding 0.8 represent extreme seismic demand, necessitating advanced engineering solutions and continuous monitoring to mitigate potential catastrophic failures."
+      ]
+    }
+  },
+  "SS": {
+    "type": "numerical",
+    "range": [
+      0.367,
+      1.757
+    ],
+    "description": "The mapped short-period spectral acceleration at the site before site soil effects are applied, representing seismic demand on short-period structural components.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.5,
+        0.8,
+        1.2,
+        1.6,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand (0 to 0.5) indicates minimal seismic forces on short-period structures, typically requiring standard design considerations.",
+        "Low seismic demand (0.5 to 0.8) suggests slightly increased seismic forces, necessitating enhanced design measures for short-period structures.",
+        "Moderate seismic demand (0.8 to 1.2) represents significant seismic forces, requiring robust design and detailing for short-period structures to ensure safety.",
+        "High seismic demand (1.2 to 1.6) indicates strong seismic forces, demanding advanced engineering solutions and rigorous compliance with seismic codes.",
+        "Very high seismic demand (1.6 to infinity) represents extreme seismic forces, necessitating specialized engineering strategies and continuous monitoring to maintain structural integrity."
+      ]
+    }
+  },
+  "S1": {
+    "type": "numerical",
+    "range": [
+      0.139,
+      0.864
+    ],
+    "description": "The mapped 1.0-second spectral acceleration at the site before site soil effects are applied, representing seismic demand on longer-period structural systems.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand from 0 to 0.2 indicates minimal seismic forces on longer-period structures, suggesting low risk of seismic damage.",
+        "Low seismic demand from 0.2 to 0.4 suggests minor seismic forces, requiring basic seismic design considerations for structural safety.",
+        "Moderate seismic demand from 0.4 to 0.6 indicates significant seismic forces, necessitating robust seismic design and detailing to ensure structural resilience.",
+        "High seismic demand from 0.6 to 0.8 represents substantial seismic forces, requiring advanced seismic design strategies and potential retrofitting for existing structures.",
+        "Very high seismic demand exceeding 0.8 indicates extreme seismic forces, necessitating specialized engineering solutions and continuous monitoring to ensure structural integrity."
+      ]
+    }
+  },
+  "SMS": {
+    "type": "numerical",
+    "range": [
+      0.553,
+      1.757
+    ],
+    "description": "The site-adjusted short-period spectral acceleration that accounts for local soil amplification or attenuation of seismic ground motions.",
+    "semantic_bins": {
+      "labels": [
+        "low amplification",
+        "moderate amplification",
+        "high amplification",
+        "very high amplification",
+        "extreme amplification"
+      ],
+      "edges": [
+        0,
+        0.7,
+        1.0,
+        1.3,
+        1.6,
+        "inf"
+      ],
+      "sentences": [
+        "Low amplification from 0 to 0.7 indicates minimal soil impact on seismic ground motions, suggesting a stable site with low seismic risk.",
+        "Moderate amplification from 0.7 to 1.0 reflects a noticeable increase in seismic ground motion due to soil conditions, requiring standard seismic design considerations.",
+        "High amplification from 1.0 to 1.3 indicates significant soil-induced amplification, necessitating enhanced seismic design measures to ensure structural safety.",
+        "Very high amplification from 1.3 to 1.6 suggests substantial soil effects on seismic ground motions, demanding rigorous engineering analysis and potentially advanced mitigation strategies.",
+        "Extreme amplification exceeding 1.6 represents severe soil amplification effects, posing high seismic risk and requiring comprehensive site-specific seismic assessments and interventions."
+      ]
+    }
+  },
+  "SDS": {
+    "type": "numerical",
+    "range": [
+      0.369,
+      1.171
+    ],
+    "description": "The design-level short-period spectral acceleration used directly in seismic design, reflecting reduced demand consistent with code-defined performance objectives.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        "inf"
+      ],
+      "sentences": [
+        "Low seismic demand from 0 to 0.5 indicates minimal seismic forces, allowing for basic design considerations with standard safety margins.",
+        "Moderate seismic demand from 0.5 to 0.75 requires enhanced design measures to ensure structural resilience against moderate seismic events.",
+        "High seismic demand from 0.75 to 1.0 necessitates robust design strategies to withstand significant seismic forces, ensuring safety and functionality.",
+        "Very high seismic demand from 1.0 to 1.25 demands advanced engineering solutions and materials to maintain structural integrity during severe earthquakes.",
+        "Extreme seismic demand exceeding 1.25 represents outlier conditions requiring specialized design and construction techniques to prevent catastrophic failure."
+      ]
+    }
+  },
+  "SDCS": {
+    "type": "nominal",
+    "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions.",
+    "code_map": {
+      "A": "Very low seismic hazard conditions where seismic detailing and design requirements are minimal or not required.",
+      "B": "Low seismic hazard conditions where limited seismic design and detailing provisions apply.",
+      "C": "Moderate seismic hazard conditions where seismic forces and ductile detailing requirements begin to significantly influence design.",
+      "D": "High seismic hazard conditions requiring substantial seismic design forces, ductile detailing, and explicit consideration of inelastic behavior.",
+      "E": "Very high seismic hazard conditions where extreme ground motions are expected and the most stringent seismic design and detailing requirements apply.",
+      "F": "Site-specific extreme seismic hazard conditions requiring specialized analysis, evaluation, and design beyond standard code procedures."
+    }
+  },
+  "PGAM": {
+    "type": "numerical",
+    "range": [
+      0.242,
+      0.953
+    ],
+    "description": "The mapped peak ground acceleration associated with maximum considered earthquake conditions prior to any site-specific adjustments.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Very low seismic demand from 0 to 0.3 indicates minimal structural impact during seismic events, requiring standard design considerations.",
+        "Low seismic demand from 0.3 to 0.5 suggests minor structural impacts, necessitating basic seismic design enhancements.",
+        "Moderate seismic demand from 0.5 to 0.7 requires significant seismic design measures to ensure structural integrity during earthquakes.",
+        "High seismic demand from 0.7 to 1.0 indicates substantial structural impacts, demanding advanced seismic design and retrofitting strategies.",
+        "Very high seismic demand exceeding 1.0 represents extreme conditions, requiring specialized engineering solutions and continuous monitoring."
+      ]
+    }
+  },
+  "FPGA": {
+    "type": "numerical",
+    "range": [
+      1.1,
+      1.471
+    ],
+    "description": "The peak ground acceleration adjusted for local site conditions, representing the ground motion intensity expected to be experienced at the bridge location.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.8,
+        1.2,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Low seismic demand from 0 to 0.8 indicates minimal ground motion impact, suggesting standard design measures are sufficient for bridge safety.",
+        "Moderate seismic demand from 0.8 to 1.2 suggests increased ground motion, requiring enhanced design considerations for seismic resilience.",
+        "High seismic demand from 1.2 to 1.5 indicates significant ground motion, necessitating advanced seismic design and retrofitting strategies to ensure bridge integrity.",
+        "Very high seismic demand from 1.5 to 2.0 represents severe ground motion, demanding comprehensive seismic engineering solutions and continuous monitoring.",
+        "Extreme seismic demand exceeding 2.0 represents outlier conditions with potential catastrophic ground motion, requiring specialized engineering interventions and emergency preparedness."
+      ]
+    }
+  },
+  "STRUCTURE_ID": {
+    "type": "string",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "string",
+    "description": null
+  }
+}

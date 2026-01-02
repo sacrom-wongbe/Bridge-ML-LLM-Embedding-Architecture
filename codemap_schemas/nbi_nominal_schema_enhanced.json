@@ -1,0 +1,878 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference",
+    "code_map": null
+  },
+  "STATE_CODE_001": {
+    "type": "nominal",
+    "code_map": {
+      "01": "Code '01' represents Alabama, where bridges must account for humid subtropical climate impacts on materials and potential flooding, influencing structural design and maintenance strategies.",
+      "02": "Code '02' denotes Alaska, requiring bridges to withstand extreme cold, permafrost, and seismic activity, necessitating specialized design for thermal expansion and earthquake resilience.",
+      "04": "Code '04' signifies Arizona, where bridges face arid conditions and extreme heat, impacting material selection and thermal stress considerations in structural design.",
+      "05": "Code '05' identifies Arkansas, where bridges must be designed for humid subtropical climates and potential flooding, affecting load calculations and material durability.",
+      "06": "Code '06' refers to California, where seismic activity is a critical factor in bridge design, necessitating advanced earthquake-resistant engineering techniques and materials.",
+      "08": "Code '08' indicates Colorado, where bridges must accommodate mountainous terrain and snow loads, influencing structural design and material selection for durability.",
+      "09": "Code '09' represents Connecticut, where bridges face coastal weather conditions and freeze-thaw cycles, impacting material durability and structural integrity assessments.",
+      "10": "Code '10' denotes Delaware, where bridges must consider coastal influences and potential flooding, affecting design criteria and maintenance planning.",
+      "11": "Code '11' signifies the District of Columbia, where urban infrastructure demands and historical preservation impact bridge design and rehabilitation strategies.",
+      "12": "Code '12' identifies Florida, where bridges must withstand hurricane forces and saltwater corrosion, influencing design standards and material choices.",
+      "13": "Code '13' refers to Georgia, where bridges face humid subtropical climates and potential flooding, affecting structural design and maintenance requirements.",
+      "15": "Code '15' indicates Hawaii, where bridges must be designed for volcanic activity, high humidity, and saltwater exposure, impacting material selection and structural resilience.",
+      "16": "Code '16' represents Idaho, where bridges must accommodate mountainous terrain and snow loads, influencing structural design and material durability.",
+      "17": "Code '17' denotes Illinois, where bridges face freeze-thaw cycles and river flooding, impacting material durability and structural design considerations.",
+      "18": "Code '18' signifies Indiana, where bridges must account for freeze-thaw cycles and river flooding, influencing material selection and structural integrity assessments.",
+      "19": "Code '19' identifies Iowa, where bridges face agricultural runoff and freeze-thaw cycles, affecting material durability and structural design strategies.",
+      "20": "Code '20' refers to Kansas, where bridges must accommodate flat terrain and potential flooding, influencing structural design and material selection.",
+      "21": "Code '21' indicates Kentucky, where bridges face humid subtropical climates and potential flooding, impacting structural design and maintenance planning.",
+      "22": "Code '22' represents Louisiana, where bridges must withstand hurricane forces and high humidity, influencing design standards and material durability.",
+      "23": "Code '23' denotes Maine, where bridges face coastal weather conditions and freeze-thaw cycles, affecting material selection and structural integrity.",
+      "24": "Code '24' signifies Maryland, where bridges must consider coastal influences and potential flooding, impacting design criteria and maintenance strategies.",
+      "25": "Code '25' identifies Massachusetts, where bridges face coastal weather conditions and freeze-thaw cycles, influencing material durability and structural design.",
+      "26": "Code '26' refers to Michigan, where bridges must accommodate freeze-thaw cycles and lake-effect snow, impacting material selection and structural integrity.",
+      "27": "Code '27' indicates Minnesota, where bridges face extreme cold and snow loads, influencing structural design and material durability considerations.",
+      "28": "Code '28' represents Mississippi, where bridges must withstand humid subtropical climates and potential flooding, affecting structural design and maintenance requirements.",
+      "29": "Code '29' denotes Missouri, where bridges face river flooding and freeze-thaw cycles, impacting material durability and structural design strategies.",
+      "30": "Code '30' signifies Montana, where bridges must accommodate mountainous terrain and snow loads, influencing structural design and material selection.",
+      "31": "Code '31' identifies Nebraska, where bridges face flat terrain and potential flooding, affecting structural design and material durability.",
+      "32": "Code '32' refers to Nevada, where bridges must withstand arid conditions and seismic activity, influencing material selection and structural resilience.",
+      "33": "Code '33' indicates New Hampshire, where bridges face mountainous terrain and freeze-thaw cycles, impacting material durability and structural design.",
+      "34": "Code '34' represents New Jersey, where bridges must consider coastal influences and urban infrastructure demands, affecting design criteria and maintenance planning.",
+      "35": "Code '35' denotes New Mexico, where bridges face arid conditions and seismic activity, influencing material selection and structural design strategies.",
+      "36": "Code '36' signifies New York, where bridges must accommodate urban infrastructure demands and freeze-thaw cycles, impacting structural design and material durability.",
+      "37": "Code '37' identifies North Carolina, where bridges face coastal influences and potential flooding, affecting design standards and maintenance requirements.",
+      "38": "Code '38' refers to North Dakota, where bridges must withstand extreme cold and snow loads, influencing structural design and material selection.",
+      "39": "Code '39' indicates Ohio, where bridges face freeze-thaw cycles and river flooding, impacting material durability and structural design considerations.",
+      "40": "Code '40' represents Oklahoma, where bridges must accommodate flat terrain and potential flooding, influencing structural design and material durability.",
+      "41": "Code '41' denotes Oregon, where bridges face seismic activity and coastal influences, impacting design standards and material selection.",
+      "42": "Code '42' signifies Pennsylvania, where bridges must accommodate freeze-thaw cycles and river flooding, affecting structural design and material durability.",
+      "44": "Code '44' identifies Rhode Island, where bridges face coastal weather conditions and urban infrastructure demands, influencing design criteria and maintenance strategies.",
+      "45": "Code '45' refers to South Carolina, where bridges must withstand coastal influences and potential flooding, impacting structural design and material selection.",
+      "46": "Code '46' indicates South Dakota, where bridges face extreme cold and snow loads, affecting structural design and material durability considerations.",
+      "47": "Code '47' represents Tennessee, where bridges must accommodate humid subtropical climates and potential flooding, influencing design standards and maintenance planning.",
+      "48": "Code '48' denotes Texas, where bridges face diverse climates and potential flooding, impacting structural design and material selection strategies.",
+      "49": "Code '49' signifies Utah, where bridges must withstand arid conditions and seismic activity, influencing material selection and structural resilience.",
+      "50": "Code '50' identifies Vermont, where bridges face mountainous terrain and freeze-thaw cycles, affecting material durability and structural design.",
+      "51": "Code '51' refers to Virginia, where bridges must consider coastal influences and potential flooding, impacting design criteria and maintenance requirements.",
+      "53": "Code '53' indicates Washington, where bridges face seismic activity and coastal influences, influencing design standards and material selection.",
+      "54": "Code '54' represents West Virginia, where bridges must accommodate mountainous terrain and potential flooding, affecting structural design and material durability.",
+      "55": "Code '55' denotes Wisconsin, where bridges face freeze-thaw cycles and snow loads, impacting material durability and structural design considerations.",
+      "56": "Code '56' signifies Wyoming, where bridges must withstand extreme cold and snow loads, influencing structural design and material selection.",
+      "60": "Code '60' identifies American Samoa, where bridges face tropical climates and potential cyclones, affecting design standards and material durability.",
+      "66": "Code '66' refers to Guam, where bridges must withstand tropical climates and seismic activity, influencing material selection and structural resilience.",
+      "69": "Code '69' indicates Northern Marianas, where bridges face tropical climates and potential cyclones, impacting design criteria and material durability.",
+      "72": "Code '72' represents Puerto Rico, where bridges must accommodate tropical climates and seismic activity, affecting structural design and material selection.",
+      "78": "Code '78' denotes Virgin Islands, where bridges face tropical climates and potential hurricanes, influencing design standards and material durability."
+    },
+    "description": "The U.S. state or territory in which the bridge is physically located, expressed as a standardized FIPS jurisdiction."
+  },
+  "COUNTY_CODE_003": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Code '1' represents Adams County, indicating the bridge's location for assessing regional seismic activity and soil conditions critical for structural integrity and design considerations.",
+      "3": "Code '3' denotes Asotin County, identifying the bridge's geographic placement, essential for evaluating local geological hazards and environmental factors affecting structural performance.",
+      "5": "Code '5' signifies Benton County, providing the bridge's location context, crucial for understanding seismic risk profiles and material selection based on regional climatic conditions.",
+      "7": "Code '7' refers to Chelan County, marking the bridge's position, vital for assessing topographical influences on structural stability and potential seismic impact.",
+      "9": "Code '9' indicates Clallam County, specifying the bridge's locale, important for analyzing coastal environmental effects and seismic vulnerability due to proximity to fault lines.",
+      "11": "Code '11' identifies Clark County, situating the bridge within a specific area, necessary for evaluating urban development impacts and seismic design requirements.",
+      "13": "Code '13' represents Columbia County, locating the bridge for assessing rural infrastructure challenges and seismic considerations unique to less densely populated regions.",
+      "15": "Code '15' denotes Cowlitz County, pinpointing the bridge's location, essential for understanding industrial activity impacts and regional seismic risk factors.",
+      "17": "Code '17' signifies Douglas County, indicating the bridge's geographic setting, crucial for evaluating agricultural land influences and seismic design parameters.",
+      "19": "Code '19' refers to Ferry County, marking the bridge's position, vital for assessing remote area infrastructure resilience and seismic activity considerations.",
+      "21": "Code '21' indicates Franklin County, specifying the bridge's locale, important for analyzing agricultural and industrial impacts on structural design and seismic vulnerability.",
+      "23": "Code '23' identifies Garfield County, situating the bridge within a specific area, necessary for evaluating rural seismic risk and infrastructure development challenges.",
+      "25": "Code '25' represents Grant County, locating the bridge for assessing irrigation infrastructure impacts and regional seismic activity considerations.",
+      "27": "Code '27' denotes Grays Harbor County, pinpointing the bridge's location, essential for understanding coastal environmental effects and seismic design requirements.",
+      "29": "Code '29' signifies Island County, indicating the bridge's geographic setting, crucial for evaluating island-specific structural challenges and seismic risk factors.",
+      "31": "Code '31' refers to Jefferson County, marking the bridge's position, vital for assessing environmental conservation impacts and seismic vulnerability due to regional fault lines.",
+      "33": "Code '33' indicates King County, specifying the bridge's locale, important for analyzing urban infrastructure demands and seismic design considerations in a densely populated area.",
+      "35": "Code '35' identifies Kitsap County, situating the bridge within a specific area, necessary for evaluating naval base influences and regional seismic activity.",
+      "37": "Code '37' represents Kittitas County, locating the bridge for assessing rural infrastructure resilience and seismic considerations unique to mountainous regions.",
+      "39": "Code '39' denotes Klickitat County, pinpointing the bridge's location, essential for understanding wind farm impacts and regional seismic risk factors.",
+      "41": "Code '41' signifies Lewis County, indicating the bridge's geographic setting, crucial for evaluating logging industry influences and seismic design parameters.",
+      "43": "Code '43' refers to Lincoln County, marking the bridge's position, vital for assessing agricultural land impacts and seismic vulnerability in sparsely populated areas.",
+      "45": "Code '45' indicates Mason County, specifying the bridge's locale, important for analyzing forestry impacts and regional seismic activity considerations.",
+      "47": "Code '47' identifies Okanogan County, situating the bridge within a specific area, necessary for evaluating wildfire risk impacts and seismic design requirements.",
+      "49": "Code '49' represents Pacific County, locating the bridge for assessing coastal environmental effects and regional seismic vulnerability due to proximity to the ocean.",
+      "51": "Code '51' denotes Pend Oreille County, pinpointing the bridge's location, essential for understanding remote area infrastructure challenges and seismic risk factors.",
+      "53": "Code '53' signifies Pierce County, indicating the bridge's geographic setting, crucial for evaluating urban development impacts and seismic design considerations in a populous region.",
+      "55": "Code '55' refers to San Juan County, marking the bridge's position, vital for assessing island-specific structural challenges and seismic vulnerability due to isolation.",
+      "57": "Code '57' indicates Skagit County, specifying the bridge's locale, important for analyzing agricultural and environmental impacts on structural design and seismic risk.",
+      "59": "Code '59' identifies Skamania County, situating the bridge within a specific area, necessary for evaluating volcanic activity impacts and regional seismic considerations.",
+      "61": "Code '61' represents Snohomish County, locating the bridge for assessing urban infrastructure demands and seismic vulnerability in a rapidly growing area.",
+      "63": "Code '63' denotes Spokane County, pinpointing the bridge's location, essential for understanding urban development impacts and regional seismic risk factors.",
+      "65": "Code '65' signifies Stevens County, indicating the bridge's geographic setting, crucial for evaluating rural infrastructure resilience and seismic design parameters.",
+      "67": "Code '67' refers to Thurston County, marking the bridge's position, vital for assessing governmental infrastructure impacts and seismic vulnerability in a capital region.",
+      "69": "Code '69' indicates Wahkiakum County, specifying the bridge's locale, important for analyzing rural infrastructure challenges and regional seismic activity considerations.",
+      "71": "Code '71' identifies Walla Walla County, situating the bridge within a specific area, necessary for evaluating agricultural impacts and seismic design requirements.",
+      "73": "Code '73' represents Whatcom County, locating the bridge for assessing cross-border infrastructure impacts and regional seismic vulnerability due to proximity to Canada.",
+      "75": "Code '75' denotes Whitman County, pinpointing the bridge's location, essential for understanding agricultural land influences and seismic risk factors in a rural setting.",
+      "77": "Code '77' signifies Yakima County, indicating the bridge's geographic setting, crucial for evaluating agricultural and industrial impacts on structural design and seismic considerations."
+    },
+    "description": "The county (or county-equivalent) in which the bridge is physically located, expressed as a standardized location code."
+  },
+  "HIGHWAY_DISTRICT_002": {
+    "type": "nominal",
+    "code_map": {
+      "1": "The bridge is under the jurisdiction of the State Highway Agency, which oversees major transportation routes, ensuring compliance with state-level structural and seismic safety standards.",
+      "2": "The bridge falls under the County Highway Agency's jurisdiction, responsible for regional road networks, focusing on local traffic patterns and county-specific structural integrity requirements.",
+      "3": "The bridge is managed by the Town or Township Highway Agency, which addresses local roadways, emphasizing community-specific traffic needs and localized structural assessments.",
+      "4": "The bridge is governed by the City or Municipal Highway Agency, which handles urban infrastructure, prioritizing city traffic flow and urban-specific structural and seismic considerations."
+    },
+    "description": "The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city)."
+  },
+  "ROUTE_PREFIX_005B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "This code represents an Interstate highway, a major arterial route designed for high-speed, long-distance travel, crucial for national connectivity and requiring robust structural integrity to accommodate heavy traffic loads.",
+      "2": "This code signifies a U.S. numbered highway, part of the federal highway system, essential for regional connectivity and requiring careful structural design to support significant vehicular traffic and freight movement.",
+      "3": "This code denotes a state highway, a primary route within a state’s jurisdiction, important for intrastate travel and commerce, necessitating durable bridge structures to handle moderate to heavy traffic volumes.",
+      "4": "This code indicates a county highway, a secondary route managed by local authorities, vital for rural connectivity and requiring bridges designed to accommodate local traffic patterns and agricultural vehicles.",
+      "5": "This code refers to a city street, an urban route integral to local traffic circulation, demanding bridge designs that consider pedestrian access, urban load conditions, and frequent vehicular use.",
+      "6": "This code represents a federal lands road, a route within federally managed lands, often requiring specialized bridge designs to address unique environmental conditions and limited maintenance access.",
+      "7": "This code signifies a state lands road, a route within state-managed lands, necessitating bridge structures that consider environmental preservation and limited traffic, often with specific regulatory compliance requirements.",
+      "8": "This code denotes other routes, including toll roads not otherwise classified, requiring bridge designs that accommodate varied traffic types and potentially unique toll infrastructure integration."
+    },
+    "description": "The classification of the route carried by the bridge by numbering/ownership system (e.g., Interstate, U.S. route, state route, local street, etc.)."
+  },
+  "SERVICE_LEVEL_005C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "This code represents bridge routes that do not fit standard classifications, requiring unique structural considerations due to atypical traffic patterns or specialized design requirements.",
+      "1": "Mainline routes are primary traffic arteries, necessitating robust structural integrity to accommodate high traffic volumes and critical connectivity within the transportation network.",
+      "2": "Alternate routes provide redundancy to mainlines, requiring sufficient structural capacity to handle diverted traffic during mainline closures or maintenance activities.",
+      "3": "Bypass routes facilitate traffic flow around congested or urban areas, demanding efficient design to support high-speed travel and reduce congestion on primary routes.",
+      "4": "Spur routes connect mainlines to specific destinations, necessitating tailored structural designs to accommodate varying traffic loads and localized access needs.",
+      "6": "Business routes serve commercial areas, requiring structural designs that support frequent stops and starts, as well as access to business districts.",
+      "7": "Ramp, Wye, and Connector routes link different transportation pathways, demanding precise engineering to ensure smooth transitions and accommodate merging traffic.",
+      "8": "Service and/or unclassified frontage roads provide access to adjacent properties, requiring flexible structural designs to support lower traffic volumes and diverse vehicle types."
+    },
+    "description": "The role of the route carried by the bridge within its route system (mainline, alternate, bypass, spur, ramp/connector, frontage road, etc.)."
+  },
+  "FEATURES_DESC_006A": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text description of the feature that the bridge crosses or intersects (e.g., river name, railroad line, roadway name, ravine, canal)."
+  },
+  "FACILITY_CARRIED_007": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text description of the facility that runs on the bridge deck (e.g., the roadway or line being carried across the obstacle)."
+  },
+  "LOCATION_009": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text narrative describing the bridge’s location context, typically using nearby routes, towns, landmarks, or milepoints."
+  },
+  "BASE_HWY_NETWORK_012": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The bridge's inventory route is not included in the federally defined Base Highway Network, indicating lower priority for federal funding and potentially less stringent design and maintenance standards.",
+      "1": "The bridge's inventory route is part of the federally defined Base Highway Network, signifying higher priority for federal funding, maintenance, and compliance with stringent design standards for critical infrastructure."
+    },
+    "description": "An indicator of whether the bridge’s inventory route is part of the federally defined Base Highway Network."
+  },
+  "TOLL_020": {
+    "type": "nominal",
+    "code_map": {
+      "1": "This code indicates a toll is specifically charged for using the bridge itself, impacting traffic flow and maintenance funding considerations in structural assessments.",
+      "2": "This code signifies the bridge is part of a tolled road facility, where tolls contribute to the overall infrastructure maintenance and influence traffic patterns and load assessments.",
+      "3": "This code represents a bridge on a toll-free road, implying unrestricted access and potentially higher traffic volumes, affecting load distribution and structural wear analysis.",
+      "4": "This code denotes an interstate toll segment under a Secretarial Agreement, highlighting specific regulatory and funding frameworks that influence maintenance and structural evaluation priorities.",
+      "5": "This code identifies a toll bridge under a separate Secretarial Agreement, indicating unique administrative and financial arrangements that may affect structural management and inspection protocols."
+    },
+    "description": "The toll context describing whether a toll is charged specifically to use the bridge, as part of a tolled facility, or not at all."
+  },
+  "MAINTENANCE_021": {
+    "type": "nominal",
+    "code_map": {
+      "01": "The State Highway Agency is responsible for maintaining the bridge, ensuring structural integrity and safety through regular inspections, repairs, and compliance with state transportation standards.",
+      "02": "The County Highway Agency oversees bridge maintenance, focusing on routine inspections and repairs to uphold safety and functionality within the county's transportation network.",
+      "03": "The Town or Township Highway Agency manages bridge upkeep, conducting regular maintenance and repairs to ensure local transportation routes remain safe and operational.",
+      "04": "The City or Municipal Highway Agency is tasked with bridge maintenance, performing routine inspections and repairs to maintain urban infrastructure and ensure public safety.",
+      "11": "The State Park, Forest, or Reservation Agency maintains bridges within state-managed natural areas, ensuring safe access and preserving environmental integrity through regular upkeep.",
+      "12": "The Local Park, Forest, or Reservation Agency is responsible for bridge maintenance in locally managed natural areas, focusing on safety and environmental conservation.",
+      "21": "Other State Agencies may be responsible for bridge maintenance, ensuring structural safety and compliance with state regulations for specialized infrastructure.",
+      "25": "Other Local Agencies handle bridge maintenance, focusing on safety and operational efficiency within their jurisdiction, often involving specialized or non-standard infrastructure.",
+      "26": "Private entities, excluding railroads, maintain bridges they own, ensuring safety and functionality through regular inspections and necessary repairs.",
+      "27": "Railroad companies maintain bridges used for rail transport, focusing on structural integrity and safety to support rail operations and prevent disruptions.",
+      "31": "State Toll Authorities manage bridge maintenance for toll roads, ensuring safety and operational efficiency through regular inspections and repairs.",
+      "32": "Local Toll Authorities are responsible for maintaining toll bridges, focusing on safety and efficient traffic flow through routine inspections and repairs.",
+      "60": "Other Federal Agencies may oversee bridge maintenance, ensuring compliance with federal standards and safety regulations for specialized infrastructure.",
+      "61": "Indian Tribal Governments manage bridge maintenance on tribal lands, ensuring safety and functionality while respecting cultural and environmental considerations.",
+      "62": "The Bureau of Indian Affairs oversees bridge maintenance on tribal lands, ensuring safety and compliance with federal and tribal standards.",
+      "63": "The Bureau of Fish and Wildlife maintains bridges within wildlife areas, focusing on safety and environmental protection through regular inspections and repairs.",
+      "64": "The U.S. Forest Service is responsible for maintaining bridges in national forests, ensuring safe access and environmental stewardship through routine upkeep.",
+      "66": "The National Park Service manages bridge maintenance in national parks, ensuring visitor safety and preserving natural landscapes through regular inspections and repairs.",
+      "67": "The Tennessee Valley Authority maintains bridges within its jurisdiction, focusing on safety and operational efficiency in support of regional infrastructure.",
+      "68": "The Bureau of Land Management oversees bridge maintenance on public lands, ensuring safety and access while balancing environmental and recreational considerations.",
+      "69": "The Bureau of Reclamation maintains bridges associated with water management projects, ensuring structural integrity and operational safety.",
+      "70": "The Corps of Engineers (Civil) manages bridge maintenance for civil works projects, ensuring safety and compliance with engineering standards.",
+      "71": "The Corps of Engineers (Military) oversees bridge maintenance for military infrastructure, ensuring safety and operational readiness.",
+      "72": "The Air Force is responsible for maintaining bridges on Air Force bases, ensuring safety and operational efficiency for military and support activities.",
+      "73": "The Navy/Marines manage bridge maintenance on naval and marine installations, focusing on safety and operational readiness.",
+      "74": "The Army oversees bridge maintenance on Army installations, ensuring structural integrity and operational readiness for military activities.",
+      "75": "NASA maintains bridges within its facilities, ensuring safety and support for aerospace operations and research activities.",
+      "76": "The Metropolitan Washington Airports Service manages bridge maintenance for airport infrastructure, ensuring safety and efficient transportation access.",
+      "80": "The maintenance responsibility for the bridge is unknown, indicating a need for clarification to ensure proper upkeep and safety compliance."
+    },
+    "description": "The agency or organization that is responsible for maintaining the bridge and performing routine upkeep and repairs."
+  },
+  "FUNCTIONAL_CLASS_026": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Rural - Principal Arterial: Interstate routes are major highways facilitating long-distance travel and freight movement, requiring robust bridge designs to accommodate high traffic volumes and heavy loads.",
+      "2": "Rural - Principal Arterial: Other roads serve as key connectors between regions, necessitating durable bridge structures to support significant traffic flow and regional economic activities.",
+      "6": "Rural - Minor Arterial roads provide critical links between smaller towns and major routes, demanding resilient bridge designs to ensure reliable access and connectivity.",
+      "7": "Rural - Major Collector roads gather traffic from local roads and funnel it to arterial routes, requiring bridges that can handle moderate traffic and agricultural vehicles.",
+      "8": "Rural - Minor Collector roads connect local roads to major collectors, necessitating bridges that support light to moderate traffic, often including farm equipment.",
+      "9": "Rural - Local roads primarily provide access to adjacent land, with bridges designed for low traffic volumes and occasional heavy vehicles like farm machinery.",
+      "11": "Urban - Principal Arterial: Interstate routes are vital for urban connectivity and economic activity, requiring bridges capable of supporting high traffic density and diverse vehicle types.",
+      "12": "Urban - Principal Arterial: Other Freeways or Expressways facilitate rapid urban transit, necessitating robust bridge structures to handle continuous high-speed traffic and heavy loads.",
+      "14": "Urban - Other Principal Arterial roads are essential for distributing traffic across urban areas, demanding durable bridges to support significant daily vehicle flow.",
+      "16": "Urban - Minor Arterial roads provide secondary routes within urban areas, requiring bridges that accommodate moderate traffic and enhance network redundancy.",
+      "17": "Urban - Collector roads gather traffic from local streets and direct it to arterial roads, necessitating bridges that support moderate traffic volumes and diverse vehicle types.",
+      "19": "Urban - Local roads primarily serve residential areas, with bridges designed for low traffic volumes and pedestrian-friendly features to enhance community connectivity."
+    },
+    "description": "The functional classification of the roadway carried by the bridge, describing its role in the road network (arterial, collector, local; rural/urban)."
+  },
+  "DESIGN_LOAD_031": {
+    "type": "nominal",
+    "code_map": {
+      "0": "This code indicates that the bridge's design load is either unknown or falls outside standard categories, necessitating further investigation for accurate structural assessment and safety evaluation.",
+      "1": "The bridge was designed to accommodate M 9 / H 10 load models, suitable for lighter vehicular traffic, impacting its structural capacity and maintenance requirements.",
+      "2": "This code signifies a design for M 13.5 / H 15 load models, indicating moderate vehicular load capacity, crucial for assessing bridge durability and serviceability.",
+      "3": "The bridge supports MS 13.5 / HS 15 load models, reflecting its ability to handle moderate to heavy trucks, essential for evaluating its load-bearing performance.",
+      "4": "Designed for M 18 / H 20 load models, this bridge can accommodate heavier vehicular loads, influencing its structural integrity and lifespan under frequent use.",
+      "5": "This designation indicates MS 18 / HS 20 load models, suggesting the bridge's capability to support substantial truck traffic, critical for load distribution analysis.",
+      "6": "The bridge is designed for MS 18+Mod / HS 20+Mod load models, allowing for modified heavy loads, which is vital for assessing its adaptability to increased traffic demands.",
+      "7": "This code represents a pedestrian bridge design, focusing on foot traffic load considerations, which affects its structural design and maintenance strategies.",
+      "8": "The bridge is designed for railroad load models, emphasizing its capacity to support train loads, crucial for ensuring safe and efficient rail operations.",
+      "9": "This code indicates a design for MS 22.5 / HS 25 load models, reflecting its ability to support very heavy vehicular loads, important for structural resilience analysis."
+    },
+    "description": "The load model or design loading category the bridge was designed to accommodate (e.g., HS/HL-type truck, pedestrian, railroad)."
+  },
+  "MEDIAN_CODE_033": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Code '0' indicates the absence of a median, meaning there is no physical separation between opposing traffic lanes, which may increase the risk of head-on collisions.",
+      "1": "Code '1' signifies an open median, a non-barrier separation that provides a buffer zone between opposing traffic lanes, potentially reducing collision severity but not preventing crossover incidents.",
+      "2": "Code '2' represents a closed median without barriers, where a physical separation exists but lacks non-mountable barriers, offering limited protection against vehicle crossover into opposing lanes.",
+      "3": "Code '3' denotes a closed median with non-mountable barriers, providing a robust physical separation that prevents vehicles from crossing into opposing traffic, enhancing safety and reducing collision risks."
+    },
+    "description": "The presence and type of median on the bridge, describing whether opposing traffic is separated and how (open/closed/barrier)."
+  },
+  "STRUCTURE_FLARED_035": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The bridge does not exhibit a width flare, maintaining a consistent width throughout its length, which simplifies load distribution analysis and reduces construction complexity.",
+      "1": "The bridge features a width flare near its ends, increasing the deck width for improved traffic flow and load distribution, necessitating detailed structural analysis for stability and stress management."
+    },
+    "description": "Whether the bridge width flares (widens) near the ends relative to the main portion of the structure."
+  },
+  "RAILINGS_036A": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The bridge railings do not comply with current safety standards or are absent where required, posing increased risk of vehicle departure and potential structural failure during seismic events.",
+      "1": "The bridge railings conform to current safety standards, ensuring adequate containment of vehicles and enhancing structural resilience against lateral forces during seismic activities.",
+      "N": "The bridge does not require railings due to its design or location, indicating that safety performance standards for railings are not applicable in this context."
+    },
+    "description": "Whether the bridge railings as built and present provide adequate safety performance relative to current standards."
+  },
+  "TRANSITIONS_036B": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The approach-to-bridge transition elements fail to meet current engineering standards, potentially compromising structural integrity and safety during vehicular transitions onto the bridge deck.",
+      "1": "The approach-to-bridge transition elements conform to current engineering standards, ensuring seamless vehicular movement and maintaining structural integrity and safety during transitions onto the bridge.",
+      "N": "The approach-to-bridge transition elements are not applicable or required for this structure, indicating no need for specific continuity or safety measures in the current context."
+    },
+    "description": "Whether the approach-to-bridge transition elements (e.g., rail transitions) provide adequate continuity and safety relative to current standards."
+  },
+  "APPR_RAIL_036C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The approach guardrail does not comply with current safety standards or is absent where required, posing a risk of vehicle departure from the roadway near the bridge.",
+      "1": "The approach guardrail meets current safety standards, ensuring effective vehicle redirection and minimizing the risk of accidents at the bridge approach.",
+      "N": "The approach guardrail is not applicable or required for this bridge, indicating that the bridge design or location does not necessitate such safety measures."
+    },
+    "description": "Whether the approach guardrail upstream/downstream of the bridge is adequate to safely redirect vehicles relative to current standards."
+  },
+  "APPR_RAIL_END_036D": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The approach guardrail end treatments do not comply with current crashworthiness standards, posing potential safety risks during vehicular impacts and necessitating structural upgrades for improved safety.",
+      "1": "The approach guardrail end treatments adhere to current crashworthiness standards, ensuring adequate protection against vehicular impacts and enhancing overall bridge safety and structural integrity.",
+      "N": "The approach guardrail end treatments are not applicable or required for this bridge, indicating that current standards do not mandate such features for this specific structural context."
+    },
+    "description": "Whether the end treatments of the approach guardrail are adequate for crashworthiness relative to current standards."
+  },
+  "HISTORY_037": {
+    "type": "nominal",
+    "code_map": {
+      "1": "The bridge is officially listed on the National Register of Historic Places, indicating its recognized historical significance and potential constraints on modifications or structural interventions.",
+      "2": "The bridge is deemed eligible for listing on the National Register of Historic Places, suggesting historical value that may influence preservation priorities and rehabilitation strategies.",
+      "3": "The bridge is possibly eligible or listed on a state or local historic register, requiring further evaluation to determine its historical importance and implications for engineering assessments.",
+      "4": "The historical significance of the bridge cannot be determined, necessitating additional research to assess potential historical value and its impact on engineering decisions.",
+      "5": "The bridge is not eligible for the National Register of Historic Places, allowing for standard engineering practices without historical preservation constraints during maintenance or upgrades."
+    },
+    "description": "The bridge’s historic significance status in terms of listing or eligibility for historic registers such as the NRHP."
+  },
+  "NAVIGATION_038": {
+    "type": "nominal",
+    "code_map": {
+      "N": "This code indicates the absence of a navigable waterway at the bridge site, eliminating the need for navigation control or permits, simplifying structural design considerations.",
+      "0": "This code signifies that although a waterway is present, it does not require navigation control or permits, reducing regulatory constraints on bridge design and construction.",
+      "1": "This code denotes the presence of a navigable waterway requiring navigation control and permits, necessitating compliance with maritime regulations and potentially influencing bridge clearance and design."
+    },
+    "description": "Whether a navigable waterway is present and therefore navigation control/permit requirements apply at the crossing."
+  },
+  "OPEN_CLOSED_POSTED_041": {
+    "type": "nominal",
+    "code_map": {
+      "A": "The bridge is fully operational with no restrictions, indicating it meets all structural and safety standards for unrestricted vehicular traffic flow.",
+      "B": "The bridge remains open, but engineering assessments suggest implementing restrictions to ensure safety, although these have not been legally enforced yet.",
+      "D": "The bridge is open due to temporary measures like shoring, which prevent immediate closure but indicate underlying structural vulnerabilities requiring urgent attention.",
+      "E": "A temporary bridge structure is in place to maintain traffic flow while the original bridge is closed for repairs or reconstruction, ensuring continued connectivity.",
+      "G": "The newly constructed bridge is not yet open to traffic, pending final inspections and approvals to ensure compliance with all safety and design standards.",
+      "K": "The bridge is closed to all traffic due to significant structural deficiencies or safety concerns, necessitating repairs or replacement to restore functionality.",
+      "P": "The bridge is open but has load restrictions to prevent excessive stress on the structure, ensuring safety while accommodating limited vehicular traffic.",
+      "R": "The bridge is open with restrictions on speed, vehicle numbers, or other factors to mitigate risks associated with structural limitations or safety concerns."
+    },
+    "description": "The operational status of the bridge describing whether it is open without restriction, posted with restrictions, or closed to traffic."
+  },
+  "SERVICE_ON_042A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "This code indicates the bridge deck primarily supports highway traffic, necessitating design considerations for vehicular loads, traffic flow, and safety barriers to ensure structural integrity and user safety.",
+      "2": "This code signifies the bridge deck is primarily used for railroad services, requiring specialized design for dynamic loads, track alignment, and vibration control to maintain operational safety and efficiency.",
+      "3": "This code represents a bridge deck dedicated to pedestrian and bicycle traffic, emphasizing design for lighter loads, user accessibility, and safety features like railings and non-slip surfaces.",
+      "4": "This code denotes a bridge deck accommodating both highway and railroad services, necessitating complex structural design to manage diverse load types and ensure safe, efficient transport operations.",
+      "5": "This code indicates the bridge deck supports both highway and pedestrian traffic, requiring design solutions that balance vehicular load capacity with pedestrian safety and accessibility features.",
+      "6": "This code describes an overpass at an interchange or second level, highlighting the need for structural analysis of multi-level load distribution and traffic management for efficient flow and safety.",
+      "7": "This code refers to a third-level interchange, requiring advanced engineering to address complex load interactions, structural stability, and traffic coordination across multiple transportation layers.",
+      "8": "This code signifies a fourth-level interchange, demanding sophisticated structural design to manage intricate load paths, ensure stability, and facilitate seamless traffic movement across multiple levels.",
+      "9": "This code indicates the bridge deck serves as a building or plaza, focusing on architectural integration, load distribution for non-vehicular use, and public accessibility and safety considerations.",
+      "0": "This code represents other types of services not explicitly categorized, requiring flexible engineering approaches to accommodate unique load conditions and functional requirements specific to the bridge's use."
+    },
+    "description": "The primary type of service carried on the bridge deck (highway, railroad, pedestrian/bike, combinations, or complex interchange levels)."
+  },
+  "SERVICE_UND_042B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "This code indicates that a highway, potentially including pedestrian pathways, runs beneath the bridge, necessitating design considerations for vehicular load impacts and clearance requirements.",
+      "2": "This code signifies that a railroad passes under the bridge, requiring structural accommodations for dynamic loads and vibration effects from passing trains.",
+      "3": "This code represents pedestrian and bicycle pathways beneath the bridge, emphasizing the need for safety measures and adequate clearance for non-motorized traffic.",
+      "4": "This code denotes a combination of highway and railroad beneath the bridge, demanding complex structural analysis to address diverse load types and clearance standards.",
+      "5": "This code identifies a waterway flowing under the bridge, necessitating hydrological assessments and structural resilience against potential scour and water-induced forces.",
+      "6": "This code indicates both a highway and a waterway beneath the bridge, requiring integrated design solutions to manage vehicular loads and hydrodynamic forces.",
+      "7": "This code signifies a railroad and waterway beneath the bridge, necessitating structural strategies to accommodate train loads and water flow impacts.",
+      "8": "This code represents a combination of highway, waterway, and railroad beneath the bridge, requiring comprehensive engineering solutions for diverse load interactions and clearance needs.",
+      "9": "This code denotes a relief structure for a waterway, focusing on flood management and ensuring structural integrity during high water events.",
+      "0": "This code applies to other types of services beneath the bridge, requiring tailored engineering assessments based on specific service characteristics and structural demands."
+    },
+    "description": "The primary type of service that passes beneath the bridge (road, railroad, waterway, combinations, or none)."
+  },
+  "STRUCTURE_KIND_043A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete refers to bridges primarily constructed using reinforced concrete, offering durability and resistance to environmental factors, crucial for load-bearing and longevity in various climates.",
+      "2": "Concrete continuous bridges utilize uninterrupted spans of reinforced concrete, enhancing load distribution and reducing maintenance needs, vital for long-term structural integrity and performance.",
+      "3": "Steel bridges are constructed using steel components, known for their high strength-to-weight ratio, allowing for longer spans and flexibility in design, essential for dynamic load management.",
+      "4": "Steel continuous bridges feature uninterrupted steel spans, providing enhanced structural efficiency and reduced joint maintenance, critical for accommodating thermal expansion and contraction.",
+      "5": "Prestressed concrete bridges use pre-tensioned or post-tensioned concrete elements, increasing tensile strength and span capacity, important for minimizing cracking under service loads.",
+      "6": "Prestressed concrete continuous bridges employ continuous spans of prestressed concrete, optimizing load distribution and reducing deflection, key for maintaining structural serviceability over time.",
+      "7": "Wood or timber bridges are constructed using natural wood materials, offering sustainability and ease of construction, suitable for low-traffic or rural applications where environmental impact is a concern.",
+      "8": "Masonry bridges are built using stone or brick, valued for their historical significance and aesthetic appeal, often requiring specialized maintenance to preserve structural integrity.",
+      "9": "Aluminum, wrought iron, or cast iron bridges utilize these metals for their corrosion resistance and unique aesthetic qualities, important for specific design requirements and historical preservation.",
+      "0": "Other refers to bridges constructed with unconventional or mixed materials, requiring specialized analysis to assess structural behavior and ensure safety under diverse loading conditions."
+    },
+    "description": "The primary structural material system used for the main spans of the bridge (e.g., concrete, steel, prestressed concrete, timber)."
+  },
+  "STRUCTURE_TYPE_043B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "A slab bridge utilizes a flat, horizontal concrete slab as its main structural element, providing a simple and efficient design for short spans with minimal maintenance needs.",
+      "2": "Stringer or multi-beam bridges employ parallel beams or girders to support the deck, offering flexibility in span length and load distribution for various traffic conditions.",
+      "3": "Girder and floorbeam systems integrate longitudinal girders with transverse floorbeams, enhancing load distribution and structural redundancy for medium to long-span bridges.",
+      "4": "Tee beam bridges feature T-shaped cross-sections, combining the deck and beam into a single unit, optimizing material usage and simplifying construction for moderate spans.",
+      "5": "Multiple box beams or girders consist of several hollow, rectangular sections, providing high torsional resistance and efficient load distribution for longer spans and heavier loads.",
+      "6": "Single or spread box beams use individual hollow sections spaced apart, offering design flexibility and efficient load transfer for varying span lengths and site conditions.",
+      "7": "Frame bridges utilize rigid connections between beams and columns, forming a stable structure capable of resisting lateral forces, ideal for seismic regions and complex geometries.",
+      "8": "Orthotropic bridges employ a steel deck with stiffening ribs, optimizing weight and strength, suitable for long spans and heavy traffic with reduced material costs.",
+      "9": "Deck truss bridges position the truss structure beneath the deck, providing excellent load distribution and stability for long spans, often used in challenging terrain.",
+      "10": "Thru truss bridges have the deck passing through the truss structure, maximizing vertical clearance and load capacity, ideal for railways and high-traffic roadways.",
+      "11": "Deck arch bridges place the arch below the deck, offering aesthetic appeal and efficient load transfer, suitable for scenic locations and moderate spans.",
+      "12": "Thru arch bridges feature the deck suspended from the arch, providing high load capacity and visual impact, often used for iconic structures and long spans.",
+      "13": "Suspension bridges use cables to support the deck, allowing for extremely long spans and flexible designs, ideal for crossing large bodies of water or deep valleys.",
+      "14": "Stayed girder bridges employ cables directly connected to the deck, offering efficient load distribution and reduced material usage for medium to long spans.",
+      "15": "Movable lift bridges raise the deck vertically to allow passage of tall vessels, providing a practical solution for navigable waterways with variable traffic demands.",
+      "16": "Movable bascule bridges pivot the deck upward, resembling a drawbridge, facilitating maritime navigation while maintaining road connectivity in urban environments.",
+      "17": "Movable swing bridges rotate the deck horizontally, enabling vessel passage in constrained waterways, balancing operational efficiency with structural complexity.",
+      "18": "Tunnel bridges incorporate enclosed passageways, offering protection from environmental elements and maintaining traffic flow in challenging topographical conditions.",
+      "19": "Culvert bridges use enclosed conduits to allow water flow beneath roadways, providing cost-effective solutions for small water crossings and flood management.",
+      "20": "Mixed type bridges combine multiple structural forms, optimizing performance and adaptability for complex site conditions and diverse load requirements.",
+      "21": "Segmental box girder bridges use precast concrete segments, facilitating rapid construction and efficient load distribution for long spans and heavy traffic.",
+      "22": "Channel beam bridges employ U-shaped beams, offering simplicity and cost-effectiveness for short spans with moderate load demands.",
+      "0": "Other bridge types encompass unique or unconventional designs not classified under standard categories, requiring specialized analysis for structural assessment."
+    },
+    "description": "The main structural form/design configuration used for the bridge (e.g., slab, girder, truss, arch, suspension, culvert, etc.)."
+  },
+  "APPR_KIND_044A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete approach spans utilize reinforced concrete, offering durability and resistance to environmental factors, crucial for maintaining structural integrity and load distribution in bridge design.",
+      "2": "Concrete continuous spans are constructed without expansion joints, providing seamless load transfer and reducing maintenance needs, enhancing the bridge's longevity and performance under dynamic loads.",
+      "3": "Steel approach spans employ structural steel, known for its high strength-to-weight ratio, allowing for longer spans and efficient load-bearing capacity, essential in modern bridge engineering.",
+      "4": "Steel continuous spans are designed without joints, ensuring uniform stress distribution and minimizing fatigue, which is vital for long-term durability and reduced maintenance in seismic zones.",
+      "5": "Prestressed concrete spans use pre-tensioned or post-tensioned reinforcement, increasing tensile strength and load capacity, critical for supporting heavy traffic and resisting seismic forces.",
+      "6": "Prestressed concrete continuous spans eliminate joints, enhancing structural cohesion and reducing maintenance, essential for bridges in high-traffic or seismic-prone areas.",
+      "7": "Wood or timber spans are constructed using treated wood, offering cost-effective solutions for short spans, though they require regular maintenance to prevent deterioration and ensure safety.",
+      "8": "Masonry spans utilize stone or brick, providing aesthetic appeal and historical value, though they require careful analysis for load capacity and seismic vulnerability due to material brittleness.",
+      "9": "Aluminum, wrought iron, or cast iron spans use non-traditional metals, offering unique properties like corrosion resistance or historical significance, requiring specialized maintenance and structural assessment.",
+      "0": "Other materials encompass unconventional or composite systems, necessitating detailed engineering evaluation to ensure compatibility with design standards and performance under load and environmental conditions."
+    },
+    "description": "The primary structural material system used for the approach spans, if approach spans exist (e.g., concrete, steel, timber)."
+  },
+  "APPR_TYPE_044B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "A slab bridge approach span utilizes a flat, horizontal concrete slab to distribute loads, offering simplicity in design and construction, crucial for short spans with minimal maintenance needs.",
+      "2": "Stringer or multi-beam girder approach spans employ parallel beams supporting the deck, providing flexibility in span length and load distribution, essential for accommodating varying traffic demands.",
+      "3": "Girder and floorbeam systems use transverse floorbeams to support longitudinal girders, enhancing load distribution and structural redundancy, vital for complex load scenarios and longer spans.",
+      "4": "Tee beam approach spans integrate the deck and beam into a T-shaped cross-section, optimizing material use and structural efficiency, particularly effective for moderate spans with uniform loads.",
+      "5": "Multiple box beams or girders in approach spans offer high torsional stiffness and load distribution, ideal for wide bridges requiring enhanced stability and reduced deflection under traffic loads.",
+      "6": "Single or spread box beams or girders provide efficient load distribution and reduced construction depth, suitable for constrained vertical clearance situations and streamlined construction processes.",
+      "7": "Frame approach spans consist of rigidly connected beams and columns, offering stability and resistance to lateral forces, crucial for seismic regions and complex geometric configurations.",
+      "8": "Orthotropic approach spans feature a steel deck with orthogonally oriented ribs, optimizing weight and stiffness, essential for long spans and reducing material costs while maintaining strength.",
+      "9": "Deck truss approach spans use a truss structure beneath the deck, providing high strength-to-weight ratios, ideal for long spans and minimizing material usage while maximizing load capacity.",
+      "10": "Thru truss approach spans have the deck passing through the truss, offering unobstructed views and efficient load paths, suitable for long spans and aesthetic considerations in bridge design.",
+      "11": "Deck arch approach spans utilize an arch beneath the deck, providing natural load distribution and aesthetic appeal, effective for spanning large distances with minimal material use.",
+      "12": "Thru arch approach spans feature the deck suspended below the arch, combining structural efficiency with visual elegance, suitable for iconic bridges requiring long spans and minimal supports.",
+      "13": "Suspension approach spans use cables to support the deck, allowing for extremely long spans and flexibility, critical for crossing large bodies of water or deep valleys with minimal piers.",
+      "14": "Stayed girder approach spans employ cables connected to towers to support the deck, offering high load capacity and aesthetic appeal, ideal for medium to long spans with complex load requirements.",
+      "15": "Movable lift approach spans can be raised vertically to allow passage of vessels, providing flexibility in navigation and maintaining traffic flow, essential for bridges over navigable waterways.",
+      "16": "Movable bascule approach spans pivot upward to allow vessel passage, combining efficient operation with minimal space requirements, crucial for urban areas with limited horizontal clearance.",
+      "17": "Movable swing approach spans rotate horizontally to open a navigation channel, offering a practical solution for wide waterways, balancing operational efficiency with structural simplicity.",
+      "18": "Tunnel approach spans involve enclosed passageways, providing protection from environmental elements and maintaining traffic flow, essential for urban areas with space constraints and aesthetic considerations.",
+      "19": "Culvert approach spans use enclosed conduits to allow water flow beneath the bridge, ensuring hydraulic efficiency and structural stability, vital for flood-prone areas and maintaining road integrity.",
+      "20": "Mixed type approach spans incorporate multiple structural forms, offering versatility in design and adaptability to site-specific conditions, crucial for complex terrain and diverse load scenarios.",
+      "21": "Segmental box girder approach spans use precast segments joined to form a continuous structure, optimizing construction efficiency and material use, ideal for long spans and rapid deployment.",
+      "22": "Channel beam approach spans utilize U-shaped beams to support the deck, providing efficient load distribution and reduced construction depth, suitable for short to medium spans with limited clearance.",
+      "0": "Other approach span types encompass unconventional or unique structural forms, requiring specialized analysis and design considerations, essential for addressing site-specific challenges and innovative solutions."
+    },
+    "description": "The structural form/design configuration used for the approach spans, if approach spans exist (e.g., girder, slab, truss, culvert, etc.)."
+  },
+  "VERT_CLR_UND_REF_054A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "The vertical clearance is measured relative to a highway beneath the bridge, crucial for ensuring sufficient space for vehicular traffic and preventing structural interference or collisions.",
+      "R": "The vertical clearance is determined with respect to a railroad beneath the bridge, essential for maintaining safe passage of trains and preventing contact with overhead bridge components.",
+      "N": "The vertical clearance is assessed relative to a non-highway or non-railroad feature, such as a pedestrian path or waterway, where clearance requirements may vary significantly."
+    },
+    "description": "The feature type used as the reference for reported vertical clearance beneath the bridge (highway, railroad, or other)."
+  },
+  "LAT_UND_REF_055A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "The reported lateral clearance is measured relative to a highway beneath the bridge, crucial for assessing vehicle passage safety and potential impacts on bridge structural integrity.",
+      "R": "The reported lateral clearance is measured relative to a railroad beneath the bridge, essential for ensuring safe rail operations and preventing structural interference with train movements.",
+      "N": "The lateral clearance is measured relative to a non-highway or non-railroad feature beneath the bridge, such as a pedestrian path or natural terrain, affecting unique clearance requirements."
+    },
+    "description": "The feature type used as the reference for reported lateral clearance beneath the bridge (highway, railroad, or other)."
+  },
+  "DECK_COND_058": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The deck is in excellent condition, exhibiting no signs of deterioration or distress, ensuring optimal performance and safety with no immediate maintenance required.",
+      "8": "The deck is in very good condition with no visible problems, indicating a well-maintained structure that requires minimal attention to maintain its current state.",
+      "7": "The deck is in good condition, showing only minor issues such as superficial cracking, which do not affect structural integrity but may require monitoring.",
+      "6": "The deck is in satisfactory condition with minor deterioration like small cracks or surface wear, suggesting routine maintenance to prevent further degradation.",
+      "5": "The deck is in fair condition, displaying minor section loss, cracking, or scour that may affect durability, necessitating more frequent inspections and potential repairs.",
+      "4": "The deck is in poor condition with advanced section loss or deterioration, indicating a need for significant repairs to prevent further structural compromise.",
+      "3": "The deck is in serious condition, showing substantial section loss or fatigue/shear cracks, posing a risk to structural integrity and requiring urgent intervention.",
+      "2": "The deck is in critical condition with advanced deterioration or scour, severely compromising its load-carrying capacity and necessitating immediate remedial action.",
+      "1": "The deck is in imminent failure condition, closed to traffic but potentially restorable to light service through extensive repairs, highlighting urgent safety concerns.",
+      "0": "The deck is in failed condition, completely out of service and beyond repair, requiring replacement to restore functionality and ensure public safety."
+    },
+    "description": "The condition state of the deck element as assessed during inspection, reflecting deterioration such as cracking, spalling, corrosion, or section loss."
+  },
+  "SUPERSTRUCTURE_COND_059": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The superstructure is in excellent condition, showing no signs of deterioration or damage, ensuring optimal load-carrying capacity and structural integrity for safe bridge operation.",
+      "8": "The superstructure is in very good condition with no observable problems, indicating robust performance and minimal maintenance needs for continued safe service.",
+      "7": "The superstructure is in good condition with minor issues that do not significantly affect load-bearing capacity, requiring routine maintenance to prevent further deterioration.",
+      "6": "The superstructure is in satisfactory condition with minor deterioration, necessitating regular inspections to monitor potential progression and ensure continued structural safety.",
+      "5": "The superstructure is in fair condition, exhibiting minor section loss, cracking, or scour, which may affect load distribution and requires timely maintenance interventions.",
+      "4": "The superstructure is in poor condition with advanced section loss or deterioration, potentially compromising load capacity and necessitating urgent repair to prevent further damage.",
+      "3": "The superstructure is in serious condition, showing significant loss of section or fatigue/shear cracks, posing a risk to structural stability and requiring immediate engineering assessment.",
+      "2": "The superstructure is in critical condition with advanced deterioration or scour, severely affecting structural integrity and demanding immediate corrective action to avert failure.",
+      "1": "The superstructure is in imminent failure condition, closed to traffic but potentially restorable for light service through extensive repairs, highlighting urgent safety concerns.",
+      "0": "The superstructure is in failed condition, out of service and beyond corrective action, indicating complete loss of load-carrying capacity and necessitating replacement or major reconstruction."
+    },
+    "description": "The condition state of the superstructure as assessed during inspection, reflecting deterioration or damage in main load-carrying members."
+  },
+  "SUBSTRUCTURE_COND_060": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The substructure is in excellent condition, exhibiting no signs of deterioration or damage, ensuring optimal performance and structural integrity for the bridge's lifespan.",
+      "8": "The substructure is in very good condition with no visible problems, indicating robust structural health and minimal maintenance requirements for continued safe operation.",
+      "7": "The substructure is in good condition with minor issues, such as superficial wear, that do not compromise structural integrity or immediate safety concerns.",
+      "6": "The substructure is in satisfactory condition, showing minor deterioration that requires monitoring but does not yet affect the bridge's load-bearing capacity.",
+      "5": "The substructure is in fair condition, with minor section loss, cracking, or scour that necessitates maintenance to prevent further degradation and ensure safety.",
+      "4": "The substructure is in poor condition, exhibiting advanced section loss or deterioration that significantly impacts structural performance and requires prompt remedial action.",
+      "3": "The substructure is in serious condition, with substantial section loss or fatigue/shear cracks that pose a risk to structural integrity and demand urgent intervention.",
+      "2": "The substructure is in critical condition, showing advanced deterioration or scour that severely compromises safety and requires immediate corrective measures to prevent failure.",
+      "1": "The substructure is in imminent failure condition, closed to traffic but potentially repairable for limited service, indicating urgent need for structural rehabilitation.",
+      "0": "The substructure is in failed condition, out of service and beyond repair, necessitating replacement to restore functionality and ensure public safety."
+    },
+    "description": "The condition state of the substructure as assessed during inspection, reflecting deterioration or damage in piers, abutments, and foundations above waterline."
+  },
+  "CHANNEL_COND_061": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The channel and its protective measures are in optimal condition with no visible deficiencies, ensuring stable hydraulic performance and no immediate threat to bridge foundations.",
+      "8": "The channel banks are either well-protected or naturally vegetated, with stable control devices, indicating minimal risk of erosion or instability affecting the bridge structure.",
+      "7": "Minor repairs are needed for bank protection or control devices, with small amounts of drift present, suggesting early signs of potential erosion or flow obstruction.",
+      "6": "There is minor slumping of the banks and debris slightly restricts the channel, indicating moderate erosion that could gradually impact the bridge's structural integrity.",
+      "5": "Erosion has compromised bank protection, and trees or brush are significantly restricting water flow, posing a risk of increased hydraulic pressure on the bridge foundations.",
+      "4": "Protection measures are severely undermined with heavy debris deposits, indicating a critical condition that could lead to significant structural threats if not addressed promptly.",
+      "3": "The failure of bank protection has occurred, and the channel's altered state poses an immediate threat to the bridge's stability, requiring urgent engineering intervention.",
+      "2": "Changes in the channel's course or flow dynamics are severe enough to threaten the bridge's collapse, necessitating immediate structural assessment and potential emergency measures.",
+      "1": "The bridge is closed due to channel failure, but repairs are feasible, indicating a severe condition that requires prompt engineering solutions to restore functionality.",
+      "0": "The bridge is closed due to catastrophic channel failure, necessitating complete replacement, reflecting an extreme condition where repair is not viable."
+    },
+    "description": "The condition state of the channel and channel protection at the crossing, reflecting erosion, instability, debris, and threat to foundations."
+  },
+  "OPR_RATING_METH_063": {
+    "type": "nominal",
+    "code_map": {
+      "1": "The Load Factor method involves calculating the bridge's capacity using safety factors applied to loads, ensuring structural integrity under various load conditions for safe heavy-vehicle passage.",
+      "2": "The Allowable Stress method assesses the bridge's capacity by comparing calculated stresses to permissible limits, ensuring the structure remains within safe stress levels during heavy-vehicle transit.",
+      "3": "The Load and Resistance Factor Rating (LRFR) method evaluates bridge capacity by applying load and resistance factors, providing a probabilistic approach to ensure safety and reliability under heavy loads.",
+      "4": "Load Testing involves physically applying loads to the bridge to directly measure its response, offering empirical data to confirm safe load-carrying capacity for heavy vehicles.",
+      "5": "No rating analysis performed indicates that the bridge's load-carrying capacity has not been analytically or empirically assessed, potentially impacting safety and regulatory compliance for heavy-vehicle passage."
+    },
+    "description": "The analytical or test-based method used to determine the bridge operating rating used for load posting and safe heavy-vehicle passage."
+  },
+  "INV_RATING_METH_065": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Load Factor (LF) method involves calculating the bridge's capacity using factors that account for uncertainties in loads and material strengths, ensuring safety under normal service conditions.",
+      "2": "Allowable Stress (AS) method determines the bridge's capacity by comparing calculated stresses to permissible limits, ensuring structural integrity under expected service loads without exceeding material stress limits.",
+      "3": "Load and Resistance Factor Rating (LRFR) method uses probabilistic approaches to assess bridge capacity, balancing load effects and resistance factors for a more reliable safety margin under service conditions.",
+      "4": "Load Testing involves physically applying loads to the bridge to directly measure its performance and capacity, providing empirical data to validate analytical models and ensure safety under actual conditions.",
+      "5": "No rating analysis performed indicates that the bridge's service load capacity has not been evaluated, potentially leaving uncertainties in its ability to safely carry expected traffic loads."
+    },
+    "description": "The analytical or test-based method used to determine the bridge inventory rating representing normal allowable service loading capacity."
+  },
+  "STRUCTURAL_EVAL_067": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The bridge exceeds current desirable structural criteria, indicating exceptional load-bearing capacity and condition, with no significant deficiencies affecting its operational safety or longevity.",
+      "8": "The bridge meets current desirable structural criteria, demonstrating adequate load-bearing capacity and condition, ensuring safe operation without any notable deficiencies or concerns.",
+      "7": "The bridge surpasses minimum structural criteria, offering improved load-bearing capacity and condition, with minor deficiencies that do not compromise overall safety or functionality.",
+      "6": "The bridge meets minimum structural criteria, providing sufficient load-bearing capacity and condition, with manageable deficiencies that require monitoring but not immediate intervention.",
+      "5": "The bridge slightly exceeds minimum tolerable adequacy, with adequate load-bearing capacity and condition, though some deficiencies may necessitate future maintenance to ensure continued safety.",
+      "4": "The bridge meets minimum tolerable limits, maintaining basic load-bearing capacity and condition, but existing deficiencies require attention to prevent further deterioration and ensure safety.",
+      "3": "The bridge is essentially intolerable, with compromised load-bearing capacity and condition, necessitating urgent corrective actions to address critical deficiencies and ensure structural safety.",
+      "2": "The bridge is fundamentally intolerable, with severely compromised load-bearing capacity and condition, requiring immediate replacement to address critical deficiencies and prevent structural failure.",
+      "1": "This code is not utilized in the structural evaluation rating system, serving as a placeholder without practical application in assessing bridge adequacy.",
+      "0": "The bridge is closed due to inadequate load-bearing capacity and severe deficiencies, posing significant safety risks that prevent its use until necessary repairs or replacement are completed."
+    },
+    "description": "A summary structural adequacy rating that reflects the bridge’s ability to safely carry loads considering condition, capacity, and observed deficiencies."
+  },
+  "DECK_GEOMETRY_EVAL_068": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The bridge deck geometry significantly exceeds current desirable standards, offering optimal safety and functionality, minimizing risk of traffic congestion and enhancing overall structural performance.",
+      "8": "The bridge deck geometry fully meets current desirable standards, ensuring adequate safety and functionality, supporting efficient traffic flow and maintaining structural integrity under normal conditions.",
+      "7": "The bridge deck geometry surpasses minimum criteria, providing enhanced safety and operational efficiency, reducing potential for traffic bottlenecks and improving resilience against moderate stressors.",
+      "6": "The bridge deck geometry meets the minimum criteria, ensuring basic safety and functionality, but may require monitoring to address potential issues under increased load or adverse conditions.",
+      "5": "The bridge deck geometry slightly exceeds minimum tolerable standards, offering marginal improvements in safety and functionality, but may necessitate future upgrades to maintain performance.",
+      "4": "The bridge deck geometry meets the minimum tolerable limits, allowing continued use but indicating a need for future improvements to prevent safety and operational deficiencies.",
+      "3": "The bridge deck geometry is inadequate, posing significant safety risks and operational challenges, necessitating urgent corrective measures to prevent further deterioration and ensure user safety.",
+      "2": "The bridge deck geometry is critically deficient, requiring immediate replacement to address severe safety hazards and operational failures, preventing potential structural collapse or traffic disruptions.",
+      "1": "This code is not utilized in the current evaluation system, indicating no applicable assessment for this specific condition within the bridge deck geometry criteria.",
+      "0": "The bridge is closed due to severe deficiencies in deck geometry, posing unacceptable safety risks and necessitating immediate closure to prevent accidents and structural failures."
+    },
+    "description": "A geometry adequacy rating reflecting whether deck width, shoulders, lane arrangement, and related geometric features meet accepted criteria."
+  },
+  "UNDCLRENCE_EVAL_069": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The bridge's vertical and lateral clearances significantly exceed current desirable standards, ensuring optimal safety and operational efficiency for all types of traffic passing beneath.",
+      "8": "The bridge's vertical and lateral clearances meet current desirable standards, providing adequate safety and operational efficiency for the traffic passing beneath without any restrictions.",
+      "7": "The bridge's clearances are above the minimum criteria, offering enhanced safety margins and operational flexibility for the traffic beneath, reducing potential collision risks.",
+      "6": "The bridge's clearances meet the minimum criteria, ensuring basic safety and functionality for the traffic beneath, though improvements could enhance operational conditions.",
+      "5": "The bridge's clearances are slightly above the minimum tolerable levels, providing marginally improved safety and operational conditions for the traffic beneath, but still warranting monitoring.",
+      "4": "The bridge's clearances meet the minimum tolerable limits, allowing continued use but indicating a need for future improvements to maintain safety and operational standards.",
+      "3": "The bridge's clearances are inadequate, posing significant safety risks and necessitating urgent corrective actions to prevent potential hazards for the traffic beneath.",
+      "2": "The bridge's clearances are critically inadequate, requiring immediate replacement to ensure safety and prevent severe operational disruptions for the traffic beneath.",
+      "1": "This code is not utilized in the current evaluation system, indicating no applicable clearance rating for this category.",
+      "0": "The bridge is closed due to insufficient clearances, posing unacceptable safety risks and operational challenges, necessitating immediate closure and reevaluation for future use."
+    },
+    "description": "A clearance adequacy rating reflecting whether vertical/lateral clearances under the bridge are acceptable for the feature passing beneath."
+  },
+  "POSTING_EVAL_070": {
+    "type": "nominal",
+    "code_map": {
+      "5": "The bridge is capable of safely supporting legal vehicular loads without any restrictions, indicating optimal structural performance and full compliance with load-bearing standards.",
+      "4": "The bridge can support loads marginally below legal limits, requiring minor restrictions to ensure safety, reflecting slight structural deficiencies needing monitoring or minor reinforcement.",
+      "3": "The bridge supports loads 10.0–19.9% below legal limits, necessitating moderate restrictions to prevent overloading, highlighting significant structural concerns that may require engineering intervention.",
+      "2": "The bridge supports loads 20.0–29.9% below legal limits, indicating substantial restrictions are necessary, pointing to critical structural vulnerabilities that demand urgent engineering assessment and potential retrofitting.",
+      "1": "The bridge supports loads 30.0–39.9% below legal limits, requiring severe restrictions, underscoring major structural inadequacies that pose safety risks and necessitate immediate engineering solutions.",
+      "0": "The bridge supports loads more than 39.9% below legal limits, necessitating extreme restrictions or closure, indicating severe structural failure risks requiring comprehensive engineering evaluation and rehabilitation."
+    },
+    "description": "A posting adequacy rating reflecting whether the bridge can safely carry legal loads or requires restrictions below legal limits."
+  },
+  "WATERWAY_EVAL_071": {
+    "type": "nominal",
+    "code_map": {
+      "N": "This code indicates that the waterway adequacy evaluation is not applicable to the bridge, possibly due to the absence of a waterway or hydraulic concerns beneath the structure.",
+      "9": "The bridge's hydraulic performance and opening exceed current desirable criteria, ensuring exceptional capacity to handle expected water flows and flood conditions without risk of overtopping.",
+      "8": "The bridge meets current desirable criteria for hydraulic performance, indicating it is well-equipped to manage anticipated water flows and flood events effectively and safely.",
+      "7": "The bridge's hydraulic characteristics surpass minimum criteria, providing enhanced protection against water flow and flood risks, contributing to improved structural resilience and safety.",
+      "6": "The bridge meets the minimum criteria for hydraulic adequacy, indicating it can handle expected water flows and flood conditions but with limited safety margins.",
+      "5": "The bridge's hydraulic performance is slightly above the minimum tolerable adequacy, suggesting moderate capacity to manage water flows with some risk during extreme conditions.",
+      "4": "The bridge meets the minimum tolerable limits for hydraulic adequacy, allowing it to remain in service but requiring monitoring for potential flood-related vulnerabilities.",
+      "3": "The bridge's hydraulic performance is intolerable, necessitating urgent corrective actions to address significant risks associated with water flow and potential flooding.",
+      "2": "The bridge's hydraulic inadequacy is critical, requiring immediate replacement to mitigate severe risks posed by water flow and flood conditions.",
+      "1": "This code is not utilized in the current evaluation system, possibly reserved for future use or specific conditions not presently defined.",
+      "0": "The bridge is closed due to inadequate hydraulic performance, posing unacceptable risks from water flow and flooding, necessitating closure to ensure public safety."
+    },
+    "description": "A waterway adequacy rating reflecting whether the bridge opening and hydraulic performance are adequate for expected flows and flood conditions."
+  },
+  "APPR_ROAD_EVAL_072": {
+    "type": "nominal",
+    "code_map": {
+      "N": "This code indicates that the approach roadway alignment evaluation is not applicable, possibly due to the absence of a defined approach or unique site conditions.",
+      "9": "The approach roadway alignment significantly exceeds current desirable criteria, offering optimal safety and operational efficiency for vehicular traffic approaching the bridge.",
+      "8": "The approach roadway alignment meets current desirable criteria, ensuring a high level of safety and functionality for vehicles accessing the bridge structure.",
+      "7": "The approach roadway alignment surpasses minimum criteria, providing enhanced safety and operational conditions compared to basic requirements for vehicles approaching the bridge.",
+      "6": "The approach roadway alignment meets the minimum criteria, offering acceptable safety and operational conditions for vehicles accessing the bridge, but with no additional enhancements.",
+      "5": "The approach roadway alignment is slightly better than the minimum tolerable adequacy, indicating marginal improvements in safety and operational conditions for vehicles approaching the bridge.",
+      "4": "The approach roadway alignment meets the minimum tolerable limits, allowing the bridge to remain operational but indicating a need for future improvements to enhance safety.",
+      "3": "The approach roadway alignment is basically intolerable, necessitating high-priority corrective actions to address significant safety and operational deficiencies for vehicles approaching the bridge.",
+      "2": "The approach roadway alignment is critically deficient, requiring immediate replacement to rectify severe safety and operational issues for vehicles accessing the bridge.",
+      "1": "This code is not used in the evaluation of approach roadway alignment adequacy, possibly reserved for future criteria or specific conditions.",
+      "0": "The bridge is closed due to the approach roadway alignment being unsafe or inadequate, preventing vehicular access until necessary improvements are made."
+    },
+    "description": "An approach roadway alignment adequacy rating reflecting whether the roadway alignment approaching the bridge is acceptable and safe."
+  },
+  "WORK_PROPOSED_075A": {
+    "type": "nominal",
+    "code_map": {
+      "31": "Replacement is necessitated by the bridge's inability to support current load demands or meet modern roadway geometry standards, ensuring safety and compliance with engineering specifications.",
+      "32": "Bridge replacement is required due to the realignment or relocation of the road, necessitating structural adjustments to accommodate new traffic patterns and connectivity.",
+      "33": "Widening the bridge without deck rehabilitation or replacement involves extending the structure's width, including culvert lengthening, to improve traffic flow and capacity without altering the deck.",
+      "34": "Widening with deck rehabilitation or replacement involves expanding the bridge's width while simultaneously repairing or replacing the deck to enhance structural integrity and traffic accommodation.",
+      "35": "Bridge rehabilitation addresses deterioration or insufficient strength, focusing on restoring the structure's load-bearing capacity and extending its service life through targeted repairs.",
+      "36": "Deck rehabilitation with incidental widening involves repairing the bridge deck while slightly increasing its width, enhancing both structural performance and traffic accommodation.",
+      "37": "Deck replacement with incidental widening entails replacing the entire bridge deck and slightly increasing its width, improving structural integrity and traffic capacity.",
+      "38": "Other structural or hydraulic work includes various modifications or repairs to the bridge's structural components or hydraulic systems, addressing specific engineering challenges or environmental conditions."
+    },
+    "description": "The type of work action planned for the bridge such as rehabilitation, deck work, widening, replacement, or other structural/hydraulic work."
+  },
+  "FRACTURE_092A": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "The bridge requires a fracture-critical inspection due to non-redundant tension members, where failure could lead to collapse, necessitating regular inspections at specified intervals, such as every 24 months.",
+      "N": "The bridge does not require fracture-critical inspection, indicating that its design includes redundant load paths, reducing the risk of collapse from a single member failure."
+    },
+    "description": "Whether the bridge requires fracture-critical inspection due to non-redundant tension members where failure could lead to collapse, including any specified interval."
+  },
+  "UNDWATER_LOOK_SEE_092B": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "The bridge requires periodic underwater inspection due to submerged structural elements or potential scour, with specified intervals in months, ensuring integrity and safety against water-induced damage.",
+      "N": "The bridge does not require underwater inspection as it lacks submerged elements or significant scour risk, indicating minimal vulnerability to water-related structural deterioration."
+    },
+    "description": "Whether the bridge requires underwater inspection due to submerged elements or scour exposure, including any specified inspection interval."
+  },
+  "SPEC_INSPECT_092C": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "The bridge requires a special inspection beyond routine cycles due to unique structural details, potential hazards, or known issues, with specified inspection intervals to ensure safety and integrity.",
+      "N": "The bridge does not require any special inspection beyond routine cycles, indicating no unusual structural details or known issues that necessitate additional monitoring or assessment."
+    },
+    "description": "Whether the bridge requires special inspection beyond routine cycles due to unusual details, hazards, or known issues, including any specified interval."
+  },
+  "STRAHNET_HIGHWAY_100": {
+    "type": "nominal",
+    "code_map": {
+      "1": "The bridge is not located on any STRAHNET route, indicating it does not serve a direct role in defense logistics or strategic military transportation planning.",
+      "2": "The bridge is situated on an Interstate STRAHNET route, highlighting its critical role in facilitating rapid military mobilization and efficient defense-related transportation across state lines.",
+      "3": "The bridge is positioned on a Non-Interstate STRAHNET route, underscoring its importance in supporting defense logistics through secondary highways that complement primary interstate routes.",
+      "4": "The bridge is on a STRAHNET connector route, emphasizing its function in linking major military installations or facilities to the broader strategic highway network for logistical efficiency."
+    },
+    "description": "The bridge’s relationship to the STRAHNET network indicating whether it lies on a strategic highway route or connector important for defense logistics."
+  },
+  "PARALLEL_STRUCTURE_101": {
+    "type": "nominal",
+    "code_map": {
+      "R": "This code indicates the bridge is the right structure of a pair of parallel bridges, aligned with the inventoried travel direction, crucial for load distribution and seismic response analysis.",
+      "L": "This code signifies the bridge is the left structure of parallel bridges, opposite to the inventoried travel direction, important for assessing lateral load effects and structural interaction.",
+      "N": "This code denotes that no parallel structure exists, simplifying structural analysis by eliminating considerations of inter-bridge dynamic interactions and shared load paths."
+    },
+    "description": "Whether this bridge is one of a pair of parallel structures and, if so, which side it represents relative to the inventoried travel direction."
+  },
+  "TRAFFIC_DIRECTION_102": {
+    "type": "nominal",
+    "code_map": {
+      "0": "This code indicates that the bridge does not support highway traffic, which is crucial for assessing load-bearing requirements and structural design considerations for non-vehicular uses.",
+      "1": "This code signifies that the bridge is designed for one-way traffic flow, impacting load distribution and structural dynamics, essential for optimizing traffic management and safety protocols.",
+      "2": "This code represents a bridge accommodating two-way traffic, necessitating analysis of bidirectional load impacts and structural resilience to ensure safe and efficient traffic operations.",
+      "3": "This code describes a one-lane bridge allowing two-way traffic, requiring careful structural assessment to manage alternating traffic loads and ensure safe passage under constrained conditions."
+    },
+    "description": "The traffic flow configuration carried by the bridge (one-way, two-way, or special one-lane/two-way operating condition)."
+  },
+  "HIGHWAY_SYSTEM_104": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The bridge is not part of the National Highway System, indicating it has lower national significance and may receive less federal oversight and funding for maintenance and upgrades.",
+      "1": "The bridge is part of the National Highway System, highlighting its critical role in national transportation, warranting prioritized federal oversight, funding, and stringent structural performance standards."
+    },
+    "description": "Whether the bridge is part of the National Highway System, indicating national-level roadway importance and funding/oversight relevance."
+  },
+  "FEDERAL_LANDS_105": {
+    "type": "nominal",
+    "code_map": {
+      "0": "This code indicates that the bridge is not situated on any federal lands highway route, implying no special federal jurisdiction or maintenance considerations for structural assessments.",
+      "1": "The bridge is located on an Indian Reservation Road, highlighting the need for culturally sensitive engineering practices and potential federal oversight in maintenance and seismic retrofitting.",
+      "2": "The bridge is part of a Forest Highway, necessitating considerations for environmental impact, access for forest management, and potential federal funding for structural improvements.",
+      "3": "The bridge lies on a Land Management Highway System, indicating federal involvement in land use planning and potential implications for structural design and maintenance priorities.",
+      "4": "This code signifies the bridge is on both an Indian Reservation Road and a Forest Highway, requiring integrated management strategies and dual compliance with federal and tribal regulations.",
+      "5": "The bridge is on both an Indian Reservation Road and a Land Management Highway System, necessitating coordination between federal and tribal authorities for structural integrity and safety assessments.",
+      "6": "The bridge is situated on both a Forest Highway and a Land Management Highway System, indicating complex jurisdictional oversight and potential for enhanced federal funding for structural enhancements.",
+      "9": "The bridge is on a combined route of Indian Reservation Road, Forest Highway, and Land Management Highway System, requiring comprehensive federal coordination for structural safety and maintenance."
+    },
+    "description": "Whether the bridge lies on a federal lands highway route class (e.g., IRR, forest highway, land management system), indicating federal lands context."
+  },
+  "DECK_STRUCTURE_TYPE_107": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete cast-in-place decks are constructed by pouring concrete into molds on-site, providing robust structural integrity and adaptability to complex bridge geometries, crucial for load distribution and durability.",
+      "2": "Concrete precast panel decks involve factory-made concrete sections assembled on-site, offering rapid construction and consistent quality, essential for minimizing traffic disruption and ensuring structural uniformity.",
+      "3": "Open grating decks consist of metal grids with open spaces, reducing weight and allowing drainage, critical for minimizing dead load and preventing water accumulation on bridge surfaces.",
+      "4": "Closed grating decks feature metal grids with filled spaces, providing a solid surface while maintaining reduced weight, important for balancing load capacity and surface continuity.",
+      "5": "Steel plate decks, including orthotropic designs, use steel sheets to form the deck surface, offering high strength-to-weight ratios and flexibility, vital for accommodating dynamic loads and thermal expansion.",
+      "6": "Corrugated steel decks utilize ridged steel sheets to enhance stiffness and load distribution, essential for lightweight bridge applications and efficient material usage in spanning capabilities.",
+      "7": "Aluminum decks are constructed from aluminum panels, providing corrosion resistance and reduced weight, important for extending bridge lifespan and facilitating rapid installation in corrosive environments.",
+      "8": "Wood or timber decks use natural wood materials, offering traditional aesthetics and ease of repair, significant for low-traffic or historical bridges where environmental integration is prioritized.",
+      "9": "Other deck types encompass non-standard materials or innovative designs, allowing for specialized applications and experimental approaches, crucial for addressing unique engineering challenges or site-specific requirements.",
+      "0": "None indicates the absence of a structural deck, relevant for certain bridge types like suspension or cable-stayed bridges where the deck is integral to the main structural system.",
+      "N": "Not applicable signifies situations where the deck type is irrelevant, such as culverts or non-bridge structures, ensuring clarity in structural categorization and assessment processes."
+    },
+    "description": "The structural deck type describing the deck’s primary material/form (cast-in-place concrete, precast panels, steel plate, grating, timber, etc.)."
+  },
+  "SURFACE_TYPE_108A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Monolithic concrete is a wearing surface placed simultaneously with the structural deck, providing a seamless integration that enhances load distribution and reduces maintenance needs.",
+      "2": "Integral concrete is a non-modified separate layer applied over the deck, offering additional protection and durability without altering the original deck composition.",
+      "3": "Latex concrete or similar additives are used as overlays to improve the deck's flexibility and resistance to cracking, crucial for extending the bridge's service life.",
+      "4": "Low slump concrete is a dense overlay applied to enhance the deck's durability and skid resistance, essential for maintaining safe driving conditions under various weather conditions.",
+      "5": "Epoxy overlay is a thin, protective layer that provides excellent adhesion and waterproofing, crucial for preventing moisture ingress and subsequent structural deterioration.",
+      "6": "Bituminous surfaces are asphalt-based overlays that offer a smooth, flexible riding surface, important for accommodating thermal expansion and contraction without cracking.",
+      "7": "Wood or timber surfaces are used in specific contexts where traditional materials are impractical, providing a lightweight and renewable option for certain bridge applications.",
+      "8": "Gravel surfaces are typically used in low-traffic or temporary bridge applications, offering a cost-effective solution with minimal structural impact but requiring regular maintenance.",
+      "9": "Other surfaces include non-standard materials tailored to specific engineering requirements, addressing unique environmental or operational challenges not covered by conventional options.",
+      "0": "None indicates the absence of an added surface layer, exposing the structural deck directly to traffic and environmental conditions, which may affect its longevity and performance.",
+      "N": "Not applicable signifies that the bridge lacks a structural deck, often seen in certain types of culverts or pedestrian bridges where a wearing surface is unnecessary."
+    },
+    "description": "The wearing surface placed on top of the structural deck, describing the overlay/surfacing material and whether an added surface exists."
+  },
+  "MEMBRANE_TYPE_108B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "The membrane system is a built-up type, consisting of multiple layers of materials applied to form a composite barrier, crucial for preventing water infiltration and protecting deck integrity.",
+      "2": "The membrane system uses preformed fabric, a factory-produced sheet material, providing a uniform waterproof barrier that is essential for minimizing water-induced deterioration of the bridge deck.",
+      "3": "The membrane system is epoxy-based, utilizing a resinous compound that forms a durable, adhesive barrier, critical for sealing the deck surface against moisture ingress and chemical attack.",
+      "8": "The membrane type is unknown, indicating a lack of specific data on the waterproofing system, which complicates assessments of the deck's vulnerability to water damage and subsequent structural issues.",
+      "9": "The membrane system is categorized as other, signifying a non-standard or uncommon type, necessitating detailed inspection to evaluate its effectiveness in protecting the deck from moisture-related deterioration.",
+      "0": "No membrane system is present, exposing the deck to direct water contact, which significantly increases the risk of structural degradation and necessitates frequent maintenance and monitoring.",
+      "N": "Not applicable as there is no deck present, eliminating the need for a waterproofing membrane system and focusing structural assessments on other bridge components."
+    },
+    "description": "The waterproofing membrane system associated with the deck, describing the barrier type used between deck and overlay where applicable."
+  },
+  "DECK_PROTECTION_108C": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Epoxy-coated reinforcing involves applying a protective epoxy layer to steel reinforcement, enhancing corrosion resistance and extending the deck's service life in aggressive environments.",
+      "2": "Galvanized reinforcing uses a zinc coating on steel bars to prevent corrosion, crucial for maintaining structural integrity in chloride-laden or coastal environments.",
+      "3": "Other coated reinforcing refers to alternative protective coatings applied to steel reinforcement, tailored to specific environmental conditions to mitigate corrosion and enhance durability.",
+      "4": "Cathodic protection involves an electrochemical system that prevents corrosion of steel reinforcement by making it the cathode of an electrochemical cell, crucial for longevity.",
+      "6": "Polymer impregnated decks are treated with polymers to fill voids and cracks, significantly enhancing durability and resistance to environmental degradation and chemical attack.",
+      "7": "Internally sealed decks incorporate sealants within the concrete matrix, reducing permeability and protecting reinforcement from moisture ingress and subsequent corrosion.",
+      "8": "Unknown indicates that the corrosion protection system for the deck reinforcement is not documented, posing challenges for accurate structural assessment and maintenance planning.",
+      "9": "Other refers to any non-standard or innovative corrosion protection systems not categorized, requiring specific evaluation for effectiveness and compatibility with bridge conditions.",
+      "0": "None indicates the absence of any corrosion protection system for the deck reinforcement, increasing vulnerability to environmental degradation and reducing structural lifespan.",
+      "N": "Not applicable signifies that the bridge lacks a deck component, rendering corrosion protection considerations irrelevant for this particular structural configuration."
+    },
+    "description": "The corrosion/durability protection system used for the deck reinforcement or deck system (e.g., epoxy coating, galvanizing, cathodic protection)."
+  },
+  "NATIONAL_NETWORK_110": {
+    "type": "nominal",
+    "code_map": {
+      "0": "The bridge is not included in the national network for trucks, indicating it does not serve as a primary route for freight movement, affecting its design and load-bearing considerations.",
+      "1": "The bridge is part of the national network for trucks, signifying its role in supporting heavy freight traffic, necessitating robust structural design and regular maintenance to ensure safety and functionality."
+    },
+    "description": "Whether the bridge is on the designated national network for trucks, indicating whether it serves routes prioritized for freight movement."
+  },
+  "PIER_PROTECTION_111": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Navigation protection measures are deemed unnecessary for this bridge, indicating that the risk of collision or impact from navigational activities is minimal or non-existent.",
+      "2": "Existing pier and abutment protection systems are fully operational, effectively mitigating potential collision impacts and ensuring the structural integrity of the bridge is maintained.",
+      "3": "Protection systems are installed but exhibit signs of deterioration, potentially compromising their effectiveness in preventing collision impacts and necessitating maintenance or repair.",
+      "4": "Protection measures are currently in place, but a re-evaluation is recommended to assess their adequacy and ensure continued effectiveness against navigational impacts.",
+      "5": "No protection systems are currently installed, but a re-evaluation is advised to determine if protective measures are necessary to safeguard the bridge from potential impacts."
+    },
+    "description": "The status and condition of pier/abutment protection measures intended to reduce collision or navigation impacts (or note if not required)."
+  },
+  "SCOUR_CRITICAL_113": {
+    "type": "nominal",
+    "code_map": {
+      "N": "The bridge is not situated over a waterway, indicating that scour-related issues are irrelevant to its structural stability and do not require further evaluation.",
+      "U": "The bridge has an unknown foundation type and has not been evaluated for scour vulnerability, necessitating a plan of action to assess potential risks.",
+      "T": "The bridge spans tidal waters and has not been evaluated for scour, but is considered to have a low risk due to tidal conditions.",
+      "9": "The bridge's foundations are located on dry land significantly above the flood elevation, ensuring stability and eliminating concerns related to scour vulnerability.",
+      "8": "The bridge's foundations are stable with scour occurring above the top of the footing, either resisting scour naturally or having effective countermeasures in place.",
+      "7": "Countermeasures have been installed to mitigate scour risk, and a plan of action has been implemented to ensure ongoing structural stability.",
+      "6": "The bridge has not yet undergone an evaluation for scour vulnerability, leaving its foundation stability under potential scour conditions undetermined.",
+      "5": "The bridge's foundations are stable with scour occurring within the limits of the footing or piles, indicating manageable risk under current conditions.",
+      "4": "The bridge's foundations are stable, but action is required to protect exposed foundations from potential scour-related damage to maintain structural integrity.",
+      "3": "The bridge is scour critical with unstable foundations under assessed or calculated conditions, necessitating immediate attention to prevent structural failure.",
+      "2": "The bridge is scour critical with extensive scour observed or evaluated, rendering the foundations unstable and requiring urgent remedial measures.",
+      "1": "The bridge is scour critical with imminent failure of piers or abutments, leading to its closure to traffic to prevent catastrophic collapse.",
+      "0": "The bridge has failed due to scour, resulting in its closure to traffic as the structural integrity is compromised beyond safe operational limits."
+    },
+    "description": "The scour critical rating describing the stability of foundations relative to observed or evaluated scour vulnerability and countermeasure effectiveness."
+  },
+  "BRIDGE_CONDITION": {
+    "type": "nominal",
+    "code_map": {
+      "G": "A bridge in good condition indicates that the lowest NBI rating is 7 or higher, signifying minimal deterioration and ensuring optimal structural performance and safety under normal service conditions.",
+      "F": "A bridge in fair condition has a lowest NBI rating between 5 and 6, reflecting moderate deterioration that may require maintenance to prevent further degradation and ensure continued safe operation.",
+      "P": "A bridge in poor condition has a lowest NBI rating of 4 or lower, indicating significant deterioration that compromises structural integrity and necessitates urgent repairs or replacement to ensure safety."
+    },
+    "description": "A categorical overall condition label derived from the lowest key NBI condition rating, grouping the bridge into good, fair, or poor condition."
+  },
+  "LOWEST_RATING": {
+    "type": "nominal",
+    "code_map": {
+      "9": "The bridge component is in excellent condition, indicating no visible deterioration or defects, ensuring optimal performance and minimal maintenance needs, crucial for long-term structural integrity and safety.",
+      "8": "The bridge component is in very good condition, with minor signs of wear that do not affect functionality, highlighting the importance of routine inspections to maintain this high standard.",
+      "7": "The bridge component is in good condition, showing minor deterioration that requires monitoring, emphasizing the need for regular maintenance to prevent further degradation and ensure safety.",
+      "6": "The bridge component is in satisfactory condition, with noticeable deterioration that requires attention, underscoring the importance of timely repairs to maintain structural performance and safety.",
+      "5": "The bridge component is in fair condition, exhibiting significant deterioration that may affect performance, necessitating detailed inspections and maintenance planning to prevent further decline.",
+      "4": "The bridge component is in poor condition, with advanced deterioration impacting functionality, requiring immediate evaluation and repair strategies to ensure continued safe operation.",
+      "3": "The bridge component is in serious condition, with severe deterioration compromising structural integrity, demanding urgent intervention to prevent potential safety hazards and operational disruptions.",
+      "2": "The bridge component is in critical condition, with extreme deterioration posing imminent risk to structural stability, necessitating immediate corrective actions to avert failure.",
+      "1": "The bridge component is in imminent failure condition, with deterioration so severe that failure is likely without immediate intervention, highlighting the urgency for emergency repairs.",
+      "0": "The bridge component has failed, indicating complete loss of functionality and structural integrity, requiring closure and comprehensive reconstruction to restore safe operation."
+    },
+    "description": "The minimum condition rating among the principal inspected components (typically deck, superstructure, substructure, or related key items) that governs overall condition."
+  }
+}

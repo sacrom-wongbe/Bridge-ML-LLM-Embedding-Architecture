@@ -37,7 +37,31 @@
     "range": [
       9.0,
       462.9
-    ]
+    ],
+    "semantic_bins": {
+      "labels": [
+        "minimal flood risk",
+        "low flood risk",
+        "moderate flood risk",
+        "high flood risk",
+        "extreme flood risk"
+      ],
+      "edges": [
+        0,
+        50,
+        150,
+        300,
+        450,
+        "inf"
+      ],
+      "sentences": [
+        "Minimal flood risk areas with base flood elevations under 50 feet are typically well above floodplain levels and require minimal flood mitigation measures.",
+        "Low flood risk areas with base flood elevations between 50 and 150 feet may require basic floodproofing and regular monitoring to ensure safety during flood events.",
+        "Moderate flood risk areas with base flood elevations between 150 and 300 feet often necessitate significant flood defenses and infrastructure adaptations to manage potential flood impacts.",
+        "High flood risk areas with base flood elevations between 300 and 450 feet demand comprehensive flood management strategies, including levees and floodwalls, to protect critical infrastructure.",
+        "Extreme flood risk areas with base flood elevations exceeding 450 feet represent significant hydraulic challenges, requiring advanced engineering solutions and continuous monitoring to mitigate severe flood threats."
+      ]
+    }
   },
   "NFHL_ZONE_SUBTYPE": {
     "type": "nl",

@@ -1,0 +1,105 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_UNIT_NAME": {
+    "type": "nl",
+    "description": "The macro unit name provides the standardized label assigned to a mapped geologic unit, representing a regionally recognized grouping of rock with shared stratigraphic context."
+  },
+  "MACRO_STRAT_NAME": {
+    "type": "nl",
+    "description": "The stratigraphic name identifies the formal stratigraphic unit (such as formation, member, or group) to which the mapped rocks belong, reflecting their position within the geologic column."
+  },
+  "MACRO_LITHOLOGY": {
+    "type": "nl",
+    "description": "The lithology describes the dominant rock material or materials present in the unit, capturing composition and texture that directly influence mechanical and hydraulic behavior."
+  },
+  "MACRO_AGE_MIN": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      358.9
+    ],
+    "description": "The minimum geologic age represents the youngest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement ended.",
+    "semantic_bins": {
+      "labels": [
+        "recent",
+        "quaternary",
+        "tertiary",
+        "mesozoic",
+        "paleozoic",
+        "precambrian"
+      ],
+      "edges": [
+        0,
+        2.6,
+        23.03,
+        66,
+        252.17,
+        541,
+        "inf"
+      ],
+      "sentences": [
+        "Recent geologic formations under 2.6 million years are typically associated with modern sedimentary processes and have minimal lithification.",
+        "Quaternary formations between 2.6 and 23.03 million years are characterized by glacial and interglacial cycles, influencing sediment deposition and erosion patterns.",
+        "Tertiary formations between 23.03 and 66 million years reflect significant tectonic activity and the development of modern continental configurations.",
+        "Mesozoic formations between 66 and 252.17 million years are marked by the breakup of supercontinents and the dominance of dinosaurs, with significant sedimentary and volcanic activity.",
+        "Paleozoic formations between 252.17 and 541 million years encompass the rise of complex life and major orogenic events, resulting in diverse rock types and structures.",
+        "Precambrian formations exceeding 541 million years represent the Earth's earliest crustal development, often highly metamorphosed and structurally complex."
+      ]
+    }
+  },
+  "MACRO_AGE_MAX": {
+    "type": "numerical",
+    "range": [
+      0.0117,
+      4000.0
+    ],
+    "description": "The maximum geologic age represents the oldest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement began.",
+    "semantic_bins": {
+      "labels": [
+        "very recent",
+        "recent",
+        "intermediate",
+        "ancient",
+        "prehistoric"
+      ],
+      "edges": [
+        0,
+        50,
+        200,
+        1000,
+        2500,
+        "inf"
+      ],
+      "sentences": [
+        "Very recent geologic formations under 50 million years are typically associated with active tectonic regions and may influence seismic design considerations.",
+        "Recent formations between 50-200 million years often represent stable geologic conditions with moderate seismic activity potential.",
+        "Intermediate formations between 200-1000 million years are generally stable and provide a reliable foundation for bridge infrastructure with low seismic risk.",
+        "Ancient formations between 1000-2500 million years are characterized by high stability and minimal seismic activity, ideal for long-term infrastructure planning.",
+        "Prehistoric formations exceeding 2500 million years represent some of the oldest and most stable geologic conditions, with negligible seismic concerns but potential for unique engineering challenges."
+      ]
+    }
+  },
+  "MACRO_DESCRIPTION": {
+    "type": "nl",
+    "description": "The descriptive text summarizes the geologic characteristics of the unit, including depositional environment, material variability, structure, and notable features relevant to engineering and geotechnical interpretation."
+  },
+  "MACRO_COLOR": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_SOURCE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_MAP_ID": {
+    "type": "reference",
+    "description": null
+  }
+}

@@ -43,12 +43,12 @@
     "type": "nominal",
     "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions.",
     "code_map": {
-      "A": "Very low seismic hazard conditions where seismic detailing and design requirements are minimal or not required.",
-      "B": "Low seismic hazard conditions where limited seismic design and detailing provisions apply.",
-      "C": "Moderate seismic hazard conditions where seismic forces and ductile detailing requirements begin to significantly influence design.",
-      "D": "High seismic hazard conditions requiring substantial seismic design forces, ductile detailing, and explicit consideration of inelastic behavior.",
-      "E": "Very high seismic hazard conditions where extreme ground motions are expected and the most stringent seismic design and detailing requirements apply.",
-      "F": "Site-specific extreme seismic hazard conditions requiring specialized analysis, evaluation, and design beyond standard code procedures."
+      "A": "Code 'A' represents sites with very low seismic hazard, where minimal or no seismic detailing is required, allowing for simplified structural design and reduced construction costs.",
+      "B": "Code 'B' indicates low seismic hazard conditions, necessitating limited seismic design provisions to ensure basic structural integrity during minor seismic events, balancing safety and cost-effectiveness.",
+      "C": "Code 'C' applies to moderate seismic hazard areas, where seismic forces significantly influence design, requiring ductile detailing to enhance structural resilience against potential seismic activity.",
+      "D": "Code 'D' is assigned to high seismic hazard zones, demanding substantial seismic design forces and ductile detailing to accommodate inelastic behavior and ensure structural safety during strong earthquakes.",
+      "E": "Code 'E' pertains to very high seismic hazard conditions, necessitating the most stringent design and detailing to withstand extreme ground motions and protect structural integrity during severe seismic events.",
+      "F": "Code 'F' is used for site-specific extreme seismic hazards, requiring specialized analysis and design beyond standard procedures to address unique seismic challenges and ensure structural safety."
     }
   },
   "PGAM": {

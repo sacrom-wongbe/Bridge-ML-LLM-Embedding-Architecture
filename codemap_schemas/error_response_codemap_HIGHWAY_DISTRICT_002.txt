@@ -1,0 +1,16 @@
+Field: HIGHWAY_DISTRICT_002
+Description: The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city).
+Original Code Map: {'1': 'State Highway Agency', '2': 'County Highway Agency', '3': 'Town or Township Highway Agency', '4': 'City or Municipal Highway Agency'}
+
+================================================================================
+RAW API RESPONSE:
+================================================================================
+
+```json
+{
+  "code1": "The State Highway Agency oversees bridges on state-managed roadways, ensuring compliance with state-level engineering standards and addressing large-scale infrastructure needs and seismic resilience strategies.",
+  "code2": "The County Highway Agency manages bridges within county jurisdictions, focusing on regional connectivity and maintenance, crucial for localized traffic patterns and seismic vulnerability assessments.",
+  "code3": "The Town or Township Highway Agency is responsible for bridges in smaller jurisdictions, emphasizing local traffic needs and specific structural requirements, impacting localized seismic risk management.",
+  "code4": "The City or Municipal Highway Agency governs bridges within urban areas, addressing high-density traffic demands and urban-specific seismic design considerations for enhanced public safety."
+}
+```

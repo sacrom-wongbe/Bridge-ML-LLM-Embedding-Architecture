@@ -3,13 +3,21 @@
     "category": "Bridge structure identifier",
     "type": "reference"
   },
+  "DETOUR_KILOS_019": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      999.0
+    ],
+    "description": "The additional travel distance in kilometers required for vehicles to bypass the bridge if it is closed or restricted, representing network redundancy and detour severity."
+  },
   "YEAR_BUILT_027_DIFF": {
     "type": "numerical",
     "range": [
       55.0,
       55.0
     ],
-    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and exposure to long-term deterioration processes."
+    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and cumulative exposure to loading and environmental effects."
   },
   "TRAFFIC_LANES_ON_028A": {
     "type": "numerical",
@@ -17,7 +25,7 @@
       1.0,
       14.0
     ],
-    "description": "The total count of traffic lanes carried directly on the bridge deck, reflecting its traffic-carrying capacity and functional role in the roadway network."
+    "description": "The total number of traffic lanes carried directly on the bridge deck, representing its vehicular capacity and functional role in the roadway system."
   },
   "TRAFFIC_LANES_UND_028B": {
     "type": "numerical",
@@ -25,7 +33,7 @@
       0.0,
       29.0
     ],
-    "description": "The total count of traffic lanes that pass beneath the bridge, indicating the scale and complexity of the facility or corridor being crossed."
+    "description": "The total number of traffic lanes that pass beneath the bridge, representing the scale and complexity of the facility or corridor being crossed."
   },
   "ADT_029": {
     "type": "numerical",
@@ -33,7 +41,7 @@
       0.0,
       194946.0
     ],
-    "description": "The estimated average number of vehicles that cross the bridge per day, representing typical traffic demand and cumulative loading effects."
+    "description": "The average number of vehicles that cross the bridge per day under typical conditions, representing traffic demand and cumulative loading."
   },
   "APPR_WIDTH_MT_032": {
     "type": "numerical",
@@ -41,7 +49,15 @@
       2.7,
       66.1
     ],
-    "description": "The clear width of the roadway approaching the bridge, measured in meters, reflecting how traffic is funneled onto the structure."
+    "description": "The clear width of the roadway approaching the bridge, measured perpendicular to traffic flow, representing how traffic transitions onto the structure."
+  },
+  "DEGREES_SKEW_034": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      99.0
+    ],
+    "description": "The skew angle between the bridge alignment and the feature it crosses, representing how obliquely the structure intersects the roadway, waterway, or obstacle below."
   },
   "MAIN_UNIT_SPANS_045": {
     "type": "numerical",
@@ -49,7 +65,7 @@
       0.0,
       157.0
     ],
-    "description": "The number of individual spans that make up the main structural unit of the bridge, indicating structural segmentation and load distribution."
+    "description": "The number of spans that make up the main structural unit of the bridge, representing how the primary load-carrying system is segmented."
   },
   "APPR_SPANS_046": {
     "type": "numerical",
@@ -57,7 +73,7 @@
       0.0,
       178.0
     ],
-    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions between the main unit and adjacent roadway."
+    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions from the main unit to the adjacent roadway."
   },
   "MAX_SPAN_LEN_MT_048": {
     "type": "numerical",
@@ -65,7 +81,7 @@
       0.3,
       2327.1
     ],
-    "description": "The length of the longest individual span in the bridge, reflecting structural scale, span capability, and design demands."
+    "description": "The length of the longest individual span within the bridge, representing the maximum unsupported distance and associated structural demand."
   },
   "STRUCTURE_LEN_MT_049": {
     "type": "numerical",
@@ -73,7 +89,7 @@
       6.1,
       3413.8
     ],
-    "description": "The total longitudinal length of the bridge from end to end, including main and approach spans, representing overall structural extent."
+    "description": "The total length of the bridge measured from end to end, including main and approach spans, representing the overall longitudinal extent of the structure."
   },
   "LEFT_CURB_MT_050A": {
     "type": "numerical",
@@ -81,7 +97,7 @@
       0.0,
       17.5
     ],
-    "description": "The width of the left-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+    "description": "The width of the curb, sidewalk, or shoulder on the left side of the bridge, representing lateral separation or pedestrian accommodation."
   },
   "RIGHT_CURB_MT_050B": {
     "type": "numerical",
@@ -89,7 +105,7 @@
       0.0,
       11.6
     ],
-    "description": "The width of the right-side curb, sidewalk, or shoulder on the bridge, indicating pedestrian accommodation or lateral separation from traffic."
+    "description": "The width of the curb, sidewalk, or shoulder on the right side of the bridge, representing lateral separation or pedestrian accommodation."
   },
   "ROADWAY_WIDTH_MT_051": {
     "type": "numerical",
@@ -97,7 +113,7 @@
       0.0,
       115.8
     ],
-    "description": "The clear roadway width between curbs or barriers on the bridge deck, representing the usable width available for vehicle traffic."
+    "description": "The clear roadway width available for vehicles on the bridge deck measured between curbs or barriers, representing usable traffic width."
   },
   "DECK_WIDTH_MT_052": {
     "type": "numerical",
@@ -113,7 +129,7 @@
       0.0,
       30.4
     ],
-    "description": "The minimum horizontal clearance available on the right side beneath the bridge, indicating constraints for vehicles or features passing below."
+    "description": "The minimum horizontal clearance available beneath the bridge on the right side, representing spatial constraints for traffic or features passing below."
   },
   "LEFT_LAT_UND_MT_056": {
     "type": "numerical",
@@ -121,7 +137,7 @@
       0.0,
       92.6
     ],
-    "description": "The minimum horizontal clearance available on the left side beneath the bridge, indicating constraints for vehicles or features passing below."
+    "description": "The minimum horizontal clearance available beneath the bridge on the left side, representing spatial constraints for traffic or features passing below."
   },
   "DATE_OF_INSPECT_090_DIFF": {
     "type": "numerical",
@@ -129,7 +145,7 @@
       55.0,
       55.0
     ],
-    "description": "The number of years that have elapsed since the bridge’s most recent routine inspection, reflecting how current the condition information is."
+    "description": "The number of years that have elapsed since the bridge’s most recent routine inspection, representing the recency of condition information."
   },
   "INSPECT_FREQ_MONTHS_091": {
     "type": "numerical",
@@ -137,7 +153,7 @@
       12.0,
       48.0
     ],
-    "description": "The scheduled interval between routine inspections, expressed in months, reflecting inspection rigor and risk-based oversight."
+    "description": "The scheduled interval between routine inspections expressed in months, representing the inspection frequency applied to the bridge."
   },
   "YEAR_RECONSTRUCTED_106_DIFF": {
     "type": "numerical",
@@ -145,7 +161,7 @@
       55.0,
       55.0
     ],
-    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, indicating the recency of major renewal work."
+    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, representing the recency of major renewal work."
   },
   "PERCENT_ADT_TRUCK_109": {
     "type": "numerical",
@@ -153,7 +169,7 @@
       0.0,
       94.0
     ],
-    "description": "The proportion of average daily traffic composed of trucks, reflecting heavy vehicle usage and its impact on structural loading and deterioration."
+    "description": "The percentage of average daily traffic composed of trucks, representing the intensity of heavy vehicle loading on the structure."
   },
   "FUTURE_ADT_114": {
     "type": "numerical",
@@ -161,7 +177,7 @@
       0.0,
       275263.0
     ],
-    "description": "The projected average daily traffic expected to use the bridge in the future, representing anticipated demand growth and long-term capacity needs."
+    "description": "The projected average daily traffic expected to cross the bridge in the future, representing anticipated demand growth and long-term usage."
   },
   "DECK_AREA": {
     "type": "numerical",
@@ -169,6 +185,6 @@
       22.8,
       104004.81
     ],
-    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental effects."
+    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental conditions."
   }
 }

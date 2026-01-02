@@ -1,0 +1,302 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference",
+    "code_map": null
+  },
+  "MIN_VERT_CLR_010": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No minimum clearance applies",
+      "99.9": "No minimum clearance applies"
+    },
+    "range": [
+      3.35,
+      99.0
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available at the bridge, representing the lowest unobstructed height for vehicles or loads passing through or beneath the structure, with special values indicating that no clearance restriction applies.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "extremely high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        7.0,
+        15.0,
+        30.0,
+        "inf"
+      ],
+      "sentences": [
+        "Extremely low clearance under 4.5 meters poses significant restrictions for most vehicles and requires careful management to prevent collisions.",
+        "Low clearance between 4.5 and 7.0 meters accommodates standard vehicles but restricts larger commercial and specialized transport, necessitating clear signage and routing.",
+        "Moderate clearance between 7.0 and 15.0 meters allows passage for most commercial vehicles, including some oversized loads, with minimal restrictions.",
+        "High clearance between 15.0 and 30.0 meters supports a wide range of vehicle types, including large industrial and construction equipment, with few limitations.",
+        "Extremely high clearance exceeding 30.0 meters represents structures designed for exceptional circumstances or specialized routes, often accommodating unique transport needs or geographic challenges."
+      ]
+    }
+  },
+  "NAV_VERT_CLR_MT_039": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "No navigation vertical clearance applies"
+    },
+    "range": [
+      0.6,
+      304.5
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The additional travel distance, measured in kilometers, that vehicles must take if the bridge is closed or impassable, reflecting network redundancy and detour severity.",
+    "semantic_bins": {
+      "labels": [
+        "minimal detour",
+        "moderate detour",
+        "significant detour",
+        "severe detour",
+        "extreme detour"
+      ],
+      "edges": [
+        0,
+        5,
+        20,
+        50,
+        100,
+        "inf"
+      ],
+      "sentences": [
+        "Minimal detour under 5 kilometers indicates high network redundancy with negligible impact on traffic flow.",
+        "Moderate detour between 5-20 kilometers suggests some inconvenience but manageable traffic rerouting options.",
+        "Significant detour between 20-50 kilometers reflects limited alternative routes, potentially affecting travel time and logistics.",
+        "Severe detour between 50-100 kilometers indicates substantial disruption, requiring strategic planning for traffic management.",
+        "Extreme detour exceeding 100 kilometers represents critical network vulnerability, necessitating urgent infrastructure improvements or alternative solutions."
+      ]
+    }
+  },
+  "NAV_HORR_CLR_MT_040": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": null
+    },
+    "range": [
+      5.5,
+      783.3
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The skew angle between the bridge centerline and the feature it crosses, representing how obliquely the bridge is oriented relative to the roadway, waterway, or obstacle below.",
+    "semantic_bins": {
+      "labels": [
+        "minimal skew",
+        "low skew",
+        "moderate skew",
+        "high skew",
+        "extreme skew"
+      ],
+      "edges": [
+        0,
+        15,
+        45,
+        90,
+        180,
+        "inf"
+      ],
+      "sentences": [
+        "Minimal skew angles from 0 to 15 degrees indicate a nearly perpendicular alignment, minimizing structural complexity and potential stress concentrations.",
+        "Low skew angles between 15 and 45 degrees suggest a slight oblique orientation, requiring moderate design considerations for load distribution.",
+        "Moderate skew angles from 45 to 90 degrees necessitate careful structural design to manage increased torsional forces and potential differential movements.",
+        "High skew angles between 90 and 180 degrees present significant engineering challenges, demanding advanced design techniques to ensure stability and performance.",
+        "Extreme skew angles exceeding 180 degrees represent highly oblique crossings, often requiring specialized engineering solutions to address complex load paths and potential vulnerabilities."
+      ]
+    }
+  },
+  "HORR_CLR_MT_047": {
+    "type": "numerical_coded",
+    "code_map": {
+      "999": "Restriction 100 meters or greater"
+    },
+    "range": [
+      2.9,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available for navigation beneath the bridge, indicating the maximum allowable height of vessels that can safely pass under the structure.",
+    "semantic_bins": {
+      "labels": [
+        "very low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "very high clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        30,
+        60,
+        "inf"
+      ],
+      "sentences": [
+        "Very low clearance under 5 meters restricts passage to small vessels and requires careful navigation planning.",
+        "Low clearance between 5 and 15 meters accommodates medium-sized vessels but may limit larger commercial traffic.",
+        "Moderate clearance between 15 and 30 meters allows for a wide range of commercial and recreational vessels, supporting significant maritime activity.",
+        "High clearance between 30 and 60 meters supports large commercial vessels and is suitable for major shipping routes.",
+        "Very high clearance exceeding 60 meters and extreme outliers provide unrestricted passage for the largest vessels, including those on international shipping lanes."
+      ]
+    }
+  },
+  "VERT_CLR_OVER_MT_053": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No vertical clearance restriction"
+    },
+    "range": [
+      2.44,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum horizontal clearance available for navigation beneath the bridge, representing the unobstructed width available for vessels passing between piers, abutments, or fender systems.",
+    "semantic_bins": {
+      "labels": [
+        "very low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "very high clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        30,
+        60,
+        "inf"
+      ],
+      "sentences": [
+        "Very low clearance under 5 meters is suitable for small vessels and requires careful navigation to avoid collisions.",
+        "Low clearance between 5 and 15 meters accommodates medium-sized vessels but may restrict larger commercial traffic.",
+        "Moderate clearance between 15 and 30 meters allows for a wide range of vessel sizes, supporting moderate commercial and recreational traffic.",
+        "High clearance between 30 and 60 meters is designed for large vessels, ensuring smooth passage for significant commercial shipping routes.",
+        "Very high clearance exceeding 60 meters and extreme outliers provide ample space for the largest vessels and are typically found in major shipping channels or specialized infrastructure."
+      ]
+    }
+  },
+  "VERT_CLR_UND_054B": {
+    "type": "numerical_coded",
+    "code_map": null,
+    "range": [
+      0.0,
+      99.99
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The total horizontal clearance provided by the bridge opening, reflecting the maximum unobstructed width available beneath the structure for traffic, water, or other features.",
+    "semantic_bins": {
+      "labels": [
+        "very low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "very high clearance"
+      ],
+      "edges": [
+        0,
+        10,
+        20,
+        40,
+        70,
+        "inf"
+      ],
+      "sentences": [
+        "Very low clearance under 10 meters is typically suitable for pedestrian pathways or small waterways, requiring careful consideration of traffic and environmental constraints.",
+        "Low clearance between 10-20 meters accommodates small vehicles and moderate water flow, often necessitating height restrictions for larger vehicles.",
+        "Moderate clearance between 20-40 meters supports standard vehicular traffic and moderate waterway navigation, balancing structural efficiency with functional requirements.",
+        "High clearance between 40-70 meters is designed for major roadways and significant waterway traffic, ensuring ample space for diverse transportation needs.",
+        "Very high clearance exceeding 70 meters and extreme outliers are engineered for specialized applications, such as large ship passages or unique geographical challenges, demanding advanced structural solutions."
+      ]
+    }
+  },
+  "OPERATING_RATING_064": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "Bridge will not carry minimum 2.7 metric tons"
+    },
+    "range": [
+      3.6,
+      99.9
+    ],
+    "special_zero": true,
+    "special_max": true,
+    "description": "The minimum vertical clearance available above the roadway carried by the bridge, indicating constraints imposed by overhead elements such as trusses, portals, or overhead framing.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "extremely high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        10.0,
+        20.0,
+        50.0,
+        "inf"
+      ],
+      "sentences": [
+        "Extremely low clearance under 4.5 meters poses significant restrictions for most vehicles, requiring careful management and signage to prevent collisions.",
+        "Low clearance between 4.5 and 10.0 meters accommodates standard vehicles but may restrict larger commercial vehicles, necessitating clear warnings and possible detours.",
+        "Moderate clearance between 10.0 and 20.0 meters allows passage for most commercial vehicles, providing flexibility for a wide range of traffic without significant restrictions.",
+        "High clearance between 20.0 and 50.0 meters supports all standard and oversized vehicles, ensuring unrestricted flow and accommodating future traffic demands.",
+        "Extremely high clearance exceeding 50.0 meters represents exceptional design accommodating unique site conditions or future-proofing for unforeseen requirements."
+      ]
+    }
+  },
+  "INVENTORY_RATING_066": {
+    "type": "numerical_coded",
+    "code_map": {
+      "999": "Structure under sufficient fill; live load insignificant"
+    },
+    "range": [
+      0.0,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance beneath the bridge, representing the lowest unobstructed height available for traffic, water, or other features passing below the structure.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "very high clearance"
+      ],
+      "edges": [
+        0,
+        3.5,
+        10.0,
+        20.0,
+        50.0,
+        "inf"
+      ],
+      "sentences": [
+        "Extremely low clearance under 3.5 meters poses significant restrictions for traffic and requires careful management to prevent collisions with vehicles or other objects.",
+        "Low clearance between 3.5 and 10.0 meters is suitable for most standard vehicles but may restrict larger commercial vehicles and requires clear signage.",
+        "Moderate clearance between 10.0 and 20.0 meters accommodates a wide range of vehicles and some specialized equipment, providing flexibility for diverse traffic needs.",
+        "High clearance between 20.0 and 50.0 meters allows for the passage of large vehicles, including oversized loads and certain types of construction equipment.",
+        "Very high clearance exceeding 50.0 meters is typically designed for specialized scenarios, such as accommodating tall ships or significant water flow, and represents extreme or outlier values."
+      ]
+    }
+  }
+}
