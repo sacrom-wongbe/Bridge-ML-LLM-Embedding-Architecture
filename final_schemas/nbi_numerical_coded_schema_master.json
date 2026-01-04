@@ -1,0 +1,313 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference",
+    "code_map": null
+  },
+  "COORDINATES": {
+    "type": "reference"
+  },
+  "MIN_VERT_CLR_010": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No minimum clearance applies",
+      "99.9": "No minimum clearance applies"
+    },
+    "range": [
+      3.35,
+      99.0
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance at the crossing, representing the lowest unobstructed height available for traffic or permitted loads where a special maximum code indicates that no minimum clearance constraint applies.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "standard clearance",
+        "high clearance",
+        "exceptionally high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        5.5,
+        7.0,
+        10.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with extremely low clearance under 4.5 meters may severely restrict traffic types, limiting passage to only the smallest vehicles and requiring careful management to prevent collisions.",
+        "Bridges with low clearance between 4.5 and 5.5 meters accommodate most passenger vehicles but may restrict larger commercial vehicles, necessitating clear signage and potential rerouting for oversized loads.",
+        "Bridges with standard clearance between 5.5 and 7.0 meters are designed to accommodate a wide range of vehicles, including standard commercial trucks, ensuring smooth traffic flow and minimal restrictions.",
+        "Bridges with high clearance between 7.0 and 10.0 meters provide ample space for most vehicular traffic, including large trucks and some specialized transport, enhancing the versatility and utility of the infrastructure.",
+        "Bridges with exceptionally high clearance exceeding 10.0 meters are capable of accommodating extremely large vehicles and loads, often serving critical transport routes or specialized industrial needs, and represent significant engineering achievements."
+      ]
+    },
+    "title": "Minimum Vertical Clearance"
+  },
+  "NAV_VERT_CLR_MT_039": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "No navigation vertical clearance applies"
+    },
+    "range": [
+      0.6,
+      304.5
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The minimum vertical clearance available for navigation beneath the structure, representing the limiting height for vessels where a special zero code indicates that navigation clearance is not applicable.",
+    "semantic_bins": {
+      "labels": [
+        "non-navigable",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "extreme clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        50,
+        150,
+        "inf"
+      ],
+      "sentences": [
+        "Non-navigable bridges with vertical clearance under 5 meters are typically not designed for vessel passage and may only accommodate small recreational or emergency watercraft.",
+        "Low clearance bridges between 5 and 15 meters allow passage for small to medium-sized vessels, often requiring careful navigation and may impose restrictions during high water levels.",
+        "Moderate clearance bridges between 15 and 50 meters support a wider range of commercial and recreational vessels, providing sufficient headroom for most river traffic under normal conditions.",
+        "High clearance bridges between 50 and 150 meters are designed to accommodate large vessels, including cargo ships and cruise liners, ensuring smooth passage even during high tide or flood conditions.",
+        "Extreme clearance bridges exceeding 150 meters represent significant engineering feats, capable of supporting the largest maritime vessels and ensuring uninterrupted navigation in major shipping lanes."
+      ]
+    },
+    "title": "Navigation Vertical Clearance"
+  },
+  "NAV_HORR_CLR_MT_040": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": null
+    },
+    "range": [
+      5.5,
+      783.3
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The minimum horizontal clearance available for navigation beneath the structure, representing the limiting width for vessels where a special zero code indicates that navigation clearance is not applicable.",
+    "semantic_bins": {
+      "labels": [
+        "very narrow clearance",
+        "narrow clearance",
+        "moderate clearance",
+        "wide clearance",
+        "very wide clearance"
+      ],
+      "edges": [
+        0,
+        10,
+        50,
+        150,
+        400,
+        "inf"
+      ],
+      "sentences": [
+        "Very narrow clearance bridges with horizontal clearance under 10 meters are typically suitable for small vessels and require careful navigation to avoid collisions.",
+        "Narrow clearance bridges between 10 and 50 meters accommodate medium-sized vessels, necessitating precise navigation and potentially limiting traffic flow during peak times.",
+        "Moderate clearance bridges between 50 and 150 meters provide adequate space for a variety of vessels, balancing navigational ease with structural constraints.",
+        "Wide clearance bridges between 150 and 400 meters allow for significant vessel traffic, supporting major commercial and recreational navigation routes.",
+        "Very wide clearance bridges exceeding 400 meters and extreme outliers are designed for high-capacity waterways, facilitating the passage of large ships and ensuring minimal navigational restrictions."
+      ]
+    },
+    "title": "Navigation Clearance Width"
+  },
+  "HORR_CLR_MT_047": {
+    "type": "numerical_coded",
+    "code_map": {
+      "999": "Restriction 100 meters or greater"
+    },
+    "range": [
+      2.9,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The total horizontal clearance provided through the opening beneath the structure, representing the usable unobstructed width where a special maximum code indicates very large or effectively unrestricted clearance.",
+    "semantic_bins": {
+      "labels": [
+        "minimal clearance",
+        "restricted clearance",
+        "moderate clearance",
+        "ample clearance",
+        "unrestricted clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        30,
+        60,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal clearance under 5 meters often face significant constraints for traffic flow and may require special design considerations to accommodate specific vehicle types.",
+        "Bridges with restricted clearance between 5 and 15 meters are suitable for limited traffic types and may require careful management to prevent congestion and ensure safety.",
+        "Bridges with moderate clearance between 15 and 30 meters provide adequate space for most standard traffic, balancing structural efficiency with functional utility.",
+        "Bridges with ample clearance between 30 and 60 meters offer significant flexibility for diverse traffic types, enhancing operational capacity and reducing the likelihood of traffic bottlenecks.",
+        "Bridges with unrestricted clearance exceeding 60 meters represent infrastructure designed for maximum versatility, capable of accommodating a wide range of traffic scenarios and future expansions."
+      ]
+    },
+    "title": "Horizontal Clearance"
+  },
+  "VERT_CLR_OVER_MT_053": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No vertical clearance restriction"
+    },
+    "range": [
+      2.44,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available above the roadway carried on the structure, representing the lowest overhead restriction on the traveled way where a special maximum code indicates no vertical restriction applies.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "standard clearance",
+        "high clearance",
+        "exceptionally high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        14,
+        25,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with extremely low clearance under 4.5 meters pose significant restrictions for most vehicles, requiring careful navigation and potentially limiting access for taller vehicles.",
+        "Bridges with low clearance between 4.5 and 14 meters accommodate standard vehicles but may restrict larger commercial vehicles and require clear signage to prevent collisions.",
+        "Bridges with standard clearance between 14 and 25 meters are designed to accommodate a wide range of vehicles, including most commercial trucks, ensuring smooth traffic flow and minimal restrictions.",
+        "Bridges with high clearance between 25 and 50 meters provide ample space for all standard and oversized vehicles, supporting diverse transportation needs and reducing the risk of overhead collisions.",
+        "Bridges with exceptionally high clearance exceeding 50 meters are typically designed for specialized infrastructure needs, such as accommodating large ships or aircraft, and represent significant engineering achievements."
+      ]
+    },
+    "title": "Vertical Clearance Above Roadway"
+  },
+  "VERT_CLR_UND_054B": {
+    "type": "numerical_coded",
+    "code_map": null,
+    "range": [
+      0.0,
+      99.99
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available beneath the structure, representing the lowest unobstructed height for the feature passing below the bridge.",
+    "semantic_bins": {
+      "labels": [
+        "insufficient clearance",
+        "low clearance",
+        "adequate clearance",
+        "high clearance",
+        "exceptional clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        10.0,
+        15.0,
+        25.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with insufficient clearance under 4.5 meters pose significant risks for collisions with vehicles or equipment passing beneath, requiring immediate attention to prevent accidents.",
+        "Bridges with low clearance between 4.5 and 10.0 meters may restrict certain types of vehicles, necessitating clear signage and potential modifications to accommodate traffic demands.",
+        "Bridges with adequate clearance between 10.0 and 15.0 meters generally support a wide range of vehicular and equipment passage, aligning with standard infrastructure requirements for most urban and rural settings.",
+        "Bridges with high clearance between 15.0 and 25.0 meters provide ample space for diverse transportation needs, including oversized loads, enhancing the versatility and utility of the infrastructure.",
+        "Bridges with exceptional clearance exceeding 25.0 meters are designed to accommodate extreme cases, such as large maritime vessels or specialized industrial equipment, representing significant engineering achievements."
+      ]
+    },
+    "title": "Vertical Clearance Beneath Roadway"
+  },
+  "OPERATING_RATING_064": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "Bridge will not carry minimum 2.7 metric tons"
+    },
+    "range": [
+      3.6,
+      99.9
+    ],
+    "special_zero": true,
+    "special_max": true,
+    "description": "The operating load rating capacity of the structure, representing the maximum permissible live load level for continued use where a special zero code indicates the bridge cannot carry a minimum threshold load.",
+    "semantic_bins": {
+      "labels": [
+        "insufficient capacity",
+        "low capacity",
+        "moderate capacity",
+        "high capacity",
+        "exceptional capacity"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with an operating rating under 10 are considered to have insufficient capacity, unable to support even minimal live loads, and require immediate intervention to prevent structural failure.",
+        "Bridges with an operating rating between 10 and 30 are classified as having low capacity, suitable only for light traffic and necessitating frequent inspections and potential load restrictions to ensure safety.",
+        "Bridges with an operating rating between 30 and 60 are deemed to have moderate capacity, capable of handling standard traffic loads with regular maintenance to sustain operational safety and performance.",
+        "Bridges with an operating rating between 60 and 90 are considered to have high capacity, supporting heavy traffic loads with minimal risk, though periodic assessments are essential to maintain structural integrity.",
+        "Bridges with an operating rating exceeding 90 are categorized as having exceptional capacity, able to accommodate extreme live loads and outlier conditions, representing robust infrastructure with superior design and construction quality."
+      ]
+    },
+    "title": "Operating Load Rating"
+  },
+  "INVENTORY_RATING_066": {
+    "type": "numerical_coded",
+    "code_map": {
+      "999": "Structure under sufficient fill; live load insignificant"
+    },
+    "range": [
+      0.0,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The inventory load rating capacity of the structure, representing the allowable live load level for routine service where a special maximum code indicates live load is negligible due to sufficient cover or fill.",
+    "semantic_bins": {
+      "labels": [
+        "negligible load capacity",
+        "low load capacity",
+        "moderate load capacity",
+        "high load capacity",
+        "exceptional load capacity"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with negligible load capacity (0 to 10) are typically unsuitable for carrying any significant live loads and may require immediate structural assessment or restrictions on usage.",
+        "Bridges with low load capacity (10 to 30) can support limited live loads, often necessitating careful monitoring and potential reinforcement to ensure safety under routine service conditions.",
+        "Bridges with moderate load capacity (30 to 60) are generally capable of handling standard live loads with routine maintenance, though they may require periodic inspections to maintain structural integrity.",
+        "Bridges with high load capacity (60 to 90) are well-suited for carrying substantial live loads, reflecting robust design and construction that supports efficient and safe transportation infrastructure.",
+        "Bridges with exceptional load capacity (90 to infinity) represent superior structural performance, often due to advanced engineering techniques or significant cover and fill, allowing them to handle extreme live loads with minimal risk."
+      ]
+    },
+    "title": "Inventory Load Rating"
+  }
+}

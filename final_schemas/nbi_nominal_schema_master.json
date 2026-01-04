@@ -68,7 +68,8 @@
       "72": "Code '72' represents Puerto Rico, where bridges must accommodate tropical climates and seismic activity, affecting structural design and material selection.",
       "78": "Code '78' denotes Virgin Islands, where bridges face tropical climates and potential hurricanes, influencing design standards and material durability."
     },
-    "description": "The U.S. state or territory in which the bridge is physically located, expressed as a standardized FIPS jurisdiction."
+    "description": "The U.S. state or territory in which the bridge is physically located, expressed as a standardized FIPS jurisdiction.",
+    "title": "State Code"
   },
   "COUNTY_CODE_003": {
     "type": "nominal",
@@ -113,7 +114,8 @@
       "75": "Code '75' denotes Whitman County, pinpointing the bridge's location, essential for understanding agricultural land influences and seismic risk factors in a rural setting.",
       "77": "Code '77' signifies Yakima County, indicating the bridge's geographic setting, crucial for evaluating agricultural and industrial impacts on structural design and seismic considerations."
     },
-    "description": "The county (or county-equivalent) in which the bridge is physically located, expressed as a standardized location code."
+    "description": "The county (or county-equivalent) in which the bridge is physically located, expressed as a standardized location code.",
+    "title": "County Code"
   },
   "HIGHWAY_DISTRICT_002": {
     "type": "nominal",
@@ -123,21 +125,23 @@
       "3": "The bridge is managed by the Town or Township Highway Agency, which addresses local roadways, emphasizing community-specific traffic needs and localized structural assessments.",
       "4": "The bridge is governed by the City or Municipal Highway Agency, which handles urban infrastructure, prioritizing city traffic flow and urban-specific structural and seismic considerations."
     },
-    "description": "The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city)."
+    "description": "The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city).",
+    "title": "Highway District Jurisdiction"
   },
   "ROUTE_PREFIX_005B": {
     "type": "nominal",
     "code_map": {
       "1": "This code represents an Interstate highway, a major arterial route designed for high-speed, long-distance travel, crucial for national connectivity and requiring robust structural integrity to accommodate heavy traffic loads.",
       "2": "This code signifies a U.S. numbered highway, part of the federal highway system, essential for regional connectivity and requiring careful structural design to support significant vehicular traffic and freight movement.",
-      "3": "This code denotes a state highway, a primary route within a state\u00e2\u20ac\u2122s jurisdiction, important for intrastate travel and commerce, necessitating durable bridge structures to handle moderate to heavy traffic volumes.",
+      "3": "This code denotes a state highway, a primary route within a state’s jurisdiction, important for intrastate travel and commerce, necessitating durable bridge structures to handle moderate to heavy traffic volumes.",
       "4": "This code indicates a county highway, a secondary route managed by local authorities, vital for rural connectivity and requiring bridges designed to accommodate local traffic patterns and agricultural vehicles.",
       "5": "This code refers to a city street, an urban route integral to local traffic circulation, demanding bridge designs that consider pedestrian access, urban load conditions, and frequent vehicular use.",
       "6": "This code represents a federal lands road, a route within federally managed lands, often requiring specialized bridge designs to address unique environmental conditions and limited maintenance access.",
       "7": "This code signifies a state lands road, a route within state-managed lands, necessitating bridge structures that consider environmental preservation and limited traffic, often with specific regulatory compliance requirements.",
       "8": "This code denotes other routes, including toll roads not otherwise classified, requiring bridge designs that accommodate varied traffic types and potentially unique toll infrastructure integration."
     },
-    "description": "The classification of the route carried by the bridge by numbering/ownership system (e.g., Interstate, U.S. route, state route, local street, etc.)."
+    "description": "The classification of the route carried by the bridge by numbering/ownership system (e.g., Interstate, U.S. route, state route, local street, etc.).",
+    "title": "Route Classification"
   },
   "SERVICE_LEVEL_005C": {
     "type": "nominal",
@@ -151,22 +155,26 @@
       "7": "Ramp, Wye, and Connector routes link different transportation pathways, demanding precise engineering to ensure smooth transitions and accommodate merging traffic.",
       "8": "Service and/or unclassified frontage roads provide access to adjacent properties, requiring flexible structural designs to support lower traffic volumes and diverse vehicle types."
     },
-    "description": "The role of the route carried by the bridge within its route system (mainline, alternate, bypass, spur, ramp/connector, frontage road, etc.)."
+    "description": "The role of the route carried by the bridge within its route system (mainline, alternate, bypass, spur, ramp/connector, frontage road, etc.).",
+    "title": "Route Service Role"
   },
   "FEATURES_DESC_006A": {
     "type": "nl",
     "code_map": null,
-    "description": "A free-text description of the feature that the bridge crosses or intersects (e.g., river name, railroad line, roadway name, ravine, canal)."
+    "description": "A free-text description of the feature that the bridge crosses or intersects (e.g., river name, railroad line, roadway name, ravine, canal).",
+    "title": "Crossing Feature Description"
   },
   "FACILITY_CARRIED_007": {
     "type": "nl",
     "code_map": null,
-    "description": "A free-text description of the facility that runs on the bridge deck (e.g., the roadway or line being carried across the obstacle)."
+    "description": "A free-text description of the facility that runs on the bridge deck (e.g., the roadway or line being carried across the obstacle).",
+    "title": "Carried Facility Description"
   },
   "LOCATION_009": {
     "type": "nl",
     "code_map": null,
-    "description": "A free-text narrative describing the bridge\u00e2\u20ac\u2122s location context, typically using nearby routes, towns, landmarks, or milepoints."
+    "description": "A free-text narrative describing the bridgeâ€™s location context, typically using nearby routes, towns, landmarks, or milepoints.",
+    "title": "Bridge Location Description"
   },
   "BASE_HWY_NETWORK_012": {
     "type": "nominal",
@@ -174,7 +182,8 @@
       "0": "The bridge's inventory route is not included in the federally defined Base Highway Network, indicating lower priority for federal funding and potentially less stringent design and maintenance standards.",
       "1": "The bridge's inventory route is part of the federally defined Base Highway Network, signifying higher priority for federal funding, maintenance, and compliance with stringent design standards for critical infrastructure."
     },
-    "description": "An indicator of whether the bridge\u00e2\u20ac\u2122s inventory route is part of the federally defined Base Highway Network."
+    "description": "An indicator of whether the bridgeâ€™s inventory route is part of the federally defined Base Highway Network.",
+    "title": "Base Highway Network"
   },
   "TOLL_020": {
     "type": "nominal",
@@ -185,7 +194,8 @@
       "4": "This code denotes an interstate toll segment under a Secretarial Agreement, highlighting specific regulatory and funding frameworks that influence maintenance and structural evaluation priorities.",
       "5": "This code identifies a toll bridge under a separate Secretarial Agreement, indicating unique administrative and financial arrangements that may affect structural management and inspection protocols."
     },
-    "description": "The toll context describing whether a toll is charged specifically to use the bridge, as part of a tolled facility, or not at all."
+    "description": "The toll context describing whether a toll is charged specifically to use the bridge, as part of a tolled facility, or not at all.",
+    "title": "Toll Status"
   },
   "MAINTENANCE_021": {
     "type": "nominal",
@@ -220,7 +230,8 @@
       "76": "The Metropolitan Washington Airports Service manages bridge maintenance for airport infrastructure, ensuring safety and efficient transportation access.",
       "80": "The maintenance responsibility for the bridge is unknown, indicating a need for clarification to ensure proper upkeep and safety compliance."
     },
-    "description": "The agency or organization that is responsible for maintaining the bridge and performing routine upkeep and repairs."
+    "description": "The agency or organization that is responsible for maintaining the bridge and performing routine upkeep and repairs.",
+    "title": "Maintenance Agency"
   },
   "FUNCTIONAL_CLASS_026": {
     "type": "nominal",
@@ -238,7 +249,8 @@
       "17": "Urban - Collector roads gather traffic from local streets and direct it to arterial roads, necessitating bridges that support moderate traffic volumes and diverse vehicle types.",
       "19": "Urban - Local roads primarily serve residential areas, with bridges designed for low traffic volumes and pedestrian-friendly features to enhance community connectivity."
     },
-    "description": "The functional classification of the roadway carried by the bridge, describing its role in the road network (arterial, collector, local; rural/urban)."
+    "description": "The functional classification of the roadway carried by the bridge, describing its role in the road network (arterial, collector, local; rural/urban).",
+    "title": "Functional Classification"
   },
   "DESIGN_LOAD_031": {
     "type": "nominal",
@@ -254,7 +266,8 @@
       "8": "The bridge is designed for railroad load models, emphasizing its capacity to support train loads, crucial for ensuring safe and efficient rail operations.",
       "9": "This code indicates a design for MS 22.5 / HS 25 load models, reflecting its ability to support very heavy vehicular loads, important for structural resilience analysis."
     },
-    "description": "The load model or design loading category the bridge was designed to accommodate (e.g., HS/HL-type truck, pedestrian, railroad)."
+    "description": "The load model or design loading category the bridge was designed to accommodate (e.g., HS/HL-type truck, pedestrian, railroad).",
+    "title": "Design Load Category"
   },
   "MEDIAN_CODE_033": {
     "type": "nominal",
@@ -264,7 +277,8 @@
       "2": "Code '2' represents a closed median without barriers, where a physical separation exists but lacks non-mountable barriers, offering limited protection against vehicle crossover into opposing lanes.",
       "3": "Code '3' denotes a closed median with non-mountable barriers, providing a robust physical separation that prevents vehicles from crossing into opposing traffic, enhancing safety and reducing collision risks."
     },
-    "description": "The presence and type of median on the bridge, describing whether opposing traffic is separated and how (open/closed/barrier)."
+    "description": "The presence and type of median on the bridge, describing whether opposing traffic is separated and how (open/closed/barrier).",
+    "title": "Median Type"
   },
   "STRUCTURE_FLARED_035": {
     "type": "nominal",
@@ -272,7 +286,8 @@
       "0": "The bridge does not exhibit a width flare, maintaining a consistent width throughout its length, which simplifies load distribution analysis and reduces construction complexity.",
       "1": "The bridge features a width flare near its ends, increasing the deck width for improved traffic flow and load distribution, necessitating detailed structural analysis for stability and stress management."
     },
-    "description": "Whether the bridge width flares (widens) near the ends relative to the main portion of the structure."
+    "description": "Whether the bridge width flares (widens) near the ends relative to the main portion of the structure.",
+    "title": "Flared Structure Width"
   },
   "RAILINGS_036A": {
     "type": "nominal",
@@ -281,7 +296,8 @@
       "1": "The bridge railings conform to current safety standards, ensuring adequate containment of vehicles and enhancing structural resilience against lateral forces during seismic activities.",
       "N": "The bridge does not require railings due to its design or location, indicating that safety performance standards for railings are not applicable in this context."
     },
-    "description": "Whether the bridge railings as built and present provide adequate safety performance relative to current standards."
+    "description": "Whether the bridge railings as built and present provide adequate safety performance relative to current standards.",
+    "title": "Railing Safety Compliance"
   },
   "TRANSITIONS_036B": {
     "type": "nominal",
@@ -290,16 +306,18 @@
       "1": "The approach-to-bridge transition elements conform to current engineering standards, ensuring seamless vehicular movement and maintaining structural integrity and safety during transitions onto the bridge.",
       "N": "The approach-to-bridge transition elements are not applicable or required for this structure, indicating no need for specific continuity or safety measures in the current context."
     },
-    "description": "Whether the approach-to-bridge transition elements (e.g., rail transitions) provide adequate continuity and safety relative to current standards."
+    "description": "Whether the approach-to-bridge transition elements (e.g., rail transitions) provide adequate continuity and safety relative to current standards.",
+    "title": "Transition Safety Assessment"
   },
   "APPR_RAIL_036C": {
     "type": "nominal",
     "code_map": {
-      "0": "The approach guardrail does not comply with current safety standards or is absent where required, posing a risk of vehicle departure from the roadway near the bridge.",
+      "0": "The approach guardrail is either non-compliant with current safety standards or missing, increasing the risk of vehicles departing the roadway near the bridge, which could lead to severe accidents.",
       "1": "The approach guardrail meets current safety standards, ensuring effective vehicle redirection and minimizing the risk of accidents at the bridge approach.",
       "N": "The approach guardrail is not applicable or required for this bridge, indicating that the bridge design or location does not necessitate such safety measures."
     },
-    "description": "Whether the approach guardrail upstream/downstream of the bridge is adequate to safely redirect vehicles relative to current standards."
+    "description": "Whether the approach guardrail upstream/downstream of the bridge is adequate to safely redirect vehicles relative to current standards.",
+    "title": "Approach Guardrail Adequacy"
   },
   "APPR_RAIL_END_036D": {
     "type": "nominal",
@@ -308,7 +326,8 @@
       "1": "The approach guardrail end treatments adhere to current crashworthiness standards, ensuring adequate protection against vehicular impacts and enhancing overall bridge safety and structural integrity.",
       "N": "The approach guardrail end treatments are not applicable or required for this bridge, indicating that current standards do not mandate such features for this specific structural context."
     },
-    "description": "Whether the end treatments of the approach guardrail are adequate for crashworthiness relative to current standards."
+    "description": "Whether the end treatments of the approach guardrail are adequate for crashworthiness relative to current standards.",
+    "title": "Approach Guardrail End TreatmentAdequacy"
   },
   "HISTORY_037": {
     "type": "nominal",
@@ -319,7 +338,8 @@
       "4": "The historical significance of the bridge cannot be determined, necessitating additional research to assess potential historical value and its impact on engineering decisions.",
       "5": "The bridge is not eligible for the National Register of Historic Places, allowing for standard engineering practices without historical preservation constraints during maintenance or upgrades."
     },
-    "description": "The bridge\u00e2\u20ac\u2122s historic significance status in terms of listing or eligibility for historic registers such as the NRHP."
+    "description": "The bridgeâ€™s historic significance status in terms of listing or eligibility for historic registers such as the NRHP.",
+    "title": "Historic Significance Status"
   },
   "NAVIGATION_038": {
     "type": "nominal",
@@ -328,7 +348,8 @@
       "0": "This code signifies that although a waterway is present, it does not require navigation control or permits, reducing regulatory constraints on bridge design and construction.",
       "1": "This code denotes the presence of a navigable waterway requiring navigation control and permits, necessitating compliance with maritime regulations and potentially influencing bridge clearance and design."
     },
-    "description": "Whether a navigable waterway is present and therefore navigation control/permit requirements apply at the crossing."
+    "description": "Whether a navigable waterway is present and therefore navigation control/permit requirements apply at the crossing.",
+    "title": "Navigability Status"
   },
   "OPEN_CLOSED_POSTED_041": {
     "type": "nominal",
@@ -342,7 +363,8 @@
       "P": "The bridge is open but has load restrictions to prevent excessive stress on the structure, ensuring safety while accommodating limited vehicular traffic.",
       "R": "The bridge is open with restrictions on speed, vehicle numbers, or other factors to mitigate risks associated with structural limitations or safety concerns."
     },
-    "description": "The operational status of the bridge describing whether it is open without restriction, posted with restrictions, or closed to traffic."
+    "description": "The operational status of the bridge describing whether it is open without restriction, posted with restrictions, or closed to traffic.",
+    "title": "Bridge Operational Status"
   },
   "SERVICE_ON_042A": {
     "type": "nominal",
@@ -358,7 +380,8 @@
       "9": "This code indicates the bridge deck serves as a building or plaza, focusing on architectural integration, load distribution for non-vehicular use, and public accessibility and safety considerations.",
       "0": "This code represents other types of services not explicitly categorized, requiring flexible engineering approaches to accommodate unique load conditions and functional requirements specific to the bridge's use."
     },
-    "description": "The primary type of service carried on the bridge deck (highway, railroad, pedestrian/bike, combinations, or complex interchange levels)."
+    "description": "The primary type of service carried on the bridge deck (highway, railroad, pedestrian/bike, combinations, or complex interchange levels).",
+    "title": "Service Type"
   },
   "SERVICE_UND_042B": {
     "type": "nominal",
@@ -374,7 +397,8 @@
       "9": "This code denotes a relief structure for a waterway, focusing on flood management and ensuring structural integrity during high water events.",
       "0": "This code applies to other types of services beneath the bridge, requiring tailored engineering assessments based on specific service characteristics and structural demands."
     },
-    "description": "The primary type of service that passes beneath the bridge (road, railroad, waterway, combinations, or none)."
+    "description": "The primary type of service that passes beneath the bridge (road, railroad, waterway, combinations, or none).",
+    "title": "Service Type Below Bridge"
   },
   "STRUCTURE_KIND_043A": {
     "type": "nominal",
@@ -390,7 +414,8 @@
       "9": "Aluminum, wrought iron, or cast iron bridges utilize these metals for their corrosion resistance and unique aesthetic qualities, important for specific design requirements and historical preservation.",
       "0": "Other refers to bridges constructed with unconventional or mixed materials, requiring specialized analysis to assess structural behavior and ensure safety under diverse loading conditions."
     },
-    "description": "The primary structural material system used for the main spans of the bridge (e.g., concrete, steel, prestressed concrete, timber)."
+    "description": "The primary structural material system used for the main spans of the bridge (e.g., concrete, steel, prestressed concrete, timber).",
+    "title": "Main Span Material"
   },
   "STRUCTURE_TYPE_043B": {
     "type": "nominal",
@@ -419,7 +444,8 @@
       "22": "Channel beam bridges employ U-shaped beams, offering simplicity and cost-effectiveness for short spans with moderate load demands.",
       "0": "Other bridge types encompass unique or unconventional designs not classified under standard categories, requiring specialized analysis for structural assessment."
     },
-    "description": "The main structural form/design configuration used for the bridge (e.g., slab, girder, truss, arch, suspension, culvert, etc.)."
+    "description": "The main structural form/design configuration used for the bridge (e.g., slab, girder, truss, arch, suspension, culvert, etc.).",
+    "title": "Structure Type"
   },
   "APPR_KIND_044A": {
     "type": "nominal",
@@ -435,7 +461,8 @@
       "9": "Aluminum, wrought iron, or cast iron spans use non-traditional metals, offering unique properties like corrosion resistance or historical significance, requiring specialized maintenance and structural assessment.",
       "0": "Other materials encompass unconventional or composite systems, necessitating detailed engineering evaluation to ensure compatibility with design standards and performance under load and environmental conditions."
     },
-    "description": "The primary structural material system used for the approach spans, if approach spans exist (e.g., concrete, steel, timber)."
+    "description": "The primary structural material system used for the approach spans, if approach spans exist (e.g., concrete, steel, timber).",
+    "title": "Approach Span Material"
   },
   "APPR_TYPE_044B": {
     "type": "nominal",
@@ -464,7 +491,8 @@
       "22": "Channel beam approach spans utilize U-shaped beams to support the deck, providing efficient load distribution and reduced construction depth, suitable for short to medium spans with limited clearance.",
       "0": "Other approach span types encompass unconventional or unique structural forms, requiring specialized analysis and design considerations, essential for addressing site-specific challenges and innovative solutions."
     },
-    "description": "The structural form/design configuration used for the approach spans, if approach spans exist (e.g., girder, slab, truss, culvert, etc.)."
+    "description": "The structural form/design configuration used for the approach spans, if approach spans exist (e.g., girder, slab, truss, culvert, etc.).",
+    "title": "Approach Span Type"
   },
   "VERT_CLR_UND_REF_054A": {
     "type": "nominal",
@@ -473,7 +501,8 @@
       "R": "The vertical clearance is determined with respect to a railroad beneath the bridge, essential for maintaining safe passage of trains and preventing contact with overhead bridge components.",
       "N": "The vertical clearance is assessed relative to a non-highway or non-railroad feature, such as a pedestrian path or waterway, where clearance requirements may vary significantly."
     },
-    "description": "The feature type used as the reference for reported vertical clearance beneath the bridge (highway, railroad, or other)."
+    "description": "The feature type used as the reference for reported vertical clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Vertical Clearance Reference"
   },
   "LAT_UND_REF_055A": {
     "type": "nominal",
@@ -482,7 +511,8 @@
       "R": "The reported lateral clearance is measured relative to a railroad beneath the bridge, essential for ensuring safe rail operations and preventing structural interference with train movements.",
       "N": "The lateral clearance is measured relative to a non-highway or non-railroad feature beneath the bridge, such as a pedestrian path or natural terrain, affecting unique clearance requirements."
     },
-    "description": "The feature type used as the reference for reported lateral clearance beneath the bridge (highway, railroad, or other)."
+    "description": "The feature type used as the reference for reported lateral clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Lateral Clearance Reference"
   },
   "DECK_COND_058": {
     "type": "nominal",
@@ -498,7 +528,8 @@
       "1": "The deck is in imminent failure condition, closed to traffic but potentially restorable to light service through extensive repairs, highlighting urgent safety concerns.",
       "0": "The deck is in failed condition, completely out of service and beyond repair, requiring replacement to restore functionality and ensure public safety."
     },
-    "description": "The condition state of the deck element as assessed during inspection, reflecting deterioration such as cracking, spalling, corrosion, or section loss."
+    "description": "The condition state of the deck element as assessed during inspection, reflecting deterioration such as cracking, spalling, corrosion, or section loss.",
+    "title": "Deck Condition"
   },
   "SUPERSTRUCTURE_COND_059": {
     "type": "nominal",
@@ -514,7 +545,8 @@
       "1": "The superstructure is in imminent failure condition, closed to traffic but potentially restorable for light service through extensive repairs, highlighting urgent safety concerns.",
       "0": "The superstructure is in failed condition, out of service and beyond corrective action, indicating complete loss of load-carrying capacity and necessitating replacement or major reconstruction."
     },
-    "description": "The condition state of the superstructure as assessed during inspection, reflecting deterioration or damage in main load-carrying members."
+    "description": "The condition state of the superstructure as assessed during inspection, reflecting deterioration or damage in main load-carrying members.",
+    "title": "Superstructure Condition"
   },
   "SUBSTRUCTURE_COND_060": {
     "type": "nominal",
@@ -530,7 +562,8 @@
       "1": "The substructure is in imminent failure condition, closed to traffic but potentially repairable for limited service, indicating urgent need for structural rehabilitation.",
       "0": "The substructure is in failed condition, out of service and beyond repair, necessitating replacement to restore functionality and ensure public safety."
     },
-    "description": "The condition state of the substructure as assessed during inspection, reflecting deterioration or damage in piers, abutments, and foundations above waterline."
+    "description": "The condition state of the substructure as assessed during inspection, reflecting deterioration or damage in piers, abutments, and foundations above waterline.",
+    "title": "Substructure Condition"
   },
   "CHANNEL_COND_061": {
     "type": "nominal",
@@ -546,7 +579,8 @@
       "1": "The bridge is closed due to channel failure, but repairs are feasible, indicating a severe condition that requires prompt engineering solutions to restore functionality.",
       "0": "The bridge is closed due to catastrophic channel failure, necessitating complete replacement, reflecting an extreme condition where repair is not viable."
     },
-    "description": "The condition state of the channel and channel protection at the crossing, reflecting erosion, instability, debris, and threat to foundations."
+    "description": "The condition state of the channel and channel protection at the crossing, reflecting erosion, instability, debris, and threat to foundations.",
+    "title": "Channel Condition"
   },
   "OPR_RATING_METH_063": {
     "type": "nominal",
@@ -557,7 +591,8 @@
       "4": "Load Testing involves physically applying loads to the bridge to directly measure its response, offering empirical data to confirm safe load-carrying capacity for heavy vehicles.",
       "5": "No rating analysis performed indicates that the bridge's load-carrying capacity has not been analytically or empirically assessed, potentially impacting safety and regulatory compliance for heavy-vehicle passage."
     },
-    "description": "The analytical or test-based method used to determine the bridge operating rating used for load posting and safe heavy-vehicle passage."
+    "description": "The analytical or test-based method used to determine the bridge operating rating used for load posting and safe heavy-vehicle passage.",
+    "title": "Operating Rating Method"
   },
   "INV_RATING_METH_065": {
     "type": "nominal",
@@ -568,7 +603,8 @@
       "4": "Load Testing involves physically applying loads to the bridge to directly measure its performance and capacity, providing empirical data to validate analytical models and ensure safety under actual conditions.",
       "5": "No rating analysis performed indicates that the bridge's service load capacity has not been evaluated, potentially leaving uncertainties in its ability to safely carry expected traffic loads."
     },
-    "description": "The analytical or test-based method used to determine the bridge inventory rating representing normal allowable service loading capacity."
+    "description": "The analytical or test-based method used to determine the bridge inventory rating representing normal allowable service loading capacity.",
+    "title": "Inventory Rating Method"
   },
   "STRUCTURAL_EVAL_067": {
     "type": "nominal",
@@ -584,7 +620,8 @@
       "1": "This code is not utilized in the structural evaluation rating system, serving as a placeholder without practical application in assessing bridge adequacy.",
       "0": "The bridge is closed due to inadequate load-bearing capacity and severe deficiencies, posing significant safety risks that prevent its use until necessary repairs or replacement are completed."
     },
-    "description": "A summary structural adequacy rating that reflects the bridge\u00e2\u20ac\u2122s ability to safely carry loads considering condition, capacity, and observed deficiencies."
+    "description": "A summary structural adequacy rating that reflects the bridgeâ€™s ability to safely carry loads considering condition, capacity, and observed deficiencies.",
+    "title": "Structural Adequacy Rating"
   },
   "DECK_GEOMETRY_EVAL_068": {
     "type": "nominal",
@@ -600,7 +637,8 @@
       "1": "This code is not utilized in the current evaluation system, indicating no applicable assessment for this specific condition within the bridge deck geometry criteria.",
       "0": "The bridge is closed due to severe deficiencies in deck geometry, posing unacceptable safety risks and necessitating immediate closure to prevent accidents and structural failures."
     },
-    "description": "A geometry adequacy rating reflecting whether deck width, shoulders, lane arrangement, and related geometric features meet accepted criteria."
+    "description": "A geometry adequacy rating reflecting whether deck width, shoulders, lane arrangement, and related geometric features meet accepted criteria.",
+    "title": "Deck Geometry Rating"
   },
   "UNDCLRENCE_EVAL_069": {
     "type": "nominal",
@@ -616,19 +654,21 @@
       "1": "This code is not utilized in the current evaluation system, indicating no applicable clearance rating for this category.",
       "0": "The bridge is closed due to insufficient clearances, posing unacceptable safety risks and operational challenges, necessitating immediate closure and reevaluation for future use."
     },
-    "description": "A clearance adequacy rating reflecting whether vertical/lateral clearances under the bridge are acceptable for the feature passing beneath."
+    "description": "A clearance adequacy rating reflecting whether vertical/lateral clearances under the bridge are acceptable for the feature passing beneath.",
+    "title": "Clearance Evaluation"
   },
   "POSTING_EVAL_070": {
     "type": "nominal",
     "code_map": {
       "5": "The bridge is capable of safely supporting legal vehicular loads without any restrictions, indicating optimal structural performance and full compliance with load-bearing standards.",
       "4": "The bridge can support loads marginally below legal limits, requiring minor restrictions to ensure safety, reflecting slight structural deficiencies needing monitoring or minor reinforcement.",
-      "3": "The bridge supports loads 10.0\u00e2\u20ac\u201c19.9% below legal limits, necessitating moderate restrictions to prevent overloading, highlighting significant structural concerns that may require engineering intervention.",
-      "2": "The bridge supports loads 20.0\u00e2\u20ac\u201c29.9% below legal limits, indicating substantial restrictions are necessary, pointing to critical structural vulnerabilities that demand urgent engineering assessment and potential retrofitting.",
-      "1": "The bridge supports loads 30.0\u00e2\u20ac\u201c39.9% below legal limits, requiring severe restrictions, underscoring major structural inadequacies that pose safety risks and necessitate immediate engineering solutions.",
+      "3": "The bridge supports loads 10.0–19.9% below legal limits, necessitating moderate restrictions to prevent overloading, highlighting significant structural concerns that may require engineering intervention.",
+      "2": "The bridge supports loads 20.0–29.9% below legal limits, indicating substantial restrictions are necessary, pointing to critical structural vulnerabilities that demand urgent engineering assessment and potential retrofitting.",
+      "1": "The bridge supports loads 30.0–39.9% below legal limits, requiring severe restrictions, underscoring major structural inadequacies that pose safety risks and necessitate immediate engineering solutions.",
       "0": "The bridge supports loads more than 39.9% below legal limits, necessitating extreme restrictions or closure, indicating severe structural failure risks requiring comprehensive engineering evaluation and rehabilitation."
     },
-    "description": "A posting adequacy rating reflecting whether the bridge can safely carry legal loads or requires restrictions below legal limits."
+    "description": "A posting adequacy rating reflecting whether the bridge can safely carry legal loads or requires restrictions below legal limits.",
+    "title": "Posting Adequacy Rating"
   },
   "WATERWAY_EVAL_071": {
     "type": "nominal",
@@ -645,7 +685,8 @@
       "1": "This code is not utilized in the current evaluation system, possibly reserved for future use or specific conditions not presently defined.",
       "0": "The bridge is closed due to inadequate hydraulic performance, posing unacceptable risks from water flow and flooding, necessitating closure to ensure public safety."
     },
-    "description": "A waterway adequacy rating reflecting whether the bridge opening and hydraulic performance are adequate for expected flows and flood conditions."
+    "description": "A waterway adequacy rating reflecting whether the bridge opening and hydraulic performance are adequate for expected flows and flood conditions.",
+    "title": "Waterway Adequacy Rating"
   },
   "APPR_ROAD_EVAL_072": {
     "type": "nominal",
@@ -662,7 +703,8 @@
       "1": "This code is not used in the evaluation of approach roadway alignment adequacy, possibly reserved for future criteria or specific conditions.",
       "0": "The bridge is closed due to the approach roadway alignment being unsafe or inadequate, preventing vehicular access until necessary improvements are made."
     },
-    "description": "An approach roadway alignment adequacy rating reflecting whether the roadway alignment approaching the bridge is acceptable and safe."
+    "description": "An approach roadway alignment adequacy rating reflecting whether the roadway alignment approaching the bridge is acceptable and safe.",
+    "title": "Approach Roadway Rating"
   },
   "WORK_PROPOSED_075A": {
     "type": "nominal",
@@ -676,7 +718,8 @@
       "37": "Deck replacement with incidental widening entails replacing the entire bridge deck and slightly increasing its width, improving structural integrity and traffic capacity.",
       "38": "Other structural or hydraulic work includes various modifications or repairs to the bridge's structural components or hydraulic systems, addressing specific engineering challenges or environmental conditions."
     },
-    "description": "The type of work action planned for the bridge such as rehabilitation, deck work, widening, replacement, or other structural/hydraulic work."
+    "description": "The type of work action planned for the bridge such as rehabilitation, deck work, widening, replacement, or other structural/hydraulic work.",
+    "title": "Proposed Work Type"
   },
   "FRACTURE_092A": {
     "type": "nominal",
@@ -684,7 +727,8 @@
       "Y": "The bridge requires a fracture-critical inspection due to non-redundant tension members, where failure could lead to collapse, necessitating regular inspections at specified intervals, such as every 24 months.",
       "N": "The bridge does not require fracture-critical inspection, indicating that its design includes redundant load paths, reducing the risk of collapse from a single member failure."
     },
-    "description": "Whether the bridge requires fracture-critical inspection due to non-redundant tension members where failure could lead to collapse, including any specified interval."
+    "description": "Whether the bridge requires fracture-critical inspection due to non-redundant tension members where failure could lead to collapse, including any specified interval.",
+    "title": "Fracture Critical Status"
   },
   "UNDWATER_LOOK_SEE_092B": {
     "type": "nominal",
@@ -692,7 +736,8 @@
       "Y": "The bridge requires periodic underwater inspection due to submerged structural elements or potential scour, with specified intervals in months, ensuring integrity and safety against water-induced damage.",
       "N": "The bridge does not require underwater inspection as it lacks submerged elements or significant scour risk, indicating minimal vulnerability to water-related structural deterioration."
     },
-    "description": "Whether the bridge requires underwater inspection due to submerged elements or scour exposure, including any specified inspection interval."
+    "description": "Whether the bridge requires underwater inspection due to submerged elements or scour exposure, including any specified inspection interval.",
+    "title": "Underwater Inspection Need"
   },
   "SPEC_INSPECT_092C": {
     "type": "nominal",
@@ -700,7 +745,8 @@
       "Y": "The bridge requires a special inspection beyond routine cycles due to unique structural details, potential hazards, or known issues, with specified inspection intervals to ensure safety and integrity.",
       "N": "The bridge does not require any special inspection beyond routine cycles, indicating no unusual structural details or known issues that necessitate additional monitoring or assessment."
     },
-    "description": "Whether the bridge requires special inspection beyond routine cycles due to unusual details, hazards, or known issues, including any specified interval."
+    "description": "Whether the bridge requires special inspection beyond routine cycles due to unusual details, hazards, or known issues, including any specified interval.",
+    "title": "Special Inspection Requirement"
   },
   "STRAHNET_HIGHWAY_100": {
     "type": "nominal",
@@ -710,7 +756,8 @@
       "3": "The bridge is positioned on a Non-Interstate STRAHNET route, underscoring its importance in supporting defense logistics through secondary highways that complement primary interstate routes.",
       "4": "The bridge is on a STRAHNET connector route, emphasizing its function in linking major military installations or facilities to the broader strategic highway network for logistical efficiency."
     },
-    "description": "The bridge\u00e2\u20ac\u2122s relationship to the STRAHNET network indicating whether it lies on a strategic highway route or connector important for defense logistics."
+    "description": "The bridgeâ€™s relationship to the STRAHNET network indicating whether it lies on a strategic highway route or connector important for defense logistics.",
+    "title": "Strategic Highway Status"
   },
   "PARALLEL_STRUCTURE_101": {
     "type": "nominal",
@@ -719,7 +766,8 @@
       "L": "This code signifies the bridge is the left structure of parallel bridges, opposite to the inventoried travel direction, important for assessing lateral load effects and structural interaction.",
       "N": "This code denotes that no parallel structure exists, simplifying structural analysis by eliminating considerations of inter-bridge dynamic interactions and shared load paths."
     },
-    "description": "Whether this bridge is one of a pair of parallel structures and, if so, which side it represents relative to the inventoried travel direction."
+    "description": "Whether this bridge is one of a pair of parallel structures and, if so, which side it represents relative to the inventoried travel direction.",
+    "title": "Parallel Structure Side"
   },
   "TRAFFIC_DIRECTION_102": {
     "type": "nominal",
@@ -729,7 +777,8 @@
       "2": "This code represents a bridge accommodating two-way traffic, necessitating analysis of bidirectional load impacts and structural resilience to ensure safe and efficient traffic operations.",
       "3": "This code describes a one-lane bridge allowing two-way traffic, requiring careful structural assessment to manage alternating traffic loads and ensure safe passage under constrained conditions."
     },
-    "description": "The traffic flow configuration carried by the bridge (one-way, two-way, or special one-lane/two-way operating condition)."
+    "description": "The traffic flow configuration carried by the bridge (one-way, two-way, or special one-lane/two-way operating condition).",
+    "title": "Traffic Flow Configuration"
   },
   "HIGHWAY_SYSTEM_104": {
     "type": "nominal",
@@ -737,7 +786,8 @@
       "0": "The bridge is not part of the National Highway System, indicating it has lower national significance and may receive less federal oversight and funding for maintenance and upgrades.",
       "1": "The bridge is part of the National Highway System, highlighting its critical role in national transportation, warranting prioritized federal oversight, funding, and stringent structural performance standards."
     },
-    "description": "Whether the bridge is part of the National Highway System, indicating national-level roadway importance and funding/oversight relevance."
+    "description": "Whether the bridge is part of the National Highway System, indicating national-level roadway importance and funding/oversight relevance.",
+    "title": "National Highway Status"
   },
   "FEDERAL_LANDS_105": {
     "type": "nominal",
@@ -751,7 +801,8 @@
       "6": "The bridge is situated on both a Forest Highway and a Land Management Highway System, indicating complex jurisdictional oversight and potential for enhanced federal funding for structural enhancements.",
       "9": "The bridge is on a combined route of Indian Reservation Road, Forest Highway, and Land Management Highway System, requiring comprehensive federal coordination for structural safety and maintenance."
     },
-    "description": "Whether the bridge lies on a federal lands highway route class (e.g., IRR, forest highway, land management system), indicating federal lands context."
+    "description": "Whether the bridge lies on a federal lands highway route class (e.g., IRR, forest highway, land management system), indicating federal lands context.",
+    "title": "Federal Lands Status"
   },
   "DECK_STRUCTURE_TYPE_107": {
     "type": "nominal",
@@ -768,7 +819,8 @@
       "0": "None indicates the absence of a structural deck, relevant for certain bridge types like suspension or cable-stayed bridges where the deck is integral to the main structural system.",
       "N": "Not applicable signifies situations where the deck type is irrelevant, such as culverts or non-bridge structures, ensuring clarity in structural categorization and assessment processes."
     },
-    "description": "The structural deck type describing the deck\u00e2\u20ac\u2122s primary material/form (cast-in-place concrete, precast panels, steel plate, grating, timber, etc.)."
+    "description": "The structural deck type describing the deckâ€™s primary material/form (cast-in-place concrete, precast panels, steel plate, grating, timber, etc.).",
+    "title": "Deck Structure Type"
   },
   "SURFACE_TYPE_108A": {
     "type": "nominal",
@@ -785,7 +837,8 @@
       "0": "None indicates the absence of an added surface layer, exposing the structural deck directly to traffic and environmental conditions, which may affect its longevity and performance.",
       "N": "Not applicable signifies that the bridge lacks a structural deck, often seen in certain types of culverts or pedestrian bridges where a wearing surface is unnecessary."
     },
-    "description": "The wearing surface placed on top of the structural deck, describing the overlay/surfacing material and whether an added surface exists."
+    "description": "The wearing surface placed on top of the structural deck, describing the overlay/surfacing material and whether an added surface exists.",
+    "title": "Surface Type"
   },
   "MEMBRANE_TYPE_108B": {
     "type": "nominal",
@@ -798,7 +851,8 @@
       "0": "No membrane system is present, exposing the deck to direct water contact, which significantly increases the risk of structural degradation and necessitates frequent maintenance and monitoring.",
       "N": "Not applicable as there is no deck present, eliminating the need for a waterproofing membrane system and focusing structural assessments on other bridge components."
     },
-    "description": "The waterproofing membrane system associated with the deck, describing the barrier type used between deck and overlay where applicable."
+    "description": "The waterproofing membrane system associated with the deck, describing the barrier type used between deck and overlay where applicable.",
+    "title": "Waterproofing Membrane Type"
   },
   "DECK_PROTECTION_108C": {
     "type": "nominal",
@@ -814,7 +868,8 @@
       "0": "None indicates the absence of any corrosion protection system for the deck reinforcement, increasing vulnerability to environmental degradation and reducing structural lifespan.",
       "N": "Not applicable signifies that the bridge lacks a deck component, rendering corrosion protection considerations irrelevant for this particular structural configuration."
     },
-    "description": "The corrosion/durability protection system used for the deck reinforcement or deck system (e.g., epoxy coating, galvanizing, cathodic protection)."
+    "description": "The corrosion/durability protection system used for the deck reinforcement or deck system (e.g., epoxy coating, galvanizing, cathodic protection).",
+    "title": "Deck Protection System"
   },
   "NATIONAL_NETWORK_110": {
     "type": "nominal",
@@ -822,7 +877,8 @@
       "0": "The bridge is not included in the national network for trucks, indicating it does not serve as a primary route for freight movement, affecting its design and load-bearing considerations.",
       "1": "The bridge is part of the national network for trucks, signifying its role in supporting heavy freight traffic, necessitating robust structural design and regular maintenance to ensure safety and functionality."
     },
-    "description": "Whether the bridge is on the designated national network for trucks, indicating whether it serves routes prioritized for freight movement."
+    "description": "Whether the bridge is on the designated national network for trucks, indicating whether it serves routes prioritized for freight movement.",
+    "title": "National Freight Route"
   },
   "PIER_PROTECTION_111": {
     "type": "nominal",
@@ -833,7 +889,8 @@
       "4": "Protection measures are currently in place, but a re-evaluation is recommended to assess their adequacy and ensure continued effectiveness against navigational impacts.",
       "5": "No protection systems are currently installed, but a re-evaluation is advised to determine if protective measures are necessary to safeguard the bridge from potential impacts."
     },
-    "description": "The status and condition of pier/abutment protection measures intended to reduce collision or navigation impacts (or note if not required)."
+    "description": "The status and condition of pier/abutment protection measures intended to reduce collision or navigation impacts (or note if not required).",
+    "title": "Pier Protection Status"
   },
   "SCOUR_CRITICAL_113": {
     "type": "nominal",
@@ -852,7 +909,8 @@
       "1": "The bridge is scour critical with imminent failure of piers or abutments, leading to its closure to traffic to prevent catastrophic collapse.",
       "0": "The bridge has failed due to scour, resulting in its closure to traffic as the structural integrity is compromised beyond safe operational limits."
     },
-    "description": "The scour critical rating describing the stability of foundations relative to observed or evaluated scour vulnerability and countermeasure effectiveness."
+    "description": "The scour critical rating describing the stability of foundations relative to observed or evaluated scour vulnerability and countermeasure effectiveness.",
+    "title": "Scour Critical Rating"
   },
   "BRIDGE_CONDITION": {
     "type": "nominal",
@@ -861,7 +919,8 @@
       "F": "A bridge in fair condition has a lowest NBI rating between 5 and 6, reflecting moderate deterioration that may require maintenance to prevent further degradation and ensure continued safe operation.",
       "P": "A bridge in poor condition has a lowest NBI rating of 4 or lower, indicating significant deterioration that compromises structural integrity and necessitates urgent repairs or replacement to ensure safety."
     },
-    "description": "A categorical overall condition label derived from the lowest key NBI condition rating, grouping the bridge into good, fair, or poor condition."
+    "description": "A categorical overall condition label derived from the lowest key NBI condition rating, grouping the bridge into good, fair, or poor condition.",
+    "title": "Bridge Condition"
   },
   "LOWEST_RATING": {
     "type": "nominal",
@@ -877,6 +936,7 @@
       "1": "The bridge component is in imminent failure condition, with deterioration so severe that failure is likely without immediate intervention, highlighting the urgency for emergency repairs.",
       "0": "The bridge component has failed, indicating complete loss of functionality and structural integrity, requiring closure and comprehensive reconstruction to restore safe operation."
     },
-    "description": "The minimum condition rating among the principal inspected components (typically deck, superstructure, substructure, or related key items) that governs overall condition."
+    "description": "The minimum condition rating among the principal inspected components (typically deck, superstructure, substructure, or related key items) that governs overall condition.",
+    "title": "Minimum Condition Rating"
   }
 }

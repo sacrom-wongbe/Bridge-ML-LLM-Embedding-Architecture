@@ -4,6 +4,10 @@
     "type": "reference",
     "code_map": null
   },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
   "MIN_VERT_CLR_010": {
     "type": "numerical_coded",
     "code_map": {

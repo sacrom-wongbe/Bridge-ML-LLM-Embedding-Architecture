@@ -1,0 +1,108 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_UNIT_NAME": {
+    "type": "nl",
+    "description": "The macro unit name provides the standardized label assigned to a mapped geologic unit, representing a regionally recognized grouping of rock with shared stratigraphic context.",
+    "title": "Geologic Unit Name"
+  },
+  "MACRO_STRAT_NAME": {
+    "type": "nl",
+    "description": "The stratigraphic name identifies the formal stratigraphic unit (such as formation, member, or group) to which the mapped rocks belong, reflecting their position within the geologic column.",
+    "title": "Stratigraphic Unit"
+  },
+  "MACRO_LITHOLOGY": {
+    "type": "nl",
+    "description": "The lithology describes the dominant rock material or materials present in the unit, capturing composition and texture that directly influence mechanical and hydraulic behavior.",
+    "title": "Rock Material Type"
+  },
+  "MACRO_AGE_MIN": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      358.9
+    ],
+    "description": "The minimum geologic age represents the youngest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement ended.",
+    "semantic_bins": {
+      "labels": [
+        "recently formed",
+        "geologically young",
+        "geologically mature",
+        "ancient",
+        "prehistoric"
+      ],
+      "edges": [
+        0,
+        50,
+        150,
+        250,
+        350,
+        "inf"
+      ],
+      "sentences": [
+        "Recently formed geologic units, with a minimum age under 50 million years, provide a stable foundation for modern bridges, ensuring minimal geological disturbances and optimal structural support.",
+        "Geologically young formations, aged between 50 and 150 million years, offer reliable support for bridge infrastructure, though they may require additional geotechnical assessments to account for potential variability in material properties.",
+        "Geologically mature units, ranging from 150 to 250 million years, typically provide well-consolidated foundations for bridges, but may necessitate detailed analysis to address any historical tectonic activity that could impact structural integrity.",
+        "Ancient geologic formations, aged between 250 and 350 million years, often present stable but complex conditions for bridge construction, requiring thorough geological surveys to ensure long-term stability and performance.",
+        "Prehistoric formations exceeding 350 million years represent extreme geological ages, where bridges must be designed with advanced engineering techniques to accommodate potential challenges from deeply weathered or metamorphosed rock structures."
+      ]
+    },
+    "title": "Minimum Geologic Age"
+  },
+  "MACRO_AGE_MAX": {
+    "type": "numerical",
+    "range": [
+      0.0117,
+      4000.0
+    ],
+    "description": "The maximum geologic age represents the oldest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement began.",
+    "semantic_bins": {
+      "labels": [
+        "recently formed",
+        "geologically young",
+        "geologically mature",
+        "ancient",
+        "prehistoric"
+      ],
+      "edges": [
+        0,
+        50,
+        200,
+        1000,
+        3000,
+        "inf"
+      ],
+      "sentences": [
+        "Recently formed geological units, with ages under 50 million years, provide a stable foundation for bridges, minimizing seismic risks due to their relatively unaltered state.",
+        "Geologically young formations, between 50 and 200 million years, offer reliable support for bridge structures, though they may require careful assessment for potential erosion or weathering effects.",
+        "Geologically mature units, aged between 200 and 1000 million years, often exhibit increased stability and reduced seismic activity, making them suitable for long-span bridge construction.",
+        "Ancient geological formations, ranging from 1000 to 3000 million years, typically provide robust support for bridges, but may involve complex rock formations requiring specialized engineering solutions.",
+        "Prehistoric formations exceeding 3000 million years represent some of the oldest geological units, where bridges may encounter unique challenges due to potential metamorphic transformations and deep-seated faults."
+      ]
+    },
+    "title": "Maximum Geologic Age"
+  },
+  "MACRO_DESCRIPTION": {
+    "type": "nl",
+    "description": "The descriptive text summarizes the geologic characteristics of the unit, including depositional environment, material variability, structure, and notable features relevant to engineering and geotechnical interpretation.",
+    "title": "Geologic Characteristics"
+  },
+  "MACRO_COLOR": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_SOURCE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_MAP_ID": {
+    "type": "reference",
+    "description": null
+  }
+}

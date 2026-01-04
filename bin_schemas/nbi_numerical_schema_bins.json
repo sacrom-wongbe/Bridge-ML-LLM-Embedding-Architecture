@@ -3,6 +3,10 @@
     "category": "Bridge structure identifier",
     "type": "reference"
   },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
   "DETOUR_KILOS_019": {
     "type": "numerical",
     "range": [
@@ -553,7 +557,7 @@
       55.0,
       55.0
     ],
-    "description": "The number of years that have elapsed since the bridge’s most recent routine inspection, representing the recency of condition information.",
+    "description": "The number of years that have elapsed since the bridge\u00e2\u20ac\u2122s most recent routine inspection, representing the recency of condition information.",
     "semantic_bins": {
       "labels": [
         "recently inspected",

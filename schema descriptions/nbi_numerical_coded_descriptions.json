@@ -1,12 +1,10 @@
 [
-  "The minimum vertical clearance available at the bridge, representing the lowest unobstructed height for vehicles or loads passing through or beneath the structure, with special values indicating that no clearance restriction applies.",
-  "The additional travel distance, measured in kilometers, that vehicles must take if the bridge is closed or impassable, reflecting network redundancy and detour severity.",
-  "The skew angle between the bridge centerline and the feature it crosses, representing how obliquely the bridge is oriented relative to the roadway, waterway, or obstacle below.",
-  "The minimum vertical clearance available for navigation beneath the bridge, indicating the maximum allowable height of vessels that can safely pass under the structure.",
-  "The minimum horizontal clearance available for navigation beneath the bridge, representing the unobstructed width available for vessels passing between piers, abutments, or fender systems.",
-  "The total horizontal clearance provided by the bridge opening, reflecting the maximum unobstructed width available beneath the structure for traffic, water, or other features.",
-  "The minimum vertical clearance available above the roadway carried by the bridge, indicating constraints imposed by overhead elements such as trusses, portals, or overhead framing.",
-  "The minimum vertical clearance beneath the bridge, representing the lowest unobstructed height available for traffic, water, or other features passing below the structure.",
-  "The maximum allowable live load that the bridge can safely carry under operating conditions, reflecting short-term load capacity before posting or closure is required.",
-  "The allowable live load that the bridge can safely carry under normal service conditions over its design life, reflecting conservative capacity used for routine traffic."
+  "The minimum vertical clearance at the crossing, representing the lowest unobstructed height available for traffic or permitted loads where a special maximum code indicates that no minimum clearance constraint applies.",
+  "The minimum vertical clearance available for navigation beneath the structure, representing the limiting height for vessels where a special zero code indicates that navigation clearance is not applicable.",
+  "The minimum horizontal clearance available for navigation beneath the structure, representing the limiting width for vessels where a special zero code indicates that navigation clearance is not applicable.",
+  "The total horizontal clearance provided through the opening beneath the structure, representing the usable unobstructed width where a special maximum code indicates very large or effectively unrestricted clearance.",
+  "The minimum vertical clearance available above the roadway carried on the structure, representing the lowest overhead restriction on the traveled way where a special maximum code indicates no vertical restriction applies.",
+  "The minimum vertical clearance available beneath the structure, representing the lowest unobstructed height for the feature passing below the bridge.",
+  "The operating load rating capacity of the structure, representing the maximum permissible live load level for continued use where a special zero code indicates the bridge cannot carry a minimum threshold load.",
+  "The inventory load rating capacity of the structure, representing the allowable live load level for routine service where a special maximum code indicates live load is negligible due to sufficient cover or fill."
 ]

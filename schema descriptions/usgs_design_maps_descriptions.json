@@ -1,5 +1,5 @@
 [
-  "Peak Ground Acceleration (PGA), the maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations.",
+  "The design map adjusted maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations.",
   "The mapped short-period spectral acceleration at the site before site soil effects are applied, representing seismic demand on short-period structural components.",
   "The mapped 1.0-second spectral acceleration at the site before site soil effects are applied, representing seismic demand on longer-period structural systems.",
   "The site-adjusted short-period spectral acceleration that accounts for local soil amplification or attenuation of seismic ground motions.",
