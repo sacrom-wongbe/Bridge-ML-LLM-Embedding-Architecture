@@ -1,0 +1,254 @@
+{
+  "STRUCTURE_ID": {
+    "type": "string",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "string",
+    "description": null
+  },
+  "PGA": {
+    "type": "numerical",
+    "range": [
+      0.165,
+      0.866
+    ],
+    "description": "The design map adjusted maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with PGA values up to 0.2 are generally subject to minimal earthquake-induced forces, requiring standard design considerations for seismic resilience.",
+        "Bridges under moderate seismic demand with PGA values between 0.2 and 0.4 need enhanced design features to ensure structural integrity during moderate earthquake events.",
+        "High seismic demand bridges with PGA values between 0.4 and 0.6 must incorporate advanced engineering techniques to withstand significant seismic forces and prevent structural damage.",
+        "Bridges facing very high seismic demand with PGA values between 0.6 and 0.8 require rigorous seismic design and retrofitting strategies to maintain safety and functionality during strong earthquakes.",
+        "Extreme seismic demand bridges with PGA values exceeding 0.8 are exposed to severe earthquake forces, necessitating specialized engineering solutions and continuous monitoring to ensure structural safety and performance."
+      ]
+    },
+    "title": "Design Peak Ground Acceleration"
+  },
+  "SS": {
+    "type": "numerical_redundant",
+    "range": [
+      0.367,
+      1.757
+    ],
+    "description": "The mapped short-period spectral acceleration at the site before site soil effects are applied, representing seismic demand on short-period structural components.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with SS values up to 0.5 are generally subject to minimal seismic forces, allowing for standard design considerations without significant seismic enhancements.",
+        "Bridges with moderate seismic demand, having SS values between 0.5 and 1.0, require careful design to ensure structural resilience against moderate seismic activity, often incorporating basic seismic detailing.",
+        "High seismic demand on bridges, indicated by SS values between 1.0 and 1.5, necessitates advanced seismic design strategies, including the use of ductile materials and energy dissipation systems to maintain structural integrity.",
+        "Bridges facing very high seismic demand with SS values between 1.5 and 2.0 must be designed with robust seismic resistance features, such as base isolation and reinforced connections, to withstand significant seismic events.",
+        "Extreme seismic demand on bridges, with SS values exceeding 2.0, represents a critical design challenge requiring state-of-the-art engineering solutions and continuous monitoring to ensure safety during severe seismic events."
+      ]
+    },
+    "title": "Short-Period Spectral Acceleration"
+  },
+  "S1": {
+    "type": "numerical",
+    "range": [
+      0.139,
+      0.864
+    ],
+    "description": "The mapped 1.0-second spectral acceleration at the site before site soil effects are applied, representing seismic demand on longer-period structural systems.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic demand with spectral acceleration values under 0.2 are typically subject to low seismic forces, requiring standard design considerations for structural integrity.",
+        "Bridges with moderate seismic demand, having spectral acceleration between 0.2 and 0.4, may require enhanced design features to ensure resilience against moderate seismic events.",
+        "High seismic demand on bridges, indicated by spectral acceleration values between 0.4 and 0.6, necessitates robust engineering solutions to maintain structural safety and serviceability during significant seismic activity.",
+        "Very high seismic demand, with spectral acceleration from 0.6 to 0.8, demands advanced seismic design and retrofitting strategies to protect bridges from severe earthquake impacts.",
+        "Bridges facing extreme seismic demand, with spectral acceleration exceeding 0.8, are subject to intense seismic forces and require cutting-edge engineering techniques and continuous monitoring to ensure their structural integrity and public safety."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s"
+  },
+  "SMS": {
+    "type": "numerical_redundant",
+    "range": [
+      0.553,
+      1.757
+    ],
+    "description": "The site-adjusted short-period spectral acceleration that accounts for local soil amplification or attenuation of seismic ground motions.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.7,
+        1.0,
+        1.3,
+        1.6,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with low seismic demand (SMS from 0 to 0.7) are expected to experience minimal seismic forces, allowing for standard design and construction practices with minimal seismic-specific enhancements.",
+        "Bridges with moderate seismic demand (SMS from 0.7 to 1.0) require consideration of seismic forces in design, ensuring that structural components can accommodate moderate ground motion without significant damage.",
+        "Bridges with high seismic demand (SMS from 1.0 to 1.3) need robust seismic design measures, including reinforced materials and advanced engineering techniques to withstand substantial seismic forces.",
+        "Bridges with very high seismic demand (SMS from 1.3 to 1.6) must incorporate comprehensive seismic resilience strategies, such as base isolation or energy dissipation systems, to maintain structural integrity during strong earthquakes.",
+        "Bridges facing extreme seismic demand (SMS exceeding 1.6) are subject to severe ground motions, necessitating cutting-edge engineering solutions and continuous monitoring to ensure safety and functionality during and after seismic events."
+      ]
+    },
+    "title": "Site-Adjusted Spectral Acceleration"
+  },
+  "SDS": {
+    "type": "numerical",
+    "range": [
+      0.369,
+      1.171
+    ],
+    "description": "The design-level short-period spectral acceleration used directly in seismic design, reflecting reduced demand consistent with code-defined performance objectives.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal seismic demand (SDS values from 0 to 0.4) are designed for regions with low seismic activity, where structural reinforcements are minimal and focus on basic safety measures.",
+        "Bridges experiencing moderate seismic demand (SDS values from 0.4 to 0.6) require enhanced design considerations to ensure stability and performance during moderate seismic events, incorporating additional reinforcement and damping systems.",
+        "High seismic demand on bridges (SDS values from 0.6 to 0.8) necessitates robust structural designs with advanced materials and technologies to withstand significant seismic forces, ensuring the safety and functionality of the infrastructure.",
+        "Bridges subjected to very high seismic demand (SDS values from 0.8 to 1.0) are engineered with comprehensive seismic resilience strategies, including base isolation and energy dissipation devices, to protect against severe earthquake impacts.",
+        "Extreme seismic demand (SDS values exceeding 1.0) indicates that bridges must be designed with cutting-edge seismic technologies and rigorous safety standards to endure the most intense seismic forces, safeguarding both the structure and its users."
+      ]
+    },
+    "title": "Design Spectral Acceleration"
+  },
+  "SDCS": {
+    "type": "nominal",
+    "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions.",
+    "code_map": {
+      "A": "very low seismic hazard",
+      "B": "low seismic hazard",
+      "C": "moderate seismic hazard",
+      "D": "high seismic hazard",
+      "E": "very high seismic hazard",
+      "F": "extreme site specific hazard"
+    },
+    "title": "Seismic Design Category"
+  },
+  "PGAM": {
+    "type": "numerical_redundant",
+    "range": [
+      0.242,
+      0.953
+    ],
+    "description": "The mapped peak ground acceleration associated with maximum considered earthquake conditions prior to any site-specific adjustments.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with a PGAM under 0.3 experience low seismic demand, indicating minimal structural reinforcement is typically required to withstand earthquake forces.",
+        "Bridges with a PGAM between 0.3 and 0.5 are subject to moderate seismic demand, necessitating standard seismic design considerations to ensure structural resilience.",
+        "Bridges with a PGAM between 0.5 and 0.7 face high seismic demand, requiring enhanced engineering measures and retrofitting to maintain structural integrity during seismic events.",
+        "Bridges with a PGAM between 0.7 and 1.0 are exposed to very high seismic demand, demanding rigorous seismic design and frequent inspections to prevent catastrophic failure.",
+        "Bridges with a PGAM exceeding 1.0 encounter extreme seismic demand, representing outlier conditions where advanced engineering solutions and continuous monitoring are critical for safety."
+      ]
+    },
+    "title": "Mapped Peak Ground Acceleration"
+  },
+  "FPGA": {
+    "type": "numerical",
+    "range": [
+      1.1,
+      1.471
+    ],
+    "description": "The factor for peak ground acceleration adjusted for local site conditions, representing the ground motion intensity expected to be experienced at the bridge location.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with FPGA values under 1.2 are expected to perform well with negligible structural concerns during minor seismic events.",
+        "Bridges with moderate seismic impact, having FPGA values between 1.2 and 1.3, may require routine inspections to ensure structural integrity under moderate seismic conditions.",
+        "Bridges facing significant seismic impact with FPGA values between 1.3 and 1.4 should be evaluated for potential retrofitting to enhance resilience against stronger seismic activities.",
+        "Bridges under high seismic impact, with FPGA values between 1.4 and 1.5, are likely to need substantial reinforcement to maintain safety and functionality during major earthquakes.",
+        "Bridges experiencing extreme seismic impact with FPGA values exceeding 1.5 represent critical infrastructure that must undergo rigorous seismic assessment and potentially extensive retrofitting to withstand severe seismic forces."
+      ]
+    },
+    "title": "Ground Motion Factor"
+  }
+}

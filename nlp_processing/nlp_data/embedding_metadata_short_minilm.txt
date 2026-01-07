@@ -1,0 +1,31 @@
+Embedding Metadata
+============================================================
+
+Number of samples: 478
+Embedding dimension: 384
+CSV file: merged_data_short_minilm.csv
+NPY file: embeddings_short_minilm.npy
+
+Merged Data Columns:
+  - STRUCTURE_ID
+  - COORDINATES
+  - PARAGRAPH
+  - Unnamed: 0
+  - DATABASE_REF
+  - OBJECT_INTERSECTED
+  - SUPPORT_TYPE
+  - COLUMNS_PILES_PER_BENT
+  - B_LONG_IN
+  - B_TRANS_IN
+  - CLEAR_HEIGHT_FT
+  - LRR
+  - SPACING_PITCH_IN
+  - TRR
+  - COLUMNS_PILES_0_1
+  - L_H_LONG
+  - L_H_TRANS
+  - L_H_MIN
+  - Z_KNOWN
+  - CD_MIN
+  - SCCI
+  - CRITICAL_TRUTH_0_1

@@ -1,0 +1,763 @@
+{
+  "STRUCTURE_ID": {
+    "category": "Bridge structure identifier",
+    "type": "reference"
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "DETOUR_KILOS_019": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      999.0
+    ],
+    "description": "The additional travel distance in kilometers required for vehicles to bypass the bridge if it is closed or restricted, representing network redundancy and detour severity.",
+    "semantic_bins": {
+      "labels": [
+        "minimal detour",
+        "moderate detour",
+        "significant detour",
+        "extensive detour",
+        "extreme detour"
+      ],
+      "edges": [
+        0,
+        10,
+        50,
+        200,
+        500,
+        "inf"
+      ],
+      "sentences": [
+        "Minimal detour distances under 10 kilometers indicate high network redundancy, allowing vehicles to bypass the bridge with negligible impact on travel time and connectivity.",
+        "Moderate detour distances between 10 and 50 kilometers suggest some inconvenience, but the bridge closure can be managed with moderate adjustments to travel routes.",
+        "Significant detour distances between 50 and 200 kilometers highlight a substantial impact on travel efficiency, requiring careful planning and potentially affecting regional traffic patterns.",
+        "Extensive detour distances between 200 and 500 kilometers indicate a critical lack of alternative routes, severely impacting regional mobility and necessitating urgent infrastructure planning.",
+        "Extreme detour distances exceeding 500 kilometers represent severe network disruption, where bridge closure could lead to major economic and logistical challenges, demanding immediate strategic interventions."
+      ]
+    },
+    "title": "Detour Distance"
+  },
+  "YEAR_BUILT_027_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and cumulative exposure to loading and environmental effects.",
+    "semantic_bins": {
+      "labels": [
+        "newly constructed",
+        "early aging",
+        "mid-life",
+        "aging",
+        "historically significant"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        50,
+        70,
+        "inf"
+      ],
+      "sentences": [
+        "Newly constructed bridges under 10 years old are in optimal condition, requiring minimal maintenance and showcasing full design capabilities.",
+        "Bridges in the early aging category, between 10-30 years, begin to show initial signs of wear but generally maintain strong structural performance with routine inspections.",
+        "Mid-life bridges, aged 30-50 years, require more frequent inspections and potential minor rehabilitations to ensure continued safety and performance.",
+        "Aging bridges, between 50-70 years, often face significant wear and may need major repairs or strengthening to meet current safety standards.",
+        "Historically significant bridges exceeding 70 years represent critical infrastructure that requires specialized preservation efforts and continuous monitoring to maintain their structural integrity and historical value."
+      ]
+    },
+    "title": "Structural Age"
+  },
+  "TRAFFIC_LANES_ON_028A": {
+    "type": "numerical",
+    "range": [
+      1.0,
+      14.0
+    ],
+    "description": "The total number of traffic lanes carried directly on the bridge deck, representing its vehicular capacity and functional role in the roadway system.",
+    "semantic_bins": {
+      "labels": [
+        "minimal capacity",
+        "low capacity",
+        "moderate capacity",
+        "high capacity",
+        "very high capacity"
+      ],
+      "edges": [
+        0,
+        2,
+        4,
+        8,
+        12,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal capacity, carrying up to 2 traffic lanes, are typically found in rural or low-traffic areas and serve limited vehicular flow.",
+        "Bridges with low capacity, supporting 2 to 4 traffic lanes, are common in suburban areas and handle moderate traffic volumes, requiring regular maintenance to ensure safety.",
+        "Bridges with moderate capacity, accommodating 4 to 8 traffic lanes, are crucial in urban settings, facilitating significant traffic flow and necessitating frequent inspections to maintain structural integrity.",
+        "Bridges with high capacity, carrying 8 to 12 traffic lanes, are vital in major metropolitan areas, supporting heavy traffic loads and demanding advanced engineering solutions for durability and resilience.",
+        "Bridges with very high capacity, exceeding 12 traffic lanes, represent critical infrastructure in densely populated regions, designed to manage extreme traffic volumes and requiring continuous monitoring and innovative maintenance strategies."
+      ]
+    },
+    "title": "Traffic Lane Count"
+  },
+  "TRAFFIC_LANES_UND_028B": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      29.0
+    ],
+    "description": "The total number of traffic lanes that pass beneath the bridge, representing the scale and complexity of the facility or corridor being crossed.",
+    "semantic_bins": {
+      "labels": [
+        "no lanes",
+        "few lanes",
+        "moderate lanes",
+        "many lanes",
+        "extensive lanes"
+      ],
+      "edges": [
+        0,
+        1,
+        4,
+        10,
+        20,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no lanes passing underneath are typically standalone structures or those crossing non-vehicular paths, requiring minimal consideration for traffic interference.",
+        "Bridges with a few lanes (1 to 4) beneath them often cross minor roads or small corridors, necessitating basic structural design to accommodate light traffic flow.",
+        "Bridges with moderate lanes (5 to 10) underneath are generally over medium-sized roads or corridors, requiring careful design to ensure structural integrity and traffic safety.",
+        "Bridges with many lanes (11 to 20) passing beneath them usually span major highways or significant transportation corridors, demanding robust engineering solutions to manage high traffic volumes and ensure safety.",
+        "Bridges with extensive lanes (more than 20) underneath are typically found over large interchanges or complex transportation networks, requiring advanced engineering and design to handle extreme traffic conditions and ensure long-term durability."
+      ]
+    },
+    "title": "Traffic Lanes Below"
+  },
+  "ADT_029": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      194946.0
+    ],
+    "description": "The average number of vehicles that cross the bridge per day under typical conditions, representing traffic demand and cumulative loading.",
+    "semantic_bins": {
+      "labels": [
+        "very low traffic",
+        "low traffic",
+        "moderate traffic",
+        "high traffic",
+        "very high traffic"
+      ],
+      "edges": [
+        0,
+        1000,
+        10000,
+        50000,
+        100000,
+        "inf"
+      ],
+      "sentences": [
+        "Very low traffic bridges with an average daily traffic (ADT) of up to 1,000 vehicles experience minimal wear and tear, allowing for extended maintenance intervals and reduced structural stress.",
+        "Low traffic bridges with an ADT between 1,000 and 10,000 vehicles are typically in rural or less populated areas, requiring standard maintenance to ensure structural integrity under moderate loading conditions.",
+        "Moderate traffic bridges with an ADT between 10,000 and 50,000 vehicles are often found in suburban areas, necessitating regular inspections and maintenance to manage increased wear and ensure safety.",
+        "High traffic bridges with an ADT between 50,000 and 100,000 vehicles are critical infrastructure in urban settings, demanding frequent inspections and proactive maintenance to handle significant cumulative loading and prevent deterioration.",
+        "Very high traffic bridges with an ADT exceeding 100,000 vehicles are vital urban connectors, facing extreme loading conditions that require continuous monitoring, advanced maintenance strategies, and potential capacity upgrades to maintain operational safety and efficiency."
+      ]
+    },
+    "title": "Average Daily Traffic"
+  },
+  "APPR_WIDTH_MT_032": {
+    "type": "numerical",
+    "range": [
+      2.7,
+      66.1
+    ],
+    "description": "The clear width of the roadway approaching the bridge, measured perpendicular to traffic flow, representing how traffic transitions onto the structure.",
+    "semantic_bins": {
+      "labels": [
+        "narrow approach",
+        "standard approach",
+        "wide approach",
+        "very wide approach",
+        "extremely wide approach"
+      ],
+      "edges": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow approach bridges with widths under 5 meters often accommodate single-lane traffic or pedestrian pathways, requiring careful traffic management and signaling to ensure safety.",
+        "Standard approach bridges between 5 to 10 meters are designed for typical two-lane traffic, providing adequate space for vehicles to transition smoothly onto the structure.",
+        "Wide approach bridges with widths from 10 to 20 meters support multi-lane traffic, enhancing flow and reducing congestion at the entry points of the bridge.",
+        "Very wide approach bridges ranging from 20 to 40 meters are engineered for high-capacity traffic, often including additional lanes for emergency vehicles or public transport, ensuring efficient traffic distribution.",
+        "Extremely wide approach bridges exceeding 40 meters cater to major highways or urban expressways, accommodating significant traffic volumes and providing robust infrastructure for future expansion needs."
+      ]
+    },
+    "title": "Approach Width"
+  },
+  "DEGREES_SKEW_034": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      99.0
+    ],
+    "description": "The skew angle between the bridge alignment and the feature it crosses, representing how obliquely the structure intersects the roadway, waterway, or obstacle below.",
+    "semantic_bins": {
+      "labels": [
+        "aligned",
+        "slightly skewed",
+        "moderately skewed",
+        "highly skewed",
+        "extremely skewed"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Aligned bridges with a skew angle under 10 degrees are typically straightforward in design and construction, ensuring optimal load distribution and minimal stress concentrations.",
+        "Slightly skewed bridges with angles between 10 and 30 degrees require careful consideration in design to manage minor stress increases and potential alignment challenges.",
+        "Moderately skewed bridges with angles between 30 and 60 degrees demand advanced engineering techniques to address increased torsional forces and potential differential settlement issues.",
+        "Highly skewed bridges with angles between 60 and 90 degrees present significant engineering challenges, necessitating specialized design solutions to mitigate complex load paths and ensure structural integrity.",
+        "Extremely skewed bridges exceeding 90 degrees represent rare and complex cases where innovative engineering solutions are essential to address extreme torsional stresses and ensure long-term stability."
+      ]
+    },
+    "title": "Skew Angle"
+  },
+  "MAIN_UNIT_SPANS_045": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      157.0
+    ],
+    "description": "The number of spans that make up the main structural unit of the bridge, representing how the primary load-carrying system is segmented.",
+    "semantic_bins": {
+      "labels": [
+        "single-span",
+        "short multi-span",
+        "medium multi-span",
+        "long multi-span",
+        "extensive multi-span"
+      ],
+      "edges": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        "inf"
+      ],
+      "sentences": [
+        "Single-span bridges, with 0 to 1 span, are typically simple structures often used for short crossings, requiring straightforward maintenance and inspection.",
+        "Short multi-span bridges, with 1 to 3 spans, provide increased flexibility in design and are commonly used for moderate crossings, balancing complexity and maintenance needs.",
+        "Medium multi-span bridges, with 3 to 7 spans, are designed for longer crossings, requiring more detailed engineering analysis and regular maintenance to ensure structural integrity.",
+        "Long multi-span bridges, with 7 to 15 spans, are complex structures that span significant distances, necessitating advanced engineering techniques and frequent inspections to maintain safety and performance.",
+        "Extensive multi-span bridges, with more than 15 spans, represent large-scale infrastructure projects often used for major river crossings or urban viaducts, requiring comprehensive maintenance strategies and continuous monitoring to address potential vulnerabilities."
+      ]
+    },
+    "title": "Main Span Count"
+  },
+  "APPR_SPANS_046": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      178.0
+    ],
+    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions from the main unit to the adjacent roadway.",
+    "semantic_bins": {
+      "labels": [
+        "single span",
+        "short approach spans",
+        "moderate approach spans",
+        "long approach spans",
+        "extensive approach spans"
+      ],
+      "edges": [
+        0,
+        1,
+        5,
+        15,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Single span bridges with 0 to 1 approach spans typically indicate a direct transition from the main structure to the roadway, often found in simple bridge designs.",
+        "Short approach spans ranging from 1 to 5 indicate a modest extension of the bridge structure, providing a smooth transition over minor obstacles or terrain variations.",
+        "Moderate approach spans between 5 to 15 suggest a more complex bridge design, accommodating larger gaps or uneven terrain, requiring careful structural integration.",
+        "Long approach spans from 15 to 50 are characteristic of bridges that traverse significant geographical features, necessitating robust engineering to ensure stability and continuity.",
+        "Extensive approach spans exceeding 50 represent large-scale infrastructure projects, often involving complex engineering solutions to manage significant environmental and logistical challenges."
+      ]
+    },
+    "title": "Approach Span Count"
+  },
+  "MAX_SPAN_LEN_MT_048": {
+    "type": "numerical",
+    "range": [
+      0.3,
+      2327.1
+    ],
+    "description": "The length of the longest individual span within the bridge, representing the maximum unsupported distance and associated structural demand.",
+    "semantic_bins": {
+      "labels": [
+        "short span",
+        "medium span",
+        "long span",
+        "very long span",
+        "extreme span"
+      ],
+      "edges": [
+        0,
+        20,
+        100,
+        300,
+        1000,
+        "inf"
+      ],
+      "sentences": [
+        "Short span bridges with a maximum span length under 20 meters are typically used for small crossings and require minimal structural support, making them cost-effective and easy to maintain.",
+        "Medium span bridges with spans between 20 and 100 meters are common for moderate crossings, balancing structural demands with construction and maintenance costs.",
+        "Long span bridges with spans between 100 and 300 meters are often used for significant crossings, requiring advanced engineering techniques and materials to ensure structural integrity and safety.",
+        "Very long span bridges with spans between 300 and 1000 meters are engineering marvels, often serving as critical infrastructure in urban and intercity networks, demanding rigorous design and maintenance protocols.",
+        "Extreme span bridges exceeding 1000 meters represent the pinnacle of bridge engineering, often iconic structures that push the boundaries of design and technology, requiring continuous monitoring and specialized maintenance."
+      ]
+    },
+    "title": "Maximum Span Length"
+  },
+  "STRUCTURE_LEN_MT_049": {
+    "type": "numerical",
+    "range": [
+      6.1,
+      3413.8
+    ],
+    "description": "The total length of the bridge measured from end to end, including main and approach spans, representing the overall longitudinal extent of the structure.",
+    "semantic_bins": {
+      "labels": [
+        "short span",
+        "medium span",
+        "long span",
+        "very long span",
+        "extreme span"
+      ],
+      "edges": [
+        0,
+        50,
+        200,
+        1000,
+        2000,
+        "inf"
+      ],
+      "sentences": [
+        "Short span bridges up to 50 meters are typically used for small crossings such as streams or minor roads, requiring straightforward design and construction techniques.",
+        "Medium span bridges between 50 and 200 meters are common for moderate crossings, balancing complexity and cost, often incorporating standard design practices.",
+        "Long span bridges ranging from 200 to 1000 meters are significant structures that often require advanced engineering solutions and materials to ensure stability and durability.",
+        "Very long span bridges between 1000 and 2000 meters are major infrastructure projects, often crossing large bodies of water or valleys, necessitating innovative design and construction methods.",
+        "Extreme span bridges exceeding 2000 meters represent engineering marvels, pushing the boundaries of current technology and design, often serving as critical transportation links in challenging environments."
+      ]
+    },
+    "title": "Bridge Length"
+  },
+  "LEFT_CURB_MT_050A": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      17.5
+    ],
+    "description": "The width of the curb, sidewalk, or shoulder on the left side of the bridge, representing lateral separation or pedestrian accommodation.",
+    "semantic_bins": {
+      "labels": [
+        "no curb",
+        "minimal curb",
+        "standard curb",
+        "wide curb",
+        "extensive curb"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.5,
+        3.0,
+        5.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no curb (0 to 0.5 meters) offer no lateral separation or pedestrian accommodation, potentially increasing risk for pedestrians and vehicles.",
+        "Bridges with a minimal curb (0.5 to 1.5 meters) provide basic lateral separation, offering limited pedestrian safety and minimal shoulder space.",
+        "Bridges with a standard curb (1.5 to 3.0 meters) accommodate typical pedestrian traffic and provide adequate separation from vehicular lanes.",
+        "Bridges with a wide curb (3.0 to 5.0 meters) offer enhanced pedestrian accommodation and safety, allowing for comfortable pedestrian movement and emergency vehicle access.",
+        "Bridges with an extensive curb (5.0 meters and above) provide significant pedestrian space and separation, suitable for high pedestrian traffic and multi-use pathways, ensuring maximum safety and functionality."
+      ]
+    },
+    "title": "Left Curb Width"
+  },
+  "RIGHT_CURB_MT_050B": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      11.6
+    ],
+    "description": "The width of the curb, sidewalk, or shoulder on the right side of the bridge, representing lateral separation or pedestrian accommodation.",
+    "semantic_bins": {
+      "labels": [
+        "no curb",
+        "minimal curb",
+        "standard curb",
+        "wide curb",
+        "extensive curb"
+      ],
+      "edges": [
+        0,
+        0.5,
+        2.0,
+        4.0,
+        7.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no curb on the right side offer no lateral separation or pedestrian accommodation, potentially increasing risk for pedestrians and vehicles.",
+        "Bridges with a minimal curb width between 0.5 to 2.0 meters provide basic lateral separation, offering limited pedestrian safety and vehicle buffer.",
+        "Bridges with a standard curb width between 2.0 to 4.0 meters accommodate typical pedestrian traffic and provide moderate separation from vehicular lanes.",
+        "Bridges with a wide curb width between 4.0 to 7.0 meters offer enhanced pedestrian pathways and significant separation from traffic, improving safety and comfort.",
+        "Bridges with an extensive curb width exceeding 7.0 meters provide substantial pedestrian and non-vehicular space, often supporting multi-use paths and ensuring maximum safety and utility."
+      ]
+    },
+    "title": "Right Curb Width"
+  },
+  "ROADWAY_WIDTH_MT_051": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      115.8
+    ],
+    "description": "The clear roadway width available for vehicles on the bridge deck measured between curbs or barriers, representing usable traffic width.",
+    "semantic_bins": {
+      "labels": [
+        "narrow",
+        "standard",
+        "wide",
+        "very wide",
+        "extremely wide"
+      ],
+      "edges": [
+        0,
+        5.5,
+        10.0,
+        15.0,
+        25.0,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow bridges with a roadway width under 5.5 meters often accommodate single-lane traffic and may require traffic control measures to ensure safety.",
+        "Standard bridges with a roadway width between 5.5 and 10.0 meters typically support two-lane traffic, providing adequate space for most vehicular movements under normal conditions.",
+        "Wide bridges with a roadway width between 10.0 and 15.0 meters offer enhanced capacity for multi-lane traffic, improving flow and reducing congestion during peak hours.",
+        "Very wide bridges with a roadway width between 15.0 and 25.0 meters are designed to handle high traffic volumes, including multiple lanes and emergency shoulders, ensuring efficient transportation in urban areas.",
+        "Extremely wide bridges exceeding 25.0 meters in roadway width represent major infrastructure capable of supporting complex traffic patterns, including dedicated lanes for public transit and non-motorized users."
+      ]
+    },
+    "title": "Roadway Width"
+  },
+  "DECK_WIDTH_MT_052": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      123.4
+    ],
+    "description": "The total out-to-out width of the bridge deck, including traffic lanes, shoulders, curbs, and barriers, representing the full structural width.",
+    "semantic_bins": {
+      "labels": [
+        "narrow",
+        "standard",
+        "wide",
+        "very wide",
+        "extremely wide"
+      ],
+      "edges": [
+        0,
+        5.0,
+        10.0,
+        20.0,
+        40.0,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow bridges with a deck width under 5.0 meters are typically found in rural or low-traffic areas, often requiring careful navigation and limited to smaller vehicles.",
+        "Standard bridges with a deck width between 5.0 and 10.0 meters accommodate regular traffic flow, including two lanes with minimal shoulders, suitable for most urban and suburban environments.",
+        "Wide bridges with a deck width between 10.0 and 20.0 meters support multiple lanes and wider shoulders, enhancing traffic capacity and safety, often seen in major urban areas.",
+        "Very wide bridges with a deck width between 20.0 and 40.0 meters are designed for high traffic volumes, including multiple lanes, wide shoulders, and pedestrian pathways, ensuring efficient transportation in metropolitan regions.",
+        "Extremely wide bridges exceeding 40.0 meters represent significant infrastructure capable of supporting complex traffic patterns, including multi-modal transport systems, and are critical in major transportation networks."
+      ]
+    },
+    "title": "Deck Width"
+  },
+  "LAT_UND_MT_055B": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      30.4
+    ],
+    "description": "The minimum horizontal clearance available beneath the bridge on the right side, representing spatial constraints for traffic or features passing below.",
+    "semantic_bins": {
+      "labels": [
+        "very constrained",
+        "constrained",
+        "moderately clear",
+        "clear",
+        "very clear"
+      ],
+      "edges": [
+        0,
+        5,
+        10,
+        20,
+        30,
+        "inf"
+      ],
+      "sentences": [
+        "Very constrained bridges with a minimum horizontal clearance under 5 meters present significant limitations for traffic or features passing below, often requiring special considerations for vehicle height and load restrictions.",
+        "Constrained bridges with a clearance between 5 and 10 meters allow limited passage for traffic or features below, necessitating careful planning for larger vehicles and potential modifications to accommodate specific needs.",
+        "Moderately clear bridges with a clearance between 10 and 20 meters provide reasonable space for most standard traffic and features, though occasional restrictions may apply for oversized loads or unusual conditions.",
+        "Clear bridges with a clearance between 20 and 30 meters offer ample space for a wide range of traffic and features, minimizing the likelihood of clearance-related issues and enhancing operational flexibility.",
+        "Very clear bridges exceeding 30 meters in clearance represent exceptional infrastructure capable of accommodating virtually all traffic and features below, including extreme outliers, without spatial constraints."
+      ]
+    },
+    "title": "Minimum Clearance Right"
+  },
+  "LEFT_LAT_UND_MT_056": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      92.6
+    ],
+    "description": "The minimum horizontal clearance available beneath the bridge on the left side, representing spatial constraints for traffic or features passing below.",
+    "semantic_bins": {
+      "labels": [
+        "no clearance",
+        "minimal clearance",
+        "moderate clearance",
+        "ample clearance",
+        "extensive clearance"
+      ],
+      "edges": [
+        0,
+        2.0,
+        10.0,
+        30.0,
+        60.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no clearance (0 to 2.0 meters) present significant constraints for any traffic or features passing below, often requiring immediate structural adjustments or restrictions.",
+        "Bridges with minimal clearance (2.0 to 10.0 meters) may accommodate limited traffic types and require careful management to ensure safety and functionality.",
+        "Bridges with moderate clearance (10.0 to 30.0 meters) generally support a variety of traffic and features, though they may still impose some restrictions on larger vehicles or equipment.",
+        "Bridges with ample clearance (30.0 to 60.0 meters) provide sufficient space for most traffic and features, facilitating smooth operation and reducing the likelihood of clearance-related issues.",
+        "Bridges with extensive clearance (60.0 meters and above) offer exceptional spatial capacity, accommodating a wide range of traffic and features with minimal restrictions, ideal for high-demand infrastructure."
+      ]
+    },
+    "title": "Left Clearance Height"
+  },
+  "DATE_OF_INSPECT_090_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridgeâ€™s most recent routine inspection, representing the recency of condition information.",
+    "semantic_bins": {
+      "labels": [
+        "recently inspected",
+        "moderately inspected",
+        "infrequently inspected",
+        "outdated inspection"
+      ],
+      "edges": [
+        0,
+        1,
+        3,
+        5,
+        "inf"
+      ],
+      "sentences": [
+        "Recently inspected bridges, with inspections conducted within the last year, have the most current condition data, ensuring optimal maintenance and safety measures are in place.",
+        "Moderately inspected bridges, with inspections conducted between 1 to 3 years ago, generally maintain reliable condition data but may require upcoming assessments to ensure continued safety and performance.",
+        "Infrequently inspected bridges, with inspections conducted between 3 to 5 years ago, may have outdated condition data, necessitating prioritized inspections to address potential safety concerns and maintenance needs.",
+        "Outdated inspection status applies to bridges with inspections conducted over 5 years ago, indicating a critical need for immediate reassessment to ensure structural integrity and public safety."
+      ]
+    },
+    "title": "Inspection Recency"
+  },
+  "INSPECT_FREQ_MONTHS_091": {
+    "type": "numerical",
+    "range": [
+      12.0,
+      48.0
+    ],
+    "description": "The scheduled interval between routine inspections expressed in months, representing the inspection frequency applied to the bridge.",
+    "semantic_bins": {
+      "labels": [
+        "very frequent",
+        "frequent",
+        "moderate",
+        "infrequent",
+        "very infrequent"
+      ],
+      "edges": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        "inf"
+      ],
+      "sentences": [
+        "Very frequent inspections, scheduled every 0 to 12 months, ensure that bridges are closely monitored for any signs of immediate structural issues, allowing for rapid response to potential safety concerns.",
+        "Frequent inspections, occurring every 12 to 24 months, provide a consistent check on the bridge's condition, helping to maintain its structural integrity and address minor issues before they escalate.",
+        "Moderate inspection intervals, set between 24 to 36 months, are typical for bridges that have shown reliable performance, balancing resource allocation with the need for regular maintenance checks.",
+        "Infrequent inspections, scheduled every 36 to 48 months, are generally reserved for bridges with a strong history of structural stability, though they still require careful monitoring to ensure long-term safety.",
+        "Very infrequent inspections, extending beyond 48 months, are rare and typically apply to bridges with exceptional durability or those in low-risk environments, but they necessitate a robust monitoring strategy to mitigate the risk of undetected deterioration."
+      ]
+    },
+    "title": "Inspection Frequency"
+  },
+  "YEAR_RECONSTRUCTED_106_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, representing the recency of major renewal work.",
+    "semantic_bins": {
+      "labels": [
+        "recently reconstructed",
+        "moderately aged",
+        "significantly aged",
+        "extremely aged"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Recently reconstructed bridges, with 0 to 10 years since major renewal, typically exhibit optimal structural performance and require minimal maintenance.",
+        "Moderately aged bridges, with 10 to 30 years since reconstruction, may show early signs of wear but generally maintain good structural integrity with routine inspections.",
+        "Significantly aged bridges, with 30 to 50 years since their last major work, often require increased maintenance efforts and potential rehabilitation to ensure safety and performance.",
+        "Extremely aged bridges, exceeding 50 years since reconstruction, are likely to face substantial deterioration and may necessitate comprehensive evaluation and major rehabilitation to address safety concerns."
+      ]
+    },
+    "title": "Years Since Reconstruction"
+  },
+  "PERCENT_ADT_TRUCK_109": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      94.0
+    ],
+    "description": "The percentage of average daily traffic composed of trucks, representing the intensity of heavy vehicle loading on the structure.",
+    "semantic_bins": {
+      "labels": [
+        "minimal truck traffic",
+        "moderate truck traffic",
+        "high truck traffic",
+        "very high truck traffic",
+        "extreme truck traffic"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal truck traffic, with up to 10% of average daily traffic composed of trucks, typically face low levels of heavy vehicle loading, resulting in reduced wear and tear on the structure.",
+        "Bridges with moderate truck traffic, where 10% to 30% of average daily traffic consists of trucks, require regular monitoring to ensure that the increased loading does not accelerate structural fatigue.",
+        "High truck traffic bridges, with 30% to 60% of average daily traffic being trucks, are subject to significant loading stresses, necessitating frequent inspections and potential reinforcement to maintain structural integrity.",
+        "Very high truck traffic bridges, experiencing 60% to 90% of average daily traffic as trucks, face substantial loading challenges, often requiring advanced maintenance strategies and potential upgrades to handle the stress.",
+        "Bridges with extreme truck traffic, where over 90% of average daily traffic is composed of trucks, represent critical infrastructure that must be continuously monitored and possibly redesigned to ensure safety and longevity under intense loading conditions."
+      ]
+    },
+    "title": "Truck Traffic Percentage"
+  },
+  "FUTURE_ADT_114": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      275263.0
+    ],
+    "description": "The projected average daily traffic expected to cross the bridge in the future, representing anticipated demand growth and long-term usage.",
+    "semantic_bins": {
+      "labels": [
+        "very low traffic",
+        "low traffic",
+        "moderate traffic",
+        "high traffic",
+        "very high traffic"
+      ],
+      "edges": [
+        0,
+        5000,
+        20000,
+        50000,
+        100000,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with very low traffic under 5000 vehicles per day are typically rural or local access bridges, requiring minimal maintenance and experiencing low wear and tear.",
+        "Low traffic bridges with 5000 to 20000 vehicles per day serve small communities or suburban areas, necessitating routine inspections to ensure structural integrity as traffic increases.",
+        "Moderate traffic bridges with 20000 to 50000 vehicles per day are often found in urban or growing suburban regions, requiring regular maintenance and potential capacity upgrades to accommodate increasing demand.",
+        "High traffic bridges with 50000 to 100000 vehicles per day are critical infrastructure in major urban centers, demanding frequent inspections and maintenance to manage significant wear and ensure safety.",
+        "Very high traffic bridges exceeding 100000 vehicles per day represent major transportation arteries, often requiring advanced engineering solutions and continuous monitoring to handle extreme loads and prevent congestion."
+      ]
+    },
+    "title": "Future Average Daily Traffic"
+  },
+  "DECK_AREA": {
+    "type": "numerical",
+    "range": [
+      22.8,
+      104004.81
+    ],
+    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental conditions.",
+    "semantic_bins": {
+      "labels": [
+        "very small",
+        "small",
+        "medium",
+        "large",
+        "very large"
+      ],
+      "edges": [
+        0,
+        1000,
+        5000,
+        20000,
+        50000,
+        "inf"
+      ],
+      "sentences": [
+        "Very small bridges with a deck area under 1000 square meters are typically used for minor crossings and have limited traffic capacity, requiring minimal maintenance.",
+        "Small bridges with a deck area between 1000 and 5000 square meters serve moderate traffic volumes and require regular inspections to ensure structural integrity under varying environmental conditions.",
+        "Medium bridges with a deck area between 5000 and 20000 square meters accommodate significant traffic loads and necessitate comprehensive maintenance strategies to manage wear and environmental impacts.",
+        "Large bridges with a deck area between 20000 and 50000 square meters are critical infrastructure components, supporting heavy traffic and requiring advanced engineering solutions for durability and safety.",
+        "Very large bridges exceeding 50000 square meters in deck area represent major engineering feats, often serving as vital transportation links that demand continuous monitoring and specialized maintenance to address complex structural challenges."
+      ]
+    },
+    "title": "Deck Area"
+  }
+}
