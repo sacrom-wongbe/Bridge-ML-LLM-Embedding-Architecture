@@ -1,0 +1,78 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "NFHL_FLD_ZONE": {
+    "type": "nominal",
+    "description": "The flood hazard zone classification describes the level and type of flood risk assigned to the location based on FEMA floodplain mapping.",
+    "code_map": {
+      "A": "high risk no elevation data",
+      "AE": "high risk with elevation data",
+      "AO": "shallow flooding sheet flow",
+      "AH": "shallow flooding with elevation",
+      "V": "coastal high velocity zone",
+      "VE": "coastal velocity with elevation",
+      "X": "minimal flood risk",
+      "X (0.2%)": "moderate risk low probability",
+      "D": "undetermined flood hazard"
+    },
+    "title": "Flood Hazard Zone"
+  },
+  "NFHL_SFHA": {
+    "type": "nominal",
+    "description": "The indicator of Special Flood Hazard Area status describes whether the location is subject to a 1-percent-annual-chance (100-year) flood hazard.",
+    "code_map": {
+      "T": "within special flood hazard area",
+      "F": "outside special flood hazard area"
+    },
+    "title": "Flood Hazard Status"
+  },
+  "NFHL_STATIC_BFE": {
+    "type": "numerical_coded",
+    "description": "The base flood elevation represents the estimated water surface height reached during a 1-percent-annual-chance (100-year) flood event, providing a quantitative measure of flood depth and hydraulic demand at the location.",
+    "code_map": {
+      "-9999.0": "No data."
+    },
+    "special_zero": false,
+    "special_max": false,
+    "range": [
+      9.0,
+      462.9
+    ],
+    "semantic_bins": {
+      "labels": [
+        "minimal flood risk",
+        "moderate flood risk",
+        "high flood risk",
+        "very high flood risk",
+        "extreme flood risk"
+      ],
+      "edges": [
+        0,
+        50,
+        150,
+        300,
+        500,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with a base flood elevation under 50 feet are considered to have minimal flood risk, typically requiring standard flood protection measures and routine inspections.",
+        "Bridges with a base flood elevation between 50 and 150 feet face moderate flood risk, necessitating enhanced flood mitigation strategies and more frequent structural assessments to ensure resilience.",
+        "Bridges with a base flood elevation between 150 and 300 feet are at high flood risk, demanding robust flood defense systems and regular evaluations to maintain structural integrity and safety.",
+        "Bridges with a base flood elevation between 300 and 500 feet experience very high flood risk, requiring comprehensive flood management plans and potentially significant design modifications to withstand hydraulic forces.",
+        "Bridges with a base flood elevation exceeding 500 feet are subject to extreme flood risk, often needing specialized engineering solutions and continuous monitoring to prevent catastrophic failure during severe flood events."
+      ]
+    },
+    "title": "Base Flood Elevation"
+  },
+  "NFHL_ZONE_SUBTYPE": {
+    "type": "nl",
+    "description": "The flood zone subtype provides a more specific categorical description of flood hazard conditions within the mapped flood zone, such as minimal, shallow, or coastal risk.",
+    "title": "Flood Zone Subtype"
+  }
+}

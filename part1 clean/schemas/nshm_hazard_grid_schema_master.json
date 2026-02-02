@@ -1,0 +1,406 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "PGA_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0759725769,
+      0.399319094
+    ],
+    "description": "The peak ground acceleration expected at the site for a 475-year return period earthquake, representing moderate but commonly used design-level seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with PGA values under 0.1 are typically in regions with minimal earthquake activity, requiring standard design considerations without special seismic enhancements.",
+        "Bridges with low seismic demand, having PGA values between 0.1 and 0.2, are in areas where moderate seismic design is necessary to ensure structural resilience against infrequent earthquakes.",
+        "Bridges facing moderate seismic demand with PGA values between 0.2 and 0.3 require robust seismic design features to maintain structural integrity during design-level seismic events.",
+        "Bridges subjected to high seismic demand with PGA values between 0.3 and 0.4 must incorporate advanced seismic design and retrofitting strategies to withstand significant earthquake forces.",
+        "Bridges experiencing very high seismic demand with PGA values exceeding 0.4 are in regions prone to severe seismic activity, necessitating cutting-edge engineering solutions and continuous monitoring to ensure safety and functionality."
+      ]
+    },
+    "title": "Peak Ground Acceleration 475-Year"
+  },
+  "PGA_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.10908377,
+      0.590936614
+    ],
+    "description": "The peak ground acceleration expected at the site for a 975-year return period earthquake, representing a higher level of seismic hazard for more conservative performance evaluation.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic hazard",
+        "low seismic hazard",
+        "moderate seismic hazard",
+        "high seismic hazard",
+        "very high seismic hazard"
+      ],
+      "edges": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic hazard with PGA values under 0.15 are generally expected to perform well with minimal seismic design considerations, ensuring structural integrity during minor seismic events.",
+        "Bridges in low seismic hazard areas with PGA values between 0.15 and 0.30 require basic seismic design measures to maintain safety and functionality during moderate earthquakes.",
+        "Bridges facing moderate seismic hazard with PGA values between 0.30 and 0.45 need enhanced seismic design and retrofitting to withstand significant seismic forces and prevent structural damage.",
+        "Bridges in high seismic hazard zones with PGA values between 0.45 and 0.60 must incorporate advanced seismic engineering techniques to ensure resilience and prevent catastrophic failure during major earthquakes.",
+        "Bridges subjected to very high seismic hazard with PGA values exceeding 0.60 represent extreme conditions requiring state-of-the-art seismic design and continuous monitoring to safeguard against severe seismic impacts."
+      ]
+    },
+    "title": "Peak Ground Acceleration 975-Year"
+  },
+  "PGA_2475": {
+    "type": "numerical",
+    "range": [
+      0.168070272,
+      0.983286583
+    ],
+    "description": "The peak ground acceleration expected at the site for a 2,475-year return period earthquake, representing rare, high-consequence ground shaking associated with maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with PGA values under 0.2 are generally expected to remain fully operational with negligible structural damage during rare seismic events.",
+        "Bridges facing moderate seismic impact with PGA values between 0.2 and 0.4 may experience minor structural stresses, requiring standard inspections to ensure continued safety and functionality.",
+        "Bridges subjected to significant seismic impact with PGA values between 0.4 and 0.6 could sustain moderate damage, necessitating detailed inspections and potential minor repairs to maintain structural integrity.",
+        "Bridges under high seismic impact with PGA values between 0.6 and 0.8 are likely to experience substantial structural damage, requiring immediate engineering assessments and possible rehabilitation to ensure safety.",
+        "Bridges encountering extreme seismic impact with PGA values exceeding 0.8 are at risk of severe structural compromise, demanding urgent intervention and possibly extensive reconstruction to restore operational capacity."
+      ]
+    },
+    "title": "Peak Ground Acceleration 2475-Year"
+  },
+  "PGA_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.301760052,
+      1.76153272
+    ],
+    "description": "The peak ground acceleration expected at the site for a 10,000-year return period earthquake, representing an upper-bound estimate of extremely rare seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with PGA values under 0.5 are generally expected to perform well with little to no structural damage during rare seismic events.",
+        "Bridges facing moderate seismic impact with PGA values between 0.5 and 1.0 may experience minor structural damage, requiring routine inspections to ensure continued safety and functionality.",
+        "Bridges subjected to significant seismic impact with PGA values between 1.0 and 1.5 are likely to sustain moderate damage, necessitating detailed assessments and potential retrofitting to maintain structural integrity.",
+        "Bridges encountering high seismic impact with PGA values between 1.5 and 2.0 are at risk of substantial damage, requiring comprehensive engineering evaluations and significant strengthening measures to ensure safety.",
+        "Bridges exposed to extreme seismic impact with PGA values exceeding 2.0 represent critical infrastructure challenges, demanding immediate attention, advanced engineering solutions, and possibly complete reconstruction to prevent catastrophic failure."
+      ]
+    },
+    "title": "Peak Ground Acceleration 10,000-Year"
+  },
+  "SA02_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.172707176,
+      0.973940466
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on stiff and short-period bridge components.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with spectral acceleration below 0.2 g are generally in regions of minimal seismic activity, requiring standard design considerations for seismic resilience.",
+        "Bridges with low seismic demand between 0.2 g and 0.4 g are in areas with occasional seismic activity, necessitating basic seismic design features to ensure structural integrity during minor earthquakes.",
+        "Bridges facing moderate seismic demand between 0.4 g and 0.6 g are subject to moderate seismic forces, requiring enhanced design and construction practices to maintain safety and functionality during moderate earthquakes.",
+        "Bridges under high seismic demand between 0.6 g and 0.8 g must incorporate advanced seismic design strategies and materials to withstand significant seismic events, ensuring the safety and serviceability of the infrastructure.",
+        "Bridges experiencing very high seismic demand exceeding 0.8 g are in regions prone to severe seismic activity, necessitating state-of-the-art engineering solutions and continuous monitoring to prevent catastrophic failure during major earthquakes."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 475-Year"
+  },
+  "SA02_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.251235,
+      1.41687998
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 975-year return period earthquake, representing increased seismic demand from less frequent events.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.6,
+        1.0,
+        1.5,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 0.3 g are generally designed with standard seismic considerations and require minimal retrofitting.",
+        "Bridges under moderate seismic demand, with spectral acceleration between 0.3 g and 0.6 g, may need enhanced design features to ensure resilience against more frequent seismic events.",
+        "High seismic demand, with spectral acceleration from 0.6 g to 1.0 g, necessitates robust engineering solutions and regular inspections to maintain structural integrity under significant seismic forces.",
+        "Very high seismic demand, ranging from 1.0 g to 1.5 g, requires advanced seismic design and retrofitting strategies to prevent catastrophic failure during major earthquakes.",
+        "Bridges facing extreme seismic demand, exceeding 1.5 g, are subject to intense seismic forces and must incorporate cutting-edge engineering technologies and continuous monitoring to ensure safety and functionality."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 975-Year"
+  },
+  "SA02_2475": {
+    "type": "numerical",
+    "range": [
+      0.39419129,
+      2.29860371
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme short-period shaking associated with rare seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "severe seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with spectral acceleration below 0.5 g are expected to sustain negligible damage and maintain full operational capacity during rare seismic events.",
+        "Bridges under moderate seismic impact with spectral acceleration between 0.5 g and 1.0 g may experience minor structural responses, requiring standard inspections to ensure continued safety and functionality.",
+        "Bridges facing significant seismic impact with spectral acceleration between 1.0 g and 1.5 g are likely to undergo noticeable structural stresses, necessitating detailed evaluations and potential reinforcement to preserve structural integrity.",
+        "Bridges subjected to severe seismic impact with spectral acceleration between 1.5 g and 2.0 g are at risk of substantial structural damage, demanding immediate engineering assessments and possible retrofitting to prevent catastrophic failures.",
+        "Bridges encountering extreme seismic impact with spectral acceleration exceeding 2.0 g are exposed to critical structural challenges, requiring comprehensive engineering interventions and continuous monitoring to ensure public safety and infrastructure resilience."
+      ]
+    },
+    "title": "Spectral Acceleration 2,475-Year"
+  },
+  "SA02_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.720938324,
+      4.24592825
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 1.0 g are generally expected to perform well with minimal seismic retrofitting required.",
+        "Bridges under moderate seismic demand, with spectral acceleration between 1.0 g and 2.0 g, may require some level of seismic strengthening to ensure safety and serviceability during an earthquake.",
+        "High seismic demand, characterized by spectral acceleration between 2.0 g and 3.0 g, indicates that bridges may need significant retrofitting to withstand potential seismic forces and prevent structural damage.",
+        "Very high seismic demand, with spectral acceleration between 3.0 g and 4.0 g, suggests that bridges are at substantial risk during seismic events and require comprehensive seismic upgrades to maintain structural integrity.",
+        "Extreme seismic demand, exceeding 4.0 g, represents conditions where bridges are highly vulnerable to seismic forces, necessitating advanced engineering solutions and continuous monitoring to ensure safety."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 10000-Year"
+  },
+  "SA10_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0466456098,
+      0.326485673
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on flexible bridge systems and tall substructures.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with spectral acceleration below 0.1 g are generally at minimal risk during a 475-year return period earthquake, requiring standard maintenance and monitoring.",
+        "Bridges with low seismic demand between 0.1 g and 0.2 g may experience minor structural impacts during a 475-year return period earthquake, necessitating routine inspections to ensure continued safety.",
+        "Bridges facing moderate seismic demand between 0.2 g and 0.3 g are likely to undergo noticeable stress during a 475-year return period earthquake, requiring enhanced inspection protocols and potential retrofitting to maintain structural integrity.",
+        "Bridges subjected to high seismic demand between 0.3 g and 0.4 g are at significant risk of structural damage during a 475-year return period earthquake, necessitating comprehensive seismic evaluations and strengthening measures.",
+        "Bridges experiencing very high seismic demand exceeding 0.4 g are exposed to extreme seismic forces during a 475-year return period earthquake, requiring immediate attention for seismic retrofitting and advanced engineering solutions to ensure safety and functionality."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 475-Year"
+  },
+  "SA10_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0709217501,
+      0.474873546
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 975-year return period earthquake, representing elevated long-period demand from infrequent seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.15,
+        0.25,
+        0.35,
+        0.45,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic demand with spectral acceleration values from 0 to 0.15 g are generally expected to perform well with standard design considerations and minimal retrofitting needs.",
+        "Bridges under moderate seismic demand with spectral acceleration values from 0.15 to 0.25 g may require enhanced design features to ensure structural integrity during infrequent seismic events.",
+        "High seismic demand on bridges, with spectral acceleration values from 0.25 to 0.35 g, necessitates advanced engineering solutions and possibly retrofitting to maintain safety and functionality.",
+        "Bridges facing very high seismic demand, with spectral acceleration values from 0.35 to 0.45 g, are likely to require significant structural modifications and rigorous inspection protocols to withstand potential seismic impacts.",
+        "Extreme seismic demand on bridges, with spectral acceleration values exceeding 0.45 g, represents a critical scenario where specialized engineering interventions and continuous monitoring are essential to prevent catastrophic failure."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 975-Year"
+  },
+  "SA10_2475": {
+    "type": "numerical",
+    "range": [
+      0.116506327,
+      0.727354517
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme long-period ground motions relevant to maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with spectral acceleration values under 0.2 g are expected to remain largely unaffected by seismic events, maintaining structural integrity with minimal intervention.",
+        "Bridges facing moderate seismic impact with spectral acceleration values between 0.2 g and 0.4 g may experience minor structural stresses, necessitating routine inspections to ensure continued safety and performance.",
+        "Bridges subjected to significant seismic impact with spectral acceleration values between 0.4 g and 0.6 g are likely to undergo noticeable structural responses, requiring detailed assessments and potential retrofitting to uphold safety standards.",
+        "Bridges encountering high seismic impact with spectral acceleration values between 0.6 g and 0.8 g are at risk of substantial structural damage, demanding comprehensive engineering evaluations and significant strengthening measures to prevent catastrophic failures.",
+        "Bridges exposed to extreme seismic impact with spectral acceleration values exceeding 0.8 g represent critical infrastructure challenges, necessitating immediate and extensive engineering interventions to ensure public safety and structural resilience."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 2475-Year"
+  },
+  "SA10_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.225535948,
+      1.26759141
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of long-period seismic ground motion intensity.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.4,
+        0.7,
+        1.0,
+        1.3,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 0.4 g are generally expected to perform well with minimal seismic retrofitting, maintaining structural integrity during rare seismic events.",
+        "Bridges under moderate seismic demand, with spectral acceleration values between 0.4 g and 0.7 g, may require some level of seismic strengthening to ensure safety and serviceability during significant seismic events.",
+        "High seismic demand bridges, experiencing spectral acceleration values between 0.7 g and 1.0 g, often necessitate comprehensive seismic evaluations and retrofitting to prevent structural damage and ensure continued operation post-earthquake.",
+        "Bridges facing very high seismic demand, with spectral acceleration values between 1.0 g and 1.3 g, are at increased risk of significant damage and require advanced seismic design considerations and retrofitting to withstand major seismic forces.",
+        "Bridges subjected to extreme seismic demand, with spectral acceleration values exceeding 1.3 g, represent critical infrastructure that must be designed or retrofitted to the highest seismic standards to prevent catastrophic failure during extreme seismic events."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 10000-Year"
+  }
+}
