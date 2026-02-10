@@ -1,0 +1,2803 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "PGA": {
+    "type": "numerical",
+    "range": [
+      0.165,
+      0.866
+    ],
+    "description": "The design map adjusted maximum expected ground acceleration at the site due to earthquake shaking, reflecting short-period seismic demand that strongly affects stiff structures and foundations.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with PGA values up to 0.2 are generally subject to minimal earthquake-induced forces, requiring standard design considerations for seismic resilience.",
+        "Bridges under moderate seismic demand with PGA values between 0.2 and 0.4 need enhanced design features to ensure structural integrity during moderate earthquake events.",
+        "High seismic demand bridges with PGA values between 0.4 and 0.6 must incorporate advanced engineering techniques to withstand significant seismic forces and prevent structural damage.",
+        "Bridges facing very high seismic demand with PGA values between 0.6 and 0.8 require rigorous seismic design and retrofitting strategies to maintain safety and functionality during strong earthquakes.",
+        "Extreme seismic demand bridges with PGA values exceeding 0.8 are exposed to severe earthquake forces, necessitating specialized engineering solutions and continuous monitoring to ensure structural safety and performance."
+      ]
+    },
+    "title": "Design Peak Ground Acceleration"
+  },
+  "SS": {
+    "type": "numerical_redundant",
+    "range": [
+      0.367,
+      1.757
+    ],
+    "description": "The mapped short-period spectral acceleration at the site before site soil effects are applied, representing seismic demand on short-period structural components.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with SS values up to 0.5 are generally subject to minimal seismic forces, allowing for standard design considerations without significant seismic enhancements.",
+        "Bridges with moderate seismic demand, having SS values between 0.5 and 1.0, require careful design to ensure structural resilience against moderate seismic activity, often incorporating basic seismic detailing.",
+        "High seismic demand on bridges, indicated by SS values between 1.0 and 1.5, necessitates advanced seismic design strategies, including the use of ductile materials and energy dissipation systems to maintain structural integrity.",
+        "Bridges facing very high seismic demand with SS values between 1.5 and 2.0 must be designed with robust seismic resistance features, such as base isolation and reinforced connections, to withstand significant seismic events.",
+        "Extreme seismic demand on bridges, with SS values exceeding 2.0, represents a critical design challenge requiring state-of-the-art engineering solutions and continuous monitoring to ensure safety during severe seismic events."
+      ]
+    },
+    "title": "Short-Period Spectral Acceleration"
+  },
+  "S1": {
+    "type": "numerical",
+    "range": [
+      0.139,
+      0.864
+    ],
+    "description": "The mapped 1.0-second spectral acceleration at the site before site soil effects are applied, representing seismic demand on longer-period structural systems.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic demand with spectral acceleration values under 0.2 are typically subject to low seismic forces, requiring standard design considerations for structural integrity.",
+        "Bridges with moderate seismic demand, having spectral acceleration between 0.2 and 0.4, may require enhanced design features to ensure resilience against moderate seismic events.",
+        "High seismic demand on bridges, indicated by spectral acceleration values between 0.4 and 0.6, necessitates robust engineering solutions to maintain structural safety and serviceability during significant seismic activity.",
+        "Very high seismic demand, with spectral acceleration from 0.6 to 0.8, demands advanced seismic design and retrofitting strategies to protect bridges from severe earthquake impacts.",
+        "Bridges facing extreme seismic demand, with spectral acceleration exceeding 0.8, are subject to intense seismic forces and require cutting-edge engineering techniques and continuous monitoring to ensure their structural integrity and public safety."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s"
+  },
+  "SMS": {
+    "type": "numerical_redundant",
+    "range": [
+      0.553,
+      1.757
+    ],
+    "description": "The site-adjusted short-period spectral acceleration that accounts for local soil amplification or attenuation of seismic ground motions.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.7,
+        1.0,
+        1.3,
+        1.6,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with low seismic demand (SMS from 0 to 0.7) are expected to experience minimal seismic forces, allowing for standard design and construction practices with minimal seismic-specific enhancements.",
+        "Bridges with moderate seismic demand (SMS from 0.7 to 1.0) require consideration of seismic forces in design, ensuring that structural components can accommodate moderate ground motion without significant damage.",
+        "Bridges with high seismic demand (SMS from 1.0 to 1.3) need robust seismic design measures, including reinforced materials and advanced engineering techniques to withstand substantial seismic forces.",
+        "Bridges with very high seismic demand (SMS from 1.3 to 1.6) must incorporate comprehensive seismic resilience strategies, such as base isolation or energy dissipation systems, to maintain structural integrity during strong earthquakes.",
+        "Bridges facing extreme seismic demand (SMS exceeding 1.6) are subject to severe ground motions, necessitating cutting-edge engineering solutions and continuous monitoring to ensure safety and functionality during and after seismic events."
+      ]
+    },
+    "title": "Site-Adjusted Spectral Acceleration"
+  },
+  "SDS": {
+    "type": "numerical",
+    "range": [
+      0.369,
+      1.171
+    ],
+    "description": "The design-level short-period spectral acceleration used directly in seismic design, reflecting reduced demand consistent with code-defined performance objectives.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal seismic demand (SDS values from 0 to 0.4) are designed for regions with low seismic activity, where structural reinforcements are minimal and focus on basic safety measures.",
+        "Bridges experiencing moderate seismic demand (SDS values from 0.4 to 0.6) require enhanced design considerations to ensure stability and performance during moderate seismic events, incorporating additional reinforcement and damping systems.",
+        "High seismic demand on bridges (SDS values from 0.6 to 0.8) necessitates robust structural designs with advanced materials and technologies to withstand significant seismic forces, ensuring the safety and functionality of the infrastructure.",
+        "Bridges subjected to very high seismic demand (SDS values from 0.8 to 1.0) are engineered with comprehensive seismic resilience strategies, including base isolation and energy dissipation devices, to protect against severe earthquake impacts.",
+        "Extreme seismic demand (SDS values exceeding 1.0) indicates that bridges must be designed with cutting-edge seismic technologies and rigorous safety standards to endure the most intense seismic forces, safeguarding both the structure and its users."
+      ]
+    },
+    "title": "Design Spectral Acceleration"
+  },
+  "SDCS": {
+    "type": "nominal",
+    "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions.",
+    "code_map": {
+      "A": "very low seismic hazard",
+      "B": "low seismic hazard",
+      "C": "moderate seismic hazard",
+      "D": "high seismic hazard",
+      "E": "very high seismic hazard",
+      "F": "extreme site specific hazard"
+    },
+    "title": "Seismic Design Category"
+  },
+  "PGAM": {
+    "type": "numerical_redundant",
+    "range": [
+      0.242,
+      0.953
+    ],
+    "description": "The mapped peak ground acceleration associated with maximum considered earthquake conditions prior to any site-specific adjustments.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.5,
+        0.7,
+        1.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with a PGAM under 0.3 experience low seismic demand, indicating minimal structural reinforcement is typically required to withstand earthquake forces.",
+        "Bridges with a PGAM between 0.3 and 0.5 are subject to moderate seismic demand, necessitating standard seismic design considerations to ensure structural resilience.",
+        "Bridges with a PGAM between 0.5 and 0.7 face high seismic demand, requiring enhanced engineering measures and retrofitting to maintain structural integrity during seismic events.",
+        "Bridges with a PGAM between 0.7 and 1.0 are exposed to very high seismic demand, demanding rigorous seismic design and frequent inspections to prevent catastrophic failure.",
+        "Bridges with a PGAM exceeding 1.0 encounter extreme seismic demand, representing outlier conditions where advanced engineering solutions and continuous monitoring are critical for safety."
+      ]
+    },
+    "title": "Mapped Peak Ground Acceleration"
+  },
+  "FPGA": {
+    "type": "numerical",
+    "range": [
+      1.1,
+      1.471
+    ],
+    "description": "The factor for peak ground acceleration adjusted for local site conditions, representing the ground motion intensity expected to be experienced at the bridge location.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with FPGA values under 1.2 are expected to perform well with negligible structural concerns during minor seismic events.",
+        "Bridges with moderate seismic impact, having FPGA values between 1.2 and 1.3, may require routine inspections to ensure structural integrity under moderate seismic conditions.",
+        "Bridges facing significant seismic impact with FPGA values between 1.3 and 1.4 should be evaluated for potential retrofitting to enhance resilience against stronger seismic activities.",
+        "Bridges under high seismic impact, with FPGA values between 1.4 and 1.5, are likely to need substantial reinforcement to maintain safety and functionality during major earthquakes.",
+        "Bridges experiencing extreme seismic impact with FPGA values exceeding 1.5 represent critical infrastructure that must undergo rigorous seismic assessment and potentially extensive retrofitting to withstand severe seismic forces."
+      ]
+    },
+    "title": "Ground Motion Factor"
+  },
+  "MACRO_UNIT_NAME": {
+    "type": "nl",
+    "description": "The macro unit name provides the standardized label assigned to a mapped geologic unit, representing a regionally recognized grouping of rock with shared stratigraphic context.",
+    "title": "Geologic Unit Name"
+  },
+  "MACRO_STRAT_NAME": {
+    "type": "nl",
+    "description": "The stratigraphic name identifies the formal stratigraphic unit (such as formation, member, or group) to which the mapped rocks belong, reflecting their position within the geologic column.",
+    "title": "Stratigraphic Unit"
+  },
+  "MACRO_LITHOLOGY": {
+    "type": "nl",
+    "description": "The lithology describes the dominant rock material or materials present in the unit, capturing composition and texture that directly influence mechanical and hydraulic behavior.",
+    "title": "Rock Material Type"
+  },
+  "MACRO_AGE_MIN": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      358.9
+    ],
+    "description": "The minimum geologic age represents the youngest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement ended.",
+    "semantic_bins": {
+      "labels": [
+        "recently formed",
+        "geologically young",
+        "geologically mature",
+        "ancient",
+        "prehistoric"
+      ],
+      "edges": [
+        0,
+        50,
+        150,
+        250,
+        350,
+        "inf"
+      ],
+      "sentences": [
+        "Recently formed geologic units, with a minimum age under 50 million years, provide a stable foundation for modern bridges, ensuring minimal geological disturbances and optimal structural support.",
+        "Geologically young formations, aged between 50 and 150 million years, offer reliable support for bridge infrastructure, though they may require additional geotechnical assessments to account for potential variability in material properties.",
+        "Geologically mature units, ranging from 150 to 250 million years, typically provide well-consolidated foundations for bridges, but may necessitate detailed analysis to address any historical tectonic activity that could impact structural integrity.",
+        "Ancient geologic formations, aged between 250 and 350 million years, often present stable but complex conditions for bridge construction, requiring thorough geological surveys to ensure long-term stability and performance.",
+        "Prehistoric formations exceeding 350 million years represent extreme geological ages, where bridges must be designed with advanced engineering techniques to accommodate potential challenges from deeply weathered or metamorphosed rock structures."
+      ]
+    },
+    "title": "Minimum Geologic Age"
+  },
+  "MACRO_AGE_MAX": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0117,
+      4000.0
+    ],
+    "description": "The maximum geologic age represents the oldest possible time of formation for the unit, expressed in millions of years, constraining when deposition or emplacement began.",
+    "semantic_bins": {
+      "labels": [
+        "recently formed",
+        "geologically young",
+        "geologically mature",
+        "ancient",
+        "prehistoric"
+      ],
+      "edges": [
+        0,
+        50,
+        200,
+        1000,
+        3000,
+        "inf"
+      ],
+      "sentences": [
+        "Recently formed geological units, with ages under 50 million years, provide a stable foundation for bridges, minimizing seismic risks due to their relatively unaltered state.",
+        "Geologically young formations, between 50 and 200 million years, offer reliable support for bridge structures, though they may require careful assessment for potential erosion or weathering effects.",
+        "Geologically mature units, aged between 200 and 1000 million years, often exhibit increased stability and reduced seismic activity, making them suitable for long-span bridge construction.",
+        "Ancient geological formations, ranging from 1000 to 3000 million years, typically provide robust support for bridges, but may involve complex rock formations requiring specialized engineering solutions.",
+        "Prehistoric formations exceeding 3000 million years represent some of the oldest geological units, where bridges may encounter unique challenges due to potential metamorphic transformations and deep-seated faults."
+      ]
+    },
+    "title": "Maximum Geologic Age"
+  },
+  "MACRO_DESCRIPTION": {
+    "type": "nl",
+    "description": "The descriptive text summarizes the geologic characteristics of the unit, including depositional environment, material variability, structure, and notable features relevant to engineering and geotechnical interpretation.",
+    "title": "Geologic Characteristics"
+  },
+  "MACRO_COLOR": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_SOURCE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "MACRO_MAP_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "STATE_CODE_001": {
+    "type": "nominal",
+    "code_map": {
+      "01": "Alabama",
+      "02": "Alaska",
+      "04": "Arizona",
+      "05": "Arkansas",
+      "06": "California",
+      "08": "Colorado",
+      "09": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming",
+      "60": "American Samoa",
+      "66": "Guam",
+      "69": "Northern Marianas",
+      "72": "Puerto Rico",
+      "78": "Virgin Islands"
+    },
+    "description": "The U.S. state or territory in which the bridge is physically located, expressed as a standardized FIPS jurisdiction.",
+    "title": "State Code"
+  },
+  "COUNTY_CODE_003": {
+    "type": "nominal",
+    "code_map": {
+      "1": "ADAMS",
+      "3": "ASOTIN",
+      "5": "BENTON",
+      "7": "CHELAN",
+      "9": "CLALLAM",
+      "11": "CLARK",
+      "13": "COLUMBIA",
+      "15": "COWLITZ",
+      "17": "DOUGLAS",
+      "19": "FERRY",
+      "21": "FRANKLIN",
+      "23": "GARFIELD",
+      "25": "GRANT",
+      "27": "GRAYS HARBOR",
+      "29": "ISLAND",
+      "31": "JEFFERSON",
+      "33": "KING",
+      "35": "KITSAP",
+      "37": "KITTITAS",
+      "39": "KLICKITAT",
+      "41": "LEWIS",
+      "43": "LINCOLN",
+      "45": "MASON",
+      "47": "OKANOGAN",
+      "49": "PACIFIC",
+      "51": "PEND OREILLE",
+      "53": "PIERCE",
+      "55": "SAN JUAN",
+      "57": "SKAGIT",
+      "59": "SKAMANIA",
+      "61": "SNOHOMISH",
+      "63": "SPOKANE",
+      "65": "STEVENS",
+      "67": "THURSTON",
+      "69": "WAHKIAKUM",
+      "71": "WALLA WALLA",
+      "73": "WHATCOM",
+      "75": "WHITMAN",
+      "77": "YAKIMA"
+    },
+    "description": "The county (or county-equivalent) in which the bridge is physically located, expressed as a standardized location code.",
+    "title": "County Code"
+  },
+  "HIGHWAY_DISTRICT_002": {
+    "type": "nominal",
+    "code_map": {
+      "1": "State Highway Agency",
+      "2": "County Highway Agency",
+      "3": "Town or Township Highway Agency",
+      "4": "City or Municipal Highway Agency"
+    },
+    "description": "The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city).",
+    "title": "Highway District Jurisdiction"
+  },
+  "ROUTE_PREFIX_005B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Interstate highway",
+      "2": "U.S. numbered highway",
+      "3": "State highway",
+      "4": "County highway",
+      "5": "City street",
+      "6": "Federal lands road",
+      "7": "State lands road",
+      "8": "Other (include toll roads not otherwise indicated or identified above)"
+    },
+    "description": "The classification of the route carried by the bridge by numbering/ownership system (e.g., Interstate, U.S. route, state route, local street, etc.).",
+    "title": "Route Classification"
+  },
+  "SERVICE_LEVEL_005C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Other",
+      "1": "Mainline",
+      "2": "Alternate",
+      "3": "Bypass",
+      "4": "Spur",
+      "6": "Business",
+      "7": "Ramp, Wye, Connector, etc.",
+      "8": "Service and/or unclassified frontage road"
+    },
+    "description": "The role of the route carried by the bridge within its route system (mainline, alternate, bypass, spur, ramp/connector, frontage road, etc.).",
+    "title": "Route Service Role"
+  },
+  "FEATURES_DESC_006A": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text description of the feature that the bridge crosses or intersects (e.g., river name, railroad line, roadway name, ravine, canal).",
+    "title": "Crossing Feature Description"
+  },
+  "FACILITY_CARRIED_007": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text description of the facility that runs on the bridge deck (e.g., the roadway or line being carried across the obstacle).",
+    "title": "Carried Facility Description"
+  },
+  "LOCATION_009": {
+    "type": "nl",
+    "code_map": null,
+    "description": "A free-text narrative describing the bridge\u00e2\u20ac\u2122s location context, typically using nearby routes, towns, landmarks, or milepoints.",
+    "title": "Bridge Location Description"
+  },
+  "BASE_HWY_NETWORK_012": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Inventory route is not on the Base Network",
+      "1": "Inventory route is on the Base Network"
+    },
+    "description": "An indicator of whether the bridge\u00e2\u20ac\u2122s inventory route is part of the federally defined Base Highway Network.",
+    "title": "Base Highway Network"
+  },
+  "TOLL_020": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Toll bridge \u2013 toll paid to use the structure",
+      "2": "On toll road \u2013 toll paid to the overall facility",
+      "3": "On free road \u2013 toll-free structure and highway",
+      "4": "Interstate toll segment under Secretarial Agreement",
+      "5": "Toll bridge under separate Secretarial Agreement"
+    },
+    "description": "The toll context describing whether a toll is charged specifically to use the bridge, as part of a tolled facility, or not at all.",
+    "title": "Toll Status"
+  },
+  "MAINTENANCE_021": {
+    "type": "nominal",
+    "code_map": {
+      "01": "State Highway Agency",
+      "02": "County Highway Agency",
+      "03": "Town or Township Highway Agency",
+      "04": "City or Municipal Highway Agency",
+      "11": "State Park, Forest, or Reservation Agency",
+      "12": "Local Park, Forest, or Reservation Agency",
+      "21": "Other State Agency",
+      "25": "Other Local Agency",
+      "26": "Private (non-railroad)",
+      "27": "Railroad",
+      "31": "State Toll Authority",
+      "32": "Local Toll Authority",
+      "60": "Other Federal Agency",
+      "61": "Indian Tribal Government",
+      "62": "Bureau of Indian Affairs",
+      "63": "Bureau of Fish and Wildlife",
+      "64": "U.S. Forest Service",
+      "66": "National Park Service",
+      "67": "Tennessee Valley Authority",
+      "68": "Bureau of Land Management",
+      "69": "Bureau of Reclamation",
+      "70": "Corps of Engineers (Civil)",
+      "71": "Corps of Engineers (Military)",
+      "72": "Air Force",
+      "73": "Navy/Marines",
+      "74": "Army",
+      "75": "NASA",
+      "76": "Metropolitan Washington Airports Service",
+      "80": "Unknown"
+    },
+    "description": "The agency or organization that is responsible for maintaining the bridge and performing routine upkeep and repairs.",
+    "title": "Maintenance Agency"
+  },
+  "FUNCTIONAL_CLASS_026": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Rural - Principal Arterial: Interstate",
+      "2": "Rural - Principal Arterial: Other",
+      "6": "Rural - Minor Arterial",
+      "7": "Rural - Major Collector",
+      "8": "Rural - Minor Collector",
+      "9": "Rural - Local",
+      "11": "Urban - Principal Arterial: Interstate",
+      "12": "Urban - Principal Arterial: Other Freeways or Expressways",
+      "14": "Urban - Other Principal Arterial",
+      "16": "Urban - Minor Arterial",
+      "17": "Urban - Collector",
+      "19": "Urban - Local"
+    },
+    "description": "The functional classification of the roadway carried by the bridge, describing its role in the road network (arterial, collector, local; rural/urban).",
+    "title": "Functional Classification"
+  },
+  "DESIGN_LOAD_031": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Other or unknown",
+      "1": "M 9 / H 10",
+      "2": "M 13.5 / H 15",
+      "3": "MS 13.5 / HS 15",
+      "4": "M 18 / H 20",
+      "5": "MS 18 / HS 20",
+      "6": "MS 18+Mod / HS 20+Mod",
+      "7": "Pedestrian",
+      "8": "Railroad",
+      "9": "MS 22.5 / HS 25"
+    },
+    "description": "The load model or design loading category the bridge was designed to accommodate (e.g., HS/HL-type truck, pedestrian, railroad).",
+    "title": "Design Load Category"
+  },
+  "MEDIAN_CODE_033": {
+    "type": "nominal",
+    "code_map": {
+      "0": "No median",
+      "1": "Open median",
+      "2": "Closed median (no barriers)",
+      "3": "Closed median with non-mountable barriers"
+    },
+    "description": "The presence and type of median on the bridge, describing whether opposing traffic is separated and how (open/closed/barrier).",
+    "title": "Median Type"
+  },
+  "STRUCTURE_FLARED_035": {
+    "type": "nominal",
+    "code_map": {
+      "0": "No flare",
+      "1": "Yes, flared"
+    },
+    "description": "Whether the bridge width flares (widens) near the ends relative to the main portion of the structure.",
+    "title": "Flared Structure Width"
+  },
+  "RAILINGS_036A": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the bridge railings as built and present provide adequate safety performance relative to current standards.",
+    "title": "Railing Safety Compliance"
+  },
+  "TRANSITIONS_036B": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the approach-to-bridge transition elements (e.g., rail transitions) provide adequate continuity and safety relative to current standards.",
+    "title": "Transition Safety Assessment"
+  },
+  "APPR_RAIL_036C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the approach guardrail upstream/downstream of the bridge is adequate to safely redirect vehicles relative to current standards.",
+    "title": "Approach Guardrail Adequacy"
+  },
+  "APPR_RAIL_END_036D": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the end treatments of the approach guardrail are adequate for crashworthiness relative to current standards.",
+    "title": "Approach Guardrail End TreatmentAdequacy"
+  },
+  "HISTORY_037": {
+    "type": "nominal",
+    "code_map": {
+      "1": "On the National Register of Historic Places (NRHP)",
+      "2": "Eligible for the NRHP",
+      "3": "Possibly eligible or on state/local historic register",
+      "4": "Historical significance not determinable",
+      "5": "Not eligible for the NRHP"
+    },
+    "description": "The bridge\u00e2\u20ac\u2122s historic significance status in terms of listing or eligibility for historic registers such as the NRHP.",
+    "title": "Historic Significance Status"
+  },
+  "NAVIGATION_038": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable, no waterway",
+      "0": "No navigation control (permit not required)",
+      "1": "Navigation control present (permit required)"
+    },
+    "description": "Whether a navigable waterway is present and therefore navigation control/permit requirements apply at the crossing.",
+    "title": "Navigability Status"
+  },
+  "OPEN_CLOSED_POSTED_041": {
+    "type": "nominal",
+    "code_map": {
+      "A": "Open, no restriction",
+      "B": "Open, posting recommended but not legally implemented",
+      "D": "Open, would be posted or closed except for temporary shoring, etc.",
+      "E": "Open, temporary structure in place while original is closed",
+      "G": "New structure not yet open to traffic",
+      "K": "Bridge closed to all traffic",
+      "P": "Posted for load (may include temporary load restrictions)",
+      "R": "Posted for other restrictions (speed, number of vehicles, etc.)"
+    },
+    "description": "The operational status of the bridge describing whether it is open without restriction, posted with restrictions, or closed to traffic.",
+    "title": "Bridge Operational Status"
+  },
+  "SERVICE_ON_042A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Highway",
+      "2": "Railroad",
+      "3": "Pedestrian-bicycle",
+      "4": "Highway-railroad",
+      "5": "Highway-pedestrian",
+      "6": "Overpass at interchange or 2nd level",
+      "7": "Third level interchange",
+      "8": "Fourth level interchange",
+      "9": "Building or plaza",
+      "0": "Other"
+    },
+    "description": "The primary type of service carried on the bridge deck (highway, railroad, pedestrian/bike, combinations, or complex interchange levels).",
+    "title": "Service Type"
+  },
+  "SERVICE_UND_042B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Highway (with or without pedestrian)",
+      "2": "Railroad",
+      "3": "Pedestrian-bicycle",
+      "4": "Highway-railroad",
+      "5": "Waterway",
+      "6": "Highway-waterway",
+      "7": "Railroad-waterway",
+      "8": "Highway-waterway-railroad",
+      "9": "Relief for waterway",
+      "0": "Other"
+    },
+    "description": "The primary type of service that passes beneath the bridge (road, railroad, waterway, combinations, or none).",
+    "title": "Service Type Below Bridge"
+  },
+  "STRUCTURE_KIND_043A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete",
+      "2": "Concrete continuous",
+      "3": "Steel",
+      "4": "Steel continuous",
+      "5": "Prestressed concrete",
+      "6": "Prestressed concrete continuous",
+      "7": "Wood or timber",
+      "8": "Masonry",
+      "9": "Aluminum, wrought iron, or cast iron",
+      "0": "Other"
+    },
+    "description": "The primary structural material system used for the main spans of the bridge (e.g., concrete, steel, prestressed concrete, timber).",
+    "title": "Main Span Material"
+  },
+  "STRUCTURE_TYPE_043B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Slab",
+      "2": "Stringer/Multi-beam or girder",
+      "3": "Girder and floorbeam system",
+      "4": "Tee beam",
+      "5": "Box beams or girders - multiple",
+      "6": "Box beams or girders - single or spread",
+      "7": "Frame",
+      "8": "Orthotropic",
+      "9": "Truss - Deck",
+      "10": "Truss - Thru",
+      "11": "Arch - Deck",
+      "12": "Arch - Thru",
+      "13": "Suspension",
+      "14": "Stayed girder",
+      "15": "Movable - Lift",
+      "16": "Movable - Bascule",
+      "17": "Movable - Swing",
+      "18": "Tunnel",
+      "19": "Culvert",
+      "20": "Mixed types",
+      "21": "Segmental box girder",
+      "22": "Channel beam",
+      "0": "Other"
+    },
+    "description": "The main structural form/design configuration used for the bridge (e.g., slab, girder, truss, arch, suspension, culvert, etc.).",
+    "title": "Structure Type"
+  },
+  "APPR_KIND_044A": {
+    "type": "nominal_redundant",
+    "code_map": {
+      "1": "Concrete",
+      "2": "Concrete continuous",
+      "3": "Steel",
+      "4": "Steel continuous",
+      "5": "Prestressed concrete",
+      "6": "Prestressed concrete continuous",
+      "7": "Wood or timber",
+      "8": "Masonry",
+      "9": "Aluminum, wrought iron, or cast iron",
+      "0": "Other"
+    },
+    "description": "The primary structural material system used for the approach spans, if approach spans exist (e.g., concrete, steel, timber).",
+    "title": "Approach Span Material"
+  },
+  "APPR_TYPE_044B": {
+    "type": "nominal_redundant",
+    "code_map": {
+      "1": "Slab",
+      "2": "Stringer/Multi-beam or girder",
+      "3": "Girder and floorbeam system",
+      "4": "Tee beam",
+      "5": "Box beams or girders - multiple",
+      "6": "Box beams or girders - single or spread",
+      "7": "Frame",
+      "8": "Orthotropic",
+      "9": "Truss - Deck",
+      "10": "Truss - Thru",
+      "11": "Arch - Deck",
+      "12": "Arch - Thru",
+      "13": "Suspension",
+      "14": "Stayed girder",
+      "15": "Movable - Lift",
+      "16": "Movable - Bascule",
+      "17": "Movable - Swing",
+      "18": "Tunnel",
+      "19": "Culvert",
+      "20": "Mixed types",
+      "21": "Segmental box girder",
+      "22": "Channel beam",
+      "0": "Other"
+    },
+    "description": "The structural form/design configuration used for the approach spans, if approach spans exist (e.g., girder, slab, truss, culvert, etc.).",
+    "title": "Approach Span Type"
+  },
+  "VERT_CLR_UND_REF_054A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "Highway beneath structure",
+      "R": "Railroad beneath structure",
+      "N": "Feature not a highway or railroad"
+    },
+    "description": "The feature type used as the reference for reported vertical clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Vertical Clearance Reference"
+  },
+  "LAT_UND_REF_055A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "Highway beneath structure",
+      "R": "Railroad beneath structure",
+      "N": "Feature not a highway or railroad"
+    },
+    "description": "The feature type used as the reference for reported lateral clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Lateral Clearance Reference"
+  },
+  "DECK_COND_058": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the deck element as assessed during inspection, reflecting deterioration such as cracking, spalling, corrosion, or section loss.",
+    "title": "Deck Condition"
+  },
+  "SUPERSTRUCTURE_COND_059": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the superstructure as assessed during inspection, reflecting deterioration or damage in main load-carrying members.",
+    "title": "Superstructure Condition"
+  },
+  "SUBSTRUCTURE_COND_060": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the substructure as assessed during inspection, reflecting deterioration or damage in piers, abutments, and foundations above waterline.",
+    "title": "Substructure Condition"
+  },
+  "CHANNEL_COND_061": {
+    "type": "nominal",
+    "code_map": {
+      "9": "No deficiencies affecting channel condition",
+      "8": "Banks protected or well vegetated; stable control devices",
+      "7": "Minor bank or control device repairs needed; minor drift",
+      "6": "Minor slumping, debris slightly restricting channel",
+      "5": "Erosion of bank protection, trees/brush restricting flow",
+      "4": "Severely undermined protection; heavy debris deposits",
+      "3": "Bank protection failed; channel threatens bridge",
+      "2": "Channel change threatens bridge collapse",
+      "1": "Bridge closed due to channel failure; repair possible",
+      "0": "Bridge closed due to channel failure; replacement necessary"
+    },
+    "description": "The condition state of the channel and channel protection at the crossing, reflecting erosion, instability, debris, and threat to foundations.",
+    "title": "Channel Condition"
+  },
+  "OPR_RATING_METH_063": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Load Factor (LF)",
+      "2": "Allowable Stress (AS)",
+      "3": "Load and Resistance Factor (LRFR)",
+      "4": "Load Testing",
+      "5": "No rating analysis performed"
+    },
+    "description": "The analytical or test-based method used to determine the bridge operating rating used for load posting and safe heavy-vehicle passage.",
+    "title": "Operating Rating Method"
+  },
+  "INV_RATING_METH_065": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Load Factor (LF)",
+      "2": "Allowable Stress (AS)",
+      "3": "Load and Resistance Factor (LRFR)",
+      "4": "Load Testing",
+      "5": "No rating analysis performed"
+    },
+    "description": "The analytical or test-based method used to determine the bridge inventory rating representing normal allowable service loading capacity.",
+    "title": "Inventory Rating Method"
+  },
+  "STRUCTURAL_EVAL_067": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A summary structural adequacy rating that reflects the bridge\u00e2\u20ac\u2122s ability to safely carry loads considering condition, capacity, and observed deficiencies.",
+    "title": "Structural Adequacy Rating"
+  },
+  "DECK_GEOMETRY_EVAL_068": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A geometry adequacy rating reflecting whether deck width, shoulders, lane arrangement, and related geometric features meet accepted criteria.",
+    "title": "Deck Geometry Rating"
+  },
+  "UNDCLRENCE_EVAL_069": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A clearance adequacy rating reflecting whether vertical/lateral clearances under the bridge are acceptable for the feature passing beneath.",
+    "title": "Clearance Evaluation"
+  },
+  "POSTING_EVAL_070": {
+    "type": "nominal",
+    "code_map": {
+      "5": "Equal to or above legal loads",
+      "4": "0.1\u20139.9% below legal loads",
+      "3": "10.0\u201319.9% below legal loads",
+      "2": "20.0\u201329.9% below legal loads",
+      "1": "30.0\u201339.9% below legal loads",
+      "0": ">39.9% below legal loads"
+    },
+    "description": "A posting adequacy rating reflecting whether the bridge can safely carry legal loads or requires restrictions below legal limits.",
+    "title": "Posting Adequacy Rating"
+  },
+  "WATERWAY_EVAL_071": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable",
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A waterway adequacy rating reflecting whether the bridge opening and hydraulic performance are adequate for expected flows and flood conditions.",
+    "title": "Waterway Adequacy Rating"
+  },
+  "APPR_ROAD_EVAL_072": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable",
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "An approach roadway alignment adequacy rating reflecting whether the roadway alignment approaching the bridge is acceptable and safe.",
+    "title": "Approach Roadway Rating"
+  },
+  "WORK_PROPOSED_075A": {
+    "type": "nominal",
+    "code_map": {
+      "31": "Replacement due to substandard load capacity or roadway geometry",
+      "32": "Replacement due to relocation of road",
+      "33": "Widening without deck rehabilitation/replacement (includes culvert lengthening)",
+      "34": "Widening with deck rehabilitation or replacement",
+      "35": "Bridge rehabilitation due to deterioration or inadequate strength",
+      "36": "Deck rehabilitation with incidental widening",
+      "37": "Deck replacement with incidental widening",
+      "38": "Other structural or hydraulic work"
+    },
+    "description": "The type of work action planned for the bridge such as rehabilitation, deck work, widening, replacement, or other structural/hydraulic work.",
+    "title": "Proposed Work Type"
+  },
+  "FRACTURE_092A": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Special inspection or emphasis needed; includes frequency in months (e.g., Y24)",
+      "N": "Special inspection not needed"
+    },
+    "description": "Whether the bridge requires fracture-critical inspection due to non-redundant tension members where failure could lead to collapse, including any specified interval.",
+    "title": "Fracture Critical Status"
+  },
+  "UNDWATER_LOOK_SEE_092B": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Underwater inspection or emphasis needed; includes frequency in months (e.g., Y24)",
+      "N": "Underwater inspection not needed"
+    },
+    "description": "Whether the bridge requires underwater inspection due to submerged elements or scour exposure, including any specified inspection interval.",
+    "title": "Underwater Inspection Need"
+  },
+  "SPEC_INSPECT_092C": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Special or other inspection required; includes frequency in months (e.g., Y24)",
+      "N": "Special inspection not needed"
+    },
+    "description": "Whether the bridge requires special inspection beyond routine cycles due to unusual details, hazards, or known issues, including any specified interval.",
+    "title": "Special Inspection Requirement"
+  },
+  "STRAHNET_HIGHWAY_100": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Not on a STRAHNET route",
+      "2": "On an Interstate STRAHNET route",
+      "3": "On a Non-Interstate STRAHNET route",
+      "4": "On a STRAHNET connector route"
+    },
+    "description": "The bridge\u00e2\u20ac\u2122s relationship to the STRAHNET network indicating whether it lies on a strategic highway route or connector important for defense logistics.",
+    "title": "Strategic Highway Status"
+  },
+  "PARALLEL_STRUCTURE_101": {
+    "type": "nominal",
+    "code_map": {
+      "R": "Right structure of parallel bridges (inventory direction)",
+      "L": "Left structure of parallel bridges (opposite direction)",
+      "N": "No parallel structure exists"
+    },
+    "description": "Whether this bridge is one of a pair of parallel structures and, if so, which side it represents relative to the inventoried travel direction.",
+    "title": "Parallel Structure Side"
+  },
+  "TRAFFIC_DIRECTION_102": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Highway traffic not carried",
+      "1": "One-way traffic",
+      "2": "Two-way traffic",
+      "3": "One-lane bridge with two-way traffic"
+    },
+    "description": "The traffic flow configuration carried by the bridge (one-way, two-way, or special one-lane/two-way operating condition).",
+    "title": "Traffic Flow Configuration"
+  },
+  "HIGHWAY_SYSTEM_104": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not on National Highway System (NHS)",
+      "1": "On National Highway System (NHS)"
+    },
+    "description": "Whether the bridge is part of the National Highway System, indicating national-level roadway importance and funding/oversight relevance.",
+    "title": "National Highway Status"
+  },
+  "FEDERAL_LANDS_105": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not applicable",
+      "1": "Indian Reservation Road (IRR)",
+      "2": "Forest Highway (FH)",
+      "3": "Land Management Highway System (LMHS)",
+      "4": "Both IRR and FH",
+      "5": "Both IRR and LMHS",
+      "6": "Both FH and LMHS",
+      "9": "Combined IRR, FH, and LMHS"
+    },
+    "description": "Whether the bridge lies on a federal lands highway route class (e.g., IRR, forest highway, land management system), indicating federal lands context.",
+    "title": "Federal Lands Status"
+  },
+  "DECK_STRUCTURE_TYPE_107": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete cast-in-place",
+      "2": "Concrete precast panels",
+      "3": "Open grating",
+      "4": "Closed grating",
+      "5": "Steel plate (includes orthotropic)",
+      "6": "Corrugated steel",
+      "7": "Aluminum",
+      "8": "Wood or timber",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable"
+    },
+    "description": "The structural deck type describing the deck\u00e2\u20ac\u2122s primary material/form (cast-in-place concrete, precast panels, steel plate, grating, timber, etc.).",
+    "title": "Deck Structure Type"
+  },
+  "SURFACE_TYPE_108A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Monolithic concrete (placed with structural deck)",
+      "2": "Integral concrete (non-modified separate layer)",
+      "3": "Latex concrete or similar additive",
+      "4": "Low slump concrete",
+      "5": "Epoxy overlay",
+      "6": "Bituminous",
+      "7": "Wood or timber",
+      "8": "Gravel",
+      "9": "Other",
+      "0": "None (no added surface)",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The wearing surface placed on top of the structural deck, describing the overlay/surfacing material and whether an added surface exists.",
+    "title": "Surface Type"
+  },
+  "MEMBRANE_TYPE_108B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Built-up",
+      "2": "Preformed fabric",
+      "3": "Epoxy",
+      "8": "Unknown",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The waterproofing membrane system associated with the deck, describing the barrier type used between deck and overlay where applicable.",
+    "title": "Waterproofing Membrane Type"
+  },
+  "DECK_PROTECTION_108C": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Epoxy-coated reinforcing",
+      "2": "Galvanized reinforcing",
+      "3": "Other coated reinforcing",
+      "4": "Cathodic protection",
+      "6": "Polymer impregnated",
+      "7": "Internally sealed",
+      "8": "Unknown",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The corrosion/durability protection system used for the deck reinforcement or deck system (e.g., epoxy coating, galvanizing, cathodic protection).",
+    "title": "Deck Protection System"
+  },
+  "NATIONAL_NETWORK_110": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not part of the national network for trucks",
+      "1": "Part of the national network for trucks"
+    },
+    "description": "Whether the bridge is on the designated national network for trucks, indicating whether it serves routes prioritized for freight movement.",
+    "title": "National Freight Route"
+  },
+  "PIER_PROTECTION_111": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Navigation protection not required",
+      "2": "Protection in place and functioning",
+      "3": "Protection in place but deteriorated",
+      "4": "Protection in place but re-evaluation suggested",
+      "5": "None present but re-evaluation suggested"
+    },
+    "description": "The status and condition of pier/abutment protection measures intended to reduce collision or navigation impacts (or note if not required).",
+    "title": "Pier Protection Status"
+  },
+  "SCOUR_CRITICAL_113": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Bridge not over waterway",
+      "U": "Unknown foundation \u2013 not evaluated for scour (plan of action required)",
+      "T": "Bridge over tidal waters \u2013 not evaluated but considered low risk",
+      "9": "Foundations on dry land well above flood elevation",
+      "8": "Foundations stable \u2013 scour above top of footing (resists scour or countermeasures in place)",
+      "7": "Countermeasures installed \u2013 risk mitigated; plan of action implemented",
+      "6": "Evaluation not yet made",
+      "5": "Foundations stable \u2013 scour within limits of footing or piles",
+      "4": "Foundations stable but action required to protect exposed foundations",
+      "3": "Scour critical \u2013 unstable foundations for assessed/calculated conditions",
+      "2": "Scour critical \u2013 extensive scour; foundations unstable by observation or evaluation",
+      "1": "Scour critical \u2013 imminent pier/abutment failure, bridge closed to traffic",
+      "0": "Scour critical \u2013 bridge failed and closed to traffic"
+    },
+    "description": "The scour critical rating describing the stability of foundations relative to observed or evaluated scour vulnerability and countermeasure effectiveness.",
+    "title": "Scour Critical Rating"
+  },
+  "BRIDGE_CONDITION": {
+    "type": "nominal_redundant",
+    "code_map": {
+      "G": "Good condition \u2013 lowest NBI rating \u2265 7",
+      "F": "Fair condition \u2013 lowest NBI rating between 5 and 6",
+      "P": "Poor condition \u2013 lowest NBI rating \u2264 4"
+    },
+    "description": "A categorical overall condition label derived from the lowest key NBI condition rating, grouping the bridge into good, fair, or poor condition.",
+    "title": "Bridge Condition"
+  },
+  "LOWEST_RATING": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition",
+      "7": "Good condition",
+      "6": "Satisfactory condition",
+      "5": "Fair condition",
+      "4": "Poor condition",
+      "3": "Serious condition",
+      "2": "Critical condition",
+      "1": "Imminent failure condition",
+      "0": "Failed condition"
+    },
+    "description": "The minimum condition rating among the principal inspected components (typically deck, superstructure, substructure, or related key items) that governs overall condition.",
+    "title": "Minimum Condition Rating"
+  },
+  "MIN_VERT_CLR_010": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No minimum clearance applies",
+      "99.9": "No minimum clearance applies"
+    },
+    "range": [
+      3.35,
+      99.0
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance at the crossing, representing the lowest unobstructed height available for traffic or permitted loads where a special maximum code indicates that no minimum clearance constraint applies.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "standard clearance",
+        "high clearance",
+        "exceptionally high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        5.5,
+        7.0,
+        10.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with extremely low clearance under 4.5 meters may severely restrict traffic types, limiting passage to only the smallest vehicles and requiring careful management to prevent collisions.",
+        "Bridges with low clearance between 4.5 and 5.5 meters accommodate most passenger vehicles but may restrict larger commercial vehicles, necessitating clear signage and potential rerouting for oversized loads.",
+        "Bridges with standard clearance between 5.5 and 7.0 meters are designed to accommodate a wide range of vehicles, including standard commercial trucks, ensuring smooth traffic flow and minimal restrictions.",
+        "Bridges with high clearance between 7.0 and 10.0 meters provide ample space for most vehicular traffic, including large trucks and some specialized transport, enhancing the versatility and utility of the infrastructure.",
+        "Bridges with exceptionally high clearance exceeding 10.0 meters are capable of accommodating extremely large vehicles and loads, often serving critical transport routes or specialized industrial needs, and represent significant engineering achievements."
+      ]
+    },
+    "title": "Minimum Vertical Clearance"
+  },
+  "NAV_VERT_CLR_MT_039": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "No navigation vertical clearance applies"
+    },
+    "range": [
+      0.6,
+      304.5
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The minimum vertical clearance available for navigation beneath the structure, representing the limiting height for vessels where a special zero code indicates that navigation clearance is not applicable.",
+    "semantic_bins": {
+      "labels": [
+        "non-navigable",
+        "low clearance",
+        "moderate clearance",
+        "high clearance",
+        "extreme clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        50,
+        150,
+        "inf"
+      ],
+      "sentences": [
+        "Non-navigable bridges with vertical clearance under 5 meters are typically not designed for vessel passage and may only accommodate small recreational or emergency watercraft.",
+        "Low clearance bridges between 5 and 15 meters allow passage for small to medium-sized vessels, often requiring careful navigation and may impose restrictions during high water levels.",
+        "Moderate clearance bridges between 15 and 50 meters support a wider range of commercial and recreational vessels, providing sufficient headroom for most river traffic under normal conditions.",
+        "High clearance bridges between 50 and 150 meters are designed to accommodate large vessels, including cargo ships and cruise liners, ensuring smooth passage even during high tide or flood conditions.",
+        "Extreme clearance bridges exceeding 150 meters represent significant engineering feats, capable of supporting the largest maritime vessels and ensuring uninterrupted navigation in major shipping lanes."
+      ]
+    },
+    "title": "Navigation Vertical Clearance"
+  },
+  "NAV_HORR_CLR_MT_040": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": null
+    },
+    "range": [
+      5.5,
+      783.3
+    ],
+    "special_zero": true,
+    "special_max": false,
+    "description": "The minimum horizontal clearance available for navigation beneath the structure, representing the limiting width for vessels where a special zero code indicates that navigation clearance is not applicable.",
+    "semantic_bins": {
+      "labels": [
+        "very narrow clearance",
+        "narrow clearance",
+        "moderate clearance",
+        "wide clearance",
+        "very wide clearance"
+      ],
+      "edges": [
+        0,
+        10,
+        50,
+        150,
+        400,
+        "inf"
+      ],
+      "sentences": [
+        "Very narrow clearance bridges with horizontal clearance under 10 meters are typically suitable for small vessels and require careful navigation to avoid collisions.",
+        "Narrow clearance bridges between 10 and 50 meters accommodate medium-sized vessels, necessitating precise navigation and potentially limiting traffic flow during peak times.",
+        "Moderate clearance bridges between 50 and 150 meters provide adequate space for a variety of vessels, balancing navigational ease with structural constraints.",
+        "Wide clearance bridges between 150 and 400 meters allow for significant vessel traffic, supporting major commercial and recreational navigation routes.",
+        "Very wide clearance bridges exceeding 400 meters and extreme outliers are designed for high-capacity waterways, facilitating the passage of large ships and ensuring minimal navigational restrictions."
+      ]
+    },
+    "title": "Navigation Clearance Width"
+  },
+  "HORR_CLR_MT_047": {
+    "type": "numerical_coded",
+    "code_map": {
+      "999": "Restriction 100 meters or greater"
+    },
+    "range": [
+      2.9,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The total horizontal clearance provided through the opening beneath the structure, representing the usable unobstructed width where a special maximum code indicates very large or effectively unrestricted clearance.",
+    "semantic_bins": {
+      "labels": [
+        "minimal clearance",
+        "restricted clearance",
+        "moderate clearance",
+        "ample clearance",
+        "unrestricted clearance"
+      ],
+      "edges": [
+        0,
+        5,
+        15,
+        30,
+        60,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal clearance under 5 meters often face significant constraints for traffic flow and may require special design considerations to accommodate specific vehicle types.",
+        "Bridges with restricted clearance between 5 and 15 meters are suitable for limited traffic types and may require careful management to prevent congestion and ensure safety.",
+        "Bridges with moderate clearance between 15 and 30 meters provide adequate space for most standard traffic, balancing structural efficiency with functional utility.",
+        "Bridges with ample clearance between 30 and 60 meters offer significant flexibility for diverse traffic types, enhancing operational capacity and reducing the likelihood of traffic bottlenecks.",
+        "Bridges with unrestricted clearance exceeding 60 meters represent infrastructure designed for maximum versatility, capable of accommodating a wide range of traffic scenarios and future expansions."
+      ]
+    },
+    "title": "Horizontal Clearance"
+  },
+  "VERT_CLR_OVER_MT_053": {
+    "type": "numerical_coded",
+    "code_map": {
+      "99.99": "No vertical clearance restriction"
+    },
+    "range": [
+      2.44,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available above the roadway carried on the structure, representing the lowest overhead restriction on the traveled way where a special maximum code indicates no vertical restriction applies.",
+    "semantic_bins": {
+      "labels": [
+        "extremely low clearance",
+        "low clearance",
+        "standard clearance",
+        "high clearance",
+        "exceptionally high clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        14,
+        25,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with extremely low clearance under 4.5 meters pose significant restrictions for most vehicles, requiring careful navigation and potentially limiting access for taller vehicles.",
+        "Bridges with low clearance between 4.5 and 14 meters accommodate standard vehicles but may restrict larger commercial vehicles and require clear signage to prevent collisions.",
+        "Bridges with standard clearance between 14 and 25 meters are designed to accommodate a wide range of vehicles, including most commercial trucks, ensuring smooth traffic flow and minimal restrictions.",
+        "Bridges with high clearance between 25 and 50 meters provide ample space for all standard and oversized vehicles, supporting diverse transportation needs and reducing the risk of overhead collisions.",
+        "Bridges with exceptionally high clearance exceeding 50 meters are typically designed for specialized infrastructure needs, such as accommodating large ships or aircraft, and represent significant engineering achievements."
+      ]
+    },
+    "title": "Vertical Clearance Above Roadway"
+  },
+  "VERT_CLR_UND_054B": {
+    "type": "numerical_coded",
+    "code_map": null,
+    "range": [
+      0.0,
+      99.99
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The minimum vertical clearance available beneath the structure, representing the lowest unobstructed height for the feature passing below the bridge.",
+    "semantic_bins": {
+      "labels": [
+        "insufficient clearance",
+        "low clearance",
+        "adequate clearance",
+        "high clearance",
+        "exceptional clearance"
+      ],
+      "edges": [
+        0,
+        4.5,
+        10.0,
+        15.0,
+        25.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with insufficient clearance under 4.5 meters pose significant risks for collisions with vehicles or equipment passing beneath, requiring immediate attention to prevent accidents.",
+        "Bridges with low clearance between 4.5 and 10.0 meters may restrict certain types of vehicles, necessitating clear signage and potential modifications to accommodate traffic demands.",
+        "Bridges with adequate clearance between 10.0 and 15.0 meters generally support a wide range of vehicular and equipment passage, aligning with standard infrastructure requirements for most urban and rural settings.",
+        "Bridges with high clearance between 15.0 and 25.0 meters provide ample space for diverse transportation needs, including oversized loads, enhancing the versatility and utility of the infrastructure.",
+        "Bridges with exceptional clearance exceeding 25.0 meters are designed to accommodate extreme cases, such as large maritime vessels or specialized industrial equipment, representing significant engineering achievements."
+      ]
+    },
+    "title": "Vertical Clearance Beneath Roadway"
+  },
+  "OPERATING_RATING_064": {
+    "type": "numerical_coded",
+    "code_map": {
+      "0": "Bridge will not carry minimum 2.7 metric tons"
+    },
+    "range": [
+      3.6,
+      99.9
+    ],
+    "special_zero": true,
+    "special_max": true,
+    "description": "The operating load rating capacity of the structure, representing the maximum permissible live load level for continued use where a special zero code indicates the bridge cannot carry a minimum threshold load.",
+    "semantic_bins": {
+      "labels": [
+        "insufficient capacity",
+        "low capacity",
+        "moderate capacity",
+        "high capacity",
+        "exceptional capacity"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with an operating rating under 10 are considered to have insufficient capacity, unable to support even minimal live loads, and require immediate intervention to prevent structural failure.",
+        "Bridges with an operating rating between 10 and 30 are classified as having low capacity, suitable only for light traffic and necessitating frequent inspections and potential load restrictions to ensure safety.",
+        "Bridges with an operating rating between 30 and 60 are deemed to have moderate capacity, capable of handling standard traffic loads with regular maintenance to sustain operational safety and performance.",
+        "Bridges with an operating rating between 60 and 90 are considered to have high capacity, supporting heavy traffic loads with minimal risk, though periodic assessments are essential to maintain structural integrity.",
+        "Bridges with an operating rating exceeding 90 are categorized as having exceptional capacity, able to accommodate extreme live loads and outlier conditions, representing robust infrastructure with superior design and construction quality."
+      ]
+    },
+    "title": "Operating Load Rating"
+  },
+  "INVENTORY_RATING_066": {
+    "type": "numerical_coded_redundant",
+    "code_map": {
+      "999": "Structure under sufficient fill; live load insignificant"
+    },
+    "range": [
+      0.0,
+      99.9
+    ],
+    "special_zero": false,
+    "special_max": true,
+    "description": "The inventory load rating capacity of the structure, representing the allowable live load level for routine service where a special maximum code indicates live load is negligible due to sufficient cover or fill.",
+    "semantic_bins": {
+      "labels": [
+        "negligible load capacity",
+        "low load capacity",
+        "moderate load capacity",
+        "high load capacity",
+        "exceptional load capacity"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with negligible load capacity (0 to 10) are typically unsuitable for carrying any significant live loads and may require immediate structural assessment or restrictions on usage.",
+        "Bridges with low load capacity (10 to 30) can support limited live loads, often necessitating careful monitoring and potential reinforcement to ensure safety under routine service conditions.",
+        "Bridges with moderate load capacity (30 to 60) are generally capable of handling standard live loads with routine maintenance, though they may require periodic inspections to maintain structural integrity.",
+        "Bridges with high load capacity (60 to 90) are well-suited for carrying substantial live loads, reflecting robust design and construction that supports efficient and safe transportation infrastructure.",
+        "Bridges with exceptional load capacity (90 to infinity) represent superior structural performance, often due to advanced engineering techniques or significant cover and fill, allowing them to handle extreme live loads with minimal risk."
+      ]
+    },
+    "title": "Inventory Load Rating"
+  },
+  "DETOUR_KILOS_019": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      999.0
+    ],
+    "description": "The additional travel distance in kilometers required for vehicles to bypass the bridge if it is closed or restricted, representing network redundancy and detour severity.",
+    "semantic_bins": {
+      "labels": [
+        "minimal detour",
+        "moderate detour",
+        "significant detour",
+        "extensive detour",
+        "extreme detour"
+      ],
+      "edges": [
+        0,
+        10,
+        50,
+        200,
+        500,
+        "inf"
+      ],
+      "sentences": [
+        "Minimal detour distances under 10 kilometers indicate high network redundancy, allowing vehicles to bypass the bridge with negligible impact on travel time and connectivity.",
+        "Moderate detour distances between 10 and 50 kilometers suggest some inconvenience, but the bridge closure can be managed with moderate adjustments to travel routes.",
+        "Significant detour distances between 50 and 200 kilometers highlight a substantial impact on travel efficiency, requiring careful planning and potentially affecting regional traffic patterns.",
+        "Extensive detour distances between 200 and 500 kilometers indicate a critical lack of alternative routes, severely impacting regional mobility and necessitating urgent infrastructure planning.",
+        "Extreme detour distances exceeding 500 kilometers represent severe network disruption, where bridge closure could lead to major economic and logistical challenges, demanding immediate strategic interventions."
+      ]
+    },
+    "title": "Detour Distance"
+  },
+  "YEAR_BUILT_027_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was originally constructed, representing its structural age and cumulative exposure to loading and environmental effects.",
+    "semantic_bins": {
+      "labels": [
+        "newly constructed",
+        "early aging",
+        "mid-life",
+        "aging",
+        "historically significant"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        50,
+        70,
+        "inf"
+      ],
+      "sentences": [
+        "Newly constructed bridges under 10 years old are in optimal condition, requiring minimal maintenance and showcasing full design capabilities.",
+        "Bridges in the early aging category, between 10-30 years, begin to show initial signs of wear but generally maintain strong structural performance with routine inspections.",
+        "Mid-life bridges, aged 30-50 years, require more frequent inspections and potential minor rehabilitations to ensure continued safety and performance.",
+        "Aging bridges, between 50-70 years, often face significant wear and may need major repairs or strengthening to meet current safety standards.",
+        "Historically significant bridges exceeding 70 years represent critical infrastructure that requires specialized preservation efforts and continuous monitoring to maintain their structural integrity and historical value."
+      ]
+    },
+    "title": "Structural Age"
+  },
+  "TRAFFIC_LANES_ON_028A": {
+    "type": "numerical",
+    "range": [
+      1.0,
+      14.0
+    ],
+    "description": "The total number of traffic lanes carried directly on the bridge deck, representing its vehicular capacity and functional role in the roadway system.",
+    "semantic_bins": {
+      "labels": [
+        "minimal capacity",
+        "low capacity",
+        "moderate capacity",
+        "high capacity",
+        "very high capacity"
+      ],
+      "edges": [
+        0,
+        2,
+        4,
+        8,
+        12,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with minimal capacity, carrying up to 2 traffic lanes, are typically found in rural or low-traffic areas and serve limited vehicular flow.",
+        "Bridges with low capacity, supporting 2 to 4 traffic lanes, are common in suburban areas and handle moderate traffic volumes, requiring regular maintenance to ensure safety.",
+        "Bridges with moderate capacity, accommodating 4 to 8 traffic lanes, are crucial in urban settings, facilitating significant traffic flow and necessitating frequent inspections to maintain structural integrity.",
+        "Bridges with high capacity, carrying 8 to 12 traffic lanes, are vital in major metropolitan areas, supporting heavy traffic loads and demanding advanced engineering solutions for durability and resilience.",
+        "Bridges with very high capacity, exceeding 12 traffic lanes, represent critical infrastructure in densely populated regions, designed to manage extreme traffic volumes and requiring continuous monitoring and innovative maintenance strategies."
+      ]
+    },
+    "title": "Traffic Lane Count"
+  },
+  "TRAFFIC_LANES_UND_028B": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      29.0
+    ],
+    "description": "The total number of traffic lanes that pass beneath the bridge, representing the scale and complexity of the facility or corridor being crossed.",
+    "semantic_bins": {
+      "labels": [
+        "no lanes",
+        "few lanes",
+        "moderate lanes",
+        "many lanes",
+        "extensive lanes"
+      ],
+      "edges": [
+        0,
+        1,
+        4,
+        10,
+        20,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no lanes passing underneath are typically standalone structures or those crossing non-vehicular paths, requiring minimal consideration for traffic interference.",
+        "Bridges with a few lanes (1 to 4) beneath them often cross minor roads or small corridors, necessitating basic structural design to accommodate light traffic flow.",
+        "Bridges with moderate lanes (5 to 10) underneath are generally over medium-sized roads or corridors, requiring careful design to ensure structural integrity and traffic safety.",
+        "Bridges with many lanes (11 to 20) passing beneath them usually span major highways or significant transportation corridors, demanding robust engineering solutions to manage high traffic volumes and ensure safety.",
+        "Bridges with extensive lanes (more than 20) underneath are typically found over large interchanges or complex transportation networks, requiring advanced engineering and design to handle extreme traffic conditions and ensure long-term durability."
+      ]
+    },
+    "title": "Traffic Lanes Below"
+  },
+  "ADT_029": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      194946.0
+    ],
+    "description": "The average number of vehicles that cross the bridge per day under typical conditions, representing traffic demand and cumulative loading.",
+    "semantic_bins": {
+      "labels": [
+        "very low traffic",
+        "low traffic",
+        "moderate traffic",
+        "high traffic",
+        "very high traffic"
+      ],
+      "edges": [
+        0,
+        1000,
+        10000,
+        50000,
+        100000,
+        "inf"
+      ],
+      "sentences": [
+        "Very low traffic bridges with an average daily traffic (ADT) of up to 1,000 vehicles experience minimal wear and tear, allowing for extended maintenance intervals and reduced structural stress.",
+        "Low traffic bridges with an ADT between 1,000 and 10,000 vehicles are typically in rural or less populated areas, requiring standard maintenance to ensure structural integrity under moderate loading conditions.",
+        "Moderate traffic bridges with an ADT between 10,000 and 50,000 vehicles are often found in suburban areas, necessitating regular inspections and maintenance to manage increased wear and ensure safety.",
+        "High traffic bridges with an ADT between 50,000 and 100,000 vehicles are critical infrastructure in urban settings, demanding frequent inspections and proactive maintenance to handle significant cumulative loading and prevent deterioration.",
+        "Very high traffic bridges with an ADT exceeding 100,000 vehicles are vital urban connectors, facing extreme loading conditions that require continuous monitoring, advanced maintenance strategies, and potential capacity upgrades to maintain operational safety and efficiency."
+      ]
+    },
+    "title": "Average Daily Traffic"
+  },
+  "APPR_WIDTH_MT_032": {
+    "type": "numerical",
+    "range": [
+      2.7,
+      66.1
+    ],
+    "description": "The clear width of the roadway approaching the bridge, measured perpendicular to traffic flow, representing how traffic transitions onto the structure.",
+    "semantic_bins": {
+      "labels": [
+        "narrow approach",
+        "standard approach",
+        "wide approach",
+        "very wide approach",
+        "extremely wide approach"
+      ],
+      "edges": [
+        0,
+        5,
+        10,
+        20,
+        40,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow approach bridges with widths under 5 meters often accommodate single-lane traffic or pedestrian pathways, requiring careful traffic management and signaling to ensure safety.",
+        "Standard approach bridges between 5 to 10 meters are designed for typical two-lane traffic, providing adequate space for vehicles to transition smoothly onto the structure.",
+        "Wide approach bridges with widths from 10 to 20 meters support multi-lane traffic, enhancing flow and reducing congestion at the entry points of the bridge.",
+        "Very wide approach bridges ranging from 20 to 40 meters are engineered for high-capacity traffic, often including additional lanes for emergency vehicles or public transport, ensuring efficient traffic distribution.",
+        "Extremely wide approach bridges exceeding 40 meters cater to major highways or urban expressways, accommodating significant traffic volumes and providing robust infrastructure for future expansion needs."
+      ]
+    },
+    "title": "Approach Width"
+  },
+  "DEGREES_SKEW_034": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      99.0
+    ],
+    "description": "The skew angle between the bridge alignment and the feature it crosses, representing how obliquely the structure intersects the roadway, waterway, or obstacle below.",
+    "semantic_bins": {
+      "labels": [
+        "aligned",
+        "slightly skewed",
+        "moderately skewed",
+        "highly skewed",
+        "extremely skewed"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Aligned bridges with a skew angle under 10 degrees are typically straightforward in design and construction, ensuring optimal load distribution and minimal stress concentrations.",
+        "Slightly skewed bridges with angles between 10 and 30 degrees require careful consideration in design to manage minor stress increases and potential alignment challenges.",
+        "Moderately skewed bridges with angles between 30 and 60 degrees demand advanced engineering techniques to address increased torsional forces and potential differential settlement issues.",
+        "Highly skewed bridges with angles between 60 and 90 degrees present significant engineering challenges, necessitating specialized design solutions to mitigate complex load paths and ensure structural integrity.",
+        "Extremely skewed bridges exceeding 90 degrees represent rare and complex cases where innovative engineering solutions are essential to address extreme torsional stresses and ensure long-term stability."
+      ]
+    },
+    "title": "Skew Angle"
+  },
+  "MAIN_UNIT_SPANS_045": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      157.0
+    ],
+    "description": "The number of spans that make up the main structural unit of the bridge, representing how the primary load-carrying system is segmented.",
+    "semantic_bins": {
+      "labels": [
+        "single-span",
+        "short multi-span",
+        "medium multi-span",
+        "long multi-span",
+        "extensive multi-span"
+      ],
+      "edges": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        "inf"
+      ],
+      "sentences": [
+        "Single-span bridges, with 0 to 1 span, are typically simple structures often used for short crossings, requiring straightforward maintenance and inspection.",
+        "Short multi-span bridges, with 1 to 3 spans, provide increased flexibility in design and are commonly used for moderate crossings, balancing complexity and maintenance needs.",
+        "Medium multi-span bridges, with 3 to 7 spans, are designed for longer crossings, requiring more detailed engineering analysis and regular maintenance to ensure structural integrity.",
+        "Long multi-span bridges, with 7 to 15 spans, are complex structures that span significant distances, necessitating advanced engineering techniques and frequent inspections to maintain safety and performance.",
+        "Extensive multi-span bridges, with more than 15 spans, represent large-scale infrastructure projects often used for major river crossings or urban viaducts, requiring comprehensive maintenance strategies and continuous monitoring to address potential vulnerabilities."
+      ]
+    },
+    "title": "Main Span Count"
+  },
+  "APPR_SPANS_046": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      178.0
+    ],
+    "description": "The number of spans in the approach portions of the bridge, representing how the structure transitions from the main unit to the adjacent roadway.",
+    "semantic_bins": {
+      "labels": [
+        "single span",
+        "short approach spans",
+        "moderate approach spans",
+        "long approach spans",
+        "extensive approach spans"
+      ],
+      "edges": [
+        0,
+        1,
+        5,
+        15,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Single span bridges with 0 to 1 approach spans typically indicate a direct transition from the main structure to the roadway, often found in simple bridge designs.",
+        "Short approach spans ranging from 1 to 5 indicate a modest extension of the bridge structure, providing a smooth transition over minor obstacles or terrain variations.",
+        "Moderate approach spans between 5 to 15 suggest a more complex bridge design, accommodating larger gaps or uneven terrain, requiring careful structural integration.",
+        "Long approach spans from 15 to 50 are characteristic of bridges that traverse significant geographical features, necessitating robust engineering to ensure stability and continuity.",
+        "Extensive approach spans exceeding 50 represent large-scale infrastructure projects, often involving complex engineering solutions to manage significant environmental and logistical challenges."
+      ]
+    },
+    "title": "Approach Span Count"
+  },
+  "MAX_SPAN_LEN_MT_048": {
+    "type": "numerical",
+    "range": [
+      0.3,
+      2327.1
+    ],
+    "description": "The length of the longest individual span within the bridge, representing the maximum unsupported distance and associated structural demand.",
+    "semantic_bins": {
+      "labels": [
+        "short span",
+        "medium span",
+        "long span",
+        "very long span",
+        "extreme span"
+      ],
+      "edges": [
+        0,
+        20,
+        100,
+        300,
+        1000,
+        "inf"
+      ],
+      "sentences": [
+        "Short span bridges with a maximum span length under 20 meters are typically used for small crossings and require minimal structural support, making them cost-effective and easy to maintain.",
+        "Medium span bridges with spans between 20 and 100 meters are common for moderate crossings, balancing structural demands with construction and maintenance costs.",
+        "Long span bridges with spans between 100 and 300 meters are often used for significant crossings, requiring advanced engineering techniques and materials to ensure structural integrity and safety.",
+        "Very long span bridges with spans between 300 and 1000 meters are engineering marvels, often serving as critical infrastructure in urban and intercity networks, demanding rigorous design and maintenance protocols.",
+        "Extreme span bridges exceeding 1000 meters represent the pinnacle of bridge engineering, often iconic structures that push the boundaries of design and technology, requiring continuous monitoring and specialized maintenance."
+      ]
+    },
+    "title": "Maximum Span Length"
+  },
+  "STRUCTURE_LEN_MT_049": {
+    "type": "numerical",
+    "range": [
+      6.1,
+      3413.8
+    ],
+    "description": "The total length of the bridge measured from end to end, including main and approach spans, representing the overall longitudinal extent of the structure.",
+    "semantic_bins": {
+      "labels": [
+        "short span",
+        "medium span",
+        "long span",
+        "very long span",
+        "extreme span"
+      ],
+      "edges": [
+        0,
+        50,
+        200,
+        1000,
+        2000,
+        "inf"
+      ],
+      "sentences": [
+        "Short span bridges up to 50 meters are typically used for small crossings such as streams or minor roads, requiring straightforward design and construction techniques.",
+        "Medium span bridges between 50 and 200 meters are common for moderate crossings, balancing complexity and cost, often incorporating standard design practices.",
+        "Long span bridges ranging from 200 to 1000 meters are significant structures that often require advanced engineering solutions and materials to ensure stability and durability.",
+        "Very long span bridges between 1000 and 2000 meters are major infrastructure projects, often crossing large bodies of water or valleys, necessitating innovative design and construction methods.",
+        "Extreme span bridges exceeding 2000 meters represent engineering marvels, pushing the boundaries of current technology and design, often serving as critical transportation links in challenging environments."
+      ]
+    },
+    "title": "Bridge Length"
+  },
+  "LEFT_CURB_MT_050A": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      17.5
+    ],
+    "description": "The width of the curb, sidewalk, or shoulder on the left side of the bridge, representing lateral separation or pedestrian accommodation.",
+    "semantic_bins": {
+      "labels": [
+        "no curb",
+        "minimal curb",
+        "standard curb",
+        "wide curb",
+        "extensive curb"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.5,
+        3.0,
+        5.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no curb (0 to 0.5 meters) offer no lateral separation or pedestrian accommodation, potentially increasing risk for pedestrians and vehicles.",
+        "Bridges with a minimal curb (0.5 to 1.5 meters) provide basic lateral separation, offering limited pedestrian safety and minimal shoulder space.",
+        "Bridges with a standard curb (1.5 to 3.0 meters) accommodate typical pedestrian traffic and provide adequate separation from vehicular lanes.",
+        "Bridges with a wide curb (3.0 to 5.0 meters) offer enhanced pedestrian accommodation and safety, allowing for comfortable pedestrian movement and emergency vehicle access.",
+        "Bridges with an extensive curb (5.0 meters and above) provide significant pedestrian space and separation, suitable for high pedestrian traffic and multi-use pathways, ensuring maximum safety and functionality."
+      ]
+    },
+    "title": "Left Curb Width"
+  },
+  "RIGHT_CURB_MT_050B": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      11.6
+    ],
+    "description": "The width of the curb, sidewalk, or shoulder on the right side of the bridge, representing lateral separation or pedestrian accommodation.",
+    "semantic_bins": {
+      "labels": [
+        "no curb",
+        "minimal curb",
+        "standard curb",
+        "wide curb",
+        "extensive curb"
+      ],
+      "edges": [
+        0,
+        0.5,
+        2.0,
+        4.0,
+        7.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no curb on the right side offer no lateral separation or pedestrian accommodation, potentially increasing risk for pedestrians and vehicles.",
+        "Bridges with a minimal curb width between 0.5 to 2.0 meters provide basic lateral separation, offering limited pedestrian safety and vehicle buffer.",
+        "Bridges with a standard curb width between 2.0 to 4.0 meters accommodate typical pedestrian traffic and provide moderate separation from vehicular lanes.",
+        "Bridges with a wide curb width between 4.0 to 7.0 meters offer enhanced pedestrian pathways and significant separation from traffic, improving safety and comfort.",
+        "Bridges with an extensive curb width exceeding 7.0 meters provide substantial pedestrian and non-vehicular space, often supporting multi-use paths and ensuring maximum safety and utility."
+      ]
+    },
+    "title": "Right Curb Width"
+  },
+  "ROADWAY_WIDTH_MT_051": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      115.8
+    ],
+    "description": "The clear roadway width available for vehicles on the bridge deck measured between curbs or barriers, representing usable traffic width.",
+    "semantic_bins": {
+      "labels": [
+        "narrow",
+        "standard",
+        "wide",
+        "very wide",
+        "extremely wide"
+      ],
+      "edges": [
+        0,
+        5.5,
+        10.0,
+        15.0,
+        25.0,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow bridges with a roadway width under 5.5 meters often accommodate single-lane traffic and may require traffic control measures to ensure safety.",
+        "Standard bridges with a roadway width between 5.5 and 10.0 meters typically support two-lane traffic, providing adequate space for most vehicular movements under normal conditions.",
+        "Wide bridges with a roadway width between 10.0 and 15.0 meters offer enhanced capacity for multi-lane traffic, improving flow and reducing congestion during peak hours.",
+        "Very wide bridges with a roadway width between 15.0 and 25.0 meters are designed to handle high traffic volumes, including multiple lanes and emergency shoulders, ensuring efficient transportation in urban areas.",
+        "Extremely wide bridges exceeding 25.0 meters in roadway width represent major infrastructure capable of supporting complex traffic patterns, including dedicated lanes for public transit and non-motorized users."
+      ]
+    },
+    "title": "Roadway Width"
+  },
+  "DECK_WIDTH_MT_052": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      123.4
+    ],
+    "description": "The total out-to-out width of the bridge deck, including traffic lanes, shoulders, curbs, and barriers, representing the full structural width.",
+    "semantic_bins": {
+      "labels": [
+        "narrow",
+        "standard",
+        "wide",
+        "very wide",
+        "extremely wide"
+      ],
+      "edges": [
+        0,
+        5.0,
+        10.0,
+        20.0,
+        40.0,
+        "inf"
+      ],
+      "sentences": [
+        "Narrow bridges with a deck width under 5.0 meters are typically found in rural or low-traffic areas, often requiring careful navigation and limited to smaller vehicles.",
+        "Standard bridges with a deck width between 5.0 and 10.0 meters accommodate regular traffic flow, including two lanes with minimal shoulders, suitable for most urban and suburban environments.",
+        "Wide bridges with a deck width between 10.0 and 20.0 meters support multiple lanes and wider shoulders, enhancing traffic capacity and safety, often seen in major urban areas.",
+        "Very wide bridges with a deck width between 20.0 and 40.0 meters are designed for high traffic volumes, including multiple lanes, wide shoulders, and pedestrian pathways, ensuring efficient transportation in metropolitan regions.",
+        "Extremely wide bridges exceeding 40.0 meters represent significant infrastructure capable of supporting complex traffic patterns, including multi-modal transport systems, and are critical in major transportation networks."
+      ]
+    },
+    "title": "Deck Width"
+  },
+  "LAT_UND_MT_055B": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      30.4
+    ],
+    "description": "The minimum horizontal clearance available beneath the bridge on the right side, representing spatial constraints for traffic or features passing below.",
+    "semantic_bins": {
+      "labels": [
+        "very constrained",
+        "constrained",
+        "moderately clear",
+        "clear",
+        "very clear"
+      ],
+      "edges": [
+        0,
+        5,
+        10,
+        20,
+        30,
+        "inf"
+      ],
+      "sentences": [
+        "Very constrained bridges with a minimum horizontal clearance under 5 meters present significant limitations for traffic or features passing below, often requiring special considerations for vehicle height and load restrictions.",
+        "Constrained bridges with a clearance between 5 and 10 meters allow limited passage for traffic or features below, necessitating careful planning for larger vehicles and potential modifications to accommodate specific needs.",
+        "Moderately clear bridges with a clearance between 10 and 20 meters provide reasonable space for most standard traffic and features, though occasional restrictions may apply for oversized loads or unusual conditions.",
+        "Clear bridges with a clearance between 20 and 30 meters offer ample space for a wide range of traffic and features, minimizing the likelihood of clearance-related issues and enhancing operational flexibility.",
+        "Very clear bridges exceeding 30 meters in clearance represent exceptional infrastructure capable of accommodating virtually all traffic and features below, including extreme outliers, without spatial constraints."
+      ]
+    },
+    "title": "Minimum Clearance Right"
+  },
+  "LEFT_LAT_UND_MT_056": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0,
+      92.6
+    ],
+    "description": "The minimum horizontal clearance available beneath the bridge on the left side, representing spatial constraints for traffic or features passing below.",
+    "semantic_bins": {
+      "labels": [
+        "no clearance",
+        "minimal clearance",
+        "moderate clearance",
+        "ample clearance",
+        "extensive clearance"
+      ],
+      "edges": [
+        0,
+        2.0,
+        10.0,
+        30.0,
+        60.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with no clearance (0 to 2.0 meters) present significant constraints for any traffic or features passing below, often requiring immediate structural adjustments or restrictions.",
+        "Bridges with minimal clearance (2.0 to 10.0 meters) may accommodate limited traffic types and require careful management to ensure safety and functionality.",
+        "Bridges with moderate clearance (10.0 to 30.0 meters) generally support a variety of traffic and features, though they may still impose some restrictions on larger vehicles or equipment.",
+        "Bridges with ample clearance (30.0 to 60.0 meters) provide sufficient space for most traffic and features, facilitating smooth operation and reducing the likelihood of clearance-related issues.",
+        "Bridges with extensive clearance (60.0 meters and above) offer exceptional spatial capacity, accommodating a wide range of traffic and features with minimal restrictions, ideal for high-demand infrastructure."
+      ]
+    },
+    "title": "Left Clearance Height"
+  },
+  "DATE_OF_INSPECT_090_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge\u00e2\u20ac\u2122s most recent routine inspection, representing the recency of condition information.",
+    "semantic_bins": {
+      "labels": [
+        "recently inspected",
+        "moderately inspected",
+        "infrequently inspected",
+        "outdated inspection"
+      ],
+      "edges": [
+        0,
+        1,
+        3,
+        5,
+        "inf"
+      ],
+      "sentences": [
+        "Recently inspected bridges, with inspections conducted within the last year, have the most current condition data, ensuring optimal maintenance and safety measures are in place.",
+        "Moderately inspected bridges, with inspections conducted between 1 to 3 years ago, generally maintain reliable condition data but may require upcoming assessments to ensure continued safety and performance.",
+        "Infrequently inspected bridges, with inspections conducted between 3 to 5 years ago, may have outdated condition data, necessitating prioritized inspections to address potential safety concerns and maintenance needs.",
+        "Outdated inspection status applies to bridges with inspections conducted over 5 years ago, indicating a critical need for immediate reassessment to ensure structural integrity and public safety."
+      ]
+    },
+    "title": "Inspection Recency"
+  },
+  "INSPECT_FREQ_MONTHS_091": {
+    "type": "numerical",
+    "range": [
+      12.0,
+      48.0
+    ],
+    "description": "The scheduled interval between routine inspections expressed in months, representing the inspection frequency applied to the bridge.",
+    "semantic_bins": {
+      "labels": [
+        "very frequent",
+        "frequent",
+        "moderate",
+        "infrequent",
+        "very infrequent"
+      ],
+      "edges": [
+        0,
+        12,
+        24,
+        36,
+        48,
+        "inf"
+      ],
+      "sentences": [
+        "Very frequent inspections, scheduled every 0 to 12 months, ensure that bridges are closely monitored for any signs of immediate structural issues, allowing for rapid response to potential safety concerns.",
+        "Frequent inspections, occurring every 12 to 24 months, provide a consistent check on the bridge's condition, helping to maintain its structural integrity and address minor issues before they escalate.",
+        "Moderate inspection intervals, set between 24 to 36 months, are typical for bridges that have shown reliable performance, balancing resource allocation with the need for regular maintenance checks.",
+        "Infrequent inspections, scheduled every 36 to 48 months, are generally reserved for bridges with a strong history of structural stability, though they still require careful monitoring to ensure long-term safety.",
+        "Very infrequent inspections, extending beyond 48 months, are rare and typically apply to bridges with exceptional durability or those in low-risk environments, but they necessitate a robust monitoring strategy to mitigate the risk of undetected deterioration."
+      ]
+    },
+    "title": "Inspection Frequency"
+  },
+  "YEAR_RECONSTRUCTED_106_DIFF": {
+    "type": "numerical",
+    "range": [
+      55.0,
+      55.0
+    ],
+    "description": "The number of years that have elapsed since the bridge was last reconstructed or substantially rehabilitated, representing the recency of major renewal work.",
+    "semantic_bins": {
+      "labels": [
+        "recently reconstructed",
+        "moderately aged",
+        "significantly aged",
+        "extremely aged"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        50,
+        "inf"
+      ],
+      "sentences": [
+        "Recently reconstructed bridges, with 0 to 10 years since major renewal, typically exhibit optimal structural performance and require minimal maintenance.",
+        "Moderately aged bridges, with 10 to 30 years since reconstruction, may show early signs of wear but generally maintain good structural integrity with routine inspections.",
+        "Significantly aged bridges, with 30 to 50 years since their last major work, often require increased maintenance efforts and potential rehabilitation to ensure safety and performance.",
+        "Extremely aged bridges, exceeding 50 years since reconstruction, are likely to face substantial deterioration and may necessitate comprehensive evaluation and major rehabilitation to address safety concerns."
+      ]
+    },
+    "title": "Years Since Reconstruction"
+  },
+  "PERCENT_ADT_TRUCK_109": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      94.0
+    ],
+    "description": "The percentage of average daily traffic composed of trucks, representing the intensity of heavy vehicle loading on the structure.",
+    "semantic_bins": {
+      "labels": [
+        "minimal truck traffic",
+        "moderate truck traffic",
+        "high truck traffic",
+        "very high truck traffic",
+        "extreme truck traffic"
+      ],
+      "edges": [
+        0,
+        10,
+        30,
+        60,
+        90,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal truck traffic, with up to 10% of average daily traffic composed of trucks, typically face low levels of heavy vehicle loading, resulting in reduced wear and tear on the structure.",
+        "Bridges with moderate truck traffic, where 10% to 30% of average daily traffic consists of trucks, require regular monitoring to ensure that the increased loading does not accelerate structural fatigue.",
+        "High truck traffic bridges, with 30% to 60% of average daily traffic being trucks, are subject to significant loading stresses, necessitating frequent inspections and potential reinforcement to maintain structural integrity.",
+        "Very high truck traffic bridges, experiencing 60% to 90% of average daily traffic as trucks, face substantial loading challenges, often requiring advanced maintenance strategies and potential upgrades to handle the stress.",
+        "Bridges with extreme truck traffic, where over 90% of average daily traffic is composed of trucks, represent critical infrastructure that must be continuously monitored and possibly redesigned to ensure safety and longevity under intense loading conditions."
+      ]
+    },
+    "title": "Truck Traffic Percentage"
+  },
+  "FUTURE_ADT_114": {
+    "type": "numerical",
+    "range": [
+      0.0,
+      275263.0
+    ],
+    "description": "The projected average daily traffic expected to cross the bridge in the future, representing anticipated demand growth and long-term usage.",
+    "semantic_bins": {
+      "labels": [
+        "very low traffic",
+        "low traffic",
+        "moderate traffic",
+        "high traffic",
+        "very high traffic"
+      ],
+      "edges": [
+        0,
+        5000,
+        20000,
+        50000,
+        100000,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with very low traffic under 5000 vehicles per day are typically rural or local access bridges, requiring minimal maintenance and experiencing low wear and tear.",
+        "Low traffic bridges with 5000 to 20000 vehicles per day serve small communities or suburban areas, necessitating routine inspections to ensure structural integrity as traffic increases.",
+        "Moderate traffic bridges with 20000 to 50000 vehicles per day are often found in urban or growing suburban regions, requiring regular maintenance and potential capacity upgrades to accommodate increasing demand.",
+        "High traffic bridges with 50000 to 100000 vehicles per day are critical infrastructure in major urban centers, demanding frequent inspections and maintenance to manage significant wear and ensure safety.",
+        "Very high traffic bridges exceeding 100000 vehicles per day represent major transportation arteries, often requiring advanced engineering solutions and continuous monitoring to handle extreme loads and prevent congestion."
+      ]
+    },
+    "title": "Future Average Daily Traffic"
+  },
+  "DECK_AREA": {
+    "type": "numerical",
+    "range": [
+      22.8,
+      104004.81
+    ],
+    "description": "The total surface area of the bridge deck, representing the extent of the riding surface exposed to traffic loads and environmental conditions.",
+    "semantic_bins": {
+      "labels": [
+        "very small",
+        "small",
+        "medium",
+        "large",
+        "very large"
+      ],
+      "edges": [
+        0,
+        1000,
+        5000,
+        20000,
+        50000,
+        "inf"
+      ],
+      "sentences": [
+        "Very small bridges with a deck area under 1000 square meters are typically used for minor crossings and have limited traffic capacity, requiring minimal maintenance.",
+        "Small bridges with a deck area between 1000 and 5000 square meters serve moderate traffic volumes and require regular inspections to ensure structural integrity under varying environmental conditions.",
+        "Medium bridges with a deck area between 5000 and 20000 square meters accommodate significant traffic loads and necessitate comprehensive maintenance strategies to manage wear and environmental impacts.",
+        "Large bridges with a deck area between 20000 and 50000 square meters are critical infrastructure components, supporting heavy traffic and requiring advanced engineering solutions for durability and safety.",
+        "Very large bridges exceeding 50000 square meters in deck area represent major engineering feats, often serving as vital transportation links that demand continuous monitoring and specialized maintenance to address complex structural challenges."
+      ]
+    },
+    "title": "Deck Area"
+  },
+  "NFHL_FLD_ZONE": {
+    "type": "nominal",
+    "description": "The flood hazard zone classification describes the level and type of flood risk assigned to the location based on FEMA floodplain mapping.",
+    "code_map": {
+      "A": "high risk no elevation data",
+      "AE": "high risk with elevation data",
+      "AO": "shallow flooding sheet flow",
+      "AH": "shallow flooding with elevation",
+      "V": "coastal high velocity zone",
+      "VE": "coastal velocity with elevation",
+      "X": "minimal flood risk",
+      "X (0.2%)": "moderate risk low probability",
+      "D": "undetermined flood hazard"
+    },
+    "title": "Flood Hazard Zone"
+  },
+  "NFHL_SFHA": {
+    "type": "nominal",
+    "description": "The indicator of Special Flood Hazard Area status describes whether the location is subject to a 1-percent-annual-chance (100-year) flood hazard.",
+    "code_map": {
+      "T": "within special flood hazard area",
+      "F": "outside special flood hazard area"
+    },
+    "title": "Flood Hazard Status"
+  },
+  "NFHL_STATIC_BFE": {
+    "type": "numerical_coded",
+    "description": "The base flood elevation represents the estimated water surface height reached during a 1-percent-annual-chance (100-year) flood event, providing a quantitative measure of flood depth and hydraulic demand at the location.",
+    "code_map": {
+      "-9999.0": "No data."
+    },
+    "special_zero": false,
+    "special_max": false,
+    "range": [
+      9.0,
+      462.9
+    ],
+    "semantic_bins": {
+      "labels": [
+        "minimal flood risk",
+        "moderate flood risk",
+        "high flood risk",
+        "very high flood risk",
+        "extreme flood risk"
+      ],
+      "edges": [
+        0,
+        50,
+        150,
+        300,
+        500,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges with a base flood elevation under 50 feet are considered to have minimal flood risk, typically requiring standard flood protection measures and routine inspections.",
+        "Bridges with a base flood elevation between 50 and 150 feet face moderate flood risk, necessitating enhanced flood mitigation strategies and more frequent structural assessments to ensure resilience.",
+        "Bridges with a base flood elevation between 150 and 300 feet are at high flood risk, demanding robust flood defense systems and regular evaluations to maintain structural integrity and safety.",
+        "Bridges with a base flood elevation between 300 and 500 feet experience very high flood risk, requiring comprehensive flood management plans and potentially significant design modifications to withstand hydraulic forces.",
+        "Bridges with a base flood elevation exceeding 500 feet are subject to extreme flood risk, often needing specialized engineering solutions and continuous monitoring to prevent catastrophic failure during severe flood events."
+      ]
+    },
+    "title": "Base Flood Elevation"
+  },
+  "NFHL_ZONE_SUBTYPE": {
+    "type": "nl",
+    "description": "The flood zone subtype provides a more specific categorical description of flood hazard conditions within the mapped flood zone, such as minimal, shallow, or coastal risk.",
+    "title": "Flood Zone Subtype"
+  },
+  "PGA_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0759725769,
+      0.399319094
+    ],
+    "description": "The peak ground acceleration expected at the site for a 475-year return period earthquake, representing moderate but commonly used design-level seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with PGA values under 0.1 are typically in regions with minimal earthquake activity, requiring standard design considerations without special seismic enhancements.",
+        "Bridges with low seismic demand, having PGA values between 0.1 and 0.2, are in areas where moderate seismic design is necessary to ensure structural resilience against infrequent earthquakes.",
+        "Bridges facing moderate seismic demand with PGA values between 0.2 and 0.3 require robust seismic design features to maintain structural integrity during design-level seismic events.",
+        "Bridges subjected to high seismic demand with PGA values between 0.3 and 0.4 must incorporate advanced seismic design and retrofitting strategies to withstand significant earthquake forces.",
+        "Bridges experiencing very high seismic demand with PGA values exceeding 0.4 are in regions prone to severe seismic activity, necessitating cutting-edge engineering solutions and continuous monitoring to ensure safety and functionality."
+      ]
+    },
+    "title": "Peak Ground Acceleration 475-Year"
+  },
+  "PGA_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.10908377,
+      0.590936614
+    ],
+    "description": "The peak ground acceleration expected at the site for a 975-year return period earthquake, representing a higher level of seismic hazard for more conservative performance evaluation.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic hazard",
+        "low seismic hazard",
+        "moderate seismic hazard",
+        "high seismic hazard",
+        "very high seismic hazard"
+      ],
+      "edges": [
+        0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic hazard with PGA values under 0.15 are generally expected to perform well with minimal seismic design considerations, ensuring structural integrity during minor seismic events.",
+        "Bridges in low seismic hazard areas with PGA values between 0.15 and 0.30 require basic seismic design measures to maintain safety and functionality during moderate earthquakes.",
+        "Bridges facing moderate seismic hazard with PGA values between 0.30 and 0.45 need enhanced seismic design and retrofitting to withstand significant seismic forces and prevent structural damage.",
+        "Bridges in high seismic hazard zones with PGA values between 0.45 and 0.60 must incorporate advanced seismic engineering techniques to ensure resilience and prevent catastrophic failure during major earthquakes.",
+        "Bridges subjected to very high seismic hazard with PGA values exceeding 0.60 represent extreme conditions requiring state-of-the-art seismic design and continuous monitoring to safeguard against severe seismic impacts."
+      ]
+    },
+    "title": "Peak Ground Acceleration 975-Year"
+  },
+  "PGA_2475": {
+    "type": "numerical",
+    "range": [
+      0.168070272,
+      0.983286583
+    ],
+    "description": "The peak ground acceleration expected at the site for a 2,475-year return period earthquake, representing rare, high-consequence ground shaking associated with maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with PGA values under 0.2 are generally expected to remain fully operational with negligible structural damage during rare seismic events.",
+        "Bridges facing moderate seismic impact with PGA values between 0.2 and 0.4 may experience minor structural stresses, requiring standard inspections to ensure continued safety and functionality.",
+        "Bridges subjected to significant seismic impact with PGA values between 0.4 and 0.6 could sustain moderate damage, necessitating detailed inspections and potential minor repairs to maintain structural integrity.",
+        "Bridges under high seismic impact with PGA values between 0.6 and 0.8 are likely to experience substantial structural damage, requiring immediate engineering assessments and possible rehabilitation to ensure safety.",
+        "Bridges encountering extreme seismic impact with PGA values exceeding 0.8 are at risk of severe structural compromise, demanding urgent intervention and possibly extensive reconstruction to restore operational capacity."
+      ]
+    },
+    "title": "Peak Ground Acceleration 2475-Year"
+  },
+  "PGA_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.301760052,
+      1.76153272
+    ],
+    "description": "The peak ground acceleration expected at the site for a 10,000-year return period earthquake, representing an upper-bound estimate of extremely rare seismic hazard.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with PGA values under 0.5 are generally expected to perform well with little to no structural damage during rare seismic events.",
+        "Bridges facing moderate seismic impact with PGA values between 0.5 and 1.0 may experience minor structural damage, requiring routine inspections to ensure continued safety and functionality.",
+        "Bridges subjected to significant seismic impact with PGA values between 1.0 and 1.5 are likely to sustain moderate damage, necessitating detailed assessments and potential retrofitting to maintain structural integrity.",
+        "Bridges encountering high seismic impact with PGA values between 1.5 and 2.0 are at risk of substantial damage, requiring comprehensive engineering evaluations and significant strengthening measures to ensure safety.",
+        "Bridges exposed to extreme seismic impact with PGA values exceeding 2.0 represent critical infrastructure challenges, demanding immediate attention, advanced engineering solutions, and possibly complete reconstruction to prevent catastrophic failure."
+      ]
+    },
+    "title": "Peak Ground Acceleration 10,000-Year"
+  },
+  "SA02_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.172707176,
+      0.973940466
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on stiff and short-period bridge components.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with spectral acceleration below 0.2 g are generally in regions of minimal seismic activity, requiring standard design considerations for seismic resilience.",
+        "Bridges with low seismic demand between 0.2 g and 0.4 g are in areas with occasional seismic activity, necessitating basic seismic design features to ensure structural integrity during minor earthquakes.",
+        "Bridges facing moderate seismic demand between 0.4 g and 0.6 g are subject to moderate seismic forces, requiring enhanced design and construction practices to maintain safety and functionality during moderate earthquakes.",
+        "Bridges under high seismic demand between 0.6 g and 0.8 g must incorporate advanced seismic design strategies and materials to withstand significant seismic events, ensuring the safety and serviceability of the infrastructure.",
+        "Bridges experiencing very high seismic demand exceeding 0.8 g are in regions prone to severe seismic activity, necessitating state-of-the-art engineering solutions and continuous monitoring to prevent catastrophic failure during major earthquakes."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 475-Year"
+  },
+  "SA02_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.251235,
+      1.41687998
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 975-year return period earthquake, representing increased seismic demand from less frequent events.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.3,
+        0.6,
+        1.0,
+        1.5,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 0.3 g are generally designed with standard seismic considerations and require minimal retrofitting.",
+        "Bridges under moderate seismic demand, with spectral acceleration between 0.3 g and 0.6 g, may need enhanced design features to ensure resilience against more frequent seismic events.",
+        "High seismic demand, with spectral acceleration from 0.6 g to 1.0 g, necessitates robust engineering solutions and regular inspections to maintain structural integrity under significant seismic forces.",
+        "Very high seismic demand, ranging from 1.0 g to 1.5 g, requires advanced seismic design and retrofitting strategies to prevent catastrophic failure during major earthquakes.",
+        "Bridges facing extreme seismic demand, exceeding 1.5 g, are subject to intense seismic forces and must incorporate cutting-edge engineering technologies and continuous monitoring to ensure safety and functionality."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 975-Year"
+  },
+  "SA02_2475": {
+    "type": "numerical",
+    "range": [
+      0.39419129,
+      2.29860371
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme short-period shaking associated with rare seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "severe seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with spectral acceleration below 0.5 g are expected to sustain negligible damage and maintain full operational capacity during rare seismic events.",
+        "Bridges under moderate seismic impact with spectral acceleration between 0.5 g and 1.0 g may experience minor structural responses, requiring standard inspections to ensure continued safety and functionality.",
+        "Bridges facing significant seismic impact with spectral acceleration between 1.0 g and 1.5 g are likely to undergo noticeable structural stresses, necessitating detailed evaluations and potential reinforcement to preserve structural integrity.",
+        "Bridges subjected to severe seismic impact with spectral acceleration between 1.5 g and 2.0 g are at risk of substantial structural damage, demanding immediate engineering assessments and possible retrofitting to prevent catastrophic failures.",
+        "Bridges encountering extreme seismic impact with spectral acceleration exceeding 2.0 g are exposed to critical structural challenges, requiring comprehensive engineering interventions and continuous monitoring to ensure public safety and infrastructure resilience."
+      ]
+    },
+    "title": "Spectral Acceleration 2,475-Year"
+  },
+  "SA02_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.720938324,
+      4.24592825
+    ],
+    "description": "The short-period (0.2-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of short-period seismic demand.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 1.0 g are generally expected to perform well with minimal seismic retrofitting required.",
+        "Bridges under moderate seismic demand, with spectral acceleration between 1.0 g and 2.0 g, may require some level of seismic strengthening to ensure safety and serviceability during an earthquake.",
+        "High seismic demand, characterized by spectral acceleration between 2.0 g and 3.0 g, indicates that bridges may need significant retrofitting to withstand potential seismic forces and prevent structural damage.",
+        "Very high seismic demand, with spectral acceleration between 3.0 g and 4.0 g, suggests that bridges are at substantial risk during seismic events and require comprehensive seismic upgrades to maintain structural integrity.",
+        "Extreme seismic demand, exceeding 4.0 g, represents conditions where bridges are highly vulnerable to seismic forces, necessitating advanced engineering solutions and continuous monitoring to ensure safety."
+      ]
+    },
+    "title": "Spectral Acceleration 0.2s 10000-Year"
+  },
+  "SA10_475": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0466456098,
+      0.326485673
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 475-year return period earthquake, representing seismic demand on flexible bridge systems and tall substructures.",
+    "semantic_bins": {
+      "labels": [
+        "very low seismic demand",
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand"
+      ],
+      "edges": [
+        0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing very low seismic demand with spectral acceleration below 0.1 g are generally at minimal risk during a 475-year return period earthquake, requiring standard maintenance and monitoring.",
+        "Bridges with low seismic demand between 0.1 g and 0.2 g may experience minor structural impacts during a 475-year return period earthquake, necessitating routine inspections to ensure continued safety.",
+        "Bridges facing moderate seismic demand between 0.2 g and 0.3 g are likely to undergo noticeable stress during a 475-year return period earthquake, requiring enhanced inspection protocols and potential retrofitting to maintain structural integrity.",
+        "Bridges subjected to high seismic demand between 0.3 g and 0.4 g are at significant risk of structural damage during a 475-year return period earthquake, necessitating comprehensive seismic evaluations and strengthening measures.",
+        "Bridges experiencing very high seismic demand exceeding 0.4 g are exposed to extreme seismic forces during a 475-year return period earthquake, requiring immediate attention for seismic retrofitting and advanced engineering solutions to ensure safety and functionality."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 475-Year"
+  },
+  "SA10_975": {
+    "type": "numerical_redundant",
+    "range": [
+      0.0709217501,
+      0.474873546
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 975-year return period earthquake, representing elevated long-period demand from infrequent seismic events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.15,
+        0.25,
+        0.35,
+        0.45,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic demand with spectral acceleration values from 0 to 0.15 g are generally expected to perform well with standard design considerations and minimal retrofitting needs.",
+        "Bridges under moderate seismic demand with spectral acceleration values from 0.15 to 0.25 g may require enhanced design features to ensure structural integrity during infrequent seismic events.",
+        "High seismic demand on bridges, with spectral acceleration values from 0.25 to 0.35 g, necessitates advanced engineering solutions and possibly retrofitting to maintain safety and functionality.",
+        "Bridges facing very high seismic demand, with spectral acceleration values from 0.35 to 0.45 g, are likely to require significant structural modifications and rigorous inspection protocols to withstand potential seismic impacts.",
+        "Extreme seismic demand on bridges, with spectral acceleration values exceeding 0.45 g, represents a critical scenario where specialized engineering interventions and continuous monitoring are essential to prevent catastrophic failure."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 975-Year"
+  },
+  "SA10_2475": {
+    "type": "numerical",
+    "range": [
+      0.116506327,
+      0.727354517
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 2,475-year return period earthquake, representing extreme long-period ground motions relevant to maximum considered events.",
+    "semantic_bins": {
+      "labels": [
+        "minimal seismic impact",
+        "moderate seismic impact",
+        "significant seismic impact",
+        "high seismic impact",
+        "extreme seismic impact"
+      ],
+      "edges": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing minimal seismic impact with spectral acceleration values under 0.2 g are expected to remain largely unaffected by seismic events, maintaining structural integrity with minimal intervention.",
+        "Bridges facing moderate seismic impact with spectral acceleration values between 0.2 g and 0.4 g may experience minor structural stresses, necessitating routine inspections to ensure continued safety and performance.",
+        "Bridges subjected to significant seismic impact with spectral acceleration values between 0.4 g and 0.6 g are likely to undergo noticeable structural responses, requiring detailed assessments and potential retrofitting to uphold safety standards.",
+        "Bridges encountering high seismic impact with spectral acceleration values between 0.6 g and 0.8 g are at risk of substantial structural damage, demanding comprehensive engineering evaluations and significant strengthening measures to prevent catastrophic failures.",
+        "Bridges exposed to extreme seismic impact with spectral acceleration values exceeding 0.8 g represent critical infrastructure challenges, necessitating immediate and extensive engineering interventions to ensure public safety and structural resilience."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 2475-Year"
+  },
+  "SA10_10000": {
+    "type": "numerical_redundant",
+    "range": [
+      0.225535948,
+      1.26759141
+    ],
+    "description": "The long-period (1.0-second) spectral acceleration expected for a 10,000-year return period earthquake, representing an upper-bound estimate of long-period seismic ground motion intensity.",
+    "semantic_bins": {
+      "labels": [
+        "low seismic demand",
+        "moderate seismic demand",
+        "high seismic demand",
+        "very high seismic demand",
+        "extreme seismic demand"
+      ],
+      "edges": [
+        0,
+        0.4,
+        0.7,
+        1.0,
+        1.3,
+        "inf"
+      ],
+      "sentences": [
+        "Bridges experiencing low seismic demand with spectral acceleration values up to 0.4 g are generally expected to perform well with minimal seismic retrofitting, maintaining structural integrity during rare seismic events.",
+        "Bridges under moderate seismic demand, with spectral acceleration values between 0.4 g and 0.7 g, may require some level of seismic strengthening to ensure safety and serviceability during significant seismic events.",
+        "High seismic demand bridges, experiencing spectral acceleration values between 0.7 g and 1.0 g, often necessitate comprehensive seismic evaluations and retrofitting to prevent structural damage and ensure continued operation post-earthquake.",
+        "Bridges facing very high seismic demand, with spectral acceleration values between 1.0 g and 1.3 g, are at increased risk of significant damage and require advanced seismic design considerations and retrofitting to withstand major seismic forces.",
+        "Bridges subjected to extreme seismic demand, with spectral acceleration values exceeding 1.3 g, represent critical infrastructure that must be designed or retrofitted to the highest seismic standards to prevent catastrophic failure during extreme seismic events."
+      ]
+    },
+    "title": "Spectral Acceleration 1.0s 10000-Year"
+  }
+}

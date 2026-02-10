@@ -1,0 +1,1513 @@
+{
+  "STRUCTURE_ID": {
+    "type": "reference",
+    "description": null
+  },
+  "COORDINATES": {
+    "type": "reference",
+    "description": null
+  },
+  "SDCS": {
+    "type": "nominal",
+    "description": "The seismic design category that classifies overall seismic risk at the site and governs required detailing, analysis rigor, and design provisions.",
+    "code_map": {
+      "A": "very low seismic hazard",
+      "B": "low seismic hazard",
+      "C": "moderate seismic hazard",
+      "D": "high seismic hazard",
+      "E": "very high seismic hazard",
+      "F": "extreme site specific hazard"
+    },
+    "title": "Seismic Design Category",
+    "new_code_map": {
+      "A": 1,
+      "B": 2,
+      "C": 3,
+      "D": 4,
+      "E": 5,
+      "F": 6
+    }
+  },
+  "STATE_CODE_001": {
+    "type": "nominal",
+    "code_map": {
+      "01": "Alabama",
+      "02": "Alaska",
+      "04": "Arizona",
+      "05": "Arkansas",
+      "06": "California",
+      "08": "Colorado",
+      "09": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming",
+      "60": "American Samoa",
+      "66": "Guam",
+      "69": "Northern Marianas",
+      "72": "Puerto Rico",
+      "78": "Virgin Islands"
+    },
+    "description": "The U.S. state or territory in which the bridge is physically located, expressed as a standardized FIPS jurisdiction.",
+    "title": "State Code",
+    "new_code_map": {
+      "01": 1,
+      "02": 2,
+      "04": 3,
+      "05": 4,
+      "06": 5,
+      "08": 6,
+      "09": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "15": 12,
+      "16": 13,
+      "17": 14,
+      "18": 15,
+      "19": 16,
+      "20": 17,
+      "21": 18,
+      "22": 19,
+      "23": 20,
+      "24": 21,
+      "25": 22,
+      "26": 23,
+      "27": 24,
+      "28": 25,
+      "29": 26,
+      "30": 27,
+      "31": 28,
+      "32": 29,
+      "33": 30,
+      "34": 31,
+      "35": 32,
+      "36": 33,
+      "37": 34,
+      "38": 35,
+      "39": 36,
+      "40": 37,
+      "41": 38,
+      "42": 39,
+      "44": 40,
+      "45": 41,
+      "46": 42,
+      "47": 43,
+      "48": 44,
+      "49": 45,
+      "50": 46,
+      "51": 47,
+      "53": 48,
+      "54": 49,
+      "55": 50,
+      "56": 51,
+      "60": 52,
+      "66": 53,
+      "69": 54,
+      "72": 55,
+      "78": 56
+    }
+  },
+  "COUNTY_CODE_003": {
+    "type": "nominal",
+    "code_map": {
+      "1": "ADAMS",
+      "3": "ASOTIN",
+      "5": "BENTON",
+      "7": "CHELAN",
+      "9": "CLALLAM",
+      "11": "CLARK",
+      "13": "COLUMBIA",
+      "15": "COWLITZ",
+      "17": "DOUGLAS",
+      "19": "FERRY",
+      "21": "FRANKLIN",
+      "23": "GARFIELD",
+      "25": "GRANT",
+      "27": "GRAYS HARBOR",
+      "29": "ISLAND",
+      "31": "JEFFERSON",
+      "33": "KING",
+      "35": "KITSAP",
+      "37": "KITTITAS",
+      "39": "KLICKITAT",
+      "41": "LEWIS",
+      "43": "LINCOLN",
+      "45": "MASON",
+      "47": "OKANOGAN",
+      "49": "PACIFIC",
+      "51": "PEND OREILLE",
+      "53": "PIERCE",
+      "55": "SAN JUAN",
+      "57": "SKAGIT",
+      "59": "SKAMANIA",
+      "61": "SNOHOMISH",
+      "63": "SPOKANE",
+      "65": "STEVENS",
+      "67": "THURSTON",
+      "69": "WAHKIAKUM",
+      "71": "WALLA WALLA",
+      "73": "WHATCOM",
+      "75": "WHITMAN",
+      "77": "YAKIMA"
+    },
+    "description": "The county (or county-equivalent) in which the bridge is physically located, expressed as a standardized location code.",
+    "title": "County Code",
+    "new_code_map": {
+      "1": 1,
+      "11": 2,
+      "13": 3,
+      "15": 4,
+      "17": 5,
+      "19": 6,
+      "21": 7,
+      "23": 8,
+      "25": 9,
+      "27": 10,
+      "29": 11,
+      "3": 12,
+      "31": 13,
+      "33": 14,
+      "35": 15,
+      "37": 16,
+      "39": 17,
+      "41": 18,
+      "43": 19,
+      "45": 20,
+      "47": 21,
+      "49": 22,
+      "5": 23,
+      "51": 24,
+      "53": 25,
+      "55": 26,
+      "57": 27,
+      "59": 28,
+      "61": 29,
+      "63": 30,
+      "65": 31,
+      "67": 32,
+      "69": 33,
+      "7": 34,
+      "71": 35,
+      "73": 36,
+      "75": 37,
+      "77": 38,
+      "9": 39
+    }
+  },
+  "HIGHWAY_DISTRICT_002": {
+    "type": "nominal",
+    "code_map": {
+      "1": "State Highway Agency",
+      "2": "County Highway Agency",
+      "3": "Town or Township Highway Agency",
+      "4": "City or Municipal Highway Agency"
+    },
+    "description": "The highway agency level that has primary jurisdiction over the roadway network context for the bridge location (state, county, township, or city).",
+    "title": "Highway District Jurisdiction",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "ROUTE_PREFIX_005B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Interstate highway",
+      "2": "U.S. numbered highway",
+      "3": "State highway",
+      "4": "County highway",
+      "5": "City street",
+      "6": "Federal lands road",
+      "7": "State lands road",
+      "8": "Other (include toll roads not otherwise indicated or identified above)"
+    },
+    "description": "The classification of the route carried by the bridge by numbering/ownership system (e.g., Interstate, U.S. route, state route, local street, etc.).",
+    "title": "Route Classification",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    }
+  },
+  "SERVICE_LEVEL_005C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Other",
+      "1": "Mainline",
+      "2": "Alternate",
+      "3": "Bypass",
+      "4": "Spur",
+      "6": "Business",
+      "7": "Ramp, Wye, Connector, etc.",
+      "8": "Service and/or unclassified frontage road"
+    },
+    "description": "The role of the route carried by the bridge within its route system (mainline, alternate, bypass, spur, ramp/connector, frontage road, etc.).",
+    "title": "Route Service Role",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    }
+  },
+  "BASE_HWY_NETWORK_012": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Inventory route is not on the Base Network",
+      "1": "Inventory route is on the Base Network"
+    },
+    "description": "An indicator of whether the bridge\u00e2\u20ac\u2122s inventory route is part of the federally defined Base Highway Network.",
+    "title": "Base Highway Network",
+    "new_code_map": {
+      "0": 1,
+      "1": 2
+    }
+  },
+  "TOLL_020": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Toll bridge \u2013 toll paid to use the structure",
+      "2": "On toll road \u2013 toll paid to the overall facility",
+      "3": "On free road \u2013 toll-free structure and highway",
+      "4": "Interstate toll segment under Secretarial Agreement",
+      "5": "Toll bridge under separate Secretarial Agreement"
+    },
+    "description": "The toll context describing whether a toll is charged specifically to use the bridge, as part of a tolled facility, or not at all.",
+    "title": "Toll Status",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "MAINTENANCE_021": {
+    "type": "nominal",
+    "code_map": {
+      "01": "State Highway Agency",
+      "02": "County Highway Agency",
+      "03": "Town or Township Highway Agency",
+      "04": "City or Municipal Highway Agency",
+      "11": "State Park, Forest, or Reservation Agency",
+      "12": "Local Park, Forest, or Reservation Agency",
+      "21": "Other State Agency",
+      "25": "Other Local Agency",
+      "26": "Private (non-railroad)",
+      "27": "Railroad",
+      "31": "State Toll Authority",
+      "32": "Local Toll Authority",
+      "60": "Other Federal Agency",
+      "61": "Indian Tribal Government",
+      "62": "Bureau of Indian Affairs",
+      "63": "Bureau of Fish and Wildlife",
+      "64": "U.S. Forest Service",
+      "66": "National Park Service",
+      "67": "Tennessee Valley Authority",
+      "68": "Bureau of Land Management",
+      "69": "Bureau of Reclamation",
+      "70": "Corps of Engineers (Civil)",
+      "71": "Corps of Engineers (Military)",
+      "72": "Air Force",
+      "73": "Navy/Marines",
+      "74": "Army",
+      "75": "NASA",
+      "76": "Metropolitan Washington Airports Service",
+      "80": "Unknown"
+    },
+    "description": "The agency or organization that is responsible for maintaining the bridge and performing routine upkeep and repairs.",
+    "title": "Maintenance Agency",
+    "new_code_map": {
+      "01": 1,
+      "02": 2,
+      "03": 3,
+      "04": 4,
+      "11": 5,
+      "12": 6,
+      "21": 7,
+      "25": 8,
+      "26": 9,
+      "27": 10,
+      "31": 11,
+      "32": 12,
+      "60": 13,
+      "61": 14,
+      "62": 15,
+      "63": 16,
+      "64": 17,
+      "66": 18,
+      "67": 19,
+      "68": 20,
+      "69": 21,
+      "70": 22,
+      "71": 23,
+      "72": 24,
+      "73": 25,
+      "74": 26,
+      "75": 27,
+      "76": 28,
+      "80": 29
+    }
+  },
+  "FUNCTIONAL_CLASS_026": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Rural - Principal Arterial: Interstate",
+      "2": "Rural - Principal Arterial: Other",
+      "6": "Rural - Minor Arterial",
+      "7": "Rural - Major Collector",
+      "8": "Rural - Minor Collector",
+      "9": "Rural - Local",
+      "11": "Urban - Principal Arterial: Interstate",
+      "12": "Urban - Principal Arterial: Other Freeways or Expressways",
+      "14": "Urban - Other Principal Arterial",
+      "16": "Urban - Minor Arterial",
+      "17": "Urban - Collector",
+      "19": "Urban - Local"
+    },
+    "description": "The functional classification of the roadway carried by the bridge, describing its role in the road network (arterial, collector, local; rural/urban).",
+    "title": "Functional Classification",
+    "new_code_map": {
+      "1": 1,
+      "11": 2,
+      "12": 3,
+      "14": 4,
+      "16": 5,
+      "17": 6,
+      "19": 7,
+      "2": 8,
+      "6": 9,
+      "7": 10,
+      "8": 11,
+      "9": 12
+    }
+  },
+  "DESIGN_LOAD_031": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Other or unknown",
+      "1": "M 9 / H 10",
+      "2": "M 13.5 / H 15",
+      "3": "MS 13.5 / HS 15",
+      "4": "M 18 / H 20",
+      "5": "MS 18 / HS 20",
+      "6": "MS 18+Mod / HS 20+Mod",
+      "7": "Pedestrian",
+      "8": "Railroad",
+      "9": "MS 22.5 / HS 25"
+    },
+    "description": "The load model or design loading category the bridge was designed to accommodate (e.g., HS/HL-type truck, pedestrian, railroad).",
+    "title": "Design Load Category",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "MEDIAN_CODE_033": {
+    "type": "nominal",
+    "code_map": {
+      "0": "No median",
+      "1": "Open median",
+      "2": "Closed median (no barriers)",
+      "3": "Closed median with non-mountable barriers"
+    },
+    "description": "The presence and type of median on the bridge, describing whether opposing traffic is separated and how (open/closed/barrier).",
+    "title": "Median Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4
+    }
+  },
+  "STRUCTURE_FLARED_035": {
+    "type": "nominal",
+    "code_map": {
+      "0": "No flare",
+      "1": "Yes, flared"
+    },
+    "description": "Whether the bridge width flares (widens) near the ends relative to the main portion of the structure.",
+    "title": "Flared Structure Width",
+    "new_code_map": {
+      "0": 1,
+      "1": 2
+    }
+  },
+  "RAILINGS_036A": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the bridge railings as built and present provide adequate safety performance relative to current standards.",
+    "title": "Railing Safety Compliance",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "N": 3
+    }
+  },
+  "TRANSITIONS_036B": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the approach-to-bridge transition elements (e.g., rail transitions) provide adequate continuity and safety relative to current standards.",
+    "title": "Transition Safety Assessment",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "N": 3
+    }
+  },
+  "APPR_RAIL_036C": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the approach guardrail upstream/downstream of the bridge is adequate to safely redirect vehicles relative to current standards.",
+    "title": "Approach Guardrail Adequacy",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "N": 3
+    }
+  },
+  "APPR_RAIL_END_036D": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Does not meet standards or required but not provided",
+      "1": "Meets currently acceptable standards",
+      "N": "Not applicable or not required"
+    },
+    "description": "Whether the end treatments of the approach guardrail are adequate for crashworthiness relative to current standards.",
+    "title": "Approach Guardrail End TreatmentAdequacy",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "N": 3
+    }
+  },
+  "HISTORY_037": {
+    "type": "nominal",
+    "code_map": {
+      "1": "On the National Register of Historic Places (NRHP)",
+      "2": "Eligible for the NRHP",
+      "3": "Possibly eligible or on state/local historic register",
+      "4": "Historical significance not determinable",
+      "5": "Not eligible for the NRHP"
+    },
+    "description": "The bridge\u00e2\u20ac\u2122s historic significance status in terms of listing or eligibility for historic registers such as the NRHP.",
+    "title": "Historic Significance Status",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "NAVIGATION_038": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable, no waterway",
+      "0": "No navigation control (permit not required)",
+      "1": "Navigation control present (permit required)"
+    },
+    "description": "Whether a navigable waterway is present and therefore navigation control/permit requirements apply at the crossing.",
+    "title": "Navigability Status",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "N": 3
+    }
+  },
+  "OPEN_CLOSED_POSTED_041": {
+    "type": "nominal",
+    "code_map": {
+      "A": "Open, no restriction",
+      "B": "Open, posting recommended but not legally implemented",
+      "D": "Open, would be posted or closed except for temporary shoring, etc.",
+      "E": "Open, temporary structure in place while original is closed",
+      "G": "New structure not yet open to traffic",
+      "K": "Bridge closed to all traffic",
+      "P": "Posted for load (may include temporary load restrictions)",
+      "R": "Posted for other restrictions (speed, number of vehicles, etc.)"
+    },
+    "description": "The operational status of the bridge describing whether it is open without restriction, posted with restrictions, or closed to traffic.",
+    "title": "Bridge Operational Status",
+    "new_code_map": {
+      "A": 1,
+      "B": 2,
+      "D": 3,
+      "E": 4,
+      "G": 5,
+      "K": 6,
+      "P": 7,
+      "R": 8
+    }
+  },
+  "SERVICE_ON_042A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Highway",
+      "2": "Railroad",
+      "3": "Pedestrian-bicycle",
+      "4": "Highway-railroad",
+      "5": "Highway-pedestrian",
+      "6": "Overpass at interchange or 2nd level",
+      "7": "Third level interchange",
+      "8": "Fourth level interchange",
+      "9": "Building or plaza",
+      "0": "Other"
+    },
+    "description": "The primary type of service carried on the bridge deck (highway, railroad, pedestrian/bike, combinations, or complex interchange levels).",
+    "title": "Service Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "SERVICE_UND_042B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Highway (with or without pedestrian)",
+      "2": "Railroad",
+      "3": "Pedestrian-bicycle",
+      "4": "Highway-railroad",
+      "5": "Waterway",
+      "6": "Highway-waterway",
+      "7": "Railroad-waterway",
+      "8": "Highway-waterway-railroad",
+      "9": "Relief for waterway",
+      "0": "Other"
+    },
+    "description": "The primary type of service that passes beneath the bridge (road, railroad, waterway, combinations, or none).",
+    "title": "Service Type Below Bridge",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "STRUCTURE_KIND_043A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete",
+      "2": "Concrete continuous",
+      "3": "Steel",
+      "4": "Steel continuous",
+      "5": "Prestressed concrete",
+      "6": "Prestressed concrete continuous",
+      "7": "Wood or timber",
+      "8": "Masonry",
+      "9": "Aluminum, wrought iron, or cast iron",
+      "0": "Other"
+    },
+    "description": "The primary structural material system used for the main spans of the bridge (e.g., concrete, steel, prestressed concrete, timber).",
+    "title": "Main Span Material",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "STRUCTURE_TYPE_043B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Slab",
+      "2": "Stringer/Multi-beam or girder",
+      "3": "Girder and floorbeam system",
+      "4": "Tee beam",
+      "5": "Box beams or girders - multiple",
+      "6": "Box beams or girders - single or spread",
+      "7": "Frame",
+      "8": "Orthotropic",
+      "9": "Truss - Deck",
+      "10": "Truss - Thru",
+      "11": "Arch - Deck",
+      "12": "Arch - Thru",
+      "13": "Suspension",
+      "14": "Stayed girder",
+      "15": "Movable - Lift",
+      "16": "Movable - Bascule",
+      "17": "Movable - Swing",
+      "18": "Tunnel",
+      "19": "Culvert",
+      "20": "Mixed types",
+      "21": "Segmental box girder",
+      "22": "Channel beam",
+      "0": "Other"
+    },
+    "description": "The main structural form/design configuration used for the bridge (e.g., slab, girder, truss, arch, suspension, culvert, etc.).",
+    "title": "Structure Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "10": 3,
+      "11": 4,
+      "12": 5,
+      "13": 6,
+      "14": 7,
+      "15": 8,
+      "16": 9,
+      "17": 10,
+      "18": 11,
+      "19": 12,
+      "2": 13,
+      "20": 14,
+      "21": 15,
+      "22": 16,
+      "3": 17,
+      "4": 18,
+      "5": 19,
+      "6": 20,
+      "7": 21,
+      "8": 22,
+      "9": 23
+    }
+  },
+  "VERT_CLR_UND_REF_054A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "Highway beneath structure",
+      "R": "Railroad beneath structure",
+      "N": "Feature not a highway or railroad"
+    },
+    "description": "The feature type used as the reference for reported vertical clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Vertical Clearance Reference",
+    "new_code_map": {
+      "H": 1,
+      "N": 2,
+      "R": 3
+    }
+  },
+  "LAT_UND_REF_055A": {
+    "type": "nominal",
+    "code_map": {
+      "H": "Highway beneath structure",
+      "R": "Railroad beneath structure",
+      "N": "Feature not a highway or railroad"
+    },
+    "description": "The feature type used as the reference for reported lateral clearance beneath the bridge (highway, railroad, or other).",
+    "title": "Lateral Clearance Reference",
+    "new_code_map": {
+      "H": 1,
+      "N": 2,
+      "R": 3
+    }
+  },
+  "DECK_COND_058": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the deck element as assessed during inspection, reflecting deterioration such as cracking, spalling, corrosion, or section loss.",
+    "title": "Deck Condition",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "SUPERSTRUCTURE_COND_059": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the superstructure as assessed during inspection, reflecting deterioration or damage in main load-carrying members.",
+    "title": "Superstructure Condition",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "SUBSTRUCTURE_COND_060": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition \u2013 no problems noted",
+      "7": "Good condition \u2013 some minor problems",
+      "6": "Satisfactory condition \u2013 minor deterioration",
+      "5": "Fair condition \u2013 minor section loss, cracking, or scour",
+      "4": "Poor condition \u2013 advanced section loss or deterioration",
+      "3": "Serious condition \u2013 loss of section or fatigue/shear cracks",
+      "2": "Critical condition \u2013 advanced deterioration or scour",
+      "1": "Imminent failure \u2013 closed, but repair may restore light service",
+      "0": "Failed condition \u2013 out of service; beyond corrective action"
+    },
+    "description": "The condition state of the substructure as assessed during inspection, reflecting deterioration or damage in piers, abutments, and foundations above waterline.",
+    "title": "Substructure Condition",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "CHANNEL_COND_061": {
+    "type": "nominal",
+    "code_map": {
+      "9": "No deficiencies affecting channel condition",
+      "8": "Banks protected or well vegetated; stable control devices",
+      "7": "Minor bank or control device repairs needed; minor drift",
+      "6": "Minor slumping, debris slightly restricting channel",
+      "5": "Erosion of bank protection, trees/brush restricting flow",
+      "4": "Severely undermined protection; heavy debris deposits",
+      "3": "Bank protection failed; channel threatens bridge",
+      "2": "Channel change threatens bridge collapse",
+      "1": "Bridge closed due to channel failure; repair possible",
+      "0": "Bridge closed due to channel failure; replacement necessary"
+    },
+    "description": "The condition state of the channel and channel protection at the crossing, reflecting erosion, instability, debris, and threat to foundations.",
+    "title": "Channel Condition",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "OPR_RATING_METH_063": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Load Factor (LF)",
+      "2": "Allowable Stress (AS)",
+      "3": "Load and Resistance Factor (LRFR)",
+      "4": "Load Testing",
+      "5": "No rating analysis performed"
+    },
+    "description": "The analytical or test-based method used to determine the bridge operating rating used for load posting and safe heavy-vehicle passage.",
+    "title": "Operating Rating Method",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "INV_RATING_METH_065": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Load Factor (LF)",
+      "2": "Allowable Stress (AS)",
+      "3": "Load and Resistance Factor (LRFR)",
+      "4": "Load Testing",
+      "5": "No rating analysis performed"
+    },
+    "description": "The analytical or test-based method used to determine the bridge inventory rating representing normal allowable service loading capacity.",
+    "title": "Inventory Rating Method",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "STRUCTURAL_EVAL_067": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A summary structural adequacy rating that reflects the bridge\u00e2\u20ac\u2122s ability to safely carry loads considering condition, capacity, and observed deficiencies.",
+    "title": "Structural Adequacy Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "DECK_GEOMETRY_EVAL_068": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A geometry adequacy rating reflecting whether deck width, shoulders, lane arrangement, and related geometric features meet accepted criteria.",
+    "title": "Deck Geometry Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "UNDCLRENCE_EVAL_069": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A clearance adequacy rating reflecting whether vertical/lateral clearances under the bridge are acceptable for the feature passing beneath.",
+    "title": "Clearance Evaluation",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "POSTING_EVAL_070": {
+    "type": "nominal",
+    "code_map": {
+      "5": "Equal to or above legal loads",
+      "4": "0.1\u20139.9% below legal loads",
+      "3": "10.0\u201319.9% below legal loads",
+      "2": "20.0\u201329.9% below legal loads",
+      "1": "30.0\u201339.9% below legal loads",
+      "0": ">39.9% below legal loads"
+    },
+    "description": "A posting adequacy rating reflecting whether the bridge can safely carry legal loads or requires restrictions below legal limits.",
+    "title": "Posting Adequacy Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6
+    }
+  },
+  "WATERWAY_EVAL_071": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable",
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "A waterway adequacy rating reflecting whether the bridge opening and hydraulic performance are adequate for expected flows and flood conditions.",
+    "title": "Waterway Adequacy Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "N": 11
+    }
+  },
+  "APPR_ROAD_EVAL_072": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Not applicable",
+      "9": "Superior to present desirable criteria",
+      "8": "Equal to present desirable criteria",
+      "7": "Better than minimum criteria",
+      "6": "Equal to present minimum criteria",
+      "5": "Somewhat better than minimum tolerable adequacy",
+      "4": "Meets minimum tolerable limits to remain in place",
+      "3": "Basically intolerable; high priority corrective action needed",
+      "2": "Basically intolerable; high priority replacement needed",
+      "1": "Code not used",
+      "0": "Bridge closed"
+    },
+    "description": "An approach roadway alignment adequacy rating reflecting whether the roadway alignment approaching the bridge is acceptable and safe.",
+    "title": "Approach Roadway Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "N": 11
+    }
+  },
+  "WORK_PROPOSED_075A": {
+    "type": "nominal",
+    "code_map": {
+      "31": "Replacement due to substandard load capacity or roadway geometry",
+      "32": "Replacement due to relocation of road",
+      "33": "Widening without deck rehabilitation/replacement (includes culvert lengthening)",
+      "34": "Widening with deck rehabilitation or replacement",
+      "35": "Bridge rehabilitation due to deterioration or inadequate strength",
+      "36": "Deck rehabilitation with incidental widening",
+      "37": "Deck replacement with incidental widening",
+      "38": "Other structural or hydraulic work"
+    },
+    "description": "The type of work action planned for the bridge such as rehabilitation, deck work, widening, replacement, or other structural/hydraulic work.",
+    "title": "Proposed Work Type",
+    "new_code_map": {
+      "31": 1,
+      "32": 2,
+      "33": 3,
+      "34": 4,
+      "35": 5,
+      "36": 6,
+      "37": 7,
+      "38": 8
+    }
+  },
+  "FRACTURE_092A": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Special inspection or emphasis needed; includes frequency in months (e.g., Y24)",
+      "N": "Special inspection not needed"
+    },
+    "description": "Whether the bridge requires fracture-critical inspection due to non-redundant tension members where failure could lead to collapse, including any specified interval.",
+    "title": "Fracture Critical Status",
+    "new_code_map": {
+      "N": 1,
+      "Y": 2
+    }
+  },
+  "UNDWATER_LOOK_SEE_092B": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Underwater inspection or emphasis needed; includes frequency in months (e.g., Y24)",
+      "N": "Underwater inspection not needed"
+    },
+    "description": "Whether the bridge requires underwater inspection due to submerged elements or scour exposure, including any specified inspection interval.",
+    "title": "Underwater Inspection Need",
+    "new_code_map": {
+      "N": 1,
+      "Y": 2
+    }
+  },
+  "SPEC_INSPECT_092C": {
+    "type": "nominal",
+    "code_map": {
+      "Y": "Special or other inspection required; includes frequency in months (e.g., Y24)",
+      "N": "Special inspection not needed"
+    },
+    "description": "Whether the bridge requires special inspection beyond routine cycles due to unusual details, hazards, or known issues, including any specified interval.",
+    "title": "Special Inspection Requirement",
+    "new_code_map": {
+      "N": 1,
+      "Y": 2
+    }
+  },
+  "STRAHNET_HIGHWAY_100": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Not on a STRAHNET route",
+      "2": "On an Interstate STRAHNET route",
+      "3": "On a Non-Interstate STRAHNET route",
+      "4": "On a STRAHNET connector route"
+    },
+    "description": "The bridge\u00e2\u20ac\u2122s relationship to the STRAHNET network indicating whether it lies on a strategic highway route or connector important for defense logistics.",
+    "title": "Strategic Highway Status",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4
+    }
+  },
+  "PARALLEL_STRUCTURE_101": {
+    "type": "nominal",
+    "code_map": {
+      "R": "Right structure of parallel bridges (inventory direction)",
+      "L": "Left structure of parallel bridges (opposite direction)",
+      "N": "No parallel structure exists"
+    },
+    "description": "Whether this bridge is one of a pair of parallel structures and, if so, which side it represents relative to the inventoried travel direction.",
+    "title": "Parallel Structure Side",
+    "new_code_map": {
+      "L": 1,
+      "N": 2,
+      "R": 3
+    }
+  },
+  "TRAFFIC_DIRECTION_102": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Highway traffic not carried",
+      "1": "One-way traffic",
+      "2": "Two-way traffic",
+      "3": "One-lane bridge with two-way traffic"
+    },
+    "description": "The traffic flow configuration carried by the bridge (one-way, two-way, or special one-lane/two-way operating condition).",
+    "title": "Traffic Flow Configuration",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4
+    }
+  },
+  "HIGHWAY_SYSTEM_104": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not on National Highway System (NHS)",
+      "1": "On National Highway System (NHS)"
+    },
+    "description": "Whether the bridge is part of the National Highway System, indicating national-level roadway importance and funding/oversight relevance.",
+    "title": "National Highway Status",
+    "new_code_map": {
+      "0": 1,
+      "1": 2
+    }
+  },
+  "FEDERAL_LANDS_105": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not applicable",
+      "1": "Indian Reservation Road (IRR)",
+      "2": "Forest Highway (FH)",
+      "3": "Land Management Highway System (LMHS)",
+      "4": "Both IRR and FH",
+      "5": "Both IRR and LMHS",
+      "6": "Both FH and LMHS",
+      "9": "Combined IRR, FH, and LMHS"
+    },
+    "description": "Whether the bridge lies on a federal lands highway route class (e.g., IRR, forest highway, land management system), indicating federal lands context.",
+    "title": "Federal Lands Status",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "9": 8
+    }
+  },
+  "DECK_STRUCTURE_TYPE_107": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Concrete cast-in-place",
+      "2": "Concrete precast panels",
+      "3": "Open grating",
+      "4": "Closed grating",
+      "5": "Steel plate (includes orthotropic)",
+      "6": "Corrugated steel",
+      "7": "Aluminum",
+      "8": "Wood or timber",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable"
+    },
+    "description": "The structural deck type describing the deck\u00e2\u20ac\u2122s primary material/form (cast-in-place concrete, precast panels, steel plate, grating, timber, etc.).",
+    "title": "Deck Structure Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "N": 11
+    }
+  },
+  "SURFACE_TYPE_108A": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Monolithic concrete (placed with structural deck)",
+      "2": "Integral concrete (non-modified separate layer)",
+      "3": "Latex concrete or similar additive",
+      "4": "Low slump concrete",
+      "5": "Epoxy overlay",
+      "6": "Bituminous",
+      "7": "Wood or timber",
+      "8": "Gravel",
+      "9": "Other",
+      "0": "None (no added surface)",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The wearing surface placed on top of the structural deck, describing the overlay/surfacing material and whether an added surface exists.",
+    "title": "Surface Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "N": 11
+    }
+  },
+  "MEMBRANE_TYPE_108B": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Built-up",
+      "2": "Preformed fabric",
+      "3": "Epoxy",
+      "8": "Unknown",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The waterproofing membrane system associated with the deck, describing the barrier type used between deck and overlay where applicable.",
+    "title": "Waterproofing Membrane Type",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "8": 5,
+      "9": 6,
+      "N": 7
+    }
+  },
+  "DECK_PROTECTION_108C": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Epoxy-coated reinforcing",
+      "2": "Galvanized reinforcing",
+      "3": "Other coated reinforcing",
+      "4": "Cathodic protection",
+      "6": "Polymer impregnated",
+      "7": "Internally sealed",
+      "8": "Unknown",
+      "9": "Other",
+      "0": "None",
+      "N": "Not applicable (no deck)"
+    },
+    "description": "The corrosion/durability protection system used for the deck reinforcement or deck system (e.g., epoxy coating, galvanizing, cathodic protection).",
+    "title": "Deck Protection System",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "N": 10
+    }
+  },
+  "NATIONAL_NETWORK_110": {
+    "type": "nominal",
+    "code_map": {
+      "0": "Not part of the national network for trucks",
+      "1": "Part of the national network for trucks"
+    },
+    "description": "Whether the bridge is on the designated national network for trucks, indicating whether it serves routes prioritized for freight movement.",
+    "title": "National Freight Route",
+    "new_code_map": {
+      "0": 1,
+      "1": 2
+    }
+  },
+  "PIER_PROTECTION_111": {
+    "type": "nominal",
+    "code_map": {
+      "1": "Navigation protection not required",
+      "2": "Protection in place and functioning",
+      "3": "Protection in place but deteriorated",
+      "4": "Protection in place but re-evaluation suggested",
+      "5": "None present but re-evaluation suggested"
+    },
+    "description": "The status and condition of pier/abutment protection measures intended to reduce collision or navigation impacts (or note if not required).",
+    "title": "Pier Protection Status",
+    "new_code_map": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+    }
+  },
+  "SCOUR_CRITICAL_113": {
+    "type": "nominal",
+    "code_map": {
+      "N": "Bridge not over waterway",
+      "U": "Unknown foundation \u2013 not evaluated for scour (plan of action required)",
+      "T": "Bridge over tidal waters \u2013 not evaluated but considered low risk",
+      "9": "Foundations on dry land well above flood elevation",
+      "8": "Foundations stable \u2013 scour above top of footing (resists scour or countermeasures in place)",
+      "7": "Countermeasures installed \u2013 risk mitigated; plan of action implemented",
+      "6": "Evaluation not yet made",
+      "5": "Foundations stable \u2013 scour within limits of footing or piles",
+      "4": "Foundations stable but action required to protect exposed foundations",
+      "3": "Scour critical \u2013 unstable foundations for assessed/calculated conditions",
+      "2": "Scour critical \u2013 extensive scour; foundations unstable by observation or evaluation",
+      "1": "Scour critical \u2013 imminent pier/abutment failure, bridge closed to traffic",
+      "0": "Scour critical \u2013 bridge failed and closed to traffic"
+    },
+    "description": "The scour critical rating describing the stability of foundations relative to observed or evaluated scour vulnerability and countermeasure effectiveness.",
+    "title": "Scour Critical Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10,
+      "N": 11,
+      "T": 12,
+      "U": 13
+    }
+  },
+  "LOWEST_RATING": {
+    "type": "nominal",
+    "code_map": {
+      "9": "Excellent condition",
+      "8": "Very good condition",
+      "7": "Good condition",
+      "6": "Satisfactory condition",
+      "5": "Fair condition",
+      "4": "Poor condition",
+      "3": "Serious condition",
+      "2": "Critical condition",
+      "1": "Imminent failure condition",
+      "0": "Failed condition"
+    },
+    "description": "The minimum condition rating among the principal inspected components (typically deck, superstructure, substructure, or related key items) that governs overall condition.",
+    "title": "Minimum Condition Rating",
+    "new_code_map": {
+      "0": 1,
+      "1": 2,
+      "2": 3,
+      "3": 4,
+      "4": 5,
+      "5": 6,
+      "6": 7,
+      "7": 8,
+      "8": 9,
+      "9": 10
+    }
+  },
+  "NFHL_FLD_ZONE": {
+    "type": "nominal",
+    "description": "The flood hazard zone classification describes the level and type of flood risk assigned to the location based on FEMA floodplain mapping.",
+    "code_map": {
+      "A": "high risk no elevation data",
+      "AE": "high risk with elevation data",
+      "AO": "shallow flooding sheet flow",
+      "AH": "shallow flooding with elevation",
+      "V": "coastal high velocity zone",
+      "VE": "coastal velocity with elevation",
+      "X": "minimal flood risk",
+      "X (0.2%)": "moderate risk low probability",
+      "D": "undetermined flood hazard"
+    },
+    "title": "Flood Hazard Zone",
+    "new_code_map": {
+      "A": 1,
+      "AE": 2,
+      "AH": 3,
+      "AO": 4,
+      "D": 5,
+      "V": 6,
+      "VE": 7,
+      "X": 8,
+      "X (0.2%)": 9
+    }
+  },
+  "NFHL_SFHA": {
+    "type": "nominal",
+    "description": "The indicator of Special Flood Hazard Area status describes whether the location is subject to a 1-percent-annual-chance (100-year) flood hazard.",
+    "code_map": {
+      "T": "within special flood hazard area",
+      "F": "outside special flood hazard area"
+    },
+    "title": "Flood Hazard Status",
+    "new_code_map": {
+      "F": 1,
+      "T": 2
+    }
+  }
+}
