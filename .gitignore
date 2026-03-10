@@ -73,3 +73,6 @@ logs/
 *.gdbindexes
 *.gdbtable
 *.gdbtablx
+
+# Model weights
+*.pt
